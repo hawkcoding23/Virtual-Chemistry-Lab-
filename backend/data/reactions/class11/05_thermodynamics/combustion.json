@@ -1,0 +1,871 @@
+[
+  {
+    "id": "TH-COMB-001",
+    "slug": "hydrogen_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2H2 + O2 → 2H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-002",
+    "slug": "carbon_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "C + O2 → CO2",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-003",
+    "slug": "sulfur_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "sulfur", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur_dioxide", "coefficient": 1 }
+    ],
+    "equation": "S + O2 → SO2",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "sulfur_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#f2f2f2"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-004",
+    "slug": "methane_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "CH4 + 2O2 → CO2 + 2H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-005",
+    "slug": "ethane_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "ethane", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 7 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 4 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "equation": "2C2H6 + 7O2 → 4CO2 + 6H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },  {
+    "id": "TH-COMB-006",
+    "slug": "propane_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "propane", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 5 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "C3H8 + 5O2 → 3CO2 + 4H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-007",
+    "slug": "butane_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "butane", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 13 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 8 },
+      { "chemicalId": "water", "coefficient": 10 }
+    ],
+    "equation": "2C4H10 + 13O2 → 8CO2 + 10H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-008",
+    "slug": "ethene_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "ethene", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "C2H4 + 3O2 → 2CO2 + 2H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-009",
+    "slug": "ethyne_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "ethyne", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 5 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 4 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2C2H2 + 5O2 → 4CO2 + 2H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-010",
+    "slug": "benzene_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "benzene", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 15 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 12 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "equation": "2C6H6 + 15O2 → 12CO2 + 6H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#d8e6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },  {
+    "id": "TH-COMB-011",
+    "slug": "methanol_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "methanol", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "2CH3OH + 3O2 → 2CO2 + 4H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-012",
+    "slug": "ethanol_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "C2H5OH + 3O2 → 2CO2 + 3H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-013",
+    "slug": "phenol_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "phenol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 7 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 6 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "C6H5OH + 7O2 → 6CO2 + 3H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#d8e6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-014",
+    "slug": "naphthalene_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "naphthalene", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 12 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 10 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "C10H8 + 12O2 → 10CO2 + 4H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#d8e6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-015",
+    "slug": "carbon_monoxide_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 }
+    ],
+    "equation": "2CO + O2 → 2CO2",
+    "reactionType": ["combustion","oxidation","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },  {
+    "id": "TH-COMB-016",
+    "slug": "acetone_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "acetone", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "C3H6O + 4O2 → 3CO2 + 3H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-017",
+    "slug": "acetic_acid_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "acetic_acid", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "CH3COOH + 2O2 → 2CO2 + 2H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-018",
+    "slug": "formaldehyde_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "formaldehyde", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH2O + O2 → CO2 + H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-019",
+    "slug": "toluene_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "toluene", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 9 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 7 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "C7H8 + 9O2 → 7CO2 + 4H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#d8e6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-COMB-020",
+    "slug": "glucose_combustion",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "glucose", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 6 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "equation": "C6H12O6 + 6O2 → 6CO2 + 6H2O",
+    "reactionType": ["combustion","exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dff6ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  }
+]

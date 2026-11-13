@@ -1,0 +1,422 @@
+[
+  {
+    "id": "water",
+    "name": "Water",
+    "formula": "H2O",
+    "state": "liquid",
+    "category": "oxide"
+  },
+  {
+    "id": "hydrogen_peroxide",
+    "name": "Hydrogen Peroxide",
+    "formula": "H2O2",
+    "state": "liquid",
+    "category": "peroxide"
+  },
+  {
+    "id": "carbon_monoxide",
+    "name": "Carbon Monoxide",
+    "formula": "CO",
+    "state": "gas",
+    "category": "neutral_oxide"
+  },
+  {
+    "id": "carbon_dioxide",
+    "name": "Carbon Dioxide",
+    "formula": "CO2",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "silicon_dioxide",
+    "name": "Silicon Dioxide",
+    "formula": "SiO2",
+    "state": "solid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "boron_trioxide",
+    "name": "Boron Trioxide",
+    "formula": "B2O3",
+    "state": "solid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "sulfur_dioxide",
+    "name": "Sulfur Dioxide",
+    "formula": "SO2",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "sulfur_trioxide",
+    "name": "Sulfur Trioxide",
+    "formula": "SO3",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "nitric_oxide",
+    "name": "Nitric Oxide",
+    "formula": "NO",
+    "state": "gas",
+    "category": "neutral_oxide"
+  },
+  {
+    "id": "nitrogen_dioxide",
+    "name": "Nitrogen Dioxide",
+    "formula": "NO2",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "nitrous_oxide",
+    "name": "Nitrous Oxide",
+    "formula": "N2O",
+    "state": "gas",
+    "category": "neutral_oxide"
+  },
+  {
+    "id": "dinitrogen_trioxide",
+    "name": "Dinitrogen Trioxide",
+    "formula": "N2O3",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "dinitrogen_tetroxide",
+    "name": "Dinitrogen Tetroxide",
+    "formula": "N2O4",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "dinitrogen_pentoxide",
+    "name": "Dinitrogen Pentoxide",
+    "formula": "N2O5",
+    "state": "solid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "phosphorus_trioxide",
+    "name": "Phosphorus(III) Oxide",
+    "formula": "P4O6",
+    "state": "solid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "phosphorus_pentoxide",
+    "name": "Phosphorus(V) Oxide",
+    "formula": "P4O10",
+    "state": "solid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "chlorine_dioxide",
+    "name": "Chlorine Dioxide",
+    "formula": "ClO2",
+    "state": "gas",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "chlorine_heptoxide",
+    "name": "Chlorine Heptoxide",
+    "formula": "Cl2O7",
+    "state": "liquid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "iodine_pentoxide",
+    "name": "Iodine Pentoxide",
+    "formula": "I2O5",
+    "state": "solid",
+    "category": "acidic_oxide"
+  },
+  {
+    "id": "selenium_dioxide",
+    "name": "Selenium Dioxide",
+    "formula": "SeO2",
+    "state": "solid",
+    "category": "acidic_oxide"
+  }
+,
+{
+  "id": "lithium_oxide",
+  "name": "Lithium Oxide",
+  "formula": "Li2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "sodium_oxide",
+  "name": "Sodium Oxide",
+  "formula": "Na2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "potassium_oxide",
+  "name": "Potassium Oxide",
+  "formula": "K2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "magnesium_oxide",
+  "name": "Magnesium Oxide",
+  "formula": "MgO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "calcium_oxide",
+  "name": "Calcium Oxide",
+  "formula": "CaO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "strontium_oxide",
+  "name": "Strontium Oxide",
+  "formula": "SrO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "barium_oxide",
+  "name": "Barium Oxide",
+  "formula": "BaO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "beryllium_oxide",
+  "name": "Beryllium Oxide",
+  "formula": "BeO",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "aluminium_oxide",
+  "name": "Aluminium Oxide",
+  "formula": "Al2O3",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "zinc_oxide",
+  "name": "Zinc Oxide",
+  "formula": "ZnO",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "iron_ii_oxide",
+  "name": "Iron(II) Oxide",
+  "formula": "FeO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "iron_iii_oxide",
+  "name": "Iron(III) Oxide",
+  "formula": "Fe2O3",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "iron_ii_iii_oxide",
+  "name": "Iron(II,III) Oxide",
+  "formula": "Fe3O4",
+  "state": "solid",
+  "category": "mixed_oxide"
+},
+{
+  "id": "copper_i_oxide",
+  "name": "Copper(I) Oxide",
+  "formula": "Cu2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "copper_ii_oxide",
+  "name": "Copper(II) Oxide",
+  "formula": "CuO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "lead_ii_oxide",
+  "name": "Lead(II) Oxide",
+  "formula": "PbO",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "lead_iv_oxide",
+  "name": "Lead(IV) Oxide",
+  "formula": "PbO2",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "tin_ii_oxide",
+  "name": "Tin(II) Oxide",
+  "formula": "SnO",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "tin_iv_oxide",
+  "name": "Tin(IV) Oxide",
+  "formula": "SnO2",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "manganese_dioxide",
+  "name": "Manganese Dioxide",
+  "formula": "MnO2",
+  "state": "solid",
+  "category": "oxide"
+},
+{
+  "id": "chromium_iii_oxide",
+  "name": "Chromium(III) Oxide",
+  "formula": "Cr2O3",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "chromium_vi_oxide",
+  "name": "Chromium(VI) Oxide",
+  "formula": "CrO3",
+  "state": "solid",
+  "category": "acidic_oxide"
+},
+{
+  "id": "nickel_ii_oxide",
+  "name": "Nickel(II) Oxide",
+  "formula": "NiO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "cobalt_ii_oxide",
+  "name": "Cobalt(II) Oxide",
+  "formula": "CoO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "mercury_ii_oxide",
+  "name": "Mercury(II) Oxide",
+  "formula": "HgO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "silver_oxide",
+  "name": "Silver Oxide",
+  "formula": "Ag2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "cadmium_oxide",
+  "name": "Cadmium Oxide",
+  "formula": "CdO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "titanium_dioxide",
+  "name": "Titanium Dioxide",
+  "formula": "TiO2",
+  "state": "solid",
+  "category": "amphoteric_oxide"
+},
+{
+  "id": "vanadium_pentoxide",
+  "name": "Vanadium(V) Oxide",
+  "formula": "V2O5",
+  "state": "solid",
+  "category": "acidic_oxide"
+},
+{
+  "id": "molybdenum_trioxide",
+  "name": "Molybdenum Trioxide",
+  "formula": "MoO3",
+  "state": "solid",
+  "category": "acidic_oxide"
+},
+{
+  "id": "tungsten_trioxide",
+  "name": "Tungsten Trioxide",
+  "formula": "WO3",
+  "state": "solid",
+  "category": "acidic_oxide"
+},
+{
+  "id": "uranium_dioxide",
+  "name": "Uranium Dioxide",
+  "formula": "UO2",
+  "state": "solid",
+  "category": "oxide"
+},
+{
+  "id": "uranium_trioxide",
+  "name": "Uranium Trioxide",
+  "formula": "UO3",
+  "state": "solid",
+  "category": "oxide"
+},
+{
+  "id": "sodium_peroxide",
+  "name": "Sodium Peroxide",
+  "formula": "Na2O2",
+  "state": "solid",
+  "category": "peroxide"
+},
+{
+  "id": "potassium_superoxide",
+  "name": "Potassium Superoxide",
+  "formula": "KO2",
+  "state": "solid",
+  "category": "superoxide"
+},
+{
+  "id": "barium_peroxide",
+  "name": "Barium Peroxide",
+  "formula": "BaO2",
+  "state": "solid",
+  "category": "peroxide"
+},
+{
+  "id": "calcium_peroxide",
+  "name": "Calcium Peroxide",
+  "formula": "CaO2",
+  "state": "solid",
+  "category": "peroxide"
+},
+{
+  "id": "magnesium_peroxide",
+  "name": "Magnesium Peroxide",
+  "formula": "MgO2",
+  "state": "solid",
+  "category": "peroxide"
+},
+{
+  "id": "manganese_ii_oxide",
+  "name": "Manganese(II) Oxide",
+  "formula": "MnO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "manganese_iii_oxide",
+  "name": "Manganese(III) Oxide",
+  "formula": "Mn2O3",
+  "state": "solid",
+  "category": "basic_oxide"
+}]

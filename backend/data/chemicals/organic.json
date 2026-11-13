@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "methane",
+    "name": "Methane",
+    "formula": "CH4",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "ethane",
+    "name": "Ethane",
+    "formula": "C2H6",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "propane",
+    "name": "Propane",
+    "formula": "C3H8",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "butane",
+    "name": "Butane",
+    "formula": "C4H10",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "pentane",
+    "name": "Pentane",
+    "formula": "C5H12",
+    "state": "liquid",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "hexane",
+    "name": "Hexane",
+    "formula": "C6H14",
+    "state": "liquid",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "heptane",
+    "name": "Heptane",
+    "formula": "C7H16",
+    "state": "liquid",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "octane",
+    "name": "Octane",
+    "formula": "C8H18",
+    "state": "liquid",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "nonane",
+    "name": "Nonane",
+    "formula": "C9H20",
+    "state": "liquid",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "decane",
+    "name": "Decane",
+    "formula": "C10H22",
+    "state": "liquid",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "ethene",
+    "name": "Ethene",
+    "formula": "C2H4",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "propene",
+    "name": "Propene",
+    "formula": "C3H6",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "butene",
+    "name": "Butene",
+    "formula": "C4H8",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "ethyne",
+    "name": "Ethyne",
+    "formula": "C2H2",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "propyne",
+    "name": "Propyne",
+    "formula": "C3H4",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "butyne",
+    "name": "Butyne",
+    "formula": "C4H6",
+    "state": "gas",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "benzene",
+    "name": "Benzene",
+    "formula": "C6H6",
+    "state": "liquid",
+    "category": "aromatic_hydrocarbon"
+  },
+  {
+    "id": "toluene",
+    "name": "Toluene",
+    "formula": "C7H8",
+    "state": "liquid",
+    "category": "aromatic_hydrocarbon"
+  },
+  {
+    "id": "xylene",
+    "name": "Xylene",
+    "formula": "C8H10",
+    "state": "liquid",
+    "category": "aromatic_hydrocarbon"
+  },
+  {
+    "id": "naphthalene",
+    "name": "Naphthalene",
+    "formula": "C10H8",
+    "state": "solid",
+    "category": "aromatic_hydrocarbon"
+  }
+,
+{
+  "id": "chloromethane",
+  "name": "Chloromethane",
+  "formula": "CH3Cl",
+  "state": "gas",
+  "category": "haloalkane"
+},
+{
+  "id": "dichloromethane",
+  "name": "Dichloromethane",
+  "formula": "CH2Cl2",
+  "state": "liquid",
+  "category": "haloalkane"
+},
+{
+  "id": "chloroform",
+  "name": "Chloroform",
+  "formula": "CHCl3",
+  "state": "liquid",
+  "category": "haloalkane"
+},
+{
+  "id": "carbon_tetrachloride",
+  "name": "Carbon Tetrachloride",
+  "formula": "CCl4",
+  "state": "liquid",
+  "category": "haloalkane"
+},
+{
+  "id": "bromomethane",
+  "name": "Bromomethane",
+  "formula": "CH3Br",
+  "state": "gas",
+  "category": "haloalkane"
+},
+{
+  "id": "iodomethane",
+  "name": "Iodomethane",
+  "formula": "CH3I",
+  "state": "liquid",
+  "category": "haloalkane"
+},
+{
+  "id": "fluoromethane",
+  "name": "Fluoromethane",
+  "formula": "CH3F",
+  "state": "gas",
+  "category": "haloalkane"
+},
+{
+  "id": "chloroethane",
+  "name": "Chloroethane",
+  "formula": "C2H5Cl",
+  "state": "gas",
+  "category": "haloalkane"
+},
+{
+  "id": "bromoethane",
+  "name": "Bromoethane",
+  "formula": "C2H5Br",
+  "state": "liquid",
+  "category": "haloalkane"
+},
+{
+  "id": "iodoethane",
+  "name": "Iodoethane",
+  "formula": "C2H5I",
+  "state": "liquid",
+  "category": "haloalkane"
+},
+{
+  "id": "fluoroethane",
+  "name": "Fluoroethane",
+  "formula": "C2H5F",
+  "state": "gas",
+  "category": "haloalkane"
+},
+{
+  "id": "vinyl_chloride",
+  "name": "Vinyl Chloride",
+  "formula": "C2H3Cl",
+  "state": "gas",
+  "category": "haloalkene"
+},
+{
+  "id": "allyl_chloride",
+  "name": "Allyl Chloride",
+  "formula": "C3H5Cl",
+  "state": "liquid",
+  "category": "haloalkene"
+},
+{
+  "id": "chlorobenzene",
+  "name": "Chlorobenzene",
+  "formula": "C6H5Cl",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "bromobenzene",
+  "name": "Bromobenzene",
+  "formula": "C6H5Br",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "iodobenzene",
+  "name": "Iodobenzene",
+  "formula": "C6H5I",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "fluorobenzene",
+  "name": "Fluorobenzene",
+  "formula": "C6H5F",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "benzyl_chloride",
+  "name": "Benzyl Chloride",
+  "formula": "C7H7Cl",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "benzyl_bromide",
+  "name": "Benzyl Bromide",
+  "formula": "C7H7Br",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "benzyl_iodide",
+  "name": "Benzyl Iodide",
+  "formula": "C7H7I",
+  "state": "liquid",
+  "category": "haloarene"
+},
+{
+  "id": "methanol",
+  "name": "Methanol",
+  "formula": "CH3OH",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "ethanol",
+  "name": "Ethanol",
+  "formula": "C2H5OH",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "propan_1_ol",
+  "name": "Propan-1-ol",
+  "formula": "C3H7OH",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "propan_2_ol",
+  "name": "Propan-2-ol",
+  "formula": "C3H8O",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "butan_1_ol",
+  "name": "Butan-1-ol",
+  "formula": "C4H9OH",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "butan_2_ol",
+  "name": "Butan-2-ol",
+  "formula": "C4H10O",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "tert_butanol",
+  "name": "tert-Butanol",
+  "formula": "C4H10O",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "pentan_1_ol",
+  "name": "Pentan-1-ol",
+  "formula": "C5H11OH",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "benzyl_alcohol",
+  "name": "Benzyl Alcohol",
+  "formula": "C7H8O",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "allyl_alcohol",
+  "name": "Allyl Alcohol",
+  "formula": "C3H6O",
+  "state": "liquid",
+  "category": "alcohol"
+},
+{
+  "id": "ethylene_glycol",
+  "name": "Ethylene Glycol",
+  "formula": "C2H6O2",
+  "state": "liquid",
+  "category": "diol"
+},
+{
+  "id": "propylene_glycol",
+  "name": "Propylene Glycol",
+  "formula": "C3H8O2",
+  "state": "liquid",
+  "category": "diol"
+},
+{
+  "id": "glycerol",
+  "name": "Glycerol",
+  "formula": "C3H8O3",
+  "state": "liquid",
+  "category": "triol"
+},
+{
+  "id": "phenol",
+  "name": "Phenol",
+  "formula": "C6H5OH",
+  "state": "solid",
+  "category": "phenol"
+},
+{
+  "id": "cresol",
+  "name": "Cresol",
+  "formula": "C7H8O",
+  "state": "liquid",
+  "category": "phenol"
+},
+{
+  "id": "catechol",
+  "name": "Catechol",
+  "formula": "C6H6O2",
+  "state": "solid",
+  "category": "phenol"
+},
+{
+  "id": "resorcinol",
+  "name": "Resorcinol",
+  "formula": "C6H6O2",
+  "state": "solid",
+  "category": "phenol"
+},
+{
+  "id": "hydroquinone",
+  "name": "Hydroquinone",
+  "formula": "C6H6O2",
+  "state": "solid",
+  "category": "phenol"
+},
+{
+  "id": "pyrogallol",
+  "name": "Pyrogallol",
+  "formula": "C6H6O3",
+  "state": "solid",
+  "category": "phenol"
+},
+{
+  "id": "phloroglucinol",
+  "name": "Phloroglucinol",
+  "formula": "C6H6O3",
+  "state": "solid",
+  "category": "phenol"
+},
+{
+  "id": "dimethyl_ether",
+  "name": "Dimethyl Ether",
+  "formula": "CH3OCH3",
+  "state": "gas",
+  "category": "ether"
+},
+{
+  "id": "diethyl_ether",
+  "name": "Diethyl Ether",
+  "formula": "C4H10O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "methyl_ethyl_ether",
+  "name": "Methyl Ethyl Ether",
+  "formula": "C3H8O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "dipropyl_ether",
+  "name": "Dipropyl Ether",
+  "formula": "C6H14O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "dibutyl_ether",
+  "name": "Dibutyl Ether",
+  "formula": "C8H18O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "anisole",
+  "name": "Anisole",
+  "formula": "C7H8O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "phenetole",
+  "name": "Phenetole",
+  "formula": "C8H10O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "diphenyl_ether",
+  "name": "Diphenyl Ether",
+  "formula": "C12H10O",
+  "state": "solid",
+  "category": "ether"
+},
+{
+  "id": "methyl_tert_butyl_ether",
+  "name": "Methyl tert-Butyl Ether",
+  "formula": "C5H12O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "ethyl_tert_butyl_ether",
+  "name": "Ethyl tert-Butyl Ether",
+  "formula": "C6H14O",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "tetrahydrofuran",
+  "name": "Tetrahydrofuran",
+  "formula": "C4H8O",
+  "state": "liquid",
+  "category": "cyclic_ether"
+},
+{
+  "id": "dioxane",
+  "name": "1,4-Dioxane",
+  "formula": "C4H8O2",
+  "state": "liquid",
+  "category": "cyclic_ether"
+},
+{
+  "id": "ethylene_oxide",
+  "name": "Ethylene Oxide",
+  "formula": "C2H4O",
+  "state": "gas",
+  "category": "epoxide"
+},
+{
+  "id": "propylene_oxide",
+  "name": "Propylene Oxide",
+  "formula": "C3H6O",
+  "state": "liquid",
+  "category": "epoxide"
+},
+{
+  "id": "epichlorohydrin",
+  "name": "Epichlorohydrin",
+  "formula": "C3H5ClO",
+  "state": "liquid",
+  "category": "epoxide"
+},
+{
+  "id": "glycidol",
+  "name": "Glycidol",
+  "formula": "C3H6O2",
+  "state": "liquid",
+  "category": "epoxide"
+},
+{
+  "id": "diglyme",
+  "name": "Diglyme",
+  "formula": "C6H14O3",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "triglyme",
+  "name": "Triglyme",
+  "formula": "C8H18O4",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "tetraglyme",
+  "name": "Tetraglyme",
+  "formula": "C10H22O5",
+  "state": "liquid",
+  "category": "ether"
+},
+{
+  "id": "crown_ether_18_crown_6",
+  "name": "18-Crown-6",
+  "formula": "C12H24O6",
+  "state": "solid",
+  "category": "cyclic_ether"
+},
+{
+  "id": "methanal",
+  "name": "Methanal (Formaldehyde)",
+  "formula": "HCHO",
+  "state": "gas",
+  "category": "aldehyde"
+},
+{
+  "id": "ethanal",
+  "name": "Ethanal (Acetaldehyde)",
+  "formula": "CH3CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "propanal",
+  "name": "Propanal",
+  "formula": "C2H5CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "butanal",
+  "name": "Butanal",
+  "formula": "C3H7CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "pentanal",
+  "name": "Pentanal",
+  "formula": "C4H9CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "hexanal",
+  "name": "Hexanal",
+  "formula": "C5H11CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "heptanal",
+  "name": "Heptanal",
+  "formula": "C6H13CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "octanal",
+  "name": "Octanal",
+  "formula": "C7H15CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "benzaldehyde",
+  "name": "Benzaldehyde",
+  "formula": "C6H5CHO",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "salicylaldehyde",
+  "name": "Salicylaldehyde",
+  "formula": "C7H6O2",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "anisaldehyde",
+  "name": "Anisaldehyde",
+  "formula": "C8H8O2",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "vanillin",
+  "name": "Vanillin",
+  "formula": "C8H8O3",
+  "state": "solid",
+  "category": "aldehyde"
+},
+{
+  "id": "cinnamaldehyde",
+  "name": "Cinnamaldehyde",
+  "formula": "C9H8O",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "furfural",
+  "name": "Furfural",
+  "formula": "C5H4O2",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "glyoxal",
+  "name": "Glyoxal",
+  "formula": "C2H2O2",
+  "state": "liquid",
+  "category": "dialdehyde"
+},
+{
+  "id": "glutaraldehyde",
+  "name": "Glutaraldehyde",
+  "formula": "C5H8O2",
+  "state": "liquid",
+  "category": "dialdehyde"
+},
+{
+  "id": "terephthaldehyde",
+  "name": "Terephthaldehyde",
+  "formula": "C8H6O2",
+  "state": "solid",
+  "category": "dialdehyde"
+},
+{
+  "id": "phthalaldehyde",
+  "name": "Phthalaldehyde",
+  "formula": "C8H6O2",
+  "state": "solid",
+  "category": "dialdehyde"
+},
+{
+  "id": "isophthalaldehyde",
+  "name": "Isophthalaldehyde",
+  "formula": "C8H6O2",
+  "state": "solid",
+  "category": "dialdehyde"
+},
+{
+  "id": "crotonaldehyde",
+  "name": "Crotonaldehyde",
+  "formula": "C4H6O",
+  "state": "liquid",
+  "category": "aldehyde"
+},
+{
+  "id": "propanone",
+  "name": "Propanone (Acetone)",
+  "formula": "CH3COCH3",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "butanone",
+  "name": "Butan-2-one (MEK)",
+  "formula": "C4H8O",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "pentan_2_one",
+  "name": "Pentan-2-one",
+  "formula": "C5H10O",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "pentan_3_one",
+  "name": "Pentan-3-one",
+  "formula": "C5H10O",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "hexan_2_one",
+  "name": "Hexan-2-one",
+  "formula": "C6H12O",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "hexan_3_one",
+  "name": "Hexan-3-one",
+  "formula": "C6H12O",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "cyclopentanone",
+  "name": "Cyclopentanone",
+  "formula": "C5H8O",
+  "state": "liquid",
+  "category": "cyclic_ketone"
+},
+{
+  "id": "cyclohexanone",
+  "name": "Cyclohexanone",
+  "formula": "C6H10O",
+  "state": "liquid",
+  "category": "cyclic_ketone"
+},
+{
+  "id": "cycloheptanone",
+  "name": "Cycloheptanone",
+  "formula": "C7H12O",
+  "state": "liquid",
+  "category": "cyclic_ketone"
+},
+{
+  "id": "acetophenone",
+  "name": "Acetophenone",
+  "formula": "C8H8O",
+  "state": "liquid",
+  "category": "aromatic_ketone"
+},
+{
+  "id": "benzophenone",
+  "name": "Benzophenone",
+  "formula": "C13H10O",
+  "state": "solid",
+  "category": "aromatic_ketone"
+},
+{
+  "id": "benzil",
+  "name": "Benzil",
+  "formula": "C14H10O2",
+  "state": "solid",
+  "category": "diketone"
+},
+{
+  "id": "diacetyl",
+  "name": "Diacetyl",
+  "formula": "C4H6O2",
+  "state": "liquid",
+  "category": "diketone"
+},
+{
+  "id": "acetylacetone",
+  "name": "Acetylacetone",
+  "formula": "C5H8O2",
+  "state": "liquid",
+  "category": "diketone"
+},
+{
+  "id": "camphor",
+  "name": "Camphor",
+  "formula": "C10H16O",
+  "state": "solid",
+  "category": "ketone"
+},
+{
+  "id": "fluorenone",
+  "name": "Fluorenone",
+  "formula": "C13H8O",
+  "state": "solid",
+  "category": "aromatic_ketone"
+},
+{
+  "id": "anthraquinone",
+  "name": "Anthraquinone",
+  "formula": "C14H8O2",
+  "state": "solid",
+  "category": "quinone"
+},
+{
+  "id": "benzoquinone",
+  "name": "p-Benzoquinone",
+  "formula": "C6H4O2",
+  "state": "solid",
+  "category": "quinone"
+},
+{
+  "id": "menadione",
+  "name": "Menadione",
+  "formula": "C11H8O2",
+  "state": "solid",
+  "category": "quinone"
+},
+{
+  "id": "isophorone",
+  "name": "Isophorone",
+  "formula": "C9H14O",
+  "state": "liquid",
+  "category": "ketone"
+},
+{
+  "id": "formic_acid",
+  "name": "Formic Acid (Methanoic Acid)",
+  "formula": "HCOOH",
+  "state": "liquid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "acetic_acid",
+  "name": "Acetic Acid (Ethanoic Acid)",
+  "formula": "CH3COOH",
+  "state": "liquid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "propionic_acid",
+  "name": "Propionic Acid",
+  "formula": "C2H5COOH",
+  "state": "liquid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "butyric_acid",
+  "name": "Butyric Acid",
+  "formula": "C3H7COOH",
+  "state": "liquid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "valeric_acid",
+  "name": "Valeric Acid",
+  "formula": "C4H9COOH",
+  "state": "liquid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "caproic_acid",
+  "name": "Caproic Acid",
+  "formula": "C5H11COOH",
+  "state": "liquid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "benzoic_acid",
+  "name": "Benzoic Acid",
+  "formula": "C6H5COOH",
+  "state": "solid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "salicylic_acid",
+  "name": "Salicylic Acid",
+  "formula": "C7H6O3",
+  "state": "solid",
+  "category": "carboxylic_acid"
+},
+{
+  "id": "oxalic_acid",
+  "name": "Oxalic Acid",
+  "formula": "H2C2O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "malonic_acid",
+  "name": "Malonic Acid",
+  "formula": "C3H4O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "succinic_acid",
+  "name": "Succinic Acid",
+  "formula": "C4H6O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "glutaric_acid",
+  "name": "Glutaric Acid",
+  "formula": "C5H8O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "adipic_acid",
+  "name": "Adipic Acid",
+  "formula": "C6H10O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "maleic_acid",
+  "name": "Maleic Acid",
+  "formula": "C4H4O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "fumaric_acid",
+  "name": "Fumaric Acid",
+  "formula": "C4H4O4",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "citric_acid",
+  "name": "Citric Acid",
+  "formula": "C6H8O7",
+  "state": "solid",
+  "category": "tricarboxylic_acid"
+},
+{
+  "id": "tartaric_acid",
+  "name": "Tartaric Acid",
+  "formula": "C4H6O6",
+  "state": "solid",
+  "category": "dicarboxylic_acid"
+},
+{
+  "id": "lactic_acid",
+  "name": "Lactic Acid",
+  "formula": "C3H6O3",
+  "state": "liquid",
+  "category": "hydroxy_acid"
+},
+{
+  "id": "pyruvic_acid",
+  "name": "Pyruvic Acid",
+  "formula": "C3H4O3",
+  "state": "liquid",
+  "category": "keto_acid"
+},
+{
+  "id": "ascorbic_acid",
+  "name": "Ascorbic Acid (Vitamin C)",
+  "formula": "C6H8O6",
+  "state": "solid",
+  "category": "organic_acid"
+},
+{
+  "id": "methyl_formate",
+  "name": "Methyl Formate",
+  "formula": "HCOOCH3",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_formate",
+  "name": "Ethyl Formate",
+  "formula": "HCOOC2H5",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "methyl_acetate",
+  "name": "Methyl Acetate",
+  "formula": "CH3COOCH3",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_acetate",
+  "name": "Ethyl Acetate",
+  "formula": "CH3COOC2H5",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "propyl_acetate",
+  "name": "Propyl Acetate",
+  "formula": "CH3COOC3H7",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "butyl_acetate",
+  "name": "Butyl Acetate",
+  "formula": "CH3COOC4H9",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "isoamyl_acetate",
+  "name": "Isoamyl Acetate",
+  "formula": "C7H14O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "methyl_propionate",
+  "name": "Methyl Propionate",
+  "formula": "C4H8O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_propionate",
+  "name": "Ethyl Propionate",
+  "formula": "C5H10O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "methyl_butyrate",
+  "name": "Methyl Butyrate",
+  "formula": "C5H10O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_butyrate",
+  "name": "Ethyl Butyrate",
+  "formula": "C6H12O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "methyl_benzoate",
+  "name": "Methyl Benzoate",
+  "formula": "C8H8O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_benzoate",
+  "name": "Ethyl Benzoate",
+  "formula": "C9H10O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "benzyl_acetate",
+  "name": "Benzyl Acetate",
+  "formula": "C9H10O2",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_lactate",
+  "name": "Ethyl Lactate",
+  "formula": "C5H10O3",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "ethyl_oxalate",
+  "name": "Diethyl Oxalate",
+  "formula": "C6H10O4",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "dimethyl_phthalate",
+  "name": "Dimethyl Phthalate",
+  "formula": "C10H10O4",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "diethyl_phthalate",
+  "name": "Diethyl Phthalate",
+  "formula": "C12H14O4",
+  "state": "liquid",
+  "category": "ester"
+},
+{
+  "id": "triacetin",
+  "name": "Triacetin",
+  "formula": "C9H14O6",
+  "state": "liquid",
+  "category": "triester"
+},
+{
+  "id": "acetylsalicylic_acid",
+  "name": "Acetylsalicylic Acid (Aspirin)",
+  "formula": "C9H8O4",
+  "state": "solid",
+  "category": "ester"
+},
+{
+  "id": "methylamine",
+  "name": "Methylamine",
+  "formula": "CH3NH2",
+  "state": "gas",
+  "category": "amine"
+},
+{
+  "id": "dimethylamine",
+  "name": "Dimethylamine",
+  "formula": "(CH3)2NH",
+  "state": "gas",
+  "category": "amine"
+},
+{
+  "id": "trimethylamine",
+  "name": "Trimethylamine",
+  "formula": "(CH3)3N",
+  "state": "gas",
+  "category": "amine"
+},
+{
+  "id": "ethylamine",
+  "name": "Ethylamine",
+  "formula": "C2H5NH2",
+  "state": "gas",
+  "category": "amine"
+},
+{
+  "id": "diethylamine",
+  "name": "Diethylamine",
+  "formula": "(C2H5)2NH",
+  "state": "liquid",
+  "category": "amine"
+},
+{
+  "id": "triethylamine",
+  "name": "Triethylamine",
+  "formula": "(C2H5)3N",
+  "state": "liquid",
+  "category": "amine"
+},
+{
+  "id": "propylamine",
+  "name": "Propylamine",
+  "formula": "C3H7NH2",
+  "state": "liquid",
+  "category": "amine"
+},
+{
+  "id": "isopropylamine",
+  "name": "Isopropylamine",
+  "formula": "C3H9N",
+  "state": "liquid",
+  "category": "amine"
+},
+{
+  "id": "butylamine",
+  "name": "Butylamine",
+  "formula": "C4H11N",
+  "state": "liquid",
+  "category": "amine"
+},
+{
+  "id": "aniline",
+  "name": "Aniline",
+  "formula": "C6H5NH2",
+  "state": "liquid",
+  "category": "aromatic_amine"
+},
+{
+  "id": "toluidine",
+  "name": "Toluidine",
+  "formula": "C7H9N",
+  "state": "liquid",
+  "category": "aromatic_amine"
+},
+{
+  "id": "benzylamine",
+  "name": "Benzylamine",
+  "formula": "C7H9N",
+  "state": "liquid",
+  "category": "amine"
+},
+{
+  "id": "acetamide",
+  "name": "Acetamide",
+  "formula": "CH3CONH2",
+  "state": "solid",
+  "category": "amide"
+},
+{
+  "id": "formamide",
+  "name": "Formamide",
+  "formula": "HCONH2",
+  "state": "liquid",
+  "category": "amide"
+},
+{
+  "id": "benzamide",
+  "name": "Benzamide",
+  "formula": "C6H5CONH2",
+  "state": "solid",
+  "category": "amide"
+},
+{
+  "id": "urea",
+  "name": "Urea",
+  "formula": "CO(NH2)2",
+  "state": "solid",
+  "category": "amide"
+},
+{
+  "id": "acetamilide",
+  "name": "Acetanilide",
+  "formula": "C8H9NO",
+  "state": "solid",
+  "category": "amide"
+},
+{
+  "id": "dimethylformamide",
+  "name": "N,N-Dimethylformamide",
+  "formula": "C3H7NO",
+  "state": "liquid",
+  "category": "amide"
+},
+{
+  "id": "dimethylacetamide",
+  "name": "N,N-Dimethylacetamide",
+  "formula": "C4H9NO",
+  "state": "liquid",
+  "category": "amide"
+},
+{
+  "id": "caprolactam",
+  "name": "Caprolactam",
+  "formula": "C6H11NO",
+  "state": "solid",
+  "category": "lactam"
+},
+{
+  "id": "glucose",
+  "name": "Glucose",
+  "formula": "C6H12O6",
+  "state": "solid",
+  "category": "monosaccharide"
+},
+{
+  "id": "fructose",
+  "name": "Fructose",
+  "formula": "C6H12O6",
+  "state": "solid",
+  "category": "monosaccharide"
+},
+{
+  "id": "galactose",
+  "name": "Galactose",
+  "formula": "C6H12O6",
+  "state": "solid",
+  "category": "monosaccharide"
+},
+{
+  "id": "sucrose",
+  "name": "Sucrose",
+  "formula": "C12H22O11",
+  "state": "solid",
+  "category": "disaccharide"
+},
+{
+  "id": "maltose",
+  "name": "Maltose",
+  "formula": "C12H22O11",
+  "state": "solid",
+  "category": "disaccharide"
+},
+{
+  "id": "lactose",
+  "name": "Lactose",
+  "formula": "C12H22O11",
+  "state": "solid",
+  "category": "disaccharide"
+},
+{
+  "id": "starch",
+  "name": "Starch",
+  "formula": "(C6H10O5)n",
+  "state": "solid",
+  "category": "polysaccharide"
+},
+{
+  "id": "cellulose",
+  "name": "Cellulose",
+  "formula": "(C6H10O5)n",
+  "state": "solid",
+  "category": "polysaccharide"
+},
+{
+  "id": "glycogen",
+  "name": "Glycogen",
+  "formula": "(C6H10O5)n",
+  "state": "solid",
+  "category": "polysaccharide"
+},
+{
+  "id": "glycine",
+  "name": "Glycine",
+  "formula": "C2H5NO2",
+  "state": "solid",
+  "category": "amino_acid"
+},
+{
+  "id": "alanine",
+  "name": "Alanine",
+  "formula": "C3H7NO2",
+  "state": "solid",
+  "category": "amino_acid"
+},
+{
+  "id": "serine",
+  "name": "Serine",
+  "formula": "C3H7NO3",
+  "state": "solid",
+  "category": "amino_acid"
+},
+{
+  "id": "protein",
+  "name": "Protein",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "biomolecule"
+},
+{
+  "id": "dna",
+  "name": "DNA",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "nucleic_acid"
+},
+{
+  "id": "rna",
+  "name": "RNA",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "nucleic_acid"
+},
+{
+  "id": "polyethylene",
+  "name": "Polyethylene (PE)",
+  "formula": "(C2H4)n",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "polypropylene",
+  "name": "Polypropylene (PP)",
+  "formula": "(C3H6)n",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "polyvinyl_chloride",
+  "name": "Polyvinyl Chloride (PVC)",
+  "formula": "(C2H3Cl)n",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "polystyrene",
+  "name": "Polystyrene",
+  "formula": "(C8H8)n",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "polytetrafluoroethylene",
+  "name": "Polytetrafluoroethylene (PTFE / Teflon)",
+  "formula": "(C2F4)n",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "polyethylene_terephthalate",
+  "name": "Polyethylene Terephthalate (PET)",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "nylon_6",
+  "name": "Nylon-6",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "nylon_66",
+  "name": "Nylon-6,6",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "bakelite",
+  "name": "Bakelite",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "natural_rubber",
+  "name": "Natural Rubber",
+  "formula": "(C5H8)n",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "buna_s",
+  "name": "Buna-S Rubber",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "synthetic_rubber"
+},
+{
+  "id": "neoprene",
+  "name": "Neoprene",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "synthetic_rubber"
+},
+{
+  "id": "silicone",
+  "name": "Silicone",
+  "formula": "Polymer",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "rayon",
+  "name": "Rayon",
+  "formula": "Regenerated Cellulose",
+  "state": "solid",
+  "category": "polymer"
+},
+{
+  "id": "teflon",
+  "name": "Teflon",
+  "formula": "(C2F4)n",
+  "state": "solid",
+  "category": "polymer"
+}]

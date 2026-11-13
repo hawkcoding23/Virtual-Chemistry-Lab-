@@ -1,0 +1,216 @@
+[
+  {
+    "id": "TH-ENDO-001",
+    "slug": "calcium_carbonate_decomposition",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "calcium_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_oxide", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "CaCO3 → CaO + CO2",
+    "reactionType": ["decomposition","endothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "decrease",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#f4f4f4"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-ENDO-002",
+    "slug": "potassium_chlorate_decomposition",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "potassium_chlorate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "equation": "2KClO3 → 2KCl + 3O2",
+    "reactionType": ["decomposition","endothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": "manganese_dioxide"
+    },
+    "observations": {
+      "gas": "oxygen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "decrease",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-ENDO-003",
+    "slug": "mercuric_oxide_decomposition",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "mercuric_oxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "mercury", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2HgO → 2Hg + O2",
+    "reactionType": ["decomposition","endothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "oxygen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "decrease",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#d9d9d9"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-ENDO-004",
+    "slug": "electrolysis_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2H2O → 2H2 + O2",
+    "reactionType": ["electrolysis","endothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "electric_current"
+    },
+    "observations": {
+      "gas": "hydrogen_and_oxygen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "decrease",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eafcff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-ENDO-005",
+    "slug": "silver_chloride_photodecomposition",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "silver_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "equation": "2AgCl → 2Ag + Cl2",
+    "reactionType": ["photochemical","endothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": true,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "chlorine",
+      "precipitate": "silver",
+      "colorChange": "white_to_grey",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#cccccc"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  }
+]

@@ -1,0 +1,857 @@
+[
+  {
+    "id": "EQ-ION-001",
+    "slug": "sodium_chloride_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ion", "coefficient": 1 },
+      { "chemicalId": "chloride_ion", "coefficient": 1 }
+    ],
+    "equation": "NaCl ⇌ Na⁺ + Cl⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-002",
+    "slug": "potassium_chloride_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "potassium_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_ion", "coefficient": 1 },
+      { "chemicalId": "chloride_ion", "coefficient": 1 }
+    ],
+    "equation": "KCl ⇌ K⁺ + Cl⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-003",
+    "slug": "potassium_bromide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "potassium_bromide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_ion", "coefficient": 1 },
+      { "chemicalId": "bromide_ion", "coefficient": 1 }
+    ],
+    "equation": "KBr ⇌ K⁺ + Br⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-004",
+    "slug": "potassium_iodide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "potassium_iodide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_ion", "coefficient": 1 },
+      { "chemicalId": "iodide_ion", "coefficient": 1 }
+    ],
+    "equation": "KI ⇌ K⁺ + I⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-005",
+    "slug": "hydrochloric_acid_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_ion", "coefficient": 1 },
+      { "chemicalId": "chloride_ion", "coefficient": 1 }
+    ],
+    "equation": "HCl ⇌ H⁺ + Cl⁻",
+    "reactionType": ["ionic_dissociation","strong_electrolyte"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#fff6e5"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-006",
+    "slug": "nitric_acid_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "nitric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_ion", "coefficient": 1 },
+      { "chemicalId": "nitrate_ion", "coefficient": 1 }
+    ],
+    "equation": "HNO₃ ⇌ H⁺ + NO₃⁻",
+    "reactionType": ["ionic_dissociation","strong_electrolyte"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#fff6e5"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-007",
+    "slug": "sulfuric_acid_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_ion", "coefficient": 2 },
+      { "chemicalId": "sulfate_ion", "coefficient": 1 }
+    ],
+    "equation": "H₂SO₄ ⇌ 2H⁺ + SO₄²⁻",
+    "reactionType": ["ionic_dissociation","strong_electrolyte"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#fff6e5"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },  {
+    "id": "EQ-ION-008",
+    "slug": "sodium_hydroxide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ion", "coefficient": 1 },
+      { "chemicalId": "hydroxide_ion", "coefficient": 1 }
+    ],
+    "equation": "NaOH ⇌ Na⁺ + OH⁻",
+    "reactionType": ["ionic_dissociation","strong_electrolyte"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-009",
+    "slug": "potassium_hydroxide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "potassium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_ion", "coefficient": 1 },
+      { "chemicalId": "hydroxide_ion", "coefficient": 1 }
+    ],
+    "equation": "KOH ⇌ K⁺ + OH⁻",
+    "reactionType": ["ionic_dissociation","strong_electrolyte"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-010",
+    "slug": "calcium_hydroxide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_ion", "coefficient": 1 },
+      { "chemicalId": "hydroxide_ion", "coefficient": 2 }
+    ],
+    "equation": "Ca(OH)₂ ⇌ Ca²⁺ + 2OH⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-011",
+    "slug": "barium_hydroxide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "barium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "barium_ion", "coefficient": 1 },
+      { "chemicalId": "hydroxide_ion", "coefficient": 2 }
+    ],
+    "equation": "Ba(OH)₂ ⇌ Ba²⁺ + 2OH⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-012",
+    "slug": "ammonium_hydroxide_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "ammonium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ammonium_ion", "coefficient": 1 },
+      { "chemicalId": "hydroxide_ion", "coefficient": 1 }
+    ],
+    "equation": "NH₄OH ⇌ NH₄⁺ + OH⁻",
+    "reactionType": ["ionic_dissociation","weak_electrolyte"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-013",
+    "slug": "silver_nitrate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_ion", "coefficient": 1 },
+      { "chemicalId": "nitrate_ion", "coefficient": 1 }
+    ],
+    "equation": "AgNO₃ ⇌ Ag⁺ + NO₃⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-014",
+    "slug": "barium_chloride_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "barium_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "barium_ion", "coefficient": 1 },
+      { "chemicalId": "chloride_ion", "coefficient": 2 }
+    ],
+    "equation": "BaCl₂ ⇌ Ba²⁺ + 2Cl⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },  {
+    "id": "EQ-ION-015",
+    "slug": "copper_sulfate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper_ion", "coefficient": 1 },
+      { "chemicalId": "sulfate_ion", "coefficient": 1 }
+    ],
+    "equation": "CuSO₄ ⇌ Cu²⁺ + SO₄²⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "blue_solution",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#4fa3ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-016",
+    "slug": "iron_sulfate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "iron_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_2_ion", "coefficient": 1 },
+      { "chemicalId": "sulfate_ion", "coefficient": 1 }
+    ],
+    "equation": "FeSO₄ ⇌ Fe²⁺ + SO₄²⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "pale_green",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#b6e3a8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-017",
+    "slug": "zinc_sulfate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_ion", "coefficient": 1 },
+      { "chemicalId": "sulfate_ion", "coefficient": 1 }
+    ],
+    "equation": "ZnSO₄ ⇌ Zn²⁺ + SO₄²⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-018",
+    "slug": "magnesium_sulfate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "magnesium_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_ion", "coefficient": 1 },
+      { "chemicalId": "sulfate_ion", "coefficient": 1 }
+    ],
+    "equation": "MgSO₄ ⇌ Mg²⁺ + SO₄²⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-019",
+    "slug": "sodium_carbonate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sodium_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ion", "coefficient": 2 },
+      { "chemicalId": "carbonate_ion", "coefficient": 1 }
+    ],
+    "equation": "Na₂CO₃ ⇌ 2Na⁺ + CO₃²⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-ION-020",
+    "slug": "sodium_bicarbonate_dissociation",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sodium_hydrogen_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ion", "coefficient": 1 },
+      { "chemicalId": "hydrogen_carbonate_ion", "coefficient": 1 }
+    ],
+    "equation": "NaHCO₃ ⇌ Na⁺ + HCO₃⁻",
+    "reactionType": ["ionic_dissociation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "water"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  }
+]

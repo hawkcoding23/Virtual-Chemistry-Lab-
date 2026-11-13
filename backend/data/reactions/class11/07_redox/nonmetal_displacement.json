@@ -1,0 +1,378 @@
+[
+  {
+    "id": "NMD-001",
+    "slug": "chlorine_displaces_bromine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "potassium_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "equation": "Cl₂ + 2KBr → 2KCl + Br₂",
+    "reactionType": ["nonmetal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "NMD-002",
+    "slug": "chlorine_displaces_iodine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "equation": "Cl₂ + 2KI → 2KCl + I₂",
+    "reactionType": ["nonmetal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "NMD-003",
+    "slug": "bromine_displaces_iodine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_bromide", "coefficient": 2 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "equation": "Br₂ + 2KI → 2KBr + I₂",
+    "reactionType": ["nonmetal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "NMD-004",
+    "slug": "fluorine_displaces_chlorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "fluorine", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_fluoride", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "equation": "F₂ + 2NaCl → 2NaF + Cl₂",
+    "reactionType": ["nonmetal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "NMD-005",
+    "slug": "fluorine_displaces_bromine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "fluorine", "coefficient": 1 },
+      { "chemicalId": "potassium_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_fluoride", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "equation": "F₂ + 2KBr → 2KF + Br₂",
+    "reactionType": ["nonmetal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+  ,
+{
+  "id": "NMD-006",
+  "slug": "fluorine_displaces_iodine",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "fluorine", "coefficient": 1 },
+    { "chemicalId": "potassium_iodide", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "potassium_fluoride", "coefficient": 2 },
+    { "chemicalId": "iodine", "coefficient": 1 }
+  ],
+  "equation": "F₂ + 2KI → 2KF + I₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-007",
+  "slug": "chlorine_displaces_bromine_from_hydrobromic_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "chlorine", "coefficient": 1 },
+    { "chemicalId": "hydrobromic_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 },
+    { "chemicalId": "bromine", "coefficient": 1 }
+  ],
+  "equation": "Cl₂ + 2HBr → 2HCl + Br₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-008",
+  "slug": "chlorine_displaces_iodine_from_hydroiodic_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "chlorine", "coefficient": 1 },
+    { "chemicalId": "hydroiodic_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 },
+    { "chemicalId": "iodine", "coefficient": 1 }
+  ],
+  "equation": "Cl₂ + 2HI → 2HCl + I₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-009",
+  "slug": "bromine_displaces_iodine_from_hydroiodic_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "bromine", "coefficient": 1 },
+    { "chemicalId": "hydroiodic_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "hydrobromic_acid", "coefficient": 2 },
+    { "chemicalId": "iodine", "coefficient": 1 }
+  ],
+  "equation": "Br₂ + 2HI → 2HBr + I₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-010",
+  "slug": "fluorine_displaces_oxygen_from_water",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "fluorine", "coefficient": 2 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "hydrogen_fluoride", "coefficient": 4 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "equation": "2F₂ + 2H₂O → 4HF + O₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-011",
+  "slug": "chlorine_displaces_sulfur_from_hydrogen_sulfide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "chlorine", "coefficient": 1 },
+    { "chemicalId": "hydrogen_sulfide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 },
+    { "chemicalId": "sulfur", "coefficient": 1 }
+  ],
+  "equation": "Cl₂ + H₂S → 2HCl + S",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-012",
+  "slug": "bromine_displaces_sulfur_from_hydrogen_sulfide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "bromine", "coefficient": 1 },
+    { "chemicalId": "hydrogen_sulfide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "hydrobromic_acid", "coefficient": 2 },
+    { "chemicalId": "sulfur", "coefficient": 1 }
+  ],
+  "equation": "Br₂ + H₂S → 2HBr + S",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-013",
+  "slug": "iodine_displaced_by_chlorine_from_silver_iodide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "chlorine", "coefficient": 1 },
+    { "chemicalId": "silver_iodide", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "silver_chloride", "coefficient": 2 },
+    { "chemicalId": "iodine", "coefficient": 1 }
+  ],
+  "equation": "Cl₂ + 2AgI → 2AgCl + I₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-014",
+  "slug": "bromine_displaced_by_chlorine_from_silver_bromide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "chlorine", "coefficient": 1 },
+    { "chemicalId": "silver_bromide", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "silver_chloride", "coefficient": 2 },
+    { "chemicalId": "bromine", "coefficient": 1 }
+  ],
+  "equation": "Cl₂ + 2AgBr → 2AgCl + Br₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "NMD-015",
+  "slug": "fluorine_displaces_chlorine_from_hydrochloric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "fluorine", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "hydrogen_fluoride", "coefficient": 2 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "equation": "F₂ + 2HCl → 2HF + Cl₂",
+  "reactionType": ["nonmetal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

@@ -1,0 +1,3651 @@
+[
+  {
+    "id": "REDOX-001",
+    "slug": "zinc_copper_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Zn + CuSO4 → ZnSO4 + Cu",
+    "reactionType": ["redox", "displacement"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "copper",
+      "colorChange": "blue_to_colorless",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#b87333"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-002",
+    "slug": "iron_copper_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Fe + CuSO4 → FeSO4 + Cu",
+    "reactionType": ["redox", "displacement"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "copper",
+      "colorChange": "blue_to_green",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#b87333"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-003",
+    "slug": "magnesium_copper_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Mg + CuSO4 → MgSO4 + Cu",
+    "reactionType": ["redox", "displacement"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "copper",
+      "colorChange": "blue_to_colorless",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#b87333"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-004",
+    "slug": "aluminium_iron_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 },
+      { "chemicalId": "iron", "coefficient": 2 }
+    ],
+    "equation": "2Al + Fe2O3 → Al2O3 + 2Fe",
+    "reactionType": ["redox", "thermite"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": "magnesium_ribbon"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#ff6600"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-005",
+    "slug": "hydrogen_copper_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "copper_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "H2 + CuO → Cu + H2O",
+    "reactionType": ["redox"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "copper",
+      "colorChange": "black_to_brown",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#b87333"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },  {
+    "id": "REDOX-006",
+    "slug": "carbon_copper_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "copper_oxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper", "coefficient": 2 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "C + 2CuO → 2Cu + CO2",
+    "reactionType": ["redox"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": "copper",
+      "colorChange": "black_to_brown",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#b87333"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-007",
+    "slug": "carbon_zinc_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "zinc_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 }
+    ],
+    "equation": "ZnO + C → Zn + CO",
+    "reactionType": ["redox"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_monoxide",
+      "precipitate": "zinc",
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#d9d9d9"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-008",
+    "slug": "carbon_lead_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "lead_oxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "lead", "coefficient": 2 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "2PbO + C → 2Pb + CO2",
+    "reactionType": ["redox"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": "lead",
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#7d7d7d"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-009",
+    "slug": "hydrogen_iron_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 3 },
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "Fe2O3 + 3H2 → 2Fe + 3H2O",
+    "reactionType": ["redox"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "iron",
+      "colorChange": "reddish_brown_to_grey",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#8c8c8c"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },
+
+  {
+    "id": "REDOX-010",
+    "slug": "carbon_iron_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 3 },
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron", "coefficient": 4 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 3 }
+    ],
+    "equation": "2Fe2O3 + 3C → 4Fe + 3CO",
+    "reactionType": ["redox","blast_furnace"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_monoxide",
+      "precipitate": "iron",
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": true,
+      "heat": true,
+      "glow": true,
+      "flame": false,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#8c8c8c"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 7
+    }
+  },  {
+    "id": "REDOX-011",
+    "slug": "potassium_permanganate_iron_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "iron_sulfate", "coefficient": 10 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 8 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "iron_iii_sulfate", "coefficient": 5 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 8 }
+    ],
+    "equation": "2KMnO4 + 10FeSO4 + 8H2SO4 → K2SO4 + 2MnSO4 + 5Fe2(SO4)3 + 8H2O",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-012",
+    "slug": "potassium_dichromate_iron_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+      { "chemicalId": "iron_sulfate", "coefficient": 6 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 7 }
+    ],
+    "products": [
+      { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+      { "chemicalId": "iron_iii_sulfate", "coefficient": 3 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 7 }
+    ],
+    "equation": "K2Cr2O7 + 6FeSO4 + 7H2SO4 → Cr2(SO4)3 + 3Fe2(SO4)3 + K2SO4 + 7H2O",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-013",
+    "slug": "hydrogen_peroxide_potassium_permanganate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 5 },
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "oxygen", "coefficient": 5 },
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 8 }
+    ],
+    "equation": "2KMnO4 + 5H2O2 + 3H2SO4 → K2SO4 + 2MnSO4 + 8H2O + 5O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-014",
+    "slug": "chlorine_potassium_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "equation": "Cl2 + 2KI → 2KCl + I2",
+    "reactionType": ["redox","halogen_displacement"]
+  },
+
+  {
+    "id": "REDOX-015",
+    "slug": "chlorine_potassium_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "potassium_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "equation": "Cl2 + 2KBr → 2KCl + Br2",
+    "reactionType": ["redox","halogen_displacement"]
+  },
+
+  {
+    "id": "REDOX-016",
+    "slug": "bromine_potassium_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_bromide", "coefficient": 2 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "equation": "Br2 + 2KI → 2KBr + I2",
+    "reactionType": ["redox","halogen_displacement"]
+  },
+
+  {
+    "id": "REDOX-017",
+    "slug": "hydrogen_peroxide_lead_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 4 },
+      { "chemicalId": "lead_sulfide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "PbS + 4H2O2 → PbSO4 + 4H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-018",
+    "slug": "hydrogen_silver_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "silver_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "Ag2O + H2 → 2Ag + H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-019",
+    "slug": "carbon_monoxide_copper_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "copper_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "CuO + CO → Cu + CO2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-020",
+    "slug": "carbon_monoxide_iron_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 1 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "iron", "coefficient": 2 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 3 }
+    ],
+    "equation": "Fe2O3 + 3CO → 2Fe + 3CO2",
+    "reactionType": ["redox","blast_furnace"]
+  },  {
+    "id": "REDOX-021",
+    "slug": "sodium_chlorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "equation": "2Na + Cl2 → 2NaCl",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-022",
+    "slug": "magnesium_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Mg + O2 → 2MgO",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-023",
+    "slug": "iron_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 2 }
+    ],
+    "equation": "4Fe + 3O2 → 2Fe2O3",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-024",
+    "slug": "copper_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Cu + O2 → 2CuO",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-025",
+    "slug": "zinc_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Zn + O2 → 2ZnO",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-026",
+    "slug": "carbon_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "C + O2 → CO2",
+    "reactionType": ["redox","combustion"]
+  },
+
+  {
+    "id": "REDOX-027",
+    "slug": "carbon_partial_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 2 }
+    ],
+    "equation": "2C + O2 → 2CO",
+    "reactionType": ["redox","combustion"]
+  },
+
+  {
+    "id": "REDOX-028",
+    "slug": "hydrogen_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2H2 + O2 → 2H2O",
+    "reactionType": ["redox","combustion"]
+  },
+
+  {
+    "id": "REDOX-029",
+    "slug": "sulfur_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sulfur", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur_dioxide", "coefficient": 1 }
+    ],
+    "equation": "S + O2 → SO2",
+    "reactionType": ["redox","combustion"]
+  },
+
+  {
+    "id": "REDOX-030",
+    "slug": "phosphorus_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "phosphorus", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 5 }
+    ],
+    "products": [
+      { "chemicalId": "phosphorus_pentoxide", "coefficient": 2 }
+    ],
+    "equation": "4P + 5O2 → 2P2O5",
+    "reactionType": ["redox","combustion"]
+  },  {
+    "id": "REDOX-031",
+    "slug": "chlorine_hydrogen_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 },
+      { "chemicalId": "sulfur", "coefficient": 1 }
+    ],
+    "equation": "Cl₂ + H₂S → 2HCl + S",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-032",
+    "slug": "chlorine_hydrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "equation": "H₂ + Cl₂ → 2HCl",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-033",
+    "slug": "bromine_hydrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_bromide", "coefficient": 2 }
+    ],
+    "equation": "H₂ + Br₂ → 2HBr",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-034",
+    "slug": "iodine_hydrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iodine", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_iodide", "coefficient": 2 }
+    ],
+    "equation": "H₂ + I₂ ⇌ 2HI",
+    "reactionType": ["redox","equilibrium"]
+  },
+
+  {
+    "id": "REDOX-035",
+    "slug": "hydrogen_peroxide_decomposition",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "water", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2H₂O₂ → 2H₂O + O₂",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-036",
+    "slug": "potassium_chlorate_decomposition",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_chlorate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "equation": "2KClO₃ → 2KCl + 3O₂",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-037",
+    "slug": "potassium_permanganate_decomposition",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_manganate", "coefficient": 1 },
+      { "chemicalId": "manganese_dioxide", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2KMnO₄ → K₂MnO₄ + MnO₂ + O₂",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-038",
+    "slug": "mercuric_oxide_decomposition",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "mercuric_oxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "mercury", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2HgO → 2Hg + O₂",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-039",
+    "slug": "silver_oxide_decomposition",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "silver_oxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2Ag₂O → 4Ag + O₂",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-040",
+    "slug": "lead_dioxide_hydrogen_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lead_dioxide", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "lead_chloride", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "PbO₂ + 4HCl → PbCl₂ + Cl₂ + 2H₂O",
+    "reactionType": ["redox"]
+  },  {
+    "id": "REDOX-041",
+    "slug": "zinc_silver_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "silver_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Zn + 2AgNO3 → Zn(NO3)2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-042",
+    "slug": "iron_silver_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "silver_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Fe + 2AgNO3 → Fe(NO3)2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-043",
+    "slug": "magnesium_silver_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "silver_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Mg + 2AgNO3 → Mg(NO3)2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-044",
+    "slug": "aluminium_copper_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "copper_sulfate", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 3 }
+    ],
+    "equation": "2Al + 3CuSO4 → Al2(SO4)3 + 3Cu",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-045",
+    "slug": "aluminium_iron_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "iron_sulfate", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_sulfate", "coefficient": 1 },
+      { "chemicalId": "iron", "coefficient": 3 }
+    ],
+    "equation": "2Al + 3FeSO4 → Al2(SO4)3 + 3Fe",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-046",
+    "slug": "zinc_iron_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "iron_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+      { "chemicalId": "iron", "coefficient": 1 }
+    ],
+    "equation": "Zn + FeSO4 → ZnSO4 + Fe",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-047",
+    "slug": "magnesium_iron_sulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "iron_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_sulfate", "coefficient": 1 },
+      { "chemicalId": "iron", "coefficient": 1 }
+    ],
+    "equation": "Mg + FeSO4 → MgSO4 + Fe",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-048",
+    "slug": "zinc_lead_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "lead_nitrate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_nitrate", "coefficient": 1 },
+      { "chemicalId": "lead", "coefficient": 1 }
+    ],
+    "equation": "Zn + Pb(NO3)2 → Zn(NO3)2 + Pb",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-049",
+    "slug": "iron_lead_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "lead_nitrate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_nitrate", "coefficient": 1 },
+      { "chemicalId": "lead", "coefficient": 1 }
+    ],
+    "equation": "Fe + Pb(NO3)2 → Fe(NO3)2 + Pb",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-050",
+    "slug": "magnesium_lead_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "lead_nitrate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_nitrate", "coefficient": 1 },
+      { "chemicalId": "lead", "coefficient": 1 }
+    ],
+    "equation": "Mg + Pb(NO3)2 → Mg(NO3)2 + Pb",
+    "reactionType": ["redox","displacement"]
+  },  {
+    "id": "REDOX-051",
+    "slug": "copper_silver_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "silver_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Cu + 2AgNO3 → Cu(NO3)2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-052",
+    "slug": "iron_silver_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "silver_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron_chloride", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Fe + 2AgCl → FeCl2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-053",
+    "slug": "zinc_copper_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "copper_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_chloride", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Zn + CuCl2 → ZnCl2 + Cu",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-054",
+    "slug": "magnesium_copper_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "copper_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_chloride", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Mg + CuCl2 → MgCl2 + Cu",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-055",
+    "slug": "aluminium_silver_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 1 },
+      { "chemicalId": "silver_nitrate", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 3 }
+    ],
+    "equation": "Al + 3AgNO3 → Al(NO3)3 + 3Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-056",
+    "slug": "calcium_water",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Ca + 2H2O → Ca(OH)2 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-057",
+    "slug": "sodium_water",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2Na + 2H2O → 2NaOH + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-058",
+    "slug": "potassium_water",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2K + 2H2O → 2KOH + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-059",
+    "slug": "calcium_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Ca + 2HCl → CaCl2 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-060",
+    "slug": "magnesium_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Mg + 2HCl → MgCl2 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+    {
+    "id": "REDOX-061",
+    "slug": "zinc_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Zn + 2HCl → ZnCl2 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-062",
+    "slug": "iron_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Fe + 2HCl → FeCl2 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-063",
+    "slug": "aluminium_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_chloride", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 3 }
+    ],
+    "equation": "2Al + 6HCl → 2AlCl3 + 3H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-064",
+    "slug": "magnesium_nitric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "nitric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_nitrate", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Mg + 2HNO3 → Mg(NO3)2 + H2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-065",
+    "slug": "zinc_sulfuric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Zn + H2SO4 → ZnSO4 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-066",
+    "slug": "iron_sulfuric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_sulfate", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Fe + H2SO4 → FeSO4 + H2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-067",
+    "slug": "copper_silver_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "silver_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_chloride", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Cu + 2AgCl → CuCl2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-068",
+    "slug": "aluminium_silver_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 1 },
+      { "chemicalId": "silver_chloride", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_chloride", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 3 }
+    ],
+    "equation": "Al + 3AgCl → AlCl3 + 3Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-069",
+    "slug": "magnesium_silver_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "silver_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_chloride", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Mg + 2AgCl → MgCl2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-070",
+    "slug": "zinc_ferric_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "ferric_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_chloride", "coefficient": 1 },
+      { "chemicalId": "ferrous_chloride", "coefficient": 2 }
+    ],
+    "equation": "Zn + 2FeCl3 → ZnCl2 + 2FeCl2",
+    "reactionType": ["redox"]
+  },  {
+    "id": "REDOX-071",
+    "slug": "copper_ferric_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "ferric_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_chloride", "coefficient": 1 },
+      { "chemicalId": "ferrous_chloride", "coefficient": 2 }
+    ],
+    "equation": "Cu + 2FeCl3 → CuCl2 + 2FeCl2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-072",
+    "slug": "ferrous_chloride_chlorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ferrous_chloride", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ferric_chloride", "coefficient": 2 }
+    ],
+    "equation": "2FeCl2 + Cl2 → 2FeCl3",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-073",
+    "slug": "ferrous_sulfate_hydrogen_peroxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron_sulfate", "coefficient": 2 },
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_iii_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2FeSO4 + H2O2 + H2SO4 → Fe2(SO4)3 + 2H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-074",
+    "slug": "sodium_hypochlorite_hydrogen_peroxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium_hypochlorite", "coefficient": 1 },
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "NaOCl + H2O2 → NaCl + O2 + H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-075",
+    "slug": "chlorine_sodium_hydroxide_cold",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_hypochlorite", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "Cl2 + 2NaOH → NaCl + NaOCl + H2O",
+    "reactionType": ["redox","disproportionation"]
+  },
+
+  {
+    "id": "REDOX-076",
+    "slug": "chlorine_sodium_hydroxide_hot",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 3 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 5 },
+      { "chemicalId": "sodium_chlorate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "3Cl2 + 6NaOH → 5NaCl + NaClO3 + 3H2O",
+    "reactionType": ["redox","disproportionation"]
+  },
+
+  {
+    "id": "REDOX-077",
+    "slug": "hydrogen_peroxide_lead_dioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lead_dioxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead_oxide", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "PbO2 + H2O2 → PbO + O2 + H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-078",
+    "slug": "manganese_dioxide_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "manganese_dioxide", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_chloride", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "MnO2 + 4HCl → MnCl2 + Cl2 + 2H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-079",
+    "slug": "potassium_permanganate_hydrogen_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 16 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_chloride", "coefficient": 2 },
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 5 },
+      { "chemicalId": "water", "coefficient": 8 }
+    ],
+    "equation": "2KMnO4 + 16HCl → 2MnCl2 + 2KCl + 5Cl2 + 8H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-080",
+    "slug": "potassium_dichromate_hydrogen_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 14 }
+    ],
+    "products": [
+      { "chemicalId": "chromium_chloride", "coefficient": 2 },
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 7 }
+    ],
+    "equation": "K2Cr2O7 + 14HCl → 2CrCl3 + 2KCl + 3Cl2 + 7H2O",
+    "reactionType": ["redox"]
+  },  {
+    "id": "REDOX-081",
+    "slug": "potassium_permanganate_oxalic_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "oxalic_acid", "coefficient": 5 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 10 },
+      { "chemicalId": "water", "coefficient": 8 }
+    ],
+    "equation": "2KMnO4 + 5H2C2O4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-082",
+    "slug": "potassium_dichromate_oxalic_acid",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+      { "chemicalId": "oxalic_acid", "coefficient": 3 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 6 },
+      { "chemicalId": "water", "coefficient": 7 }
+    ],
+    "equation": "K2Cr2O7 + 3H2C2O4 + 4H2SO4 → Cr2(SO4)3 + K2SO4 + 6CO2 + 7H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-083",
+    "slug": "hydrogen_peroxide_iodine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_iodide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "H2O2 + I2 → 2HI + O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-084",
+    "slug": "hydrogen_peroxide_sulfur_dioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 },
+      { "chemicalId": "sulfur_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "equation": "H2O2 + SO2 → H2SO4",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-085",
+    "slug": "hydrogen_peroxide_hydrogen_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "H2O2 + H2S → S + 2H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-086",
+    "slug": "chlorine_ammonia",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 3 },
+      { "chemicalId": "ammonia", "coefficient": 8 }
+    ],
+    "products": [
+      { "chemicalId": "nitrogen", "coefficient": 1 },
+      { "chemicalId": "ammonium_chloride", "coefficient": 6 }
+    ],
+    "equation": "8NH3 + 3Cl2 → N2 + 6NH4Cl",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-087",
+    "slug": "nitric_oxide_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "nitric_oxide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 2 }
+    ],
+    "equation": "2NO + O2 → 2NO2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-088",
+    "slug": "nitrogen_dioxide_water",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "nitric_acid", "coefficient": 2 },
+      { "chemicalId": "nitric_oxide", "coefficient": 1 }
+    ],
+    "equation": "3NO2 + H2O → 2HNO3 + NO",
+    "reactionType": ["redox","disproportionation"]
+  },
+
+  {
+    "id": "REDOX-089",
+    "slug": "sulfur_dioxide_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sulfur_dioxide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur_trioxide", "coefficient": 2 }
+    ],
+    "equation": "2SO2 + O2 → 2SO3",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-090",
+    "slug": "sulfur_trioxide_water",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sulfur_trioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "equation": "SO3 + H2O → H2SO4",
+    "reactionType": ["combination"]
+  },  {
+    "id": "REDOX-091",
+    "slug": "iron_steam",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 3 },
+      { "chemicalId": "steam", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "iron_oxide_fe3o4", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 4 }
+    ],
+    "equation": "3Fe + 4H2O(g) → Fe3O4 + 4H2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-092",
+    "slug": "zinc_steam",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_oxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Zn + H2O(g) → ZnO + H2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-093",
+    "slug": "magnesium_steam",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_oxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Mg + H2O(g) → MgO + H2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-094",
+    "slug": "carbon_steam",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "C + H2O(g) → CO + H2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-095",
+    "slug": "water_gas_shift",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "CO + H2O(g) ⇌ CO2 + H2",
+    "reactionType": ["redox","equilibrium"]
+  },
+
+  {
+    "id": "REDOX-096",
+    "slug": "methane_steam_reforming",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 3 }
+    ],
+    "equation": "CH4 + H2O(g) → CO + 3H2",
+    "reactionType": ["redox","industrial"]
+  },
+
+  {
+    "id": "REDOX-097",
+    "slug": "ammonia_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ammonia", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 5 }
+    ],
+    "products": [
+      { "chemicalId": "nitric_oxide", "coefficient": 4 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "equation": "4NH3 + 5O2 → 4NO + 6H2O",
+    "reactionType": ["redox","industrial"]
+  },
+
+  {
+    "id": "REDOX-098",
+    "slug": "carbon_dioxide_magnesium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 2 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_oxide", "coefficient": 2 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "equation": "2Mg + CO2 → 2MgO + C",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-099",
+    "slug": "hydrogen_fluorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "fluorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_fluoride", "coefficient": 2 }
+    ],
+    "equation": "H2 + F2 → 2HF",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-100",
+    "slug": "fluorine_water",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "fluorine", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "hydrogen_fluoride", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2F2 + 2H2O → 4HF + O2",
+    "reactionType": ["redox"]
+  }  , { 
+    "id": "REDOX-101",
+    "slug": "sodium_hydrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_hydride", "coefficient": 2 }
+    ],
+    "equation": "2Na + H2 → 2NaH",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-102",
+    "slug": "calcium_hydrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydride", "coefficient": 1 }
+    ],
+    "equation": "Ca + H2 → CaH2",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-103",
+    "slug": "magnesium_nitrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 3 },
+      { "chemicalId": "nitrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_nitride", "coefficient": 1 }
+    ],
+    "equation": "3Mg + N2 → Mg3N2",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-104",
+    "slug": "lithium_nitrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lithium", "coefficient": 6 },
+      { "chemicalId": "nitrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lithium_nitride", "coefficient": 2 }
+    ],
+    "equation": "6Li + N2 → 2Li3N",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-105",
+    "slug": "calcium_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Ca + O2 → 2CaO",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-106",
+    "slug": "potassium_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_oxide", "coefficient": 2 }
+    ],
+    "equation": "4K + O2 → 2K2O",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-107",
+    "slug": "sodium_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_oxide", "coefficient": 2 }
+    ],
+    "equation": "4Na + O2 → 2Na2O",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-108",
+    "slug": "hydrogen_cobalt_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "cobalt_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "cobalt", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CoO + H2 → Co + H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-109",
+    "slug": "hydrogen_nickel_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "nickel_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "nickel", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "NiO + H2 → Ni + H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-110",
+    "slug": "carbon_monoxide_nickel_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "nickel_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "nickel", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "NiO + CO → Ni + CO2",
+    "reactionType": ["redox","reduction"]
+  },  {
+    "id": "REDOX-111",
+    "slug": "carbon_monoxide_cobalt_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "cobalt_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "cobalt", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "CoO + CO → Co + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-112",
+    "slug": "carbon_monoxide_lead_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "lead_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "PbO + CO → Pb + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-113",
+    "slug": "carbon_monoxide_tin_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "tin_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "tin", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "SnO2 + CO → Sn + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-114",
+    "slug": "hydrogen_tin_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 2 },
+      { "chemicalId": "tin_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "tin", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "SnO2 + 2H2 → Sn + 2H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-115",
+    "slug": "hydrogen_manganese_dioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 2 },
+      { "chemicalId": "manganese_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_oxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "MnO2 + 2H2 → MnO + 2H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-116",
+    "slug": "carbon_monoxide_manganese_dioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "manganese_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_oxide", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "MnO2 + CO → MnO + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-117",
+    "slug": "iron_copper_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "copper_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_chloride", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Fe + CuCl2 → FeCl2 + Cu",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-118",
+    "slug": "aluminium_copper_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "copper_chloride", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_chloride", "coefficient": 2 },
+      { "chemicalId": "copper", "coefficient": 3 }
+    ],
+    "equation": "2Al + 3CuCl2 → 2AlCl3 + 3Cu",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-119",
+    "slug": "magnesium_copper_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "copper_nitrate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_nitrate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Mg + Cu(NO3)2 → Mg(NO3)2 + Cu",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-120",
+    "slug": "zinc_copper_nitrate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "copper_nitrate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_nitrate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Zn + Cu(NO3)2 → Zn(NO3)2 + Cu",
+    "reactionType": ["redox","displacement"]
+  } , {
+    "id": "REDOX-121",
+    "slug": "potassium_permanganate_sodium_sulfite",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "sodium_sulfite", "coefficient": 5 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 5 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "2KMnO4 + 5Na2SO3 + 3H2SO4 → 2MnSO4 + 5Na2SO4 + K2SO4 + 3H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-122",
+    "slug": "potassium_permanganate_sodium_nitrite",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "sodium_nitrite", "coefficient": 5 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "sodium_nitrate", "coefficient": 5 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "2KMnO4 + 5NaNO2 + 3H2SO4 → 2MnSO4 + 5NaNO3 + K2SO4 + 3H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-123",
+    "slug": "potassium_dichromate_hydrogen_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 3 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+      { "chemicalId": "sulfur", "coefficient": 3 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 7 }
+    ],
+    "equation": "K2Cr2O7 + 3H2S + 4H2SO4 → Cr2(SO4)3 + 3S + K2SO4 + 7H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-124",
+    "slug": "chlorine_sulfur_dioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "sulfur_dioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+    ],
+    "equation": "Cl2 + SO2 + 2H2O → 2HCl + H2SO4",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-125",
+    "slug": "ozone_potassium_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ozone", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iodine", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "O3 + 2KI + H2O → I2 + 2KOH + O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-126",
+    "slug": "ozone_lead_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ozone", "coefficient": 4 },
+      { "chemicalId": "lead_sulfide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead_sulfate", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "equation": "PbS + 4O3 → PbSO4 + 2O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-127",
+    "slug": "chlorine_ferrous_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "ferrous_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "ferric_chloride", "coefficient": 2 }
+    ],
+    "equation": "Cl2 + 2FeCl2 → 2FeCl3",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-128",
+    "slug": "bromine_ferrous_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "ferrous_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "ferric_bromide", "coefficient": 2 }
+    ],
+    "equation": "Br2 + 2FeBr2 → 2FeBr3",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-129",
+    "slug": "hydrogen_chromium_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 3 },
+      { "chemicalId": "chromium_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chromium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "Cr2O3 + 3H2 → 2Cr + 3H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-130",
+    "slug": "carbon_monoxide_chromium_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 3 },
+      { "chemicalId": "chromium_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chromium", "coefficient": 2 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 3 }
+    ],
+    "equation": "Cr2O3 + 3CO → 2Cr + 3CO2",
+    "reactionType": ["redox","reduction"]
+  }  ,
+  {
+    "id": "REDOX-131",
+    "slug": "potassium_permanganate_hydrogen_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 5 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "sulfur", "coefficient": 5 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 8 }
+    ],
+    "equation": "2KMnO4 + 5H2S + 3H2SO4 → K2SO4 + 2MnSO4 + 5S + 8H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-132",
+    "slug": "potassium_permanganate_hydrogen_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "hydrogen_bromide", "coefficient": 10 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 5 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 8 }
+    ],
+    "equation": "2KMnO4 + 10HBr + 3H2SO4 → 5Br2 + 2MnSO4 + K2SO4 + 8H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-133",
+    "slug": "potassium_dichromate_hydrogen_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+      { "chemicalId": "hydrogen_bromide", "coefficient": 6 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+      { "chemicalId": "bromine", "coefficient": 3 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 7 }
+    ],
+    "equation": "K2Cr2O7 + 6HBr + 4H2SO4 → Cr2(SO4)3 + 3Br2 + K2SO4 + 7H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-134",
+    "slug": "ozone_hydrogen_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ozone", "coefficient": 1 },
+      { "chemicalId": "hydrogen_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iodine", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "O3 + 2HI → I2 + H2O + O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-135",
+    "slug": "ozone_hydrogen_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ozone", "coefficient": 1 },
+      { "chemicalId": "hydrogen_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "O3 + 2HBr → Br2 + H2O + O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-136",
+    "slug": "chlorine_sodium_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "sodium_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "equation": "Cl2 + 2NaBr → 2NaCl + Br2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-137",
+    "slug": "bromine_sodium_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "sodium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_bromide", "coefficient": 2 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "equation": "Br2 + 2NaI → 2NaBr + I2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-138",
+    "slug": "fluorine_sodium_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "fluorine", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_fluoride", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "equation": "F2 + 2NaCl → 2NaF + Cl2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-139",
+    "slug": "fluorine_potassium_bromide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "fluorine", "coefficient": 1 },
+      { "chemicalId": "potassium_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_fluoride", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "equation": "F2 + 2KBr → 2KF + Br2",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-140",
+    "slug": "fluorine_potassium_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "fluorine", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_fluoride", "coefficient": 2 },
+      { "chemicalId": "iodine", "coefficient": 1 }
+    ],
+    "equation": "F2 + 2KI → 2KF + I2",
+    "reactionType": ["redox","displacement"]
+  },  {
+    "id": "REDOX-141",
+    "slug": "chlorine_sodium_sulfite",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfite", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "equation": "Cl2 + Na2SO3 + H2O → Na2SO4 + 2HCl",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-142",
+    "slug": "bromine_sodium_sulfite",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "bromine", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfite", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+      { "chemicalId": "hydrogen_bromide", "coefficient": 2 }
+    ],
+    "equation": "Br2 + Na2SO3 + H2O → Na2SO4 + 2HBr",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-143",
+    "slug": "iodine_sodium_sulfite",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iodine", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfite", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+      { "chemicalId": "hydrogen_iodide", "coefficient": 2 }
+    ],
+    "equation": "I2 + Na2SO3 + H2O → Na2SO4 + 2HI",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-144",
+    "slug": "chlorine_sodium_thiosulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 4 },
+      { "chemicalId": "sodium_thiosulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 5 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 2 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 8 }
+    ],
+    "equation": "4Cl2 + Na2S2O3 + 5H2O → 2NaHSO4 + 8HCl",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-145",
+    "slug": "potassium_permanganate_sodium_thiosulfate",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "sodium_thiosulfate", "coefficient": 5 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 5 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "2KMnO4 + 5Na2S2O3 + 3H2SO4 → 2MnSO4 + 5Na2SO4 + K2SO4 + 3H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-146",
+    "slug": "potassium_dichromate_sodium_sulfite",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfite", "coefficient": 3 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 3 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "K2Cr2O7 + 3Na2SO3 + 4H2SO4 → Cr2(SO4)3 + 3Na2SO4 + K2SO4 + 4H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-147",
+    "slug": "hydrogen_peroxide_potassium_iodide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iodine", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 2 }
+    ],
+    "equation": "H2O2 + 2KI → I2 + 2KOH",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-148",
+    "slug": "ozone_hydrogen_sulfide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "ozone", "coefficient": 1 },
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "O3 + H2S → S + H2O + O2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-149",
+    "slug": "chlorine_ammonium_hydroxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 3 },
+      { "chemicalId": "ammonium_hydroxide", "coefficient": 8 }
+    ],
+    "products": [
+      { "chemicalId": "nitrogen", "coefficient": 1 },
+      { "chemicalId": "ammonium_chloride", "coefficient": 6 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "equation": "3Cl2 + 8NH4OH → N2 + 6NH4Cl + 6H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-150",
+    "slug": "nitric_acid_copper",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "nitric_acid", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "copper_nitrate", "coefficient": 1 },
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "Cu + 4HNO3 → Cu(NO3)2 + 2NO2 + 2H2O",
+    "reactionType": ["redox"]
+  },  {
+    "id": "REDOX-151",
+    "slug": "silver_nitrate_copper",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 2 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "2AgNO3 + Cu → Cu(NO3)2 + 2Ag",
+    "reactionType": ["redox","displacement"]
+  },
+
+  {
+    "id": "REDOX-152",
+    "slug": "gold_chloride_zinc",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "gold_chloride", "coefficient": 2 },
+      { "chemicalId": "zinc", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "gold", "coefficient": 2 },
+      { "chemicalId": "zinc_chloride", "coefficient": 3 }
+    ],
+    "equation": "2AuCl3 + 3Zn → 2Au + 3ZnCl2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-153",
+    "slug": "gold_chloride_iron",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "gold_chloride", "coefficient": 2 },
+      { "chemicalId": "iron", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "gold", "coefficient": 2 },
+      { "chemicalId": "iron_chloride", "coefficient": 3 }
+    ],
+    "equation": "2AuCl3 + 3Fe → 2Au + 3FeCl2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-154",
+    "slug": "silver_oxide_carbon",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "silver_oxide", "coefficient": 2 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 4 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "2Ag2O + C → 4Ag + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-155",
+    "slug": "lead_oxide_hydrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lead_oxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "PbO + H2 → Pb + H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-156",
+    "slug": "lead_oxide_carbon",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lead_oxide", "coefficient": 2 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead", "coefficient": 2 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "2PbO + C → 2Pb + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-157",
+    "slug": "nickel_oxide_carbon",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "nickel_oxide", "coefficient": 1 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "nickel", "coefficient": 1 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 }
+    ],
+    "equation": "NiO + C → Ni + CO",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-158",
+    "slug": "cobalt_oxide_carbon",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "cobalt_oxide", "coefficient": 1 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "cobalt", "coefficient": 1 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 }
+    ],
+    "equation": "CoO + C → Co + CO",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-159",
+    "slug": "chromium_oxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chromium_oxide", "coefficient": 1 },
+      { "chemicalId": "aluminium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "chromium", "coefficient": 2 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 }
+    ],
+    "equation": "Cr2O3 + 2Al → 2Cr + Al2O3",
+    "reactionType": ["redox","thermite"]
+  },
+
+  {
+    "id": "REDOX-160",
+    "slug": "manganese_dioxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "manganese_dioxide", "coefficient": 3 },
+      { "chemicalId": "aluminium", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "manganese", "coefficient": 3 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 2 }
+    ],
+    "equation": "3MnO2 + 4Al → 3Mn + 2Al2O3",
+    "reactionType": ["redox","thermite"]
+  } , {
+    "id": "REDOX-161",
+    "slug": "potassium_permanganate_hydrogen_peroxide_basic",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_dioxide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 3 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2KMnO4 + 3H2O2 → 2MnO2 + 3O2 + 2KOH + 2H2O",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-162",
+    "slug": "potassium_dichromate_ethanol",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_dichromate", "coefficient": 2 },
+      { "chemicalId": "ethanol", "coefficient": 3 },
+      { "chemicalId": "sulfuric_acid", "coefficient": 8 }
+    ],
+    "products": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 3 },
+      { "chemicalId": "chromium_sulfate", "coefficient": 2 },
+      { "chemicalId": "potassium_sulfate", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 11 }
+    ],
+    "equation": "Ethanol + K2Cr2O7/H2SO4 → Ethanoic Acid",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-163",
+    "slug": "potassium_permanganate_ethanol",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+      { "chemicalId": "ethanol", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 3 },
+      { "chemicalId": "manganese_dioxide", "coefficient": 2 }
+    ],
+    "equation": "Ethanol + KMnO4 → Ethanoic Acid",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-164",
+    "slug": "oxygen_iron_rusting",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "rust", "coefficient": 2 }
+    ],
+    "equation": "4Fe + 3O2 + xH2O → 2Fe2O3·xH2O",
+    "reactionType": ["redox","corrosion"]
+  },
+
+  {
+    "id": "REDOX-165",
+    "slug": "silver_tarnish",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_sulfide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2Ag + H2S → Ag2S + H2",
+    "reactionType": ["redox","corrosion"]
+  },
+
+  {
+    "id": "REDOX-166",
+    "slug": "copper_air",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Cu + O2 → 2CuO",
+    "reactionType": ["redox","corrosion"]
+  },
+
+  {
+    "id": "REDOX-167",
+    "slug": "iron_air",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 2 }
+    ],
+    "equation": "4Fe + 3O2 → 2Fe2O3",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-168",
+    "slug": "carbon_steam_high_temp",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "C + H2O(g) → CO + H2",
+    "reactionType": ["redox","industrial"]
+  },
+
+  {
+    "id": "REDOX-169",
+    "slug": "carbon_dioxide_carbon",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 2 }
+    ],
+    "equation": "CO2 + C → 2CO",
+    "reactionType": ["redox","industrial"]
+  },
+
+  {
+    "id": "REDOX-170",
+    "slug": "iron_oxide_carbon_monoxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron_oxide_fe3o4", "coefficient": 1 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "iron", "coefficient": 3 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 4 }
+    ],
+    "equation": "Fe3O4 + 4CO → 3Fe + 4CO2",
+    "reactionType": ["redox","blast_furnace"]
+  },  {
+    "id": "REDOX-171",
+    "slug": "hydrogen_copper_ii_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "copper_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CuO + H2 → Cu + H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-172",
+    "slug": "carbon_monoxide_zinc_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "zinc_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "ZnO + CO → Zn + CO2",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-173",
+    "slug": "hydrogen_zinc_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "zinc_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "ZnO + H2 → Zn + H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-174",
+    "slug": "hydrogen_chromium_vi_oxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 3 },
+      { "chemicalId": "chromium_trioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chromium", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "CrO3 + 3H2 → Cr + 3H2O",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-175",
+    "slug": "carbon_chromium_trioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 3 },
+      { "chemicalId": "chromium_trioxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "chromium", "coefficient": 2 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 3 }
+    ],
+    "equation": "2CrO3 + 3C → 2Cr + 3CO",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-176",
+    "slug": "iron_iii_oxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron_oxide_fe2o3", "coefficient": 1 },
+      { "chemicalId": "aluminium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron", "coefficient": 2 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 }
+    ],
+    "equation": "Fe2O3 + 2Al → 2Fe + Al2O3",
+    "reactionType": ["redox","thermite"]
+  },
+
+  {
+    "id": "REDOX-177",
+    "slug": "manganese_oxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "manganese_oxide", "coefficient": 3 },
+      { "chemicalId": "aluminium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "manganese", "coefficient": 3 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 }
+    ],
+    "equation": "3MnO + 2Al → 3Mn + Al2O3",
+    "reactionType": ["redox","thermite"]
+  },
+
+  {
+    "id": "REDOX-178",
+    "slug": "nickel_oxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "nickel_oxide", "coefficient": 3 },
+      { "chemicalId": "aluminium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "nickel", "coefficient": 3 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 }
+    ],
+    "equation": "3NiO + 2Al → 3Ni + Al2O3",
+    "reactionType": ["redox","thermite"]
+  },
+
+  {
+    "id": "REDOX-179",
+    "slug": "cobalt_oxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "cobalt_oxide", "coefficient": 3 },
+      { "chemicalId": "aluminium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "cobalt", "coefficient": 3 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 }
+    ],
+    "equation": "3CoO + 2Al → 3Co + Al2O3",
+    "reactionType": ["redox","thermite"]
+  },
+
+  {
+    "id": "REDOX-180",
+    "slug": "lead_oxide_aluminium",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lead_oxide", "coefficient": 3 },
+      { "chemicalId": "aluminium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "lead", "coefficient": 3 },
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 }
+    ],
+    "equation": "3PbO + 2Al → 3Pb + Al2O3",
+    "reactionType": ["redox","thermite"]
+  },  {
+    "id": "REDOX-181",
+    "slug": "hydrogen_silver_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "silver_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "equation": "2AgCl + H2 → 2Ag + 2HCl",
+    "reactionType": ["redox","reduction"]
+  },
+
+  {
+    "id": "REDOX-182",
+    "slug": "carbon_silver_chloride",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "silver_chloride", "coefficient": 2 },
+      { "chemicalId": "carbon", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "equation": "2AgCl + C → 2Ag + CO + Cl2",
+    "reactionType": ["redox"]
+  },
+
+  {
+    "id": "REDOX-183",
+    "slug": "copper_nitrate_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_oxide", "coefficient": 2 },
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2Cu(NO3)2 → 2CuO + 4NO2 + O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-184",
+    "slug": "lead_nitrate_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lead_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "lead_oxide", "coefficient": 2 },
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2Pb(NO3)2 → 2PbO + 4NO2 + O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-185",
+    "slug": "silver_nitrate_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2AgNO3 → 2Ag + 2NO2 + O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-186",
+    "slug": "potassium_nitrate_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_nitrite", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2KNO3 → 2KNO2 + O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-187",
+    "slug": "sodium_nitrate_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_nitrite", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2NaNO3 → 2NaNO2 + O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-188",
+    "slug": "mercuric_oxide_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "mercuric_oxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "mercury", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2HgO → 2Hg + O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-189",
+    "slug": "potassium_chlorate_heat",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium_chlorate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "equation": "2KClO3 → 2KCl + 3O2",
+    "reactionType": ["redox","decomposition"]
+  },
+
+  {
+    "id": "REDOX-190",
+    "slug": "hydrogen_chlorine_combination",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "equation": "H2 + Cl2 → 2HCl",
+    "reactionType": ["redox","combination"]
+  },  {
+    "id": "REDOX-191",
+    "slug": "sodium_hydrogen_combination",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_hydride", "coefficient": 2 }
+    ],
+    "equation": "2Na + H2 → 2NaH",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-192",
+    "slug": "calcium_hydrogen_combination",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydride", "coefficient": 1 }
+    ],
+    "equation": "Ca + H2 → CaH2",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-193",
+    "slug": "lithium_hydrogen_combination",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "lithium", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lithium_hydride", "coefficient": 2 }
+    ],
+    "equation": "2Li + H2 → 2LiH",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-194",
+    "slug": "potassium_hydrogen_combination",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "potassium", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_hydride", "coefficient": 2 }
+    ],
+    "equation": "2K + H2 → 2KH",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-195",
+    "slug": "calcium_nitrogen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 3 },
+      { "chemicalId": "nitrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_nitride", "coefficient": 1 }
+    ],
+    "equation": "3Ca + N2 → Ca3N2",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-196",
+    "slug": "aluminium_oxygen",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_oxide", "coefficient": 2 }
+    ],
+    "equation": "4Al + 3O2 → 2Al2O3",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-197",
+    "slug": "phosphorus_chlorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "phosphorus", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "phosphorus_trichloride", "coefficient": 2 }
+    ],
+    "equation": "2P + 3Cl2 → 2PCl3",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-198",
+    "slug": "phosphorus_excess_chlorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "phosphorus_trichloride", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "phosphorus_pentachloride", "coefficient": 2 }
+    ],
+    "equation": "2PCl3 + 2Cl2 → 2PCl5",
+    "reactionType": ["redox","oxidation"]
+  },
+
+  {
+    "id": "REDOX-199",
+    "slug": "sulfur_chlorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sulfur", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur_monochloride", "coefficient": 1 }
+    ],
+    "equation": "2S + Cl2 → S2Cl2",
+    "reactionType": ["redox","combination"]
+  },
+
+  {
+    "id": "REDOX-200",
+    "slug": "sulfur_fluorine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sulfur", "coefficient": 1 },
+      { "chemicalId": "fluorine", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur_hexafluoride", "coefficient": 1 }
+    ],
+    "equation": "S + 3F2 → SF6",
+    "reactionType": ["redox","combination"]
+  }
+]

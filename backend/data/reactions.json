@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hcl_naoh",
+    "reactants": ["HCl", "NaOH"],
+    "products": ["NaCl", "H2O"],
+    "equation": "HCl + NaOH → NaCl + H2O",
+    "type": "Neutralisation",
+    "classes": [10],
+    "visual": {
+      "finalColor": "#e8f4f8",
+      "heat": true,
+      "heatLevel": 2,
+      "gas": false,
+      "bubbles": false,
+      "precipitate": false
+    },
+    "observation": "Heat is released during neutralisation."
+  },
+  {
+    "id": "zinc_hcl",
+    "reactants": ["Zn", "HCl"],
+    "products": ["ZnCl2", "H2"],
+    "equation": "Zn + 2HCl → ZnCl2 + H2",
+    "type": "Displacement",
+    "classes": [10],
+    "visual": {
+      "finalColor": "#edf5f7",
+      "heat": false,
+      "heatLevel": 0,
+      "gas": true,
+      "bubbles": true,
+      "precipitate": false
+    },
+    "observation": "Gas bubbles are produced."
+  },
+  {
+    "id": "agno3_nacl",
+    "reactants": ["AgNO3", "NaCl"],
+    "products": ["AgCl", "NaNO3"],
+    "equation": "AgNO3 + NaCl → AgCl + NaNO3",
+    "type": "Double Displacement",
+    "classes": [10],
+    "visual": {
+      "finalColor": "#f4f4ef",
+      "heat": false,
+      "heatLevel": 0,
+      "gas": false,
+      "bubbles": false,
+      "precipitate": true,
+      "precipitateColor": "#f5f5f0"
+    },
+    "observation": "A white precipitate is formed."
+  },
+  {
+    "id": "iron_copper_sulfate",
+    "reactants": ["Fe", "CuSO4"],
+    "products": ["FeSO4", "Cu"],
+    "equation": "Fe + CuSO4 → FeSO4 + Cu",
+    "type": "Displacement",
+    "classes": [10],
+    "visual": {
+      "finalColor": "#a9c99d",
+      "heat": false,
+      "heatLevel": 0,
+      "gas": false,
+      "bubbles": false,
+      "precipitate": false,
+      "deposit": true,
+      "depositColor": "#b56f4c"
+    },
+    "observation": "The solution changes appearance and copper is deposited."
+  },
+  {
+    "id": "calcium_oxide_water",
+    "reactants": ["CaO", "H2O"],
+    "products": ["Ca(OH)2"],
+    "equation": "CaO + H2O → Ca(OH)2",
+    "type": "Combination",
+    "classes": [10],
+    "visual": {
+      "finalColor": "#eeeeea",
+      "heat": true,
+      "heatLevel": 3,
+      "gas": false,
+      "bubbles": false,
+      "precipitate": false
+    },
+    "observation": "Heat is released."
+  }
+]

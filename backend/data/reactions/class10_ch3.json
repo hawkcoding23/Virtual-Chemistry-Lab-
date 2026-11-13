@@ -1,0 +1,292 @@
+[
+  {
+    "id": "copper_oxygen",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Cu + O2 → 2CuO",
+    "reactionType": ["combination", "oxidation"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "copper surface becomes black",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "surfaceCoating": true,
+      "finalColor": "#222222"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  },
+
+  {
+    "id": "aluminium_oxygen",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_oxide", "coefficient": 2 }
+    ],
+    "equation": "4Al + 3O2 → 2Al2O3",
+    "reactionType": ["combination", "oxidation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "surfaceCoating": true,
+      "finalColor": "#dddddd"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  },
+
+  {
+    "id": "sodium_water",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2Na + 2H2O → 2NaOH + H2",
+    "reactionType": ["metal_water", "gas_evolution", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "reactionIntensity": "high",
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  },
+
+  {
+    "id": "calcium_water",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Ca + 2H2O → Ca(OH)2 + H2",
+    "reactionType": ["metal_water", "gas_evolution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#eeeeea"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  },
+
+  {
+    "id": "iron_steam",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "products": [
+      { "chemicalId": "iron_oxide_fe3o4", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 4 }
+    ],
+    "equation": "3Fe + 4H2O → Fe3O4 + 4H2",
+    "reactionType": ["metal_steam", "redox", "gas_evolution"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null,
+      "specialCondition": "steam"
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "steam": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#333333"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  },
+
+ 
+
+
+
+  {
+    "id": "zinc_copper_sulfate",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Zn + CuSO4 → ZnSO4 + Cu",
+    "reactionType": ["displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "blue colour of copper sulfate decreases",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "deposit": true,
+      "depositColor": "#b87333",
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e5eef0"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  },
+
+  {
+    "id": "copper_silver_nitrate",
+    "classes": [10],
+    "chapter": "Metals and Non-metals",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "silver_nitrate", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_nitrate", "coefficient": 1 },
+      { "chemicalId": "silver", "coefficient": 2 }
+    ],
+    "equation": "Cu + 2AgNO3 → Cu(NO3)2 + 2Ag",
+    "reactionType": ["displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "solution develops a blue colour",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "deposit": true,
+      "depositColor": "#d6d6d6",
+      "heat": false,
+      "glow": false,
+      "finalColor": "#5ba7d1"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 3
+    }
+  }
+]

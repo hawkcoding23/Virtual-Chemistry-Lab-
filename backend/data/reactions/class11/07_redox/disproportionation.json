@@ -1,0 +1,382 @@
+[
+  {
+    "id": "DISP-001",
+    "slug": "chlorine_disproportionation_in_cold_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_hypochlorite", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "Cl₂ + 2NaOH → NaCl + NaOCl + H₂O",
+    "reactionType": ["disproportionation", "redox"],
+    "conditions": {
+      "temperature": "cold",
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "DISP-002",
+    "slug": "chlorine_disproportionation_in_hot_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "chlorine", "coefficient": 3 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 5 },
+      { "chemicalId": "sodium_chlorate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "3Cl₂ + 6NaOH → 5NaCl + NaClO₃ + 3H₂O",
+    "reactionType": ["disproportionation", "redox"],
+    "conditions": {
+      "temperature": "hot",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "DISP-003",
+    "slug": "hydrogen_peroxide_decomposition",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_peroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "water", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "equation": "2H₂O₂ → 2H₂O + O₂",
+    "reactionType": ["disproportionation", "decomposition"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": "manganese_dioxide"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "DISP-004",
+    "slug": "white_phosphorus_disproportionation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "white_phosphorus", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "phosphine", "coefficient": 1 },
+      { "chemicalId": "sodium_hypophosphite", "coefficient": 3 }
+    ],
+    "equation": "P₄ + 3NaOH + 3H₂O → PH₃ + 3NaH₂PO₂",
+    "reactionType": ["disproportionation", "redox"],
+    "conditions": {
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "DISP-005",
+    "slug": "cuprous_ion_disproportionation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "cuprous_ion", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "cupric_ion", "coefficient": 1 }
+    ],
+    "equation": "2Cu⁺ → Cu + Cu²⁺",
+    "reactionType": ["disproportionation", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+,
+{
+  "id": "DISP-006",
+  "slug": "manganate_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "potassium_manganate", "coefficient": 3 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "manganese_dioxide", "coefficient": 1 },
+    { "chemicalId": "potassium_hydroxide", "coefficient": 4 }
+  ],
+  "equation": "3K₂MnO₄ + 2H₂O → 2KMnO₄ + MnO₂ + 4KOH",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-007",
+  "slug": "hypochlorite_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium_hypochlorite", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_chlorate", "coefficient": 1 },
+    { "chemicalId": "sodium_chloride", "coefficient": 2 }
+  ],
+  "equation": "3NaOCl → NaClO₃ + 2NaCl",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-008",
+  "slug": "bromine_disproportionation_in_alkali",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "bromine", "coefficient": 1 },
+    { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_bromide", "coefficient": 1 },
+    { "chemicalId": "sodium_hypobromite", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "Br₂ + 2NaOH → NaBr + NaOBr + H₂O",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "temperature": "cold",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-009",
+  "slug": "iodine_disproportionation_in_alkali",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "iodine", "coefficient": 3 },
+    { "chemicalId": "sodium_hydroxide", "coefficient": 6 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_iodide", "coefficient": 5 },
+    { "chemicalId": "sodium_iodate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 3 }
+  ],
+  "equation": "3I₂ + 6NaOH → 5NaI + NaIO₃ + 3H₂O",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-010",
+  "slug": "nitrogen_dioxide_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "nitrogen_dioxide", "coefficient": 2 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "nitric_acid", "coefficient": 1 },
+    { "chemicalId": "nitrous_acid", "coefficient": 1 }
+  ],
+  "equation": "2NO₂ + H₂O → HNO₃ + HNO₂",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-011",
+  "slug": "nitrous_acid_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "nitrous_acid", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "nitric_acid", "coefficient": 1 },
+    { "chemicalId": "nitric_oxide", "coefficient": 2 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "3HNO₂ → HNO₃ + 2NO + H₂O",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-012",
+  "slug": "sulfur_disproportionation_in_alkali",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sulfur", "coefficient": 4 },
+    { "chemicalId": "sodium_hydroxide", "coefficient": 6 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_sulfide", "coefficient": 2 },
+    { "chemicalId": "sodium_thiosulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 3 }
+  ],
+  "equation": "4S + 6NaOH → 2Na₂S + Na₂S₂O₃ + 3H₂O",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-013",
+  "slug": "phosphorous_acid_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "phosphorous_acid", "coefficient": 4 }
+  ],
+  "products": [
+    { "chemicalId": "phosphine", "coefficient": 1 },
+    { "chemicalId": "phosphoric_acid", "coefficient": 3 }
+  ],
+  "equation": "4H₃PO₃ → PH₃ + 3H₃PO₄",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-014",
+  "slug": "hypobromite_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium_hypobromite", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_bromate", "coefficient": 1 },
+    { "chemicalId": "sodium_bromide", "coefficient": 2 }
+  ],
+  "equation": "3NaOBr → NaBrO₃ + 2NaBr",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "DISP-015",
+  "slug": "hypoiodite_disproportionation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium_hypoiodite", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_iodate", "coefficient": 1 },
+    { "chemicalId": "sodium_iodide", "coefficient": 2 }
+  ],
+  "equation": "3NaOI → NaIO₃ + 2NaI",
+  "reactionType": ["disproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

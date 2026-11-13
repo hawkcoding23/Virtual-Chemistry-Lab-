@@ -1,0 +1,655 @@
+[
+  {
+    "id": "TH-EXO-001",
+    "slug": "hydrochloric_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HCl + NaOH → NaCl + H2O",
+    "reactionType": ["neutralisation", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-002",
+    "slug": "nitric_acid_potassium_hydroxide",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "nitric_acid", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_nitrate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HNO3 + KOH → KNO3 + H2O",
+    "reactionType": ["neutralisation", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-003",
+    "slug": "sulfuric_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "H2SO4 + 2NaOH → Na2SO4 + 2H2O",
+    "reactionType": ["neutralisation", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-004",
+    "slug": "quicklime_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "calcium_oxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 }
+    ],
+    "equation": "CaO + H2O → Ca(OH)2",
+    "reactionType": ["combination", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "milky_white",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#f5f5f5"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-005",
+    "slug": "magnesium_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 2 }
+    ],
+    "equation": "Mg + 2HCl → MgCl2 + H2",
+    "reactionType": ["displacement", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },  {
+    "id": "TH-EXO-006",
+    "slug": "zinc_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Zn + 2HCl → ZnCl2 + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-007",
+    "slug": "iron_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Fe + 2HCl → FeCl2 + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": "pale_green",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#d8ffd8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-008",
+    "slug": "aluminium_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_chloride", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 3 }
+    ],
+    "equation": "2Al + 6HCl → 2AlCl3 + 3H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-009",
+    "slug": "sodium_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "sodium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2Na + 2H2O → 2NaOH + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": true,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-010",
+    "slug": "potassium_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "potassium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2K + 2H2O → 2KOH + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": true,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },  {
+    "id": "TH-EXO-011",
+    "slug": "calcium_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Ca + 2H2O → Ca(OH)2 + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": "calcium_hydroxide",
+      "colorChange": "milky_white",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#f5f5f5"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-012",
+    "slug": "calcium_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "calcium", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Ca + 2HCl → CaCl2 + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-013",
+    "slug": "lithium_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "lithium", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "lithium_hydroxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2Li + 2H2O → 2LiOH + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-014",
+    "slug": "barium_water",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "barium", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "barium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Ba + 2H2O → Ba(OH)2 + H2",
+    "reactionType": ["displacement","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  },
+
+  {
+    "id": "TH-EXO-015",
+    "slug": "ammonia_hydrochloric_acid",
+    "classes": [11],
+    "chapter": "Thermodynamics",
+    "reactants": [
+      { "chemicalId": "ammonia", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ammonium_chloride", "coefficient": 1 }
+    ],
+    "equation": "NH3 + HCl → NH4Cl",
+    "reactionType": ["combination","exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "ammonium_chloride",
+      "colorChange": "white_fumes",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 5
+    }
+  }
+]

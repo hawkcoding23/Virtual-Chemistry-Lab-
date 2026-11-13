@@ -1,0 +1,521 @@
+[
+  {
+    "id": "EQ-AB-001",
+    "slug": "hydrochloric_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HCl + NaOH → NaCl + H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-002",
+    "slug": "hydrochloric_acid_potassium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HCl + KOH → KCl + H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-003",
+    "slug": "nitric_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "nitric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_nitrate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HNO3 + NaOH → NaNO3 + H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-004",
+    "slug": "nitric_acid_potassium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "nitric_acid", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_nitrate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HNO3 + KOH → KNO3 + H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-005",
+    "slug": "sulfuric_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "H2SO4 + 2NaOH → Na2SO4 + 2H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },  {
+    "id": "EQ-AB-006",
+    "slug": "sulfuric_acid_potassium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "sulfuric_acid", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "H2SO4 + 2KOH → K2SO4 + 2H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-007",
+    "slug": "acetic_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "acetic_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_acetate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH3COOH + NaOH → CH3COONa + H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-008",
+    "slug": "acetic_acid_potassium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "acetic_acid", "coefficient": 1 },
+      { "chemicalId": "potassium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "potassium_acetate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH3COOH + KOH → CH3COOK + H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-009",
+    "slug": "carbonic_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "carbonic_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_carbonate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "H2CO3 + 2NaOH → Na2CO3 + 2H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-AB-010",
+    "slug": "phosphoric_acid_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "phosphoric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "trisodium_phosphate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "H3PO4 + 3NaOH → Na3PO4 + 3H2O",
+    "reactionType": ["acid_base","neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#eef8ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },  {
+    "id": "EQ-AB-011",
+    "slug": "hydrochloric_acid_calcium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 },
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2HCl + Ca(OH)2 → CaCl2 + 2H2O",
+    "reactionType": ["acid_base","neutralisation"]
+  },
+
+  {
+    "id": "EQ-AB-012",
+    "slug": "nitric_acid_calcium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "nitric_acid", "coefficient": 2 },
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_nitrate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2HNO3 + Ca(OH)2 → Ca(NO3)2 + 2H2O",
+    "reactionType": ["acid_base","neutralisation"]
+  },
+
+  {
+    "id": "EQ-AB-013",
+    "slug": "acetic_acid_calcium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "acetic_acid", "coefficient": 2 },
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_acetate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2CH3COOH + Ca(OH)2 → Ca(CH3COO)2 + 2H2O",
+    "reactionType": ["acid_base","neutralisation"]
+  },
+
+  {
+    "id": "EQ-AB-014",
+    "slug": "hydrochloric_acid_ammonium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 },
+      { "chemicalId": "ammonium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ammonium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HCl + NH4OH → NH4Cl + H2O",
+    "reactionType": ["acid_base","neutralisation"]
+  },
+
+  {
+    "id": "EQ-AB-015",
+    "slug": "acetic_acid_ammonium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "acetic_acid", "coefficient": 1 },
+      { "chemicalId": "ammonium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ammonium_acetate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH3COOH + NH4OH → CH3COONH4 + H2O",
+    "reactionType": ["acid_base","neutralisation"]
+  }    ]

@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen",
+    "symbol": "H",
+    "formula": "H",
+    "atomicNumber": 1,
+    "state": "gas",
+    "category": "nonmetal"
+  },
+  {
+    "id": "helium",
+    "name": "Helium",
+    "symbol": "He",
+    "formula": "He",
+    "atomicNumber": 2,
+    "state": "gas",
+    "category": "noble_gas"
+  },
+  {
+    "id": "lithium",
+    "name": "Lithium",
+    "symbol": "Li",
+    "formula": "Li",
+    "atomicNumber": 3,
+    "state": "solid",
+    "category": "alkali_metal"
+  },
+  {
+    "id": "beryllium",
+    "name": "Beryllium",
+    "symbol": "Be",
+    "formula": "Be",
+    "atomicNumber": 4,
+    "state": "solid",
+    "category": "alkaline_earth_metal"
+  },
+  {
+    "id": "boron",
+    "name": "Boron",
+    "symbol": "B",
+    "formula": "B",
+    "atomicNumber": 5,
+    "state": "solid",
+    "category": "metalloid"
+  },
+  {
+    "id": "carbon",
+    "name": "Carbon",
+    "symbol": "C",
+    "formula": "C",
+    "atomicNumber": 6,
+    "state": "solid",
+    "category": "nonmetal"
+  },
+  {
+    "id": "nitrogen",
+    "name": "Nitrogen",
+    "symbol": "N",
+    "formula": "N",
+    "atomicNumber": 7,
+    "state": "gas",
+    "category": "nonmetal"
+  },
+  {
+    "id": "oxygen",
+    "name": "Oxygen",
+    "symbol": "O",
+    "formula": "O",
+    "atomicNumber": 8,
+    "state": "gas",
+    "category": "nonmetal"
+  },
+  {
+    "id": "fluorine",
+    "name": "Fluorine",
+    "symbol": "F",
+    "formula": "F",
+    "atomicNumber": 9,
+    "state": "gas",
+    "category": "halogen"
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "symbol": "Ne",
+    "formula": "Ne",
+    "atomicNumber": 10,
+    "state": "gas",
+    "category": "noble_gas"
+  },
+  {
+    "id": "sodium",
+    "name": "Sodium",
+    "symbol": "Na",
+    "formula": "Na",
+    "atomicNumber": 11,
+    "state": "solid",
+    "category": "alkali_metal"
+  },
+  {
+    "id": "magnesium",
+    "name": "Magnesium",
+    "symbol": "Mg",
+    "formula": "Mg",
+    "atomicNumber": 12,
+    "state": "solid",
+    "category": "alkaline_earth_metal"
+  },
+  {
+    "id": "aluminium",
+    "name": "Aluminium",
+    "symbol": "Al",
+    "formula": "Al",
+    "atomicNumber": 13,
+    "state": "solid",
+    "category": "post_transition_metal"
+  },
+  {
+    "id": "silicon",
+    "name": "Silicon",
+    "symbol": "Si",
+    "formula": "Si",
+    "atomicNumber": 14,
+    "state": "solid",
+    "category": "metalloid"
+  },
+  {
+    "id": "phosphorus",
+    "name": "Phosphorus",
+    "symbol": "P",
+    "formula": "P",
+    "atomicNumber": 15,
+    "state": "solid",
+    "category": "nonmetal"
+  },
+  {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "symbol": "S",
+    "formula": "S",
+    "atomicNumber": 16,
+    "state": "solid",
+    "category": "nonmetal"
+  },
+  {
+    "id": "chlorine",
+    "name": "Chlorine",
+    "symbol": "Cl",
+    "formula": "Cl",
+    "atomicNumber": 17,
+    "state": "gas",
+    "category": "halogen"
+  },
+  {
+    "id": "argon",
+    "name": "Argon",
+    "symbol": "Ar",
+    "formula": "Ar",
+    "atomicNumber": 18,
+    "state": "gas",
+    "category": "noble_gas"
+  },
+  {
+    "id": "potassium",
+    "name": "Potassium",
+    "symbol": "K",
+    "formula": "K",
+    "atomicNumber": 19,
+    "state": "solid",
+    "category": "alkali_metal"
+  },
+  {
+    "id": "calcium",
+    "name": "Calcium",
+    "symbol": "Ca",
+    "formula": "Ca",
+    "atomicNumber": 20,
+    "state": "solid",
+    "category": "alkaline_earth_metal"
+  },
+  {
+    "id": "scandium",
+    "name": "Scandium",
+    "symbol": "Sc",
+    "formula": "Sc",
+    "atomicNumber": 21,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "titanium",
+    "name": "Titanium",
+    "symbol": "Ti",
+    "formula": "Ti",
+    "atomicNumber": 22,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "vanadium",
+    "name": "Vanadium",
+    "symbol": "V",
+    "formula": "V",
+    "atomicNumber": 23,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "chromium",
+    "name": "Chromium",
+    "symbol": "Cr",
+    "formula": "Cr",
+    "atomicNumber": 24,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "manganese",
+    "name": "Manganese",
+    "symbol": "Mn",
+    "formula": "Mn",
+    "atomicNumber": 25,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "symbol": "Fe",
+    "formula": "Fe",
+    "atomicNumber": 26,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "cobalt",
+    "name": "Cobalt",
+    "symbol": "Co",
+    "formula": "Co",
+    "atomicNumber": 27,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "nickel",
+    "name": "Nickel",
+    "symbol": "Ni",
+    "formula": "Ni",
+    "atomicNumber": 28,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "symbol": "Cu",
+    "formula": "Cu",
+    "atomicNumber": 29,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "symbol": "Zn",
+    "formula": "Zn",
+    "atomicNumber": 30,
+    "state": "solid",
+    "category": "transition_metal"
+  },
+
+{
+  "id": "gallium",
+  "name": "Gallium",
+  "symbol": "Ga",
+  "formula": "Ga",
+  "atomicNumber": 31,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "germanium",
+  "name": "Germanium",
+  "symbol": "Ge",
+  "formula": "Ge",
+  "atomicNumber": 32,
+  "state": "solid",
+  "category": "metalloid"
+},
+{
+  "id": "arsenic",
+  "name": "Arsenic",
+  "symbol": "As",
+  "formula": "As",
+  "atomicNumber": 33,
+  "state": "solid",
+  "category": "metalloid"
+},
+{
+  "id": "selenium",
+  "name": "Selenium",
+  "symbol": "Se",
+  "formula": "Se",
+  "atomicNumber": 34,
+  "state": "solid",
+  "category": "nonmetal"
+},
+{
+  "id": "bromine",
+  "name": "Bromine",
+  "symbol": "Br",
+  "formula": "Br",
+  "atomicNumber": 35,
+  "state": "liquid",
+  "category": "halogen"
+},
+{
+  "id": "krypton",
+  "name": "Krypton",
+  "symbol": "Kr",
+  "formula": "Kr",
+  "atomicNumber": 36,
+  "state": "gas",
+  "category": "noble_gas"
+},
+{
+  "id": "rubidium",
+  "name": "Rubidium",
+  "symbol": "Rb",
+  "formula": "Rb",
+  "atomicNumber": 37,
+  "state": "solid",
+  "category": "alkali_metal"
+},
+{
+  "id": "strontium",
+  "name": "Strontium",
+  "symbol": "Sr",
+  "formula": "Sr",
+  "atomicNumber": 38,
+  "state": "solid",
+  "category": "alkaline_earth_metal"
+},
+{
+  "id": "yttrium",
+  "name": "Yttrium",
+  "symbol": "Y",
+  "formula": "Y",
+  "atomicNumber": 39,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "zirconium",
+  "name": "Zirconium",
+  "symbol": "Zr",
+  "formula": "Zr",
+  "atomicNumber": 40,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "niobium",
+  "name": "Niobium",
+  "symbol": "Nb",
+  "formula": "Nb",
+  "atomicNumber": 41,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "molybdenum",
+  "name": "Molybdenum",
+  "symbol": "Mo",
+  "formula": "Mo",
+  "atomicNumber": 42,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "technetium",
+  "name": "Technetium",
+  "symbol": "Tc",
+  "formula": "Tc",
+  "atomicNumber": 43,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "ruthenium",
+  "name": "Ruthenium",
+  "symbol": "Ru",
+  "formula": "Ru",
+  "atomicNumber": 44,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "rhodium",
+  "name": "Rhodium",
+  "symbol": "Rh",
+  "formula": "Rh",
+  "atomicNumber": 45,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "palladium",
+  "name": "Palladium",
+  "symbol": "Pd",
+  "formula": "Pd",
+  "atomicNumber": 46,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "silver",
+  "name": "Silver",
+  "symbol": "Ag",
+  "formula": "Ag",
+  "atomicNumber": 47,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "cadmium",
+  "name": "Cadmium",
+  "symbol": "Cd",
+  "formula": "Cd",
+  "atomicNumber": 48,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "indium",
+  "name": "Indium",
+  "symbol": "In",
+  "formula": "In",
+  "atomicNumber": 49,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "tin",
+  "name": "Tin",
+  "symbol": "Sn",
+  "formula": "Sn",
+  "atomicNumber": 50,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "antimony",
+  "name": "Antimony",
+  "symbol": "Sb",
+  "formula": "Sb",
+  "atomicNumber": 51,
+  "state": "solid",
+  "category": "metalloid"
+},
+{
+  "id": "tellurium",
+  "name": "Tellurium",
+  "symbol": "Te",
+  "formula": "Te",
+  "atomicNumber": 52,
+  "state": "solid",
+  "category": "metalloid"
+},
+{
+  "id": "iodine",
+  "name": "Iodine",
+  "symbol": "I",
+  "formula": "I",
+  "atomicNumber": 53,
+  "state": "solid",
+  "category": "halogen"
+},
+{
+  "id": "xenon",
+  "name": "Xenon",
+  "symbol": "Xe",
+  "formula": "Xe",
+  "atomicNumber": 54,
+  "state": "gas",
+  "category": "noble_gas"
+},
+{
+  "id": "caesium",
+  "name": "Caesium",
+  "symbol": "Cs",
+  "formula": "Cs",
+  "atomicNumber": 55,
+  "state": "solid",
+  "category": "alkali_metal"
+},
+{
+  "id": "barium",
+  "name": "Barium",
+  "symbol": "Ba",
+  "formula": "Ba",
+  "atomicNumber": 56,
+  "state": "solid",
+  "category": "alkaline_earth_metal"
+},
+{
+  "id": "lanthanum",
+  "name": "Lanthanum",
+  "symbol": "La",
+  "formula": "La",
+  "atomicNumber": 57,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "cerium",
+  "name": "Cerium",
+  "symbol": "Ce",
+  "formula": "Ce",
+  "atomicNumber": 58,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "praseodymium",
+  "name": "Praseodymium",
+  "symbol": "Pr",
+  "formula": "Pr",
+  "atomicNumber": 59,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "neodymium",
+  "name": "Neodymium",
+  "symbol": "Nd",
+  "formula": "Nd",
+  "atomicNumber": 60,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "promethium",
+  "name": "Promethium",
+  "symbol": "Pm",
+  "formula": "Pm",
+  "atomicNumber": 61,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "samarium",
+  "name": "Samarium",
+  "symbol": "Sm",
+  "formula": "Sm",
+  "atomicNumber": 62,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "europium",
+  "name": "Europium",
+  "symbol": "Eu",
+  "formula": "Eu",
+  "atomicNumber": 63,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "gadolinium",
+  "name": "Gadolinium",
+  "symbol": "Gd",
+  "formula": "Gd",
+  "atomicNumber": 64,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "terbium",
+  "name": "Terbium",
+  "symbol": "Tb",
+  "formula": "Tb",
+  "atomicNumber": 65,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "dysprosium",
+  "name": "Dysprosium",
+  "symbol": "Dy",
+  "formula": "Dy",
+  "atomicNumber": 66,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "holmium",
+  "name": "Holmium",
+  "symbol": "Ho",
+  "formula": "Ho",
+  "atomicNumber": 67,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "erbium",
+  "name": "Erbium",
+  "symbol": "Er",
+  "formula": "Er",
+  "atomicNumber": 68,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "thulium",
+  "name": "Thulium",
+  "symbol": "Tm",
+  "formula": "Tm",
+  "atomicNumber": 69,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "ytterbium",
+  "name": "Ytterbium",
+  "symbol": "Yb",
+  "formula": "Yb",
+  "atomicNumber": 70,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "lutetium",
+  "name": "Lutetium",
+  "symbol": "Lu",
+  "formula": "Lu",
+  "atomicNumber": 71,
+  "state": "solid",
+  "category": "lanthanide"
+},
+{
+  "id": "hafnium",
+  "name": "Hafnium",
+  "symbol": "Hf",
+  "formula": "Hf",
+  "atomicNumber": 72,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "tantalum",
+  "name": "Tantalum",
+  "symbol": "Ta",
+  "formula": "Ta",
+  "atomicNumber": 73,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "tungsten",
+  "name": "Tungsten",
+  "symbol": "W",
+  "formula": "W",
+  "atomicNumber": 74,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "rhenium",
+  "name": "Rhenium",
+  "symbol": "Re",
+  "formula": "Re",
+  "atomicNumber": 75,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "osmium",
+  "name": "Osmium",
+  "symbol": "Os",
+  "formula": "Os",
+  "atomicNumber": 76,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "iridium",
+  "name": "Iridium",
+  "symbol": "Ir",
+  "formula": "Ir",
+  "atomicNumber": 77,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "platinum",
+  "name": "Platinum",
+  "symbol": "Pt",
+  "formula": "Pt",
+  "atomicNumber": 78,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "gold",
+  "name": "Gold",
+  "symbol": "Au",
+  "formula": "Au",
+  "atomicNumber": 79,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "mercury",
+  "name": "Mercury",
+  "symbol": "Hg",
+  "formula": "Hg",
+  "atomicNumber": 80,
+  "state": "liquid",
+  "category": "transition_metal"
+},
+{
+  "id": "thallium",
+  "name": "Thallium",
+  "symbol": "Tl",
+  "formula": "Tl",
+  "atomicNumber": 81,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "lead",
+  "name": "Lead",
+  "symbol": "Pb",
+  "formula": "Pb",
+  "atomicNumber": 82,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "bismuth",
+  "name": "Bismuth",
+  "symbol": "Bi",
+  "formula": "Bi",
+  "atomicNumber": 83,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "polonium",
+  "name": "Polonium",
+  "symbol": "Po",
+  "formula": "Po",
+  "atomicNumber": 84,
+  "state": "solid",
+  "category": "metalloid"
+},
+{
+  "id": "astatine",
+  "name": "Astatine",
+  "symbol": "At",
+  "formula": "At",
+  "atomicNumber": 85,
+  "state": "solid",
+  "category": "halogen"
+},
+{
+  "id": "radon",
+  "name": "Radon",
+  "symbol": "Rn",
+  "formula": "Rn",
+  "atomicNumber": 86,
+  "state": "gas",
+  "category": "noble_gas"
+},
+{
+  "id": "francium",
+  "name": "Francium",
+  "symbol": "Fr",
+  "formula": "Fr",
+  "atomicNumber": 87,
+  "state": "solid",
+  "category": "alkali_metal"
+},
+{
+  "id": "radium",
+  "name": "Radium",
+  "symbol": "Ra",
+  "formula": "Ra",
+  "atomicNumber": 88,
+  "state": "solid",
+  "category": "alkaline_earth_metal"
+},
+{
+  "id": "actinium",
+  "name": "Actinium",
+  "symbol": "Ac",
+  "formula": "Ac",
+  "atomicNumber": 89,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "thorium",
+  "name": "Thorium",
+  "symbol": "Th",
+  "formula": "Th",
+  "atomicNumber": 90,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "protactinium",
+  "name": "Protactinium",
+  "symbol": "Pa",
+  "formula": "Pa",
+  "atomicNumber": 91,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "uranium",
+  "name": "Uranium",
+  "symbol": "U",
+  "formula": "U",
+  "atomicNumber": 92,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "neptunium",
+  "name": "Neptunium",
+  "symbol": "Np",
+  "formula": "Np",
+  "atomicNumber": 93,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "plutonium",
+  "name": "Plutonium",
+  "symbol": "Pu",
+  "formula": "Pu",
+  "atomicNumber": 94,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "americium",
+  "name": "Americium",
+  "symbol": "Am",
+  "formula": "Am",
+  "atomicNumber": 95,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "curium",
+  "name": "Curium",
+  "symbol": "Cm",
+  "formula": "Cm",
+  "atomicNumber": 96,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "berkelium",
+  "name": "Berkelium",
+  "symbol": "Bk",
+  "formula": "Bk",
+  "atomicNumber": 97,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "californium",
+  "name": "Californium",
+  "symbol": "Cf",
+  "formula": "Cf",
+  "atomicNumber": 98,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "einsteinium",
+  "name": "Einsteinium",
+  "symbol": "Es",
+  "formula": "Es",
+  "atomicNumber": 99,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "fermium",
+  "name": "Fermium",
+  "symbol": "Fm",
+  "formula": "Fm",
+  "atomicNumber": 100,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "mendelevium",
+  "name": "Mendelevium",
+  "symbol": "Md",
+  "formula": "Md",
+  "atomicNumber": 101,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "nobelium",
+  "name": "Nobelium",
+  "symbol": "No",
+  "formula": "No",
+  "atomicNumber": 102,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "lawrencium",
+  "name": "Lawrencium",
+  "symbol": "Lr",
+  "formula": "Lr",
+  "atomicNumber": 103,
+  "state": "solid",
+  "category": "actinide"
+},
+{
+  "id": "rutherfordium",
+  "name": "Rutherfordium",
+  "symbol": "Rf",
+  "formula": "Rf",
+  "atomicNumber": 104,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "dubnium",
+  "name": "Dubnium",
+  "symbol": "Db",
+  "formula": "Db",
+  "atomicNumber": 105,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "seaborgium",
+  "name": "Seaborgium",
+  "symbol": "Sg",
+  "formula": "Sg",
+  "atomicNumber": 106,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "bohrium",
+  "name": "Bohrium",
+  "symbol": "Bh",
+  "formula": "Bh",
+  "atomicNumber": 107,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "hassium",
+  "name": "Hassium",
+  "symbol": "Hs",
+  "formula": "Hs",
+  "atomicNumber": 108,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "meitnerium",
+  "name": "Meitnerium",
+  "symbol": "Mt",
+  "formula": "Mt",
+  "atomicNumber": 109,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "darmstadtium",
+  "name": "Darmstadtium",
+  "symbol": "Ds",
+  "formula": "Ds",
+  "atomicNumber": 110,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "roentgenium",
+  "name": "Roentgenium",
+  "symbol": "Rg",
+  "formula": "Rg",
+  "atomicNumber": 111,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "copernicium",
+  "name": "Copernicium",
+  "symbol": "Cn",
+  "formula": "Cn",
+  "atomicNumber": 112,
+  "state": "solid",
+  "category": "transition_metal"
+},
+{
+  "id": "nihonium",
+  "name": "Nihonium",
+  "symbol": "Nh",
+  "formula": "Nh",
+  "atomicNumber": 113,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "flerovium",
+  "name": "Flerovium",
+  "symbol": "Fl",
+  "formula": "Fl",
+  "atomicNumber": 114,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "moscovium",
+  "name": "Moscovium",
+  "symbol": "Mc",
+  "formula": "Mc",
+  "atomicNumber": 115,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "livermorium",
+  "name": "Livermorium",
+  "symbol": "Lv",
+  "formula": "Lv",
+  "atomicNumber": 116,
+  "state": "solid",
+  "category": "post_transition_metal"
+},
+{
+  "id": "tennessine",
+  "name": "Tennessine",
+  "symbol": "Ts",
+  "formula": "Ts",
+  "atomicNumber": 117,
+  "state": "solid",
+  "category": "halogen"
+},
+{
+  "id": "oganesson",
+  "name": "Oganesson",
+  "symbol": "Og",
+  "formula": "Og",
+  "atomicNumber": 118,
+  "state": "gas",
+  "category": "noble_gas"
+}
+]

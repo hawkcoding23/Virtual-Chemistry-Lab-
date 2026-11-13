@@ -1,0 +1,255 @@
+[
+  {
+    "id": "COMP-001",
+    "slug": "iron_disproportionation_to_ferrous",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "ferric_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "ferrous_chloride", "coefficient": 3 }
+    ],
+    "equation": "Fe + 2FeCl₃ → 3FeCl₂",
+    "reactionType": ["comproportionation", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "COMP-002",
+    "slug": "copper_and_cupric_to_cuprous",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 1 },
+      { "chemicalId": "cupric_ion", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "cuprous_ion", "coefficient": 2 }
+    ],
+    "equation": "Cu + Cu²⁺ → 2Cu⁺",
+    "reactionType": ["comproportionation", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "Advanced",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "COMP-003",
+    "slug": "iodide_and_iodate_to_iodine",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iodate", "coefficient": 1 },
+      { "chemicalId": "iodide", "coefficient": 5 },
+      { "chemicalId": "hydrogen_ion", "coefficient": 6 }
+    ],
+    "products": [
+      { "chemicalId": "iodine", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "IO₃⁻ + 5I⁻ + 6H⁺ → 3I₂ + 3H₂O",
+    "reactionType": ["comproportionation", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": "acidic_medium"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "COMP-004",
+    "slug": "sulfide_and_sulfate_to_sulfur",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "hydrogen_sulfide", "coefficient": 2 },
+      { "chemicalId": "sulfur_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur", "coefficient": 3 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "2H₂S + SO₂ → 3S + 2H₂O",
+    "reactionType": ["comproportionation", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "COMP-005",
+    "slug": "nitric_oxide_and_nitrogen_dioxide",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "nitric_oxide", "coefficient": 1 },
+      { "chemicalId": "nitrogen_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "dinitrogen_trioxide", "coefficient": 1 }
+    ],
+    "equation": "NO + NO₂ ⇌ N₂O₃",
+    "reactionType": ["comproportionation", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "Advanced",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+  ,
+{
+  "id": "COMP-006",
+  "slug": "manganese_dioxide_and_manganese_to_manganous_oxide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "manganese_dioxide", "coefficient": 1 },
+    { "chemicalId": "manganese", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "manganese_oxide", "coefficient": 2 }
+  ],
+  "equation": "MnO₂ + Mn → 2MnO",
+  "reactionType": ["comproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "COMP-007",
+  "slug": "permanganate_and_manganese_dioxide_to_manganate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "manganese_dioxide", "coefficient": 1 },
+    { "chemicalId": "potassium_hydroxide", "coefficient": 4 }
+  ],
+  "products": [
+    { "chemicalId": "potassium_manganate", "coefficient": 3 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "equation": "2KMnO₄ + MnO₂ + 4KOH → 3K₂MnO₄ + 2H₂O",
+  "reactionType": ["comproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "COMP-008",
+  "slug": "sulfur_and_sulfur_dioxide_to_thiosulfate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sulfur", "coefficient": 1 },
+    { "chemicalId": "sulfur_dioxide", "coefficient": 1 },
+    { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_thiosulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "S + SO₂ + 2NaOH → Na₂S₂O₃ + H₂O",
+  "reactionType": ["comproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "COMP-009",
+  "slug": "hypochlorite_and_chloride_to_chlorine",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium_hypochlorite", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "chlorine", "coefficient": 1 },
+    { "chemicalId": "sodium_chloride", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "NaOCl + 2HCl → Cl₂ + NaCl + H₂O",
+  "reactionType": ["comproportionation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": "acidic_medium"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "COMP-010",
+  "slug": "chlorate_and_chloride_to_chlorine_dioxide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium_chlorate", "coefficient": 2 },
+    { "chemicalId": "sodium_chloride", "coefficient": 1 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "chlorine_dioxide", "coefficient": 2 },
+    { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "equation": "2NaClO₃ + NaCl + 2H₂SO₄ → 2ClO₂ + Na₂SO₄ + 2H₂O",
+  "reactionType": ["comproportionation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": "acidic_medium"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

@@ -1,0 +1,388 @@
+[
+  {
+    "id": "ETH-001",
+    "slug": "complete_combustion_of_ethane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethane", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 7 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 4 },
+      { "chemicalId": "water", "coefficient": 6 }
+    ],
+    "equation": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
+    "reactionType": ["combustion"],
+    "conditions": {
+      "temperature": "high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "ETH-002",
+    "slug": "chlorination_of_ethane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethane", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chloroethane", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+    ],
+    "equation": "C₂H₆ + Cl₂ → C₂H₅Cl + HCl",
+    "reactionType": ["free_radical_substitution", "halogenation"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": "sunlight_uv"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "ETH-003",
+    "slug": "bromination_of_ethane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethane", "coefficient": 1 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "bromoethane", "coefficient": 1 },
+      { "chemicalId": "hydrobromic_acid", "coefficient": 1 }
+    ],
+    "equation": "C₂H₆ + Br₂ → C₂H₅Br + HBr",
+    "reactionType": ["free_radical_substitution", "halogenation"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": "sunlight_uv"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "ETH-004",
+    "slug": "dehydrogenation_of_ethane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethane", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ethene", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "C₂H₆ → C₂H₄ + H₂",
+    "reactionType": ["dehydrogenation"],
+    "conditions": {
+      "temperature": "500°C",
+      "heatRequired": true,
+      "catalyst": "chromium_oxide"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "ETH-005",
+    "slug": "cracking_of_ethane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethane", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "C₂H₆ → CH₄ + C + H₂",
+    "reactionType": ["cracking"],
+    "conditions": {
+      "temperature": "very_high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "Advanced",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+{
+  "id": "ETH-006",
+  "slug": "controlled_oxidation_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethanol", "coefficient": 2 }
+  ],
+  "equation": "2C₂H₆ + O₂ → 2C₂H₅OH",
+  "reactionType": ["oxidation"],
+  "conditions": {
+    "temperature": "high",
+    "heatRequired": true,
+    "catalyst": "copper"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-007",
+  "slug": "nitration_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 1 },
+    { "chemicalId": "nitric_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "nitroethane", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "C₂H₆ + HNO₃ → C₂H₅NO₂ + H₂O",
+  "reactionType": ["nitration"],
+  "conditions": {
+    "temperature": "420°C",
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-008",
+  "slug": "fluorination_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 1 },
+    { "chemicalId": "fluorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "fluoroethane", "coefficient": 1 },
+    { "chemicalId": "hydrogen_fluoride", "coefficient": 1 }
+  ],
+  "equation": "C₂H₆ + F₂ → C₂H₅F + HF",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "controlled_uv_light"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-009",
+  "slug": "iodination_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 1 },
+    { "chemicalId": "iodine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "iodoethane", "coefficient": 1 },
+    { "chemicalId": "hydrogen_iodide", "coefficient": 1 }
+  ],
+  "equation": "C₂H₆ + I₂ ⇌ C₂H₅I + HI",
+  "reactionType": ["halogenation"],
+  "conditions": {
+    "temperature": "high",
+    "heatRequired": true,
+    "catalyst": "oxidizing_agent"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-010",
+  "slug": "steam_reforming_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 1 },
+    { "chemicalId": "steam", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "carbon_monoxide", "coefficient": 2 },
+    { "chemicalId": "hydrogen", "coefficient": 5 }
+  ],
+  "equation": "C₂H₆ + 2H₂O → 2CO + 5H₂",
+  "reactionType": ["steam_reforming"],
+  "conditions": {
+    "temperature": "800°C",
+    "heatRequired": true,
+    "catalyst": "nickel"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-011",
+  "slug": "successive_chlorination_to_dichloroethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "chloroethane", "coefficient": 1 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "dichloroethane", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅Cl + Cl₂ → C₂H₄Cl₂ + HCl",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "sunlight_uv"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-012",
+  "slug": "partial_combustion_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 5 }
+  ],
+  "products": [
+    { "chemicalId": "carbon_monoxide", "coefficient": 4 },
+    { "chemicalId": "water", "coefficient": 6 }
+  ],
+  "equation": "2C₂H₆ + 5O₂ → 4CO + 6H₂O",
+  "reactionType": ["incomplete_combustion"],
+  "conditions": {
+    "temperature": "high",
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-013",
+  "slug": "pyrolysis_of_ethane_to_ethene",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethane", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethene", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "C₂H₆ → C₂H₄ + H₂",
+  "reactionType": ["pyrolysis", "dehydrogenation"],
+  "conditions": {
+    "temperature": "500°C",
+    "heatRequired": true,
+    "catalyst": "chromium_oxide"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-014",
+  "slug": "successive_bromination_of_ethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "bromoethane", "coefficient": 1 },
+    { "chemicalId": "bromine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "dibromoethane", "coefficient": 1 },
+    { "chemicalId": "hydrobromic_acid", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅Br + Br₂ → C₂H₄Br₂ + HBr",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "sunlight_uv"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "ETH-015",
+  "slug": "formation_of_ethyl_magnesium_bromide",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "bromoethane", "coefficient": 1 },
+    { "chemicalId": "magnesium", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethyl_magnesium_bromide", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅Br + Mg → C₂H₅MgBr",
+  "reactionType": ["grignard_reagent_preparation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "dry_ether"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+}
+]

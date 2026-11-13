@@ -1,0 +1,835 @@
+[
+  {
+    "id": "EQ-SOL-001",
+    "slug": "silver_nitrate_sodium_chloride",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_nitrate", "coefficient": 1 }
+    ],
+    "equation": "AgNO3 + NaCl → AgCl↓ + NaNO3",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "silver_chloride",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-002",
+    "slug": "silver_nitrate_potassium_bromide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 1 },
+      { "chemicalId": "potassium_bromide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_bromide", "coefficient": 1 },
+      { "chemicalId": "potassium_nitrate", "coefficient": 1 }
+    ],
+    "equation": "AgNO3 + KBr → AgBr↓ + KNO3",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "silver_bromide",
+      "colorChange": "cream_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#f6e8b1"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-003",
+    "slug": "silver_nitrate_potassium_iodide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_iodide", "coefficient": 1 },
+      { "chemicalId": "potassium_nitrate", "coefficient": 1 }
+    ],
+    "equation": "AgNO3 + KI → AgI↓ + KNO3",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "silver_iodide",
+      "colorChange": "yellow_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffe55c"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-004",
+    "slug": "lead_nitrate_potassium_iodide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "lead_nitrate", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "lead_iodide", "coefficient": 1 },
+      { "chemicalId": "potassium_nitrate", "coefficient": 2 }
+    ],
+    "equation": "Pb(NO3)2 + 2KI → PbI2↓ + 2KNO3",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "lead_iodide",
+      "colorChange": "golden_yellow_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": true,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffd400"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-005",
+    "slug": "barium_chloride_sodium_sulfate",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "barium_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "barium_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "equation": "BaCl2 + Na2SO4 → BaSO4↓ + 2NaCl",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "barium_sulfate",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },  {
+    "id": "EQ-SOL-006",
+    "slug": "copper_sulfate_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "copper_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "CuSO4 + 2NaOH → Cu(OH)2↓ + Na2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "copper_hydroxide",
+      "colorChange": "blue_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#4fa3ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-007",
+    "slug": "iron_chloride_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "iron_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "iron_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 3 }
+    ],
+    "equation": "FeCl3 + 3NaOH → Fe(OH)3↓ + 3NaCl",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "iron_hydroxide",
+      "colorChange": "reddish_brown_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#8b4513"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-008",
+    "slug": "iron_sulfate_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "iron_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "iron_ii_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "FeSO4 + 2NaOH → Fe(OH)2↓ + Na2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "iron_ii_hydroxide",
+      "colorChange": "dirty_green_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#6b8e23"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-009",
+    "slug": "zinc_sulfate_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "ZnSO4 + 2NaOH → Zn(OH)2↓ + Na2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "zinc_hydroxide",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-010",
+    "slug": "aluminium_chloride_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "aluminium_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 3 }
+    ],
+    "equation": "AlCl3 + 3NaOH → Al(OH)3↓ + 3NaCl",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "aluminium_hydroxide",
+      "colorChange": "white_gelatinous_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#f8f8f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },  {
+    "id": "EQ-SOL-011",
+    "slug": "magnesium_sulfate_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "magnesium_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "MgSO4 + 2NaOH → Mg(OH)2↓ + Na2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": { "heatRequired": false, "lightRequired": false, "catalyst": null },
+    "observations": {
+      "gas": null,
+      "precipitate": "magnesium_hydroxide",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": { "curriculum": "NCERT", "class": 11, "chapter": 6 }
+  },
+
+  {
+    "id": "EQ-SOL-012",
+    "slug": "calcium_chloride_sodium_carbonate",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "calcium_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_carbonate", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "equation": "CaCl2 + Na2CO3 → CaCO3↓ + 2NaCl",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": { "heatRequired": false, "lightRequired": false, "catalyst": null },
+    "observations": {
+      "gas": null,
+      "precipitate": "calcium_carbonate",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": { "curriculum": "NCERT", "class": 11, "chapter": 6 }
+  },
+
+  {
+    "id": "EQ-SOL-013",
+    "slug": "barium_nitrate_sodium_sulfate",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "barium_nitrate", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "barium_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_nitrate", "coefficient": 2 }
+    ],
+    "equation": "Ba(NO3)2 + Na2SO4 → BaSO4↓ + 2NaNO3",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": { "heatRequired": false, "lightRequired": false, "catalyst": null },
+    "observations": {
+      "gas": null,
+      "precipitate": "barium_sulfate",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": { "curriculum": "NCERT", "class": 11, "chapter": 6 }
+  },
+
+  {
+    "id": "EQ-SOL-014",
+    "slug": "lead_nitrate_sodium_sulfate",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "lead_nitrate", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "lead_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_nitrate", "coefficient": 2 }
+    ],
+    "equation": "Pb(NO3)2 + Na2SO4 → PbSO4↓ + 2NaNO3",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": { "heatRequired": false, "lightRequired": false, "catalyst": null },
+    "observations": {
+      "gas": null,
+      "precipitate": "lead_sulfate",
+      "colorChange": "white_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": { "curriculum": "NCERT", "class": 11, "chapter": 6 }
+  },
+
+  {
+    "id": "EQ-SOL-015",
+    "slug": "copper_sulfate_ammonium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "copper_sulfate", "coefficient": 1 },
+      { "chemicalId": "ammonium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_hydroxide", "coefficient": 1 },
+      { "chemicalId": "ammonium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "CuSO4 + 2NH4OH → Cu(OH)2↓ + (NH4)2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": { "heatRequired": false, "lightRequired": false, "catalyst": null },
+    "observations": {
+      "gas": null,
+      "precipitate": "copper_hydroxide",
+      "colorChange": "blue_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#4fa3ff"
+    },
+    "source": { "curriculum": "NCERT", "class": 11, "chapter": 6 }
+  },  {
+    "id": "EQ-SOL-016",
+    "slug": "nickel_sulfate_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "nickel_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "nickel_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "NiSO4 + 2NaOH → Ni(OH)2↓ + Na2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "nickel_hydroxide",
+      "colorChange": "green_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#6fbf73"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-017",
+    "slug": "cobalt_chloride_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "cobalt_chloride", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "cobalt_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "equation": "CoCl2 + 2NaOH → Co(OH)2↓ + 2NaCl",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "cobalt_hydroxide",
+      "colorChange": "blue_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#4d79ff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-018",
+    "slug": "manganese_sulfate_sodium_hydroxide",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "manganese_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "manganese_hydroxide", "coefficient": 1 },
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 }
+    ],
+    "equation": "MnSO4 + 2NaOH → Mn(OH)2↓ + Na2SO4",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "manganese_hydroxide",
+      "colorChange": "light_pink_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#f4b6c2"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-019",
+    "slug": "silver_nitrate_sodium_carbonate",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 2 },
+      { "chemicalId": "sodium_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_carbonate", "coefficient": 1 },
+      { "chemicalId": "sodium_nitrate", "coefficient": 2 }
+    ],
+    "equation": "2AgNO3 + Na2CO3 → Ag2CO3↓ + 2NaNO3",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "silver_carbonate",
+      "colorChange": "yellow_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffe680"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  },
+
+  {
+    "id": "EQ-SOL-020",
+    "slug": "silver_nitrate_trisodium_phosphate",
+    "classes": [11],
+    "chapter": "Equilibrium",
+    "reactants": [
+      { "chemicalId": "silver_nitrate", "coefficient": 3 },
+      { "chemicalId": "trisodium_phosphate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "silver_phosphate", "coefficient": 1 },
+      { "chemicalId": "sodium_nitrate", "coefficient": 3 }
+    ],
+    "equation": "3AgNO3 + Na3PO4 → Ag3PO4↓ + 3NaNO3",
+    "reactionType": ["double_displacement","precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "silver_phosphate",
+      "colorChange": "yellow_precipitate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#ffd54f"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 6
+    }
+  }
+]

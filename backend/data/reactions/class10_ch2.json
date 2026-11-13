@@ -1,0 +1,254 @@
+[
+  {
+    "id": "hydrochloric_acid_sodium_hydroxide",
+    "classes": [10],
+    "chapter": "Acids, Bases and Salts",
+    "reactants": [
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "HCl + NaOH → NaCl + H2O",
+    "reactionType": ["neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 2
+    }
+  },
+
+  {
+    "id": "sodium_carbonate_hydrochloric_acid",
+    "classes": [10],
+    "chapter": "Acids, Bases and Salts",
+    "reactants": [
+      { "chemicalId": "sodium_carbonate", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "Na2CO3 + 2HCl → 2NaCl + H2O + CO2",
+    "reactionType": ["acid_carbonate", "gas_evolution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 2
+    }
+  },
+
+  {
+    "id": "sodium_hydrogen_carbonate_hydrochloric_acid",
+    "classes": [10],
+    "chapter": "Acids, Bases and Salts",
+    "reactants": [
+      { "chemicalId": "sodium_hydrogen_carbonate", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "NaHCO3 + HCl → NaCl + H2O + CO2",
+    "reactionType": ["acid_hydrogencarbonate", "gas_evolution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 2
+    }
+  },
+
+ 
+  {
+    "id": "calcium_carbonate_excess_carbon_dioxide",
+    "classes": [10],
+    "chapter": "Acids, Bases and Salts",
+    "reactants": [
+      { "chemicalId": "calcium_carbonate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydrogen_carbonate", "coefficient": 1 }
+    ],
+    "equation": "CaCO3 + H2O + CO2 → Ca(HCO3)2",
+    "reactionType": ["combination"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "milky appearance clears",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "dissolvePrecipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#dceff5"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 2
+    }
+  },
+
+  {
+    "id": "copper_oxide_hydrochloric_acid",
+    "classes": [10],
+    "chapter": "Acids, Bases and Salts",
+    "reactants": [
+      { "chemicalId": "copper_oxide", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "copper_chloride", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CuO + 2HCl → CuCl2 + H2O",
+    "reactionType": ["neutralisation", "metal_oxide_acid"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "blue-green solution forms",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#4f9c91"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 2
+    }
+  },
+
+  {
+    "id": "zinc_hydrochloric_acid",
+    "classes": [10],
+    "chapter": "Acids, Bases and Salts",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_chloride", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "Zn + 2HCl → ZnCl2 + H2",
+    "reactionType": ["displacement", "gas_evolution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "hydrogen",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+   "curriculumReferences": [
+  {
+    "curriculum": "NCERT",
+    "class": 10,
+    "chapter": 2,
+    "chapterName": "Acids, Bases and Salts"
+  },
+  {
+    "curriculum": "NCERT",
+    "class": 10,
+    "chapter": 3,
+    "chapterName": "Metals and Non-metals"
+  }
+]
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "id": "calcium_hydrogen_carbonate",
+    "name": "Calcium Hydrogen Carbonate",
+    "formula": "Ca(HCO₃)₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8f2ed"
+  },
+  {
+    "id": "copper_chloride",
+    "name": "Copper(II) Chloride",
+    "formula": "CuCl₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#5ba99b"
+  },
+  {
+    "id": "copper_nitrate",
+    "name": "Copper(II) Nitrate",
+    "formula": "Cu(NO₃)₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#40a6c7"
+  },
+  {
+    "id": "copper_oxide",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#16191d"
+  },
+  {
+    "id": "copper_sulfate",
+    "name": "Copper(II) Sulfate",
+    "formula": "CuSO₄",
+    "state": "solid",
+    "category": "salt",
+    "color": "#36a9dc"
+  },
+  {
+    "id": "ethanoic_acid",
+    "name": "Ethanoic Acid",
+    "formula": "CH₃COOH",
+    "state": "liquid",
+    "category": "acid",
+    "color": "#efb94f"
+  },
+  {
+    "id": "ethyl_ethanoate",
+    "name": "Ethyl Ethanoate",
+    "formula": "CH₃COOC₂H₅",
+    "state": "liquid",
+    "category": "ester",
+    "color": "#e7c995"
+  },
+  {
+    "id": "iron_oxide_fe3o4",
+    "name": "Iron Oxide (Fe₃O₄)",
+    "formula": "Fe₃O₄",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#28252a"
+  },
+  {
+    "id": "iron_sulfate",
+    "name": "Iron(II) Sulfate",
+    "formula": "FeSO₄",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#93b887"
+  },
+  {
+    "id": "lead_iodide",
+    "name": "Lead(II) Iodide",
+    "formula": "PbI₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f2cf41"
+  },
+  {
+    "id": "lead_nitrate",
+    "name": "Lead(II) Nitrate",
+    "formula": "Pb(NO₃)₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f1f0e9"
+  },
+  {
+    "id": "sodium_ethanoate",
+    "name": "Sodium Ethanoate",
+    "formula": "CH₃COONa",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f4f2ea"
+  },
+  {
+    "id": "sodium_hydrogen_carbonate",
+    "name": "Sodium Hydrogen Carbonate",
+    "formula": "NaHCO₃",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f4f2ea"
+  },
+  {
+    "id": "iron_oxide_fe2o3",
+    "name": "Iron(III) Oxide",
+    "formula": "Fe₂O₃",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#8b3f27"
+  },
+  {
+    "id": "lead_oxide",
+    "name": "Lead(II) Oxide",
+    "formula": "PbO",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#e6c94e"
+  },
+  {
+    "id": "zinc_oxide",
+    "name": "Zinc Oxide",
+    "formula": "ZnO",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#f5f2e9"
+  },
+  {
+    "id": "lead_chloride",
+    "name": "Lead(II) Chloride",
+    "formula": "PbCl₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f4f3ec"
+  },
+  {
+    "id": "sulfur_dioxide",
+    "name": "Sulfur Dioxide",
+    "formula": "SO₂",
+    "state": "gas",
+    "category": "gas",
+    "color": "#e0e8eb"
+  },
+  {
+    "id": "sulfur_trioxide",
+    "name": "Sulfur Trioxide",
+    "formula": "SO₃",
+    "state": "gas",
+    "category": "gas",
+    "color": "#d9e2e7"
+  },
+  {
+    "id": "nitrogen_dioxide",
+    "name": "Nitrogen Dioxide",
+    "formula": "NO₂",
+    "state": "gas",
+    "category": "gas",
+    "color": "#9a5733"
+  },
+  {
+    "id": "carbon_monoxide",
+    "name": "Carbon Monoxide",
+    "formula": "CO",
+    "state": "gas",
+    "category": "gas",
+    "color": "#dce7ea"
+  },
+  {
+    "id": "manganese_dioxide",
+    "name": "Manganese Dioxide",
+    "formula": "MnO₂",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#39343a"
+  },
+  {
+    "id": "manganese_chloride",
+    "name": "Manganese(II) Chloride",
+    "formula": "MnCl₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e9e9df"
+  },
+  {
+    "id": "barium_hydroxide",
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)₂",
+    "state": "solid",
+    "category": "base",
+    "color": "#f1eee5"
+  },
+  {
+    "id": "barium_chloride",
+    "name": "Barium Chloride",
+    "formula": "BaCl₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e7edf0"
+  },
+  {
+    "id": "aluminium_sulfate",
+    "name": "Aluminium Sulfate",
+    "formula": "Al₂(SO₄)₃",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f0ede6"
+  },
+  {
+    "id": "barium_sulfate",
+    "name": "Barium Sulfate",
+    "formula": "BaSO₄",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f9f8f2"
+  },
+  {
+    "id": "aluminium_chloride",
+    "name": "Aluminium Chloride",
+    "formula": "AlCl₃",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8ecee"
+  },
+  {
+    "id": "calcium_nitrate",
+    "name": "Calcium Nitrate",
+    "formula": "Ca(NO₃)₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8eef0"
+  },
+  {
+    "id": "sodium_nitrate",
+    "name": "Sodium Nitrate",
+    "formula": "NaNO₃",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#eef0e9"
+  },
+  {
+    "id": "potassium_sulfate",
+    "name": "Potassium Sulfate",
+    "formula": "K₂SO₄",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f1f0e9"
+  },
+  {
+    "id": "barium_iodide",
+    "name": "Barium Iodide",
+    "formula": "BaI₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8ebed"
+  },
+  {
+    "id": "potassium_bromide",
+    "name": "Potassium Bromide",
+    "formula": "KBr",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8ecee"
+  },
+  {
+    "id": "potassium_iodide",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e9edef"
+  },
+  {
+    "id": "barium_bromide",
+    "name": "Barium Bromide",
+    "formula": "BaBr₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e9edef"
+  },
+  {
+    "id": "zinc_carbonate",
+    "name": "Zinc Carbonate",
+    "formula": "ZnCO₃",
+    "state": "solid",
+    "category": "salt",
+    "color": "#e6e4da"
+  },
+  {
+    "id": "magnesium_chloride",
+    "name": "Magnesium Chloride",
+    "formula": "MgCl₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#edf0ea"
+  },
+  {
+    "id": "sodium_oxide",
+    "name": "Sodium Oxide",
+    "formula": "Na₂O",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#f2eee4"
+  },
+  {
+    "id": "sodium_zincate",
+    "name": "Sodium Zincate",
+    "formula": "Na₂ZnO₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#ebefeb"
+  },
+  {
+    "id": "calcium_oxychloride",
+    "name": "Bleaching Powder",
+    "formula": "CaOCl₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f4f1e8"
+  },
+  {
+    "id": "calcium_sulfate_dihydrate",
+    "name": "Gypsum",
+    "formula": "CaSO₄·2H₂O",
+    "state": "solid",
+    "category": "salt",
+    "color": "#e8e1cf"
+  },
+  {
+    "id": "calcium_sulfate_hemihydrate",
+    "name": "Plaster of Paris",
+    "formula": "CaSO₄·½H₂O",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f4f2e9"
+  },
+  {
+    "id": "sodium_carbonate_decahydrate",
+    "name": "Washing Soda",
+    "formula": "Na₂CO₃·10H₂O",
+    "state": "solid",
+    "category": "salt",
+    "color": "#eef0e9"
+  },
+  {
+    "id": "glucose",
+    "name": "Glucose",
+    "formula": "C₆H₁₂O₆",
+    "state": "aqueous",
+    "category": "organic",
+    "color": "#dec999"
+  },
+  {
+    "id": "copper_sulfate_pentahydrate",
+    "name": "Hydrated Copper(II) Sulfate",
+    "formula": "CuSO₄·5H₂O",
+    "state": "solid",
+    "category": "salt",
+    "color": "#36a9dc"
+  },
+  {
+    "id": "zinc_nitrate",
+    "name": "Zinc Nitrate",
+    "formula": "Zn(NO₃)₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8eef0"
+  },
+  {
+    "id": "sodium_ethoxide",
+    "name": "Sodium Ethoxide",
+    "formula": "C₂H₅ONa",
+    "state": "solid",
+    "category": "salt",
+    "color": "#eeeade"
+  },
+  {
+    "id": "basic_copper_carbonate",
+    "name": "Basic Copper Carbonate (Patina)",
+    "formula": "CuCO₃·Cu(OH)₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#4aa58f"
+  },
+  {
+    "id": "mercury_sulfide",
+    "name": "Mercury(II) Sulfide (Cinnabar)",
+    "formula": "HgS",
+    "state": "solid",
+    "category": "salt",
+    "color": "#b44743"
+  },
+  {
+    "id": "potassium_permanganate",
+    "name": "Potassium Permanganate",
+    "formula": "KMnO₄",
+    "state": "solid",
+    "category": "salt",
+    "color": "#6a1b9a"
+  },
+  {
+    "id": "potassium_dichromate",
+    "name": "Potassium Dichromate",
+    "formula": "K₂Cr₂O₇",
+    "state": "solid",
+    "category": "salt",
+    "color": "#e65100"
+  },
+  {
+    "id": "oxalic_acid",
+    "name": "Oxalic Acid",
+    "formula": "H₂C₂O₄",
+    "state": "solid",
+    "category": "acid",
+    "color": "#f5f5f0"
+  },
+  {
+    "id": "manganese_sulfate",
+    "name": "Manganese(II) Sulfate",
+    "formula": "MnSO₄",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#f8bbd0"
+  },
+  {
+    "id": "chromium_sulfate",
+    "name": "Chromium(III) Sulfate",
+    "formula": "Cr₂(SO₄)₃",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#2e7d32"
+  },
+  {
+    "id": "hydrogen_peroxide",
+    "name": "Hydrogen Peroxide",
+    "formula": "H₂O₂",
+    "state": "liquid",
+    "category": "oxide",
+    "color": "#e0f7fa"
+  },
+  {
+    "id": "potassium_chlorate",
+    "name": "Potassium Chlorate",
+    "formula": "KClO₃",
+    "state": "solid",
+    "category": "salt",
+    "color": "#fafafa"
+  },
+  {
+    "id": "potassium_ferrocyanide",
+    "name": "Potassium Ferrocyanide",
+    "formula": "K₄[Fe(CN)₆]",
+    "state": "solid",
+    "category": "salt",
+    "color": "#fbc02d"
+  },
+  {
+    "id": "prussian_blue",
+    "name": "Prussian Blue",
+    "formula": "Fe₄[Fe(CN)₆]₃",
+    "state": "solid",
+    "category": "salt",
+    "color": "#0d2b45"
+  },
+  {
+    "id": "potassium_thiocyanate",
+    "name": "Potassium Thiocyanate",
+    "formula": "KSCN",
+    "state": "solid",
+    "category": "salt",
+    "color": "#f5f5f5"
+  },
+  {
+    "id": "iron_thiocyanate",
+    "name": "Iron(III) Thiocyanate",
+    "formula": "Fe(SCN)₃",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#880e4f"
+  },
+  {
+    "id": "nickel_chloride",
+    "name": "Nickel(II) Chloride",
+    "formula": "NiCl₂",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#43a047"
+  },
+  {
+    "id": "dimethylglyoxime",
+    "name": "Dimethylglyoxime (DMG)",
+    "formula": "C₄H₈N₂O₂",
+    "state": "solid",
+    "category": "organic",
+    "color": "#fffde7"
+  },
+  {
+    "id": "nickel_dmg_complex",
+    "name": "Nickel DMG Complex",
+    "formula": "Ni(C₄H₇N₂O₂)₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#b71c1c"
+  },
+  {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "formula": "NH₃",
+    "state": "gas",
+    "category": "gas",
+    "color": "#e1f5fe"
+  },
+  {
+    "id": "copper_tetraammine_sulfate",
+    "name": "Tetraamminecopper(II) Sulfate",
+    "formula": "[Cu(NH₃)₄]SO₄",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#1565c0"
+  },
+  {
+    "id": "methyl_chloride",
+    "name": "Chloromethane",
+    "formula": "CH₃Cl",
+    "state": "gas",
+    "category": "organic",
+    "color": "#e0f2f1"
+  },
+  {
+    "id": "methyl_bromide",
+    "name": "Bromomethane",
+    "formula": "CH₃Br",
+    "state": "gas",
+    "category": "organic",
+    "color": "#eceff1"
+  },
+  {
+    "id": "methyl_fluoride",
+    "name": "Fluoromethane",
+    "formula": "CH₃F",
+    "state": "gas",
+    "category": "organic",
+    "color": "#e8eaf6"
+  },
+  {
+    "id": "silver_fluoride",
+    "name": "Silver(I) Fluoride",
+    "formula": "AgF",
+    "state": "solid",
+    "category": "salt",
+    "color": "#ffecb3"
+  },
+  {
+    "id": "ethyl_chloride",
+    "name": "Chloroethane",
+    "formula": "C₂H₅Cl",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#e8f5e9"
+  },
+  {
+    "id": "ethyl_bromide",
+    "name": "Bromoethane",
+    "formula": "C₂H₅Br",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#e0f2f1"
+  },
+  {
+    "id": "ethyl_iodide",
+    "name": "Iodoethane",
+    "formula": "C₂H₅I",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#fff8e1"
+  },
+  {
+    "id": "sodium_iodide",
+    "name": "Sodium Iodide",
+    "formula": "NaI",
+    "state": "solid",
+    "category": "salt",
+    "color": "#fafafa"
+  },
+  {
+    "id": "chloroform",
+    "name": "Chloroform",
+    "formula": "CHCl₃",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#e0f7fa"
+  },
+  {
+    "id": "chlorobenzene",
+    "name": "Chlorobenzene",
+    "formula": "C₆H₅Cl",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#eceff1"
+  },
+  {
+    "id": "biphenyl",
+    "name": "Biphenyl",
+    "formula": "C₁₂H₁₀",
+    "state": "solid",
+    "category": "organic",
+    "color": "#f5f5f5"
+  },
+  {
+    "id": "phenol",
+    "name": "Phenol",
+    "formula": "C₆H₅OH",
+    "state": "solid",
+    "category": "organic",
+    "color": "#ffebee"
+  },
+  {
+    "id": "benzene",
+    "name": "Benzene",
+    "formula": "C₆H₆",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#ede7f6"
+  },
+  {
+    "id": "toluene",
+    "name": "Toluene",
+    "formula": "C₆H₅CH₃",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#f3e5f5"
+  },
+  {
+    "id": "diethyl_ether",
+    "name": "Diethyl Ether",
+    "formula": "(C₂H₅)₂O",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#e1f5fe"
+  },
+  {
+    "id": "salicylic_acid",
+    "name": "Salicylic Acid",
+    "formula": "C₇H₆O₃",
+    "state": "solid",
+    "category": "organic",
+    "color": "#f9fbe7"
+  },
+  {
+    "id": "salicylaldehyde",
+    "name": "Salicylaldehyde",
+    "formula": "C₇H₆O₂",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#fffde7"
+  },
+  {
+    "id": "acetaldehyde",
+    "name": "Acetaldehyde (Ethanal)",
+    "formula": "CH₃CHO",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#f1f8e9"
+  },
+  {
+    "id": "formaldehyde",
+    "name": "Formaldehyde (Methanal)",
+    "formula": "HCHO",
+    "state": "gas",
+    "category": "organic",
+    "color": "#f9fbe7"
+  },
+  {
+    "id": "sodium_formate",
+    "name": "Sodium Formate",
+    "formula": "HCOONa",
+    "state": "solid",
+    "category": "salt",
+    "color": "#fafafa"
+  },
+  {
+    "id": "aldol_product",
+    "name": "3-Hydroxybutanal (Aldol)",
+    "formula": "C₄H₈O₂",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#fff8e1"
+  },
+  {
+    "id": "acetone",
+    "name": "Acetone (Propanone)",
+    "formula": "CH₃COCH₃",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#e0f7fa"
+  },
+  {
+    "id": "iodoform",
+    "name": "Iodoform (Triiodomethane)",
+    "formula": "CHI₃",
+    "state": "solid",
+    "category": "organic",
+    "color": "#fdd835"
+  },
+  {
+    "id": "copper_i_oxide",
+    "name": "Copper(I) Oxide",
+    "formula": "Cu₂O",
+    "state": "solid",
+    "category": "oxide",
+    "color": "#b71c1c"
+  },
+  {
+    "id": "silver_mirror",
+    "name": "Silver Mirror",
+    "formula": "Ag",
+    "state": "solid",
+    "category": "element",
+    "color": "#cfd8dc"
+  },
+  {
+    "id": "aniline",
+    "name": "Aniline (Benzenamine)",
+    "formula": "C₆H₅NH₂",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#ffe082"
+  },
+  {
+    "id": "phenyl_isocyanide",
+    "name": "Phenyl Isocyanide",
+    "formula": "C₆H₅NC",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#cfd8dc"
+  },
+  {
+    "id": "sodium_nitrite",
+    "name": "Sodium Nitrite",
+    "formula": "NaNO₂",
+    "state": "solid",
+    "category": "salt",
+    "color": "#fffde7"
+  },
+  {
+    "id": "benzene_diazonium_chloride",
+    "name": "Benzene Diazonium Chloride",
+    "formula": "C₆H₅N₂Cl",
+    "state": "aqueous",
+    "category": "salt",
+    "color": "#e8eaf6"
+  },
+  {
+    "id": "two_naphthol",
+    "name": "2-Naphthol",
+    "formula": "C₁₀H₇OH",
+    "state": "solid",
+    "category": "organic",
+    "color": "#fff9c4"
+  },
+  {
+    "id": "orange_azo_dye",
+    "name": "Orange Azo Dye (1-Phenylazo-2-naphthol)",
+    "formula": "C₁₆H₁₂N₂O",
+    "state": "solid",
+    "category": "organic",
+    "color": "#ff6f00"
+  },
+  {
+    "id": "methane",
+    "name": "Methane",
+    "formula": "CH₄",
+    "state": "gas",
+    "category": "gas",
+    "color": "#e1f5fe"
+  },
+  {
+    "id": "ethane",
+    "name": "Ethane",
+    "formula": "C₂H₆",
+    "state": "gas",
+    "category": "gas",
+    "color": "#e0f2f1"
+  },
+  {
+    "id": "ethene",
+    "name": "Ethene (Ethylene)",
+    "formula": "C₂H₄",
+    "state": "gas",
+    "category": "gas",
+    "color": "#e0f7fa"
+  },
+  {
+    "id": "ethyne",
+    "name": "Ethyne (Acetylene)",
+    "formula": "C₂H₂",
+    "state": "gas",
+    "category": "gas",
+    "color": "#e1f5fe"
+  },
+  {
+    "id": "methanol",
+    "name": "Methanol",
+    "formula": "CH₃OH",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#e8f5e9"
+  },
+  {
+    "id": "ethene_dibromide",
+    "name": "1,2-Dibromoethane",
+    "formula": "C₂H₄Br₂",
+    "state": "liquid",
+    "category": "organic",
+    "color": "#fff9c4"
+  }
+]

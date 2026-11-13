@@ -1,0 +1,391 @@
+[
+  {
+    "id": "ETOH-001",
+    "slug": "combustion_of_ethanol",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+    "reactionType": ["combustion"],
+    "conditions": {
+      "temperature": "high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "ETOH-002",
+    "slug": "oxidation_of_ethanol_to_ethanal",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ethanal", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "C₂H₅OH + [O] → CH₃CHO + H₂O",
+    "reactionType": ["oxidation"],
+    "conditions": {
+      "temperature": "warm",
+      "heatRequired": true,
+      "catalyst": "acidified_potassium_dichromate"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "ETOH-003",
+    "slug": "oxidation_of_ethanol_to_ethanoic_acid",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "C₂H₅OH + 2[O] → CH₃COOH + H₂O",
+    "reactionType": ["oxidation"],
+    "conditions": {
+      "temperature": "reflux",
+      "heatRequired": true,
+      "catalyst": "acidified_potassium_dichromate"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "ETOH-004",
+    "slug": "reaction_of_ethanol_with_sodium",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 2 },
+      { "chemicalId": "sodium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ethoxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+    "reactionType": ["metal_alcohol_reaction"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "ETOH-005",
+    "slug": "reaction_of_ethanol_with_hydrogen_chloride",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chloroethane", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "C₂H₅OH + HCl → C₂H₅Cl + H₂O",
+    "reactionType": ["substitution"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": "anhydrous_ZnCl₂"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+{
+  "id": "ETOH-006",
+  "slug": "dehydration_of_ethanol_to_ethene",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethene", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH → CH₂=CH₂ + H₂O",
+  "reactionType": ["dehydration", "elimination"],
+  "conditions": {
+    "temperature": "443 K",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-007",
+  "slug": "dehydration_of_ethanol_to_diethyl_ether",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "diethyl_ether", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+  "reactionType": ["dehydration"],
+  "conditions": {
+    "temperature": "413 K",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-008",
+  "slug": "esterification_of_ethanol",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 },
+    { "chemicalId": "ethanoic_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethyl_ethanoate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH + CH₃COOH ⇌ CH₃COOC₂H₅ + H₂O",
+  "reactionType": ["esterification"],
+  "conditions": {
+    "temperature": "heat",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-009",
+  "slug": "reaction_of_ethanol_with_phosphorus_pentachloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 },
+    { "chemicalId": "phosphorus_pentachloride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "chloroethane", "coefficient": 1 },
+    { "chemicalId": "phosphoryl_chloride", "coefficient": 1 },
+    { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH + PCl₅ → C₂H₅Cl + POCl₃ + HCl",
+  "reactionType": ["substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-010",
+  "slug": "reaction_of_ethanol_with_thionyl_chloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 },
+    { "chemicalId": "thionyl_chloride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "chloroethane", "coefficient": 1 },
+    { "chemicalId": "sulfur_dioxide", "coefficient": 1 },
+    { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH + SOCl₂ → C₂H₅Cl + SO₂ + HCl",
+  "reactionType": ["substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "pyridine"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-011",
+  "slug": "reaction_of_ethanol_with_phosphorus_tribromide",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 3 },
+    { "chemicalId": "phosphorus_tribromide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "bromoethane", "coefficient": 3 },
+    { "chemicalId": "phosphorous_acid", "coefficient": 1 }
+  ],
+  "equation": "3C₂H₅OH + PBr₃ → 3C₂H₅Br + H₃PO₃",
+  "reactionType": ["substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-012",
+  "slug": "reaction_of_ethanol_with_acetyl_chloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 },
+    { "chemicalId": "acetyl_chloride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethyl_ethanoate", "coefficient": 1 },
+    { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH + CH₃COCl → CH₃COOC₂H₅ + HCl",
+  "reactionType": ["esterification", "nucleophilic_substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-013",
+  "slug": "reaction_of_ethanol_with_sodium_hydride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 },
+    { "chemicalId": "sodium_hydride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_ethoxide", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH + NaH → C₂H₅ONa + H₂",
+  "reactionType": ["acid_base"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-014",
+  "slug": "reaction_of_ethanol_with_concentrated_sulfuric_acid",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 1 },
+    { "chemicalId": "concentrated_sulfuric_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethyl_hydrogen_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "C₂H₅OH + H₂SO₄ → C₂H₅HSO₄ + H₂O",
+  "reactionType": ["esterification"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "ETOH-015",
+  "slug": "fermentation_of_glucose_to_ethanol",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "glucose", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ethanol", "coefficient": 2 },
+    { "chemicalId": "carbon_dioxide", "coefficient": 2 }
+  ],
+  "equation": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+  "reactionType": ["fermentation", "preparation"],
+  "conditions": {
+    "temperature": "303-308 K",
+    "heatRequired": false,
+    "catalyst": "yeast"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+}
+]

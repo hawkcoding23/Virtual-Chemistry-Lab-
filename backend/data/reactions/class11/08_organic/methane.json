@@ -1,0 +1,388 @@
+[
+  {
+    "id": "MET-001",
+    "slug": "complete_combustion_of_methane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "reactionType": ["combustion"],
+    "conditions": {
+      "temperature": "high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "MET-002",
+    "slug": "chlorination_of_methane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chloromethane", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+    ],
+    "equation": "CH₄ + Cl₂ → CH₃Cl + HCl",
+    "reactionType": ["free_radical_substitution", "halogenation"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": "sunlight_uv"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "MET-003",
+    "slug": "bromination_of_methane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "bromomethane", "coefficient": 1 },
+      { "chemicalId": "hydrobromic_acid", "coefficient": 1 }
+    ],
+    "equation": "CH₄ + Br₂ → CH₃Br + HBr",
+    "reactionType": ["free_radical_substitution", "halogenation"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": "sunlight_uv"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "MET-004",
+    "slug": "thermal_decomposition_of_methane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 2 }
+    ],
+    "equation": "CH₄ → C + 2H₂",
+    "reactionType": ["thermal_decomposition"],
+    "conditions": {
+      "temperature": "very_high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+  {
+    "id": "MET-005",
+    "slug": "steam_reforming_of_methane",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "steam", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_monoxide", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 3 }
+    ],
+    "equation": "CH₄ + H₂O → CO + 3H₂",
+    "reactionType": ["steam_reforming"],
+    "conditions": {
+      "temperature": "800°C",
+      "heatRequired": true,
+      "catalyst": "nickel"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Hydrocarbons"
+    }
+  },
+{
+  "id": "MET-006",
+  "slug": "controlled_oxidation_of_methane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methane", "coefficient": 1 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "methanol", "coefficient": 1 }
+  ],
+  "equation": "CH₄ + ½O₂ → CH₃OH",
+  "reactionType": ["oxidation"],
+  "conditions": {
+    "temperature": "high",
+    "heatRequired": true,
+    "catalyst": "copper"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-007",
+  "slug": "nitration_of_methane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methane", "coefficient": 1 },
+    { "chemicalId": "nitric_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "nitromethane", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₄ + HNO₃ → CH₃NO₂ + H₂O",
+  "reactionType": ["nitration"],
+  "conditions": {
+    "temperature": "420°C",
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-008",
+  "slug": "pyrolysis_of_methane_to_acetylene",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methane", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "acetylene", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 3 }
+  ],
+  "equation": "2CH₄ → C₂H₂ + 3H₂",
+  "reactionType": ["pyrolysis"],
+  "conditions": {
+    "temperature": "1500°C",
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-009",
+  "slug": "fluorination_of_methane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methane", "coefficient": 1 },
+    { "chemicalId": "fluorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "fluoromethane", "coefficient": 1 },
+    { "chemicalId": "hydrogen_fluoride", "coefficient": 1 }
+  ],
+  "equation": "CH₄ + F₂ → CH₃F + HF",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "controlled_uv_light"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-010",
+  "slug": "iodination_of_methane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methane", "coefficient": 1 },
+    { "chemicalId": "iodine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "iodomethane", "coefficient": 1 },
+    { "chemicalId": "hydrogen_iodide", "coefficient": 1 }
+  ],
+  "equation": "CH₄ + I₂ ⇌ CH₃I + HI",
+  "reactionType": ["halogenation"],
+  "conditions": {
+    "temperature": "high",
+    "heatRequired": true,
+    "catalyst": "oxidizing_agent"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-011",
+  "slug": "successive_chlorination_to_dichloromethane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "chloromethane", "coefficient": 1 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "dichloromethane", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+  ],
+  "equation": "CH₃Cl + Cl₂ → CH₂Cl₂ + HCl",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "sunlight_uv"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-012",
+  "slug": "successive_chlorination_to_chloroform",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "dichloromethane", "coefficient": 1 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "chloroform", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+  ],
+  "equation": "CH₂Cl₂ + Cl₂ → CHCl₃ + HCl",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "sunlight_uv"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-013",
+  "slug": "successive_chlorination_to_carbon_tetrachloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "chloroform", "coefficient": 1 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "carbon_tetrachloride", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+  ],
+  "equation": "CHCl₃ + Cl₂ → CCl₄ + HCl",
+  "reactionType": ["free_radical_substitution", "halogenation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "sunlight_uv"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-014",
+  "slug": "partial_combustion_of_methane",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methane", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "carbon_monoxide", "coefficient": 2 },
+    { "chemicalId": "water", "coefficient": 4 }
+  ],
+  "equation": "2CH₄ + 3O₂ → 2CO + 4H₂O",
+  "reactionType": ["incomplete_combustion"],
+  "conditions": {
+    "temperature": "high",
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+},
+{
+  "id": "MET-015",
+  "slug": "formation_of_methyl_magnesium_bromide",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "bromomethane", "coefficient": 1 },
+    { "chemicalId": "magnesium", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "methyl_magnesium_bromide", "coefficient": 1 }
+  ],
+  "equation": "CH₃Br + Mg → CH₃MgBr",
+  "reactionType": ["grignard_reagent_preparation"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "dry_ether"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Hydrocarbons"
+  }
+}
+]

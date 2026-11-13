@@ -1,0 +1,177 @@
+[
+  {
+    "id": "litmus",
+    "name": "Litmus",
+    "type": "natural",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "red_litmus",
+    "name": "Red Litmus Paper",
+    "type": "natural",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "blue_litmus",
+    "name": "Blue Litmus Paper",
+    "type": "natural",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "phenolphthalein",
+    "name": "Phenolphthalein",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "methyl_orange",
+    "name": "Methyl Orange",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "methyl_red",
+    "name": "Methyl Red",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "bromothymol_blue",
+    "name": "Bromothymol Blue",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "bromocresol_green",
+    "name": "Bromocresol Green",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "bromophenol_blue",
+    "name": "Bromophenol Blue",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "phenol_red",
+    "name": "Phenol Red",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "thymol_blue",
+    "name": "Thymol Blue",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "cresol_red",
+    "name": "Cresol Red",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "congo_red",
+    "name": "Congo Red",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "neutral_red",
+    "name": "Neutral Red",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "universal_indicator",
+    "name": "Universal Indicator",
+    "type": "mixed",
+    "state": "liquid",
+    "category": "indicator"
+  },
+  {
+    "id": "ph_paper",
+    "name": "pH Paper",
+    "type": "mixed",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric Indicator",
+    "type": "natural",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "china_rose",
+    "name": "China Rose Indicator",
+    "type": "natural",
+    "state": "liquid",
+    "category": "indicator"
+  },
+  {
+    "id": "red_cabbage",
+    "name": "Red Cabbage Indicator",
+    "type": "natural",
+    "state": "liquid",
+    "category": "indicator"
+  },
+  {
+    "id": "starch_indicator",
+    "name": "Starch Indicator",
+    "type": "natural",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "eriochrome_black_t",
+    "name": "Eriochrome Black T",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "fluorescein",
+    "name": "Fluorescein",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "alizarin_yellow_r",
+    "name": "Alizarin Yellow R",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "ferroin",
+    "name": "Ferroin Indicator",
+    "type": "complex",
+    "state": "solid",
+    "category": "indicator"
+  },
+  {
+    "id": "diphenylamine",
+    "name": "Diphenylamine Indicator",
+    "type": "synthetic",
+    "state": "solid",
+    "category": "indicator"
+  }
+]

@@ -1,0 +1,1683 @@
+    [
+  {
+    "id": "sodium_chloride",
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "potassium_chloride",
+    "name": "Potassium Chloride",
+    "formula": "KCl",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "calcium_chloride",
+    "name": "Calcium Chloride",
+    "formula": "CaCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "magnesium_chloride",
+    "name": "Magnesium Chloride",
+    "formula": "MgCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "barium_chloride",
+    "name": "Barium Chloride",
+    "formula": "BaCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "strontium_chloride",
+    "name": "Strontium Chloride",
+    "formula": "SrCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "lithium_chloride",
+    "name": "Lithium Chloride",
+    "formula": "LiCl",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "ammonium_chloride",
+    "name": "Ammonium Chloride",
+    "formula": "NH4Cl",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "silver_chloride",
+    "name": "Silver Chloride",
+    "formula": "AgCl",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "lead_ii_chloride",
+    "name": "Lead(II) Chloride",
+    "formula": "PbCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "zinc_chloride",
+    "name": "Zinc Chloride",
+    "formula": "ZnCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "aluminium_chloride",
+    "name": "Aluminium Chloride",
+    "formula": "AlCl3",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "iron_ii_chloride",
+    "name": "Iron(II) Chloride",
+    "formula": "FeCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "iron_iii_chloride",
+    "name": "Iron(III) Chloride",
+    "formula": "FeCl3",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "copper_i_chloride",
+    "name": "Copper(I) Chloride",
+    "formula": "CuCl",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "copper_ii_chloride",
+    "name": "Copper(II) Chloride",
+    "formula": "CuCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "nickel_ii_chloride",
+    "name": "Nickel(II) Chloride",
+    "formula": "NiCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "cobalt_ii_chloride",
+    "name": "Cobalt(II) Chloride",
+    "formula": "CoCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "mercury_ii_chloride",
+    "name": "Mercury(II) Chloride",
+    "formula": "HgCl2",
+    "state": "solid",
+    "category": "salt"
+  },
+  {
+    "id": "tin_ii_chloride",
+    "name": "Tin(II) Chloride",
+    "formula": "SnCl2",
+    "state": "solid",
+    "category": "salt"
+  }
+,
+{
+  "id": "sodium_bromide",
+  "name": "Sodium Bromide",
+  "formula": "NaBr",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_bromide",
+  "name": "Potassium Bromide",
+  "formula": "KBr",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_bromide",
+  "name": "Calcium Bromide",
+  "formula": "CaBr2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_bromide",
+  "name": "Magnesium Bromide",
+  "formula": "MgBr2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_bromide",
+  "name": "Silver Bromide",
+  "formula": "AgBr",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_bromide",
+  "name": "Lead(II) Bromide",
+  "formula": "PbBr2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_bromide",
+  "name": "Zinc Bromide",
+  "formula": "ZnBr2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_bromide",
+  "name": "Copper(II) Bromide",
+  "formula": "CuBr2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_iii_bromide",
+  "name": "Iron(III) Bromide",
+  "formula": "FeBr3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_bromide",
+  "name": "Ammonium Bromide",
+  "formula": "NH4Br",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_iodide",
+  "name": "Sodium Iodide",
+  "formula": "NaI",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_iodide",
+  "name": "Potassium Iodide",
+  "formula": "KI",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_iodide",
+  "name": "Calcium Iodide",
+  "formula": "CaI2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_iodide",
+  "name": "Magnesium Iodide",
+  "formula": "MgI2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_iodide",
+  "name": "Silver Iodide",
+  "formula": "AgI",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_iodide",
+  "name": "Lead(II) Iodide",
+  "formula": "PbI2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_iodide",
+  "name": "Zinc Iodide",
+  "formula": "ZnI2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_i_iodide",
+  "name": "Copper(I) Iodide",
+  "formula": "CuI",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "mercury_ii_iodide",
+  "name": "Mercury(II) Iodide",
+  "formula": "HgI2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_iodide",
+  "name": "Ammonium Iodide",
+  "formula": "NH4I",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_fluoride",
+  "name": "Sodium Fluoride",
+  "formula": "NaF",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_fluoride",
+  "name": "Potassium Fluoride",
+  "formula": "KF",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_fluoride",
+  "name": "Calcium Fluoride",
+  "formula": "CaF2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_fluoride",
+  "name": "Magnesium Fluoride",
+  "formula": "MgF2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "aluminium_fluoride",
+  "name": "Aluminium Fluoride",
+  "formula": "AlF3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_fluoride",
+  "name": "Silver Fluoride",
+  "formula": "AgF",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_fluoride",
+  "name": "Zinc Fluoride",
+  "formula": "ZnF2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_fluoride",
+  "name": "Ammonium Fluoride",
+  "formula": "NH4F",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_nitrate",
+  "name": "Sodium Nitrate",
+  "formula": "NaNO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_nitrate",
+  "name": "Potassium Nitrate",
+  "formula": "KNO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_nitrate",
+  "name": "Calcium Nitrate",
+  "formula": "Ca(NO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_nitrate",
+  "name": "Magnesium Nitrate",
+  "formula": "Mg(NO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "barium_nitrate",
+  "name": "Barium Nitrate",
+  "formula": "Ba(NO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_nitrate",
+  "name": "Silver Nitrate",
+  "formula": "AgNO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_nitrate",
+  "name": "Lead(II) Nitrate",
+  "formula": "Pb(NO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_nitrate",
+  "name": "Zinc Nitrate",
+  "formula": "Zn(NO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_nitrate",
+  "name": "Copper(II) Nitrate",
+  "formula": "Cu(NO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_iii_nitrate",
+  "name": "Iron(III) Nitrate",
+  "formula": "Fe(NO3)3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "aluminium_nitrate",
+  "name": "Aluminium Nitrate",
+  "formula": "Al(NO3)3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_nitrate",
+  "name": "Ammonium Nitrate",
+  "formula": "NH4NO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_sulfate",
+  "name": "Sodium Sulfate",
+  "formula": "Na2SO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_sulfate",
+  "name": "Potassium Sulfate",
+  "formula": "K2SO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_sulfate",
+  "name": "Calcium Sulfate",
+  "formula": "CaSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_sulfate",
+  "name": "Magnesium Sulfate",
+  "formula": "MgSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "barium_sulfate",
+  "name": "Barium Sulfate",
+  "formula": "BaSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "strontium_sulfate",
+  "name": "Strontium Sulfate",
+  "formula": "SrSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lithium_sulfate",
+  "name": "Lithium Sulfate",
+  "formula": "Li2SO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_sulfate",
+  "name": "Ammonium Sulfate",
+  "formula": "(NH4)2SO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_sulfate",
+  "name": "Silver Sulfate",
+  "formula": "Ag2SO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_sulfate",
+  "name": "Lead(II) Sulfate",
+  "formula": "PbSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_sulfate",
+  "name": "Zinc Sulfate",
+  "formula": "ZnSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_sulfate",
+  "name": "Copper(II) Sulfate",
+  "formula": "CuSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_ii_sulfate",
+  "name": "Iron(II) Sulfate",
+  "formula": "FeSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_iii_sulfate",
+  "name": "Iron(III) Sulfate",
+  "formula": "Fe2(SO4)3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "aluminium_sulfate",
+  "name": "Aluminium Sulfate",
+  "formula": "Al2(SO4)3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "nickel_ii_sulfate",
+  "name": "Nickel(II) Sulfate",
+  "formula": "NiSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "cobalt_ii_sulfate",
+  "name": "Cobalt(II) Sulfate",
+  "formula": "CoSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "manganese_ii_sulfate",
+  "name": "Manganese(II) Sulfate",
+  "formula": "MnSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "chromium_iii_sulfate",
+  "name": "Chromium(III) Sulfate",
+  "formula": "Cr2(SO4)3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "cadmium_sulfate",
+  "name": "Cadmium Sulfate",
+  "formula": "CdSO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_sulfite",
+  "name": "Sodium Sulfite",
+  "formula": "Na2SO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_sulfite",
+  "name": "Potassium Sulfite",
+  "formula": "K2SO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_sulfite",
+  "name": "Calcium Sulfite",
+  "formula": "CaSO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_sulfite",
+  "name": "Magnesium Sulfite",
+  "formula": "MgSO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_sulfite",
+  "name": "Ammonium Sulfite",
+  "formula": "(NH4)2SO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_sulfite",
+  "name": "Zinc Sulfite",
+  "formula": "ZnSO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_sulfite",
+  "name": "Copper(II) Sulfite",
+  "formula": "CuSO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_ii_sulfite",
+  "name": "Iron(II) Sulfite",
+  "formula": "FeSO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_iii_sulfite",
+  "name": "Iron(III) Sulfite",
+  "formula": "Fe2(SO3)3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_sulfite",
+  "name": "Silver Sulfite",
+  "formula": "Ag2SO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_sulfide",
+  "name": "Sodium Sulfide",
+  "formula": "Na2S",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_sulfide",
+  "name": "Potassium Sulfide",
+  "formula": "K2S",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_sulfide",
+  "name": "Calcium Sulfide",
+  "formula": "CaS",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_sulfide",
+  "name": "Magnesium Sulfide",
+  "formula": "MgS",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_sulfide",
+  "name": "Zinc Sulfide",
+  "formula": "ZnS",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_sulfide",
+  "name": "Copper(II) Sulfide",
+  "formula": "CuS",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_ii_sulfide",
+  "name": "Iron(II) Sulfide",
+  "formula": "FeS",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_iii_sulfide",
+  "name": "Iron(III) Sulfide",
+  "formula": "Fe2S3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_sulfide",
+  "name": "Lead(II) Sulfide",
+  "formula": "PbS",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_sulfide",
+  "name": "Silver Sulfide",
+  "formula": "Ag2S",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_carbonate",
+  "name": "Sodium Carbonate",
+  "formula": "Na2CO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_carbonate",
+  "name": "Potassium Carbonate",
+  "formula": "K2CO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_carbonate",
+  "name": "Calcium Carbonate",
+  "formula": "CaCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_carbonate",
+  "name": "Magnesium Carbonate",
+  "formula": "MgCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "barium_carbonate",
+  "name": "Barium Carbonate",
+  "formula": "BaCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "strontium_carbonate",
+  "name": "Strontium Carbonate",
+  "formula": "SrCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lithium_carbonate",
+  "name": "Lithium Carbonate",
+  "formula": "Li2CO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_carbonate",
+  "name": "Ammonium Carbonate",
+  "formula": "(NH4)2CO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_carbonate",
+  "name": "Silver Carbonate",
+  "formula": "Ag2CO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_carbonate",
+  "name": "Zinc Carbonate",
+  "formula": "ZnCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_carbonate",
+  "name": "Copper(II) Carbonate",
+  "formula": "CuCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_carbonate",
+  "name": "Lead(II) Carbonate",
+  "formula": "PbCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_ii_carbonate",
+  "name": "Iron(II) Carbonate",
+  "formula": "FeCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "manganese_carbonate",
+  "name": "Manganese(II) Carbonate",
+  "formula": "MnCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_bicarbonate",
+  "name": "Sodium Bicarbonate",
+  "formula": "NaHCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_bicarbonate",
+  "name": "Potassium Bicarbonate",
+  "formula": "KHCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_bicarbonate",
+  "name": "Calcium Bicarbonate",
+  "formula": "Ca(HCO3)2",
+  "state": "aqueous",
+  "category": "salt"
+},
+{
+  "id": "magnesium_bicarbonate",
+  "name": "Magnesium Bicarbonate",
+  "formula": "Mg(HCO3)2",
+  "state": "aqueous",
+  "category": "salt"
+},
+{
+  "id": "ammonium_bicarbonate",
+  "name": "Ammonium Bicarbonate",
+  "formula": "NH4HCO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lithium_bicarbonate",
+  "name": "Lithium Bicarbonate",
+  "formula": "LiHCO3",
+  "state": "aqueous",
+  "category": "salt"
+},
+{
+  "id": "sodium_phosphate",
+  "name": "Sodium Phosphate",
+  "formula": "Na3PO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_phosphate",
+  "name": "Potassium Phosphate",
+  "formula": "K3PO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_phosphate",
+  "name": "Calcium Phosphate",
+  "formula": "Ca3(PO4)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_phosphate",
+  "name": "Magnesium Phosphate",
+  "formula": "Mg3(PO4)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "barium_phosphate",
+  "name": "Barium Phosphate",
+  "formula": "Ba3(PO4)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_phosphate",
+  "name": "Ammonium Phosphate",
+  "formula": "(NH4)3PO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_phosphate",
+  "name": "Silver Phosphate",
+  "formula": "Ag3PO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_phosphate",
+  "name": "Zinc Phosphate",
+  "formula": "Zn3(PO4)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "iron_iii_phosphate",
+  "name": "Iron(III) Phosphate",
+  "formula": "FePO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "aluminium_phosphate",
+  "name": "Aluminium Phosphate",
+  "formula": "AlPO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_phosphite",
+  "name": "Sodium Phosphite",
+  "formula": "Na3PO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_phosphite",
+  "name": "Potassium Phosphite",
+  "formula": "K3PO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_phosphite",
+  "name": "Calcium Phosphite",
+  "formula": "Ca3(PO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_phosphite",
+  "name": "Magnesium Phosphite",
+  "formula": "Mg3(PO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_phosphite",
+  "name": "Ammonium Phosphite",
+  "formula": "(NH4)3PO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_phosphite",
+  "name": "Zinc Phosphite",
+  "formula": "Zn3(PO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_phosphate",
+  "name": "Copper(II) Phosphate",
+  "formula": "Cu3(PO4)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_phosphite",
+  "name": "Copper(II) Phosphite",
+  "formula": "Cu3(PO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_phosphate",
+  "name": "Lead(II) Phosphate",
+  "formula": "Pb3(PO4)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_phosphite",
+  "name": "Lead(II) Phosphite",
+  "formula": "Pb3(PO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_chromate",
+  "name": "Sodium Chromate",
+  "formula": "Na2CrO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_chromate",
+  "name": "Potassium Chromate",
+  "formula": "K2CrO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_chromate",
+  "name": "Lead(II) Chromate",
+  "formula": "PbCrO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_chromate",
+  "name": "Silver Chromate",
+  "formula": "Ag2CrO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "barium_chromate",
+  "name": "Barium Chromate",
+  "formula": "BaCrO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_dichromate",
+  "name": "Potassium Dichromate",
+  "formula": "K2Cr2O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_dichromate",
+  "name": "Sodium Dichromate",
+  "formula": "Na2Cr2O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_dichromate",
+  "name": "Ammonium Dichromate",
+  "formula": "(NH4)2Cr2O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_permanganate",
+  "name": "Potassium Permanganate",
+  "formula": "KMnO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_permanganate",
+  "name": "Sodium Permanganate",
+  "formula": "NaMnO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_manganate",
+  "name": "Potassium Manganate",
+  "formula": "K2MnO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_manganate",
+  "name": "Sodium Manganate",
+  "formula": "Na2MnO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_thiosulfate",
+  "name": "Sodium Thiosulfate",
+  "formula": "Na2S2O3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_thiosulfate",
+  "name": "Ammonium Thiosulfate",
+  "formula": "(NH4)2S2O3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_thiosulfate",
+  "name": "Potassium Thiosulfate",
+  "formula": "K2S2O3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_cyanide",
+  "name": "Potassium Cyanide",
+  "formula": "KCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_cyanide",
+  "name": "Sodium Cyanide",
+  "formula": "NaCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_cyanide",
+  "name": "Silver Cyanide",
+  "formula": "AgCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_thiocyanate",
+  "name": "Potassium Thiocyanate",
+  "formula": "KSCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_thiocyanate",
+  "name": "Ammonium Thiocyanate",
+  "formula": "NH4SCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_acetate",
+  "name": "Sodium Acetate",
+  "formula": "CH3COONa",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_acetate",
+  "name": "Potassium Acetate",
+  "formula": "CH3COOK",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_acetate",
+  "name": "Calcium Acetate",
+  "formula": "Ca(CH3COO)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_acetate",
+  "name": "Ammonium Acetate",
+  "formula": "CH3COONH4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_acetate",
+  "name": "Silver Acetate",
+  "formula": "AgCH3COO",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "copper_ii_acetate",
+  "name": "Copper(II) Acetate",
+  "formula": "Cu(CH3COO)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "zinc_acetate",
+  "name": "Zinc Acetate",
+  "formula": "Zn(CH3COO)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "lead_ii_acetate",
+  "name": "Lead(II) Acetate",
+  "formula": "Pb(CH3COO)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_formate",
+  "name": "Sodium Formate",
+  "formula": "HCOONa",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_formate",
+  "name": "Potassium Formate",
+  "formula": "HCOOK",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_formate",
+  "name": "Calcium Formate",
+  "formula": "Ca(HCOO)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_formate",
+  "name": "Ammonium Formate",
+  "formula": "HCOONH4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_oxalate",
+  "name": "Sodium Oxalate",
+  "formula": "Na2C2O4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_oxalate",
+  "name": "Potassium Oxalate",
+  "formula": "K2C2O4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_oxalate",
+  "name": "Calcium Oxalate",
+  "formula": "CaC2O4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_oxalate",
+  "name": "Ammonium Oxalate",
+  "formula": "(NH4)2C2O4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_oxalate",
+  "name": "Silver Oxalate",
+  "formula": "Ag2C2O4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_citrate",
+  "name": "Sodium Citrate",
+  "formula": "Na3C6H5O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_citrate",
+  "name": "Potassium Citrate",
+  "formula": "K3C6H5O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_citrate",
+  "name": "Calcium Citrate",
+  "formula": "Ca3(C6H5O7)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_borate",
+  "name": "Sodium Borate",
+  "formula": "Na2B4O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "borax",
+  "name": "Borax",
+  "formula": "Na2B4O7·10H2O",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_borate",
+  "name": "Calcium Borate",
+  "formula": "CaB2O4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_borate",
+  "name": "Magnesium Borate",
+  "formula": "Mg3(BO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_silicate",
+  "name": "Sodium Silicate",
+  "formula": "Na2SiO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_silicate",
+  "name": "Potassium Silicate",
+  "formula": "K2SiO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_silicate",
+  "name": "Calcium Silicate",
+  "formula": "CaSiO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "magnesium_silicate",
+  "name": "Magnesium Silicate",
+  "formula": "MgSiO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_benzoate",
+  "name": "Sodium Benzoate",
+  "formula": "C7H5NaO2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_benzoate",
+  "name": "Potassium Benzoate",
+  "formula": "C7H5KO2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_benzoate",
+  "name": "Calcium Benzoate",
+  "formula": "Ca(C7H5O2)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_tartrate",
+  "name": "Sodium Tartrate",
+  "formula": "Na2C4H4O6",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_tartrate",
+  "name": "Potassium Tartrate",
+  "formula": "K2C4H4O6",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_sodium_tartrate",
+  "name": "Potassium Sodium Tartrate",
+  "formula": "KNaC4H4O6·4H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "sodium_chlorate",
+  "name": "Sodium Chlorate",
+  "formula": "NaClO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_chlorate",
+  "name": "Potassium Chlorate",
+  "formula": "KClO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_perchlorate",
+  "name": "Sodium Perchlorate",
+  "formula": "NaClO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_perchlorate",
+  "name": "Potassium Perchlorate",
+  "formula": "KClO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_hypochlorite",
+  "name": "Sodium Hypochlorite",
+  "formula": "NaClO",
+  "state": "aqueous",
+  "category": "salt"
+},
+{
+  "id": "calcium_hypochlorite",
+  "name": "Calcium Hypochlorite",
+  "formula": "Ca(ClO)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_bromate",
+  "name": "Sodium Bromate",
+  "formula": "NaBrO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_bromate",
+  "name": "Potassium Bromate",
+  "formula": "KBrO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_iodate",
+  "name": "Sodium Iodate",
+  "formula": "NaIO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_iodate",
+  "name": "Potassium Iodate",
+  "formula": "KIO3",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_periodate",
+  "name": "Sodium Periodate",
+  "formula": "NaIO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_periodate",
+  "name": "Potassium Periodate",
+  "formula": "KIO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_nitrite",
+  "name": "Sodium Nitrite",
+  "formula": "NaNO2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_nitrite",
+  "name": "Potassium Nitrite",
+  "formula": "KNO2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_nitrite",
+  "name": "Calcium Nitrite",
+  "formula": "Ca(NO2)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "silver_nitrite",
+  "name": "Silver Nitrite",
+  "formula": "AgNO2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_cyanate",
+  "name": "Sodium Cyanate",
+  "formula": "NaOCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_cyanate",
+  "name": "Potassium Cyanate",
+  "formula": "KOCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "ammonium_cyanate",
+  "name": "Ammonium Cyanate",
+  "formula": "NH4OCN",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potash_alum",
+  "name": "Potash Alum",
+  "formula": "KAl(SO4)2·12H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "chrome_alum",
+  "name": "Chrome Alum",
+  "formula": "KCr(SO4)2·12H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "ammonium_alum",
+  "name": "Ammonium Alum",
+  "formula": "NH4Al(SO4)2·12H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "ferric_alum",
+  "name": "Ferric Alum",
+  "formula": "KFe(SO4)2·12H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "mohrs_salt",
+  "name": "Mohr's Salt",
+  "formula": "(NH4)2Fe(SO4)2·6H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "carnallite",
+  "name": "Carnallite",
+  "formula": "KCl·MgCl2·6H2O",
+  "state": "solid",
+  "category": "double_salt"
+},
+{
+  "id": "bleaching_powder",
+  "name": "Bleaching Powder",
+  "formula": "CaOCl2",
+  "state": "solid",
+  "category": "mixed_salt"
+},
+{
+  "id": "sodium_bisulfate",
+  "name": "Sodium Bisulfate",
+  "formula": "NaHSO4",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "potassium_bisulfate",
+  "name": "Potassium Bisulfate",
+  "formula": "KHSO4",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "sodium_bisulfite",
+  "name": "Sodium Bisulfite",
+  "formula": "NaHSO3",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "potassium_bisulfite",
+  "name": "Potassium Bisulfite",
+  "formula": "KHSO3",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "disodium_hydrogen_phosphate",
+  "name": "Disodium Hydrogen Phosphate",
+  "formula": "Na2HPO4",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "sodium_dihydrogen_phosphate",
+  "name": "Sodium Dihydrogen Phosphate",
+  "formula": "NaH2PO4",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "dipotassium_hydrogen_phosphate",
+  "name": "Dipotassium Hydrogen Phosphate",
+  "formula": "K2HPO4",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "potassium_dihydrogen_phosphate",
+  "name": "Potassium Dihydrogen Phosphate",
+  "formula": "KH2PO4",
+  "state": "solid",
+  "category": "acid_salt"
+},
+{
+  "id": "sodium_pyrophosphate",
+  "name": "Sodium Pyrophosphate",
+  "formula": "Na4P2O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "potassium_pyrophosphate",
+  "name": "Potassium Pyrophosphate",
+  "formula": "K4P2O7",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_metaphosphate",
+  "name": "Sodium Metaphosphate",
+  "formula": "(NaPO3)n",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "calcium_metaphosphate",
+  "name": "Calcium Metaphosphate",
+  "formula": "Ca(PO3)2",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "trisodium_phosphate",
+  "name": "Trisodium Phosphate",
+  "formula": "Na3PO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "tripotassium_phosphate",
+  "name": "Tripotassium Phosphate",
+  "formula": "K3PO4",
+  "state": "solid",
+  "category": "salt"
+},
+{
+  "id": "sodium_hexafluorosilicate",
+  "name": "Sodium Hexafluorosilicate",
+  "formula": "Na2SiF6",
+  "state": "solid",
+  "category": "complex_salt"
+},
+{
+  "id": "potassium_hexacyanoferrate_ii",
+  "name": "Potassium Hexacyanoferrate(II)",
+  "formula": "K4[Fe(CN)6]",
+  "state": "solid",
+  "category": "complex_salt"
+},
+{
+  "id": "potassium_hexacyanoferrate_iii",
+  "name": "Potassium Hexacyanoferrate(III)",
+  "formula": "K3[Fe(CN)6]",
+  "state": "solid",
+  "category": "complex_salt"
+},
+{
+  "id": "tetraamminecopper_ii_sulfate",
+  "name": "Tetraammine Copper(II) Sulfate",
+  "formula": "[Cu(NH3)4]SO4",
+  "state": "solid",
+  "category": "complex_salt"
+},
+{
+  "id": "tetraamminezinc_ii_sulfate",
+  "name": "Tetraammine Zinc(II) Sulfate",
+  "formula": "[Zn(NH3)4]SO4",
+  "state": "solid",
+  "category": "complex_salt"
+},
+{
+  "id": "sodium_aluminate",
+  "name": "Sodium Aluminate",
+  "formula": "NaAlO2",
+  "state": "solid",
+  "category": "salt"
+}
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "id": "hydrochloric_acid",
+    "name": "Hydrochloric Acid",
+    "formula": "HCl",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "sulfuric_acid",
+    "name": "Sulfuric Acid",
+    "formula": "H₂SO₄",
+    "state": "liquid",
+    "category": "acid"
+  },
+  {
+    "id": "nitric_acid",
+    "name": "Nitric Acid",
+    "formula": "HNO₃",
+    "state": "liquid",
+    "category": "acid"
+  },
+  {
+    "id": "phosphoric_acid",
+    "name": "Phosphoric Acid",
+    "formula": "H₃PO₄",
+    "state": "solid",
+    "category": "acid"
+  },
+  {
+    "id": "carbonic_acid",
+    "name": "Carbonic Acid",
+    "formula": "H₂CO₃",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "sulfurous_acid",
+    "name": "Sulfurous Acid",
+    "formula": "H₂SO₃",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "nitrous_acid",
+    "name": "Nitrous Acid",
+    "formula": "HNO₂",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "hydrofluoric_acid",
+    "name": "Hydrofluoric Acid",
+    "formula": "HF",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "hydrobromic_acid",
+    "name": "Hydrobromic Acid",
+    "formula": "HBr",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "hydroiodic_acid",
+    "name": "Hydroiodic Acid",
+    "formula": "HI",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "perchloric_acid",
+    "name": "Perchloric Acid",
+    "formula": "HClO₄",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "chloric_acid",
+    "name": "Chloric Acid",
+    "formula": "HClO₃",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "chlorous_acid",
+    "name": "Chlorous Acid",
+    "formula": "HClO₂",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "hypochlorous_acid",
+    "name": "Hypochlorous Acid",
+    "formula": "HClO",
+    "state": "aqueous",
+    "category": "acid"
+  },
+  {
+    "id": "acetic_acid",
+    "name": "Acetic Acid",
+    "formula": "CH₃COOH",
+    "state": "liquid",
+    "category": "acid"
+  },
+  {
+    "id": "formic_acid",
+    "name": "Formic Acid",
+    "formula": "HCOOH",
+    "state": "liquid",
+    "category": "acid"
+  },
+  {
+    "id": "oxalic_acid",
+    "name": "Oxalic Acid",
+    "formula": "H₂C₂O₄",
+    "state": "solid",
+    "category": "acid"
+  },
+  {
+    "id": "citric_acid",
+    "name": "Citric Acid",
+    "formula": "C₆H₈O₇",
+    "state": "solid",
+    "category": "acid"
+  },
+  {
+    "id": "boric_acid",
+    "name": "Boric Acid",
+    "formula": "H₃BO₃",
+    "state": "solid",
+    "category": "acid"
+  },
+  {
+    "id": "chromic_acid",
+    "name": "Chromic Acid",
+    "formula": "H₂CrO₄",
+    "state": "aqueous",
+    "category": "acid"
+  }
+,
+{
+  "id": "dichromic_acid",
+  "name": "Dichromic Acid",
+  "formula": "H₂Cr₂O₇",
+  "state": "aqueous",
+  "category": "acid"
+},
+{
+  "id": "permanganic_acid",
+  "name": "Permanganic Acid",
+  "formula": "HMnO₄",
+  "state": "aqueous",
+  "category": "acid"
+},
+{
+  "id": "hydrocyanic_acid",
+  "name": "Hydrocyanic Acid",
+  "formula": "HCN",
+  "state": "aqueous",
+  "category": "acid"
+},
+{
+  "id": "hydrazoic_acid",
+  "name": "Hydrazoic Acid",
+  "formula": "HN₃",
+  "state": "aqueous",
+  "category": "acid"
+},
+{
+  "id": "silicic_acid",
+  "name": "Silicic Acid",
+  "formula": "H₄SiO₄",
+  "state": "aqueous",
+  "category": "acid"
+},
+{
+  "id": "tartaric_acid",
+  "name": "Tartaric Acid",
+  "formula": "C₄H₆O₆",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "lactic_acid",
+  "name": "Lactic Acid",
+  "formula": "C₃H₆O₃",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "benzoic_acid",
+  "name": "Benzoic Acid",
+  "formula": "C₇H₆O₂",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "maleic_acid",
+  "name": "Maleic Acid",
+  "formula": "C₄H₄O₄",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "fumaric_acid",
+  "name": "Fumaric Acid",
+  "formula": "C₄H₄O₄",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "malonic_acid",
+  "name": "Malonic Acid",
+  "formula": "C₃H₄O₄",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "succinic_acid",
+  "name": "Succinic Acid",
+  "formula": "C₄H₆O₄",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "pyruvic_acid",
+  "name": "Pyruvic Acid",
+  "formula": "C₃H₄O₃",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "ascorbic_acid",
+  "name": "Ascorbic Acid",
+  "formula": "C₆H₈O₆",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "picric_acid",
+  "name": "Picric Acid",
+  "formula": "C₆H₃N₃O₇",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "oleic_acid",
+  "name": "Oleic Acid",
+  "formula": "C₁₈H₃₄O₂",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "stearic_acid",
+  "name": "Stearic Acid",
+  "formula": "C₁₈H₃₆O₂",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "palmitic_acid",
+  "name": "Palmitic Acid",
+  "formula": "C₁₆H₃₂O₂",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "tannic_acid",
+  "name": "Tannic Acid",
+  "formula": "C₇₆H₅₂O₄₆",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "uric_acid",
+  "name": "Uric Acid",
+  "formula": "C₅H₄N₄O₃",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "valeric_acid",
+  "name": "Valeric Acid",
+  "formula": "C5H10O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "caproic_acid",
+  "name": "Caproic Acid",
+  "formula": "C6H12O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "caprylic_acid",
+  "name": "Caprylic Acid",
+  "formula": "C8H16O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "capric_acid",
+  "name": "Capric Acid",
+  "formula": "C10H20O2",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "linoleic_acid",
+  "name": "Linoleic Acid",
+  "formula": "C18H32O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "linolenic_acid",
+  "name": "Linolenic Acid",
+  "formula": "C18H30O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "arachidic_acid",
+  "name": "Arachidic Acid",
+  "formula": "C20H40O2",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "acrylic_acid",
+  "name": "Acrylic Acid",
+  "formula": "C3H4O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "methacrylic_acid",
+  "name": "Methacrylic Acid",
+  "formula": "C4H6O2",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "gluconic_acid",
+  "name": "Gluconic Acid",
+  "formula": "C6H12O7",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "glutamic_acid",
+  "name": "Glutamic Acid",
+  "formula": "C5H9NO4",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "aspartic_acid",
+  "name": "Aspartic Acid",
+  "formula": "C4H7NO4",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "salicylic_acid",
+  "name": "Salicylic Acid",
+  "formula": "C7H6O3",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "phthalic_acid",
+  "name": "Phthalic Acid",
+  "formula": "C8H6O4",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "terephthalic_acid",
+  "name": "Terephthalic Acid",
+  "formula": "C8H6O4",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "trifluoroacetic_acid",
+  "name": "Trifluoroacetic Acid",
+  "formula": "CF3COOH",
+  "state": "liquid",
+  "category": "acid"
+},
+{
+  "id": "trichloroacetic_acid",
+  "name": "Trichloroacetic Acid",
+  "formula": "CCl3COOH",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "periodic_acid",
+  "name": "Periodic Acid",
+  "formula": "HIO4",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "metaphosphoric_acid",
+  "name": "Metaphosphoric Acid",
+  "formula": "HPO3",
+  "state": "solid",
+  "category": "acid"
+},
+{
+  "id": "pyrophosphoric_acid",
+  "name": "Pyrophosphoric Acid",
+  "formula": "H4P2O7",
+  "state": "solid",
+  "category": "acid"
+}
+]

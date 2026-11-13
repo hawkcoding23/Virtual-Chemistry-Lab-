@@ -1,0 +1,719 @@
+[
+  {
+    "id": "OA-001",
+    "chemicalId": "oxygen",
+    "formula": "O₂",
+    "name": "Oxygen",
+    "category": "element",
+    "strength": "strong",
+    "state": "gas",
+    "oxidationState": 0,
+    "acceptsElectrons": true,
+    "commonProducts": [
+      "metal_oxides",
+      "non_metal_oxides",
+      "water"
+    ],
+    "usedIn": [
+      "combustion",
+      "corrosion",
+      "oxidation",
+      "respiration"
+    ],
+    "observations": {
+      "color": "colorless",
+      "odor": "odorless"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "OA-002",
+    "chemicalId": "ozone",
+    "formula": "O₃",
+    "name": "Ozone",
+    "category": "element",
+    "strength": "very_strong",
+    "state": "gas",
+    "oxidationState": 0,
+    "acceptsElectrons": true,
+    "commonProducts": [
+      "oxygen",
+      "metal_oxides"
+    ],
+    "usedIn": [
+      "water_treatment",
+      "bleaching",
+      "oxidation"
+    ],
+    "observations": {
+      "color": "bluish",
+      "odor": "sharp"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "OA-003",
+    "chemicalId": "chlorine",
+    "formula": "Cl₂",
+    "name": "Chlorine",
+    "category": "halogen",
+    "strength": "strong",
+    "state": "gas",
+    "oxidationState": 0,
+    "acceptsElectrons": true,
+    "commonProducts": [
+      "chlorides"
+    ],
+    "usedIn": [
+      "disinfection",
+      "bleaching",
+      "oxidation"
+    ],
+    "observations": {
+      "color": "greenish_yellow",
+      "odor": "pungent"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "OA-004",
+    "chemicalId": "fluorine",
+    "formula": "F₂",
+    "name": "Fluorine",
+    "category": "halogen",
+    "strength": "extremely_strong",
+    "state": "gas",
+    "oxidationState": 0,
+    "acceptsElectrons": true,
+    "commonProducts": [
+      "fluorides"
+    ],
+    "usedIn": [
+      "oxidation",
+      "fluorination"
+    ],
+    "observations": {
+      "color": "pale_yellow",
+      "odor": "sharp"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "OA-005",
+    "chemicalId": "bromine",
+    "formula": "Br₂",
+    "name": "Bromine",
+    "category": "halogen",
+    "strength": "moderate",
+    "state": "liquid",
+    "oxidationState": 0,
+    "acceptsElectrons": true,
+    "commonProducts": [
+      "bromides"
+    ],
+    "usedIn": [
+      "oxidation",
+      "organic_bromination"
+    ],
+    "observations": {
+      "color": "reddish_brown",
+      "odor": "pungent"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+,
+{
+  "id": "OA-006",
+  "chemicalId": "iodine",
+  "formula": "I₂",
+  "name": "Iodine",
+  "category": "halogen",
+  "strength": "weak",
+  "state": "solid",
+  "oxidationState": 0,
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "iodides"
+  ],
+  "usedIn": [
+    "oxidation",
+    "iodometry",
+    "analytical_chemistry"
+  ],
+  "observations": {
+    "color": "violet_black",
+    "odor": "slight"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-007",
+  "chemicalId": "hydrogen_peroxide",
+  "formula": "H₂O₂",
+  "name": "Hydrogen Peroxide",
+  "category": "peroxide",
+  "strength": "strong",
+  "state": "liquid",
+  "oxidationState": -1,
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "water",
+    "oxygen"
+  ],
+  "usedIn": [
+    "bleaching",
+    "disinfection",
+    "oxidation"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-008",
+  "chemicalId": "potassium_permanganate",
+  "formula": "KMnO₄",
+  "name": "Potassium Permanganate",
+  "category": "permanganate",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": 7,
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "manganese_dioxide",
+    "manganese_sulfate"
+  ],
+  "usedIn": [
+    "oxidation",
+    "titration",
+    "water_treatment",
+    "disinfection"
+  ],
+  "observations": {
+    "color": "deep_purple",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-009",
+  "chemicalId": "potassium_dichromate",
+  "formula": "K₂Cr₂O₇",
+  "name": "Potassium Dichromate",
+  "category": "dichromate",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": 6,
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "chromium_sulfate"
+  ],
+  "usedIn": [
+    "oxidation",
+    "organic_chemistry",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "orange",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-010",
+  "chemicalId": "manganese_dioxide",
+  "formula": "MnO₂",
+  "name": "Manganese Dioxide",
+  "category": "metal_oxide",
+  "strength": "moderate",
+  "state": "solid",
+  "oxidationState": 4,
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "manganese_chloride",
+    "manganese_sulfate"
+  ],
+  "usedIn": [
+    "oxidation",
+    "dry_cell",
+    "chlorine_preparation"
+  ],
+  "observations": {
+    "color": "black",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-011",
+  "chemicalId": "nitric_acid",
+  "formula": "HNO₃",
+  "name": "Nitric Acid",
+  "category": "acid",
+  "strength": "very_strong",
+  "state": "liquid",
+  "oxidationState": "+5",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "nitrogen_dioxide",
+    "nitric_oxide",
+    "nitrates"
+  ],
+  "usedIn": [
+    "oxidation",
+    "metal_dissolution",
+    "nitration",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "pungent"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-012",
+  "chemicalId": "concentrated_sulfuric_acid",
+  "formula": "H₂SO₄",
+  "name": "Concentrated Sulfuric Acid",
+  "category": "acid",
+  "strength": "strong",
+  "state": "liquid",
+  "oxidationState": "+6",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "sulfur_dioxide",
+    "sulfates"
+  ],
+  "usedIn": [
+    "oxidation",
+    "dehydration",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-013",
+  "chemicalId": "sodium_hypochlorite",
+  "formula": "NaOCl",
+  "name": "Sodium Hypochlorite",
+  "category": "hypochlorite",
+  "strength": "strong",
+  "state": "aqueous",
+  "oxidationState": "+1",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "sodium_chloride"
+  ],
+  "usedIn": [
+    "bleaching",
+    "disinfection",
+    "oxidation"
+  ],
+  "observations": {
+    "color": "pale_yellow",
+    "odor": "chlorine_like"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-014",
+  "chemicalId": "bleaching_powder",
+  "formula": "CaOCl₂",
+  "name": "Bleaching Powder",
+  "category": "hypochlorite",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "+1",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "calcium_chloride"
+  ],
+  "usedIn": [
+    "bleaching",
+    "water_disinfection",
+    "oxidation"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "chlorine_like"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-015",
+  "chemicalId": "lead_dioxide",
+  "formula": "PbO₂",
+  "name": "Lead Dioxide",
+  "category": "metal_oxide",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "+4",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "lead_oxide",
+    "lead_chloride"
+  ],
+  "usedIn": [
+    "oxidation",
+    "lead_acid_battery",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "dark_brown",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-016",
+  "chemicalId": "chlorine_dioxide",
+  "formula": "ClO₂",
+  "name": "Chlorine Dioxide",
+  "category": "chlorine_oxide",
+  "strength": "very_strong",
+  "state": "gas",
+  "oxidationState": "+4",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "chlorite",
+    "chloride"
+  ],
+  "usedIn": [
+    "water_treatment",
+    "bleaching",
+    "oxidation",
+    "disinfection"
+  ],
+  "observations": {
+    "color": "yellow_green",
+    "odor": "chlorine_like"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-017",
+  "chemicalId": "potassium_chlorate",
+  "formula": "KClO₃",
+  "name": "Potassium Chlorate",
+  "category": "chlorate",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "+5",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "potassium_chloride",
+    "oxygen"
+  ],
+  "usedIn": [
+    "oxygen_preparation",
+    "oxidation",
+    "pyrotechnics"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-018",
+  "chemicalId": "sodium_peroxide",
+  "formula": "Na₂O₂",
+  "name": "Sodium Peroxide",
+  "category": "peroxide",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "-1",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "sodium_hydroxide",
+    "oxygen"
+  ],
+  "usedIn": [
+    "oxidation",
+    "bleaching",
+    "oxygen_generation"
+  ],
+  "observations": {
+    "color": "pale_yellow",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-019",
+  "chemicalId": "red_lead",
+  "formula": "Pb₃O₄",
+  "name": "Red Lead",
+  "category": "mixed_oxide",
+  "strength": "moderate",
+  "state": "solid",
+  "oxidationState": "+2,+4",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "lead_oxide",
+    "lead_chloride"
+  ],
+  "usedIn": [
+    "oxidation",
+    "pigments",
+    "glass_industry"
+  ],
+  "observations": {
+    "color": "red_orange",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-020",
+  "chemicalId": "ceric_ammonium_nitrate",
+  "formula": "(NH₄)₂Ce(NO₃)₆",
+  "name": "Ceric Ammonium Nitrate",
+  "category": "cerium_salt",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": "+4",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "cerous_nitrate"
+  ],
+  "usedIn": [
+    "organic_oxidation",
+    "analytical_chemistry",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "orange_red",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-021",
+  "chemicalId": "potassium_periodate",
+  "formula": "KIO₄",
+  "name": "Potassium Periodate",
+  "category": "periodate",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": "+7",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "potassium_iodate",
+    "iodide"
+  ],
+  "usedIn": [
+    "organic_oxidation",
+    "glycol_cleavage",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-022",
+  "chemicalId": "sodium_periodate",
+  "formula": "NaIO₄",
+  "name": "Sodium Periodate",
+  "category": "periodate",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": "+7",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "sodium_iodate"
+  ],
+  "usedIn": [
+    "organic_oxidation",
+    "analytical_chemistry"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-023",
+  "chemicalId": "potassium_persulfate",
+  "formula": "K₂S₂O₈",
+  "name": "Potassium Persulfate",
+  "category": "persulfate",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": "+6",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "potassium_sulfate"
+  ],
+  "usedIn": [
+    "polymerization",
+    "organic_oxidation",
+    "etching"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-024",
+  "chemicalId": "ammonium_persulfate",
+  "formula": "(NH₄)₂S₂O₈",
+  "name": "Ammonium Persulfate",
+  "category": "persulfate",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": "+6",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "ammonium_sulfate"
+  ],
+  "usedIn": [
+    "polymerization",
+    "etching",
+    "organic_oxidation"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "OA-025",
+  "chemicalId": "potassium_perchlorate",
+  "formula": "KClO₄",
+  "name": "Potassium Perchlorate",
+  "category": "perchlorate",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "+7",
+  "acceptsElectrons": true,
+  "commonProducts": [
+    "potassium_chloride"
+  ],
+  "usedIn": [
+    "oxidation",
+    "pyrotechnics",
+    "propellants"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "id": "MEOH-001",
+    "slug": "combustion_of_methanol",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methanol", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 4 }
+    ],
+    "equation": "2CH₃OH + 3O₂ → 2CO₂ + 4H₂O",
+    "reactionType": ["combustion"],
+    "conditions": {
+      "temperature": "high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "MEOH-002",
+    "slug": "oxidation_of_methanol_to_methanal",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "methanal", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH₃OH + [O] → HCHO + H₂O",
+    "reactionType": ["oxidation"],
+    "conditions": {
+      "temperature": "300°C",
+      "heatRequired": true,
+      "catalyst": "copper"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "MEOH-003",
+    "slug": "complete_oxidation_of_methanol",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "CH₃OH + 3/2O₂ → CO₂ + 2H₂O",
+    "reactionType": ["complete_oxidation"],
+    "conditions": {
+      "temperature": "high",
+      "heatRequired": true,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "MEOH-004",
+    "slug": "reaction_of_methanol_with_sodium",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methanol", "coefficient": 2 },
+      { "chemicalId": "sodium", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_methoxide", "coefficient": 2 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "equation": "2CH₃OH + 2Na → 2CH₃ONa + H₂",
+    "reactionType": ["metal_alcohol_reaction"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+  {
+    "id": "MEOH-005",
+    "slug": "reaction_of_methanol_with_hydrogen_chloride",
+    "classes": [11],
+    "chapter": "Organic Chemistry",
+    "reactants": [
+      { "chemicalId": "methanol", "coefficient": 1 },
+      { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chloromethane", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH₃OH + HCl → CH₃Cl + H₂O",
+    "reactionType": ["substitution"],
+    "conditions": {
+      "temperature": "room",
+      "heatRequired": false,
+      "catalyst": "anhydrous_ZnCl₂"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Organic Chemistry - Alcohols"
+    }
+  },
+{
+  "id": "MEOH-006",
+  "slug": "dehydration_of_methanol_to_dimethyl_ether",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "dimethyl_ether", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "2CH₃OH → CH₃OCH₃ + H₂O",
+  "reactionType": ["dehydration"],
+  "conditions": {
+    "temperature": "413 K",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-007",
+  "slug": "esterification_of_methanol",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "ethanoic_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "methyl_ethanoate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + CH₃COOH ⇌ CH₃COOCH₃ + H₂O",
+  "reactionType": ["esterification"],
+  "conditions": {
+    "temperature": "heat",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-008",
+  "slug": "reaction_of_methanol_with_phosphorus_pentachloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "phosphorus_pentachloride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "chloromethane", "coefficient": 1 },
+    { "chemicalId": "phosphoryl_chloride", "coefficient": 1 },
+    { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + PCl₅ → CH₃Cl + POCl₃ + HCl",
+  "reactionType": ["substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-009",
+  "slug": "reaction_of_methanol_with_phosphorus_tribromide",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 3 },
+    { "chemicalId": "phosphorus_tribromide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "bromomethane", "coefficient": 3 },
+    { "chemicalId": "phosphorous_acid", "coefficient": 1 }
+  ],
+  "equation": "3CH₃OH + PBr₃ → 3CH₃Br + H₃PO₃",
+  "reactionType": ["substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-010",
+  "slug": "reaction_of_methanol_with_sulfuryl_chloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 2 },
+    { "chemicalId": "thionyl_chloride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "chloromethane", "coefficient": 2 },
+    { "chemicalId": "sulfur_dioxide", "coefficient": 1 },
+    { "chemicalId": "hydrogen_chloride", "coefficient": 2 }
+  ],
+  "equation": "2CH₃OH + SOCl₂ → 2CH₃Cl + SO₂ + 2HCl",
+  "reactionType": ["substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": "pyridine"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-011",
+  "slug": "oxidation_of_methanol_to_formic_acid",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "oxygen", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "formic_acid", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + 2[O] → HCOOH + H₂O",
+  "reactionType": ["oxidation"],
+  "conditions": {
+    "temperature": "warm",
+    "heatRequired": true,
+    "catalyst": "acidified_potassium_dichromate"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-012",
+  "slug": "reaction_of_methanol_with_acetyl_chloride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "acetyl_chloride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "methyl_ethanoate", "coefficient": 1 },
+    { "chemicalId": "hydrogen_chloride", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + CH₃COCl → CH₃COOCH₃ + HCl",
+  "reactionType": ["esterification", "nucleophilic_substitution"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-013",
+  "slug": "reaction_of_methanol_with_sodium_hydride",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "sodium_hydride", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_methoxide", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + NaH → CH₃ONa + H₂",
+  "reactionType": ["acid_base"],
+  "conditions": {
+    "temperature": "room",
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-014",
+  "slug": "formation_of_dimethyl_sulfate",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 2 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "dimethyl_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "equation": "2CH₃OH + H₂SO₄ → (CH₃)₂SO₄ + 2H₂O",
+  "reactionType": ["esterification"],
+  "conditions": {
+    "temperature": "140°C",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+},
+{
+  "id": "MEOH-015",
+  "slug": "reaction_of_methanol_with_methanoic_acid",
+  "classes": [11],
+  "chapter": "Organic Chemistry",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "methanoic_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "methyl_methanoate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + HCOOH ⇌ HCOOCH₃ + H₂O",
+  "reactionType": ["esterification"],
+  "conditions": {
+    "temperature": "heat",
+    "heatRequired": true,
+    "catalyst": "concentrated_sulfuric_acid"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": "Organic Chemistry - Alcohols"
+  }
+}
+]

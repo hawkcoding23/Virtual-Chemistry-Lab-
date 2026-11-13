@@ -1,0 +1,226 @@
+[
+  {
+    "id": "steam",
+    "name": "Steam",
+    "formula": "H2O(g)",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "water_vapour",
+    "name": "Water Vapour",
+    "formula": "H2O",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "carbon_dioxide",
+    "name": "Carbon Dioxide",
+    "formula": "CO2",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "carbon_monoxide",
+    "name": "Carbon Monoxide",
+    "formula": "CO",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "sulfur_dioxide",
+    "name": "Sulfur Dioxide",
+    "formula": "SO2",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "sulfur_trioxide",
+    "name": "Sulfur Trioxide",
+    "formula": "SO3",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "nitric_oxide",
+    "name": "Nitric Oxide",
+    "formula": "NO",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "nitrogen_dioxide",
+    "name": "Nitrogen Dioxide",
+    "formula": "NO2",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "nitrous_oxide",
+    "name": "Nitrous Oxide",
+    "formula": "N2O",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "dinitrogen_trioxide",
+    "name": "Dinitrogen Trioxide",
+    "formula": "N2O3",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "dinitrogen_tetroxide",
+    "name": "Dinitrogen Tetroxide",
+    "formula": "N2O4",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "dinitrogen_pentoxide",
+    "name": "Dinitrogen Pentoxide",
+    "formula": "N2O5",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "formula": "NH3",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_sulfide",
+    "name": "Hydrogen Sulfide",
+    "formula": "H2S",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_chloride",
+    "name": "Hydrogen Chloride",
+    "formula": "HCl",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_bromide",
+    "name": "Hydrogen Bromide",
+    "formula": "HBr",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_iodide",
+    "name": "Hydrogen Iodide",
+    "formula": "HI",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_fluoride",
+    "name": "Hydrogen Fluoride",
+    "formula": "HF",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_cyanide",
+    "name": "Hydrogen Cyanide",
+    "formula": "HCN",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "phosphine",
+    "name": "Phosphine",
+    "formula": "PH3",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "arsine",
+    "name": "Arsine",
+    "formula": "AsH3",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "stibine",
+    "name": "Stibine",
+    "formula": "SbH3",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "silane",
+    "name": "Silane",
+    "formula": "SiH4",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "germane",
+    "name": "Germane",
+    "formula": "GeH4",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "diborane",
+    "name": "Diborane",
+    "formula": "B2H6",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_selenide",
+    "name": "Hydrogen Selenide",
+    "formula": "H2Se",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "hydrogen_telluride",
+    "name": "Hydrogen Telluride",
+    "formula": "H2Te",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "phosgene",
+    "name": "Phosgene",
+    "formula": "COCl2",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "carbonyl_sulfide",
+    "name": "Carbonyl Sulfide",
+    "formula": "COS",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "carbon_disulfide",
+    "name": "Carbon Disulfide",
+    "formula": "CS2",
+    "state": "liquid",
+    "category": "volatile_compound"
+  },
+  {
+    "id": "chlorine_dioxide",
+    "name": "Chlorine Dioxide",
+    "formula": "ClO2",
+    "state": "gas",
+    "category": "gas"
+  },
+  {
+    "id": "nitrosyl_chloride",
+    "name": "Nitrosyl Chloride",
+    "formula": "NOCl",
+    "state": "gas",
+    "category": "gas"
+  }
+]

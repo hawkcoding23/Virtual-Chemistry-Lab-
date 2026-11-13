@@ -1,0 +1,1844 @@
+[
+  {
+    "id": "redox_kmno4_oxalic_acid",
+    "classes": [
+      11
+    ],
+    "chapter": "Redox Reactions (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "potassium_permanganate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxalic_acid",
+        "coefficient": 5
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "potassium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "manganese_sulfate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "carbon_dioxide",
+        "coefficient": 10
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 8
+      }
+    ],
+    "equation": "2KMnO4 + 5H2C2O4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "reactionType": [
+      "redox_titration"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon dioxide",
+      "precipitate": null,
+      "colorChange": "intense purple KMnO4 decolorizes to colorless Mn2+",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Redox Reactions (Class 11)"
+    }
+  },
+  {
+    "id": "redox_k2cr2o7_feso4",
+    "classes": [
+      11
+    ],
+    "chapter": "Redox Reactions (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "potassium_dichromate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "iron_sulfate",
+        "coefficient": 6
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "coefficient": 7
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "chromium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "iron_oxide_fe2o3",
+        "coefficient": 3
+      },
+      {
+        "chemicalId": "potassium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 7
+      }
+    ],
+    "equation": "K2Cr2O7 + 6FeSO4 + 7H2SO4 → Cr2(SO4)3 + 3Fe2O3 + K2SO4 + 7H2O",
+    "reactionType": [
+      "redox"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "vibrant orange dichromate turns deep emerald green Cr3+",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Redox Reactions (Class 11)"
+    }
+  },
+  {
+    "id": "h2o2_decomposition",
+    "classes": [
+      11
+    ],
+    "chapter": "Redox Reactions (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "hydrogen_peroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2H2O2 → 2H2O + O2",
+    "reactionType": [
+      "disproportionation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "manganese dioxide"
+    },
+    "observations": {
+      "gas": "oxygen gas bubbles vigorously",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Redox Reactions (Class 11)"
+    }
+  },
+  {
+    "id": "kclo3_thermal_decomposition",
+    "classes": [
+      11
+    ],
+    "chapter": "Equilibrium and Redox (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "potassium_chlorate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "potassium_chloride",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 3
+      }
+    ],
+    "equation": "2KClO3 → 2KCl + 3O2",
+    "reactionType": [
+      "thermal_decomposition"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": "manganese dioxide"
+    },
+    "observations": {
+      "gas": "oxygen gas evolves rapidly",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Equilibrium and Redox (Class 11)"
+    }
+  },
+  {
+    "id": "haber_process",
+    "classes": [
+      11
+    ],
+    "chapter": "Equilibrium (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "nitrogen",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "hydrogen",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "ammonia",
+        "coefficient": 2
+      }
+    ],
+    "equation": "N2 + 3H2 → 2NH3",
+    "reactionType": [
+      "synthesis"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": "iron and molybdenum promoter"
+    },
+    "observations": {
+      "gas": "ammonia gas with sharp pungent odor",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Equilibrium (Class 11)"
+    }
+  },
+  {
+    "id": "so2_contact_process",
+    "classes": [
+      11
+    ],
+    "chapter": "Equilibrium (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "sulfur_dioxide",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sulfur_trioxide",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2SO2 + O2 → 2SO3",
+    "reactionType": [
+      "oxidation"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": "vanadium pentoxide"
+    },
+    "observations": {
+      "gas": "sulfur trioxide fumes evolve",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Equilibrium (Class 11)"
+    }
+  },
+  {
+    "id": "wurtz_reaction",
+    "classes": [
+      11
+    ],
+    "chapter": "Hydrocarbons (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "methyl_chloride",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "sodium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "ethane",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2CH3Cl + 2Na → C2H6 + 2NaCl",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "dry ether"
+    },
+    "observations": {
+      "gas": "ethane gas evolved",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Hydrocarbons (Class 11)"
+    }
+  },
+  {
+    "id": "friedel_crafts_alkylation",
+    "classes": [
+      11
+    ],
+    "chapter": "Hydrocarbons (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "benzene",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "methyl_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "toluene",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "hydrochloric_acid",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C6H6 + CH3Cl → C6H5CH3 + HCl",
+    "reactionType": [
+      "electrophilic_substitution"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "anhydrous aluminium chloride"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "liquid toluene forms with acidic fumes",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Hydrocarbons (Class 11)"
+    }
+  },
+  {
+    "id": "ethene_bromination",
+    "classes": [
+      11
+    ],
+    "chapter": "Hydrocarbons (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "ethene",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "bromine",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "ethene_dibromide",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C2H4 + Br2 → C2H4Br2",
+    "reactionType": [
+      "halogenation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "reddish-brown bromine water completely decolorizes",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Hydrocarbons (Class 11)"
+    }
+  },
+  {
+    "id": "methane_combustion",
+    "classes": [
+      11
+    ],
+    "chapter": "Thermodynamics (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "methane",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "CH4 + 2O2 → CO2 + 2H2O",
+    "reactionType": [
+      "combustion"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Thermodynamics (Class 11)"
+    }
+  },
+  {
+    "id": "ethane_combustion",
+    "classes": [
+      11
+    ],
+    "chapter": "Thermodynamics (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "ethane",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 7
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "carbon_dioxide",
+        "coefficient": 4
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 6
+      }
+    ],
+    "equation": "2C2H6 + 7O2 → 4CO2 + 6H2O",
+    "reactionType": [
+      "combustion"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Thermodynamics (Class 11)"
+    }
+  },
+  {
+    "id": "ethyne_combustion",
+    "classes": [
+      11
+    ],
+    "chapter": "Thermodynamics (Class 11)",
+    "reactants": [
+      {
+        "chemicalId": "ethyne",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "carbon_dioxide",
+        "coefficient": 4
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2C2H2 + 5O2 → 4CO2 + 2H2O",
+    "reactionType": [
+      "combustion"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": "Thermodynamics (Class 11)"
+    }
+  },
+  {
+    "id": "finkelstein_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Haloalkanes and Haloarenes (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "ethyl_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_iodide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "ethyl_iodide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C2H5Cl + NaI → C2H5I + NaCl",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "dry acetone"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "white sodium chloride precipitates in dry acetone",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#ead34f"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Haloalkanes and Haloarenes (Class 12)"
+    }
+  },
+  {
+    "id": "swarts_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Haloalkanes and Haloarenes (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "methyl_bromide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "silver_fluoride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "methyl_fluoride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "silver_bromide",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH3Br + AgF → CH3F + AgBr",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "fluoromethane gas",
+      "precipitate": "pale yellow silver bromide precipitates",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#ead34f"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Haloalkanes and Haloarenes (Class 12)"
+    }
+  },
+  {
+    "id": "wurtz_fittig_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Haloalkanes and Haloarenes (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "chlorobenzene",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "methyl_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "toluene",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C6H5Cl + CH3Cl + 2Na → C6H5CH3 + 2NaCl",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "dry ether"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "toluene is formed with white sodium chloride",
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Haloalkanes and Haloarenes (Class 12)"
+    }
+  },
+  {
+    "id": "fittig_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Haloalkanes and Haloarenes (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "chlorobenzene",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "sodium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "biphenyl",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2C6H5Cl + 2Na → C12H10 + 2NaCl",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "dry ether"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "crystalline biphenyl solid forms",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#ead34f"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Haloalkanes and Haloarenes (Class 12)"
+    }
+  },
+  {
+    "id": "williamson_ether_synthesis",
+    "classes": [
+      12
+    ],
+    "chapter": "Alcohols, Phenols and Ethers (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "sodium_ethoxide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "ethyl_bromide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "diethyl_ether",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_bromide",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C2H5ONa + C2H5Br → (C2H5)2O + NaBr",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "clear sweet-smelling diethyl ether liquid forms",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Alcohols, Phenols and Ethers (Class 12)"
+    }
+  },
+  {
+    "id": "kolbe_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Alcohols, Phenols and Ethers (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "phenol",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "salicylic_acid",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C6H5OH + CO2 + 2NaOH → C7H6O3 + Na2CO3",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "salicylic acid formed through phenoxide carboxylation",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Alcohols, Phenols and Ethers (Class 12)"
+    }
+  },
+  {
+    "id": "reimer_tiemann_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Alcohols, Phenols and Ethers (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "phenol",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "chloroform",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "salicylaldehyde",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 3
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C6H5OH + CHCl3 + 3NaOH → C7H6O2 + 3NaCl + 2H2O",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "yellowish salicylaldehyde forms with sweet fragrance",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Alcohols, Phenols and Ethers (Class 12)"
+    }
+  },
+  {
+    "id": "ethanol_dichromate_oxidation",
+    "classes": [
+      12
+    ],
+    "chapter": "Alcohols, Phenols and Ethers (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "ethanol",
+        "coefficient": 3
+      },
+      {
+        "chemicalId": "potassium_dichromate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "sulfuric_acid",
+        "coefficient": 8
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "ethanoic_acid",
+        "coefficient": 3
+      },
+      {
+        "chemicalId": "chromium_sulfate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "potassium_sulfate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 11
+      }
+    ],
+    "equation": "3C2H5OH + 2K2Cr2O7 + 8H2SO4 → 3CH3COOH + 2Cr2(SO4)3 + 2K2SO4 + 11H2O",
+    "reactionType": [
+      "oxidation"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "orange potassium dichromate turns deep chrome green (breathalyzer test)",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Alcohols, Phenols and Ethers (Class 12)"
+    }
+  },
+  {
+    "id": "aldol_condensation",
+    "classes": [
+      12
+    ],
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "acetaldehyde",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "aldol_product",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2CH3CHO → C4H8O2",
+    "reactionType": [
+      "aldol_condensation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "dilute sodium hydroxide"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "pale viscous 3-hydroxybutanal aldol liquid forms",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)"
+    }
+  },
+  {
+    "id": "cannizzaro_reaction",
+    "classes": [
+      12
+    ],
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "formaldehyde",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "sodium_formate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "methanol",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2HCHO + NaOH → HCOONa + CH3OH",
+    "reactionType": [
+      "named_reaction"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "disproportionation yields methanol and sodium formate",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)"
+    }
+  },
+  {
+    "id": "tollens_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "acetaldehyde",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "silver_nitrate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "ammonium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "silver_mirror",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "ethanoic_acid",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "CH3CHO + 2AgNO3 + 2NH4OH → 2Ag + CH3COOH + 2NH4NO3 + H2O",
+    "reactionType": [
+      "functional_group_test"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "brilliant shining silver mirror deposits on glass walls",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false,
+      "precipitateColor": "#c0c0c0"
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#c0c0c0"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)"
+    }
+  },
+  {
+    "id": "fehling_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "acetaldehyde",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "copper_sulfate",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "copper_i_oxide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "ethanoic_acid",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "CH3CHO + 2CuSO4 + 4NaOH → Cu2O + CH3COOH + 2Na2SO4 + 2H2O",
+    "reactionType": [
+      "functional_group_test"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "dense brick-red precipitate of copper(I) oxide forms",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false,
+      "precipitateColor": "#b71c1c"
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#b71c1c"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)"
+    }
+  },
+  {
+    "id": "iodoform_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "acetone",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "iodine",
+        "coefficient": 3
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "iodoform",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_ethanoate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 3
+      }
+    ],
+    "equation": "CH3COCH3 + 3I2 + 4NaOH → CHI3 + CH3COONa + 3NaI + 3H2O",
+    "reactionType": [
+      "functional_group_test"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "bright canary-yellow iodoform crystals with antiseptic smell",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false,
+      "precipitateColor": "#fdd835"
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#fdd835"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids (Class 12)"
+    }
+  },
+  {
+    "id": "carbylamine_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Amines (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "aniline",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "chloroform",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "potassium_hydroxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "phenyl_isocyanide",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "potassium_chloride",
+        "coefficient": 3
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 3
+      }
+    ],
+    "equation": "C6H5NH2 + CHCl3 + 3KOH → C6H5NC + 3KCl + 3H2O",
+    "reactionType": [
+      "functional_group_test"
+    ],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "extremely foul, pungent carbylamine odor detected",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Amines (Class 12)"
+    }
+  },
+  {
+    "id": "diazotisation",
+    "classes": [
+      12
+    ],
+    "chapter": "Amines (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "aniline",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_nitrite",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "benzene_diazonium_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C6H5NH2 + NaNO2 + 2HCl → C6H5N2Cl + NaCl + 2H2O",
+    "reactionType": [
+      "diazotisation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "ice-cold temperature (0–5 °C)"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "diazonium salt solution forms at cold temperature",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Amines (Class 12)"
+    }
+  },
+  {
+    "id": "azo_dye_coupling",
+    "classes": [
+      12
+    ],
+    "chapter": "Amines (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "benzene_diazonium_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "two_naphthol",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "orange_azo_dye",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "sodium_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C6H5N2Cl + C10H7OH + NaOH → C16H12N2O + NaCl + H2O",
+    "reactionType": [
+      "azo_coupling"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "vibrant scarlet-orange azo dye precipitate forms immediately",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false,
+      "precipitateColor": "#ff6f00"
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#ff6f00"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Amines (Class 12)"
+    }
+  },
+  {
+    "id": "prussian_blue_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Coordination Compounds (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "iron_chloride",
+        "coefficient": 4
+      },
+      {
+        "chemicalId": "potassium_ferrocyanide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "prussian_blue",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "potassium_chloride",
+        "coefficient": 12
+      }
+    ],
+    "equation": "4FeCl3 + 3K4[Fe(CN)6] → Fe4[Fe(CN)6]3 + 12KCl",
+    "reactionType": [
+      "complex_formation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "intense midnight-blue Prussian Blue precipitate forms instantly",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false,
+      "precipitateColor": "#0d2b45"
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#0d2b45"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Coordination Compounds (Class 12)"
+    }
+  },
+  {
+    "id": "blood_red_thiocyanate_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Coordination Compounds (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "iron_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "potassium_thiocyanate",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "iron_thiocyanate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "potassium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "equation": "FeCl3 + 3KSCN → Fe(SCN)3 + 3KCl",
+    "reactionType": [
+      "complex_formation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "dramatic blood-red ferric thiocyanate complex forms",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Coordination Compounds (Class 12)"
+    }
+  },
+  {
+    "id": "copper_tetraammine_complex",
+    "classes": [
+      12
+    ],
+    "chapter": "Coordination Compounds (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "copper_sulfate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "ammonium_hydroxide",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "copper_tetraammine_sulfate",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 4
+      }
+    ],
+    "equation": "CuSO4 + 4NH4OH → [Cu(NH3)4]SO4 + 4H2O",
+    "reactionType": [
+      "complex_formation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "solution transforms into deep royal azure blue tetraammine complex",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Coordination Compounds (Class 12)"
+    }
+  },
+  {
+    "id": "nickel_dmg_test",
+    "classes": [
+      12
+    ],
+    "chapter": "Coordination Compounds (Class 12)",
+    "reactants": [
+      {
+        "chemicalId": "nickel_chloride",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "dimethylglyoxime",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "ammonium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "chemicalId": "nickel_dmg_complex",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+    "equation": "NiCl2 + 2C4H8N2O2 + 2NH4OH → Ni(C4H7N2O2)2 + 2NH4Cl + 2H2O",
+    "reactionType": [
+      "complex_formation"
+    ],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "brilliant rosy scarlet precipitate of nickel DMG forms",
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false,
+      "precipitateColor": "#b71c1c"
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#b71c1c"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 12,
+      "chapter": "Coordination Compounds (Class 12)"
+    }
+  }
+]

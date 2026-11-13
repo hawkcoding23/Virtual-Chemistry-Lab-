@@ -1,0 +1,124 @@
+[
+  {
+    "id": "hydrogen_oxygen_water_class9",
+    "classes": [9],
+    "chapter": "Atomic Foundations of Matter",
+
+    "reactants": [
+      {
+        "chemicalId": "hydrogen",
+        "coefficient": 2
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 1
+      }
+    ],
+
+    "products": [
+      {
+        "chemicalId": "water",
+        "coefficient": 2
+      }
+    ],
+
+    "equation": "2H2 + O2 → 2H2O",
+
+    "reactionType": [
+      "combination"
+    ],
+
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#dceff5"
+    },
+
+    "curriculumReferences": [
+      {
+        "curriculum": "NCERT",
+        "class": 9,
+        "chapter": "Atomic Foundations of Matter",
+        "edition": "Exploration, 2026"
+      }
+    ]
+  },
+
+  {
+    "id": "carbon_oxygen_carbon_dioxide_class9",
+    "classes": [9],
+    "chapter": "Atomic Foundations of Matter",
+
+    "reactants": [
+      {
+        "chemicalId": "carbon",
+        "coefficient": 1
+      },
+      {
+        "chemicalId": "oxygen",
+        "coefficient": 1
+      }
+    ],
+
+    "products": [
+      {
+        "chemicalId": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+
+    "equation": "C + O2 → CO2",
+
+    "reactionType": [
+      "combination",
+      "combustion"
+    ],
+
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "finalColor": "#e8f4f8"
+    },
+
+    "curriculumReferences": [
+      {
+        "curriculum": "NCERT",
+        "class": 9,
+        "chapter": "Atomic Foundations of Matter",
+        "edition": "Exploration, 2026"
+      }
+    ]
+  }
+]

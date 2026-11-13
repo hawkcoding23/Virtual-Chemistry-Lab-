@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "REDOX-OX-001",
+    "slug": "magnesium_oxidation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Mg + O₂ → 2MgO",
+    "reactionType": ["oxidation", "combination"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "bright_white_flame",
+      "temperatureChange": "exothermic",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#ffffff"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "REDOX-OX-002",
+    "slug": "iron_oxidation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 4 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "iron_oxide", "coefficient": 2 }
+    ],
+    "equation": "4Fe + 3O₂ → 2Fe₂O₃",
+    "reactionType": ["oxidation"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "reddish_brown",
+      "temperatureChange": "exothermic",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#a52a2a"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "REDOX-OX-003",
+    "slug": "copper_oxidation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "copper", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "copper_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Cu + O₂ → 2CuO",
+    "reactionType": ["oxidation"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "black",
+      "temperatureChange": "exothermic",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "flame": false,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#222222"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "REDOX-OX-004",
+    "slug": "sulfur_oxidation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "sulfur", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sulfur_dioxide", "coefficient": 1 }
+    ],
+    "equation": "S + O₂ → SO₂",
+    "reactionType": ["oxidation", "combustion"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "sulfur_dioxide",
+      "precipitate": null,
+      "colorChange": "blue_flame",
+      "temperatureChange": "exothermic",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": true,
+      "explosion": false,
+      "finalColor": "#87ceeb"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "REDOX-OX-005",
+    "slug": "carbon_oxidation",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "carbon", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "C + O₂ → CO₂",
+    "reactionType": ["oxidation", "combustion"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "exothermic",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "smoke": false,
+      "explosion": false,
+      "finalColor": "#dddddd"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+,
+{
+  "id": "REDOX-OX-006",
+  "slug": "hydrogen_chlorination",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "hydrogen", "coefficient": 1 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "hydrogen_chloride", "coefficient": 2 }
+  ],
+  "equation": "H₂ + Cl₂ → 2HCl",
+  "reactionType": ["oxidation", "combination", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": true,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": "hydrogen_chloride",
+    "precipitate": null,
+    "colorChange": "greenish_yellow_to_colorless",
+    "temperatureChange": "exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": true,
+    "smoke": true,
+    "explosion": true,
+    "finalColor": "#f5f5f5"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-007",
+  "slug": "sodium_chlorination",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium", "coefficient": 2 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_chloride", "coefficient": 2 }
+  ],
+  "equation": "2Na + Cl₂ → 2NaCl",
+  "reactionType": ["oxidation", "combination", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "bright_yellow_flame",
+    "temperatureChange": "highly_exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": true,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#fff7cc"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-008",
+  "slug": "phosphorus_chlorination",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "phosphorus", "coefficient": 2 },
+    { "chemicalId": "chlorine", "coefficient": 5 }
+  ],
+  "products": [
+    { "chemicalId": "phosphorus_pentachloride", "coefficient": 2 }
+  ],
+  "equation": "2P + 5Cl₂ → 2PCl₅",
+  "reactionType": ["oxidation", "combination", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": "phosphorus_pentachloride",
+    "colorChange": "white_solid",
+    "temperatureChange": "exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": true,
+    "heat": true,
+    "glow": true,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#ffffff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-009",
+  "slug": "iron_chlorination",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "iron", "coefficient": 2 },
+    { "chemicalId": "chlorine", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "iron_chloride", "coefficient": 2 }
+  ],
+  "equation": "2Fe + 3Cl₂ → 2FeCl₃",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "brown",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#8b4513"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-010",
+  "slug": "copper_chlorination",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "copper", "coefficient": 1 },
+    { "chemicalId": "chlorine", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "copper_chloride", "coefficient": 1 }
+  ],
+  "equation": "Cu + Cl₂ → CuCl₂",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "greenish_brown",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#5b7f3a"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-011",
+  "slug": "ferrous_to_ferric_by_permanganate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "ferrous_sulfate", "coefficient": 10 },
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 8 }
+  ],
+  "products": [
+    { "chemicalId": "ferric_sulfate", "coefficient": 5 },
+    { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 8 }
+  ],
+  "equation": "10FeSO₄ + 2KMnO₄ + 8H₂SO₄ → 5Fe₂(SO₄)₃ + K₂SO₄ + 2MnSO₄ + 8H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "dilute_sulfuric_acid"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "purple_to_colorless",
+    "temperatureChange": "slightly_exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#d8c8ff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-012",
+  "slug": "oxalic_acid_oxidation_by_permanganate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "oxalic_acid", "coefficient": 5 },
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "carbon_dioxide", "coefficient": 10 },
+    { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 8 }
+  ],
+  "equation": "2KMnO₄ + 5H₂C₂O₄ + 3H₂SO₄ → K₂SO₄ + 2MnSO₄ + 10CO₂ + 8H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": "dilute_sulfuric_acid"
+  },
+  "observations": {
+    "gas": "carbon_dioxide",
+    "precipitate": null,
+    "colorChange": "purple_to_colorless",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": true,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#eeeeee"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-013",
+  "slug": "iodide_to_iodine_by_permanganate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "potassium_iodide", "coefficient": 10 },
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 8 }
+  ],
+  "products": [
+    { "chemicalId": "iodine", "coefficient": 5 },
+    { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 6 },
+    { "chemicalId": "water", "coefficient": 8 }
+  ],
+  "equation": "2KMnO₄ + 10KI + 8H₂SO₄ → 5I₂ + 2MnSO₄ + 6K₂SO₄ + 8H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "dilute_sulfuric_acid"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "brown_solution",
+    "temperatureChange": "slightly_exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#7b3f00"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-014",
+  "slug": "hydrogen_peroxide_oxidation_by_permanganate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "hydrogen_peroxide", "coefficient": 5 },
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "oxygen", "coefficient": 5 },
+    { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 8 }
+  ],
+  "equation": "2KMnO₄ + 5H₂O₂ + 3H₂SO₄ → K₂SO₄ + 2MnSO₄ + 5O₂ + 8H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "dilute_sulfuric_acid"
+  },
+  "observations": {
+    "gas": "oxygen",
+    "precipitate": null,
+    "colorChange": "purple_to_colorless",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": true,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#e6f7ff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-015",
+  "slug": "sulfite_to_sulfate_by_permanganate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium_sulfite", "coefficient": 5 },
+    { "chemicalId": "potassium_permanganate", "coefficient": 2 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_sulfate", "coefficient": 5 },
+    { "chemicalId": "manganese_sulfate", "coefficient": 2 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 3 }
+  ],
+  "equation": "5Na₂SO₃ + 2KMnO₄ + 3H₂SO₄ → 5Na₂SO₄ + K₂SO₄ + 2MnSO₄ + 3H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "dilute_sulfuric_acid"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "purple_to_colorless",
+    "temperatureChange": "slightly_exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#f0f0f0"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-016",
+  "slug": "ethanol_to_ethanal_by_dichromate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "ethanol", "coefficient": 3 },
+    { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+  ],
+  "products": [
+    { "chemicalId": "ethanal", "coefficient": 3 },
+    { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 7 }
+  ],
+  "equation": "3CH₃CH₂OH + K₂Cr₂O₇ + 4H₂SO₄ → 3CH₃CHO + Cr₂(SO₄)₃ + K₂SO₄ + 7H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": "acidified_potassium_dichromate"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "orange_to_green",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#3cb371"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-017",
+  "slug": "ethanal_to_ethanoic_acid_by_dichromate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "ethanal", "coefficient": 3 },
+    { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+  ],
+  "products": [
+    { "chemicalId": "ethanoic_acid", "coefficient": 3 },
+    { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 4 }
+  ],
+  "equation": "3CH₃CHO + K₂Cr₂O₇ + 4H₂SO₄ → 3CH₃COOH + Cr₂(SO₄)₃ + K₂SO₄ + 4H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": "acidified_potassium_dichromate"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "orange_to_green",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#3cb371"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-018",
+  "slug": "ferrous_to_ferric_by_dichromate",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "ferrous_sulfate", "coefficient": 6 },
+    { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 7 }
+  ],
+  "products": [
+    { "chemicalId": "ferric_sulfate", "coefficient": 3 },
+    { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 7 }
+  ],
+  "equation": "6FeSO₄ + K₂Cr₂O₇ + 7H₂SO₄ → 3Fe₂(SO₄)₃ + Cr₂(SO₄)₃ + K₂SO₄ + 7H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "dilute_sulfuric_acid"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "orange_to_green",
+    "temperatureChange": "slightly_exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#3cb371"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-019",
+  "slug": "sulfur_dioxide_to_sulfuric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sulfur_dioxide", "coefficient": 3 },
+    { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "sulfuric_acid", "coefficient": 3 },
+    { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "3SO₂ + K₂Cr₂O₇ + H₂SO₄ → 3H₂SO₄ + Cr₂(SO₄)₃ + K₂SO₄ + H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "acidified_potassium_dichromate"
+  },
+  "observations": {
+    "gas": "sulfur_dioxide",
+    "precipitate": null,
+    "colorChange": "orange_to_green",
+    "temperatureChange": "slightly_exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#3cb371"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-020",
+  "slug": "hydrogen_sulfide_to_sulfur",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "hydrogen_sulfide", "coefficient": 3 },
+    { "chemicalId": "potassium_dichromate", "coefficient": 1 },
+    { "chemicalId": "sulfuric_acid", "coefficient": 4 }
+  ],
+  "products": [
+    { "chemicalId": "sulfur", "coefficient": 3 },
+    { "chemicalId": "chromium_sulfate", "coefficient": 1 },
+    { "chemicalId": "potassium_sulfate", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 7 }
+  ],
+  "equation": "3H₂S + K₂Cr₂O₇ + 4H₂SO₄ → 3S + Cr₂(SO₄)₃ + K₂SO₄ + 7H₂O",
+  "reactionType": ["oxidation", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "acidified_potassium_dichromate"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": "sulfur",
+    "colorChange": "yellow_precipitate",
+    "temperatureChange": "slightly_exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": true,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#ffd700"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-021",
+  "slug": "zinc_oxidation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "zinc", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "zinc_oxide", "coefficient": 2 }
+  ],
+  "equation": "2Zn + O₂ → 2ZnO",
+  "reactionType": ["oxidation", "combination"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "white_oxide",
+    "temperatureChange": "exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#ffffff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-022",
+  "slug": "aluminium_oxidation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "aluminium", "coefficient": 4 },
+    { "chemicalId": "oxygen", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "aluminium_oxide", "coefficient": 2 }
+  ],
+  "equation": "4Al + 3O₂ → 2Al₂O₃",
+  "reactionType": ["oxidation", "combination"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "white_coating",
+    "temperatureChange": "exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": true,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#f8f8f8"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-023",
+  "slug": "calcium_oxidation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "calcium", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "calcium_oxide", "coefficient": 2 }
+  ],
+  "equation": "2Ca + O₂ → 2CaO",
+  "reactionType": ["oxidation", "combination"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "brick_red_flame",
+    "temperatureChange": "highly_exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": true,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#ffe4c4"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-024",
+  "slug": "lead_oxidation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "lead", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "lead_oxide", "coefficient": 2 }
+  ],
+  "equation": "2Pb + O₂ → 2PbO",
+  "reactionType": ["oxidation", "combination"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "yellow_red_oxide",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#d4af37"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-025",
+  "slug": "tin_oxidation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "tin", "coefficient": 1 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "tin_dioxide", "coefficient": 1 }
+  ],
+  "equation": "Sn + O₂ → SnO₂",
+  "reactionType": ["oxidation", "combination"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "white_oxide",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#f5f5f5"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-026",
+  "slug": "methanol_to_methanal",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "methanol", "coefficient": 1 },
+    { "chemicalId": "copper_oxide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "methanal", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₃OH + CuO → HCHO + Cu + H₂O",
+  "reactionType": ["oxidation", "organic_redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": "copper",
+    "colorChange": "black_to_brown",
+    "temperatureChange": "endothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": true,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#8b4513"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-027",
+  "slug": "methanal_to_formic_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "methanal", "coefficient": 1 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "formic_acid", "coefficient": 1 }
+  ],
+  "equation": "2HCHO + O₂ → 2HCOOH",
+  "reactionType": ["oxidation", "organic_redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "oxidising_agent"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": null,
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#eef8ff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-028",
+  "slug": "propanol_to_propanal",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "propan_1_ol", "coefficient": 1 },
+    { "chemicalId": "copper_oxide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "propanal", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₃CH₂CH₂OH + CuO → CH₃CH₂CHO + Cu + H₂O",
+  "reactionType": ["oxidation", "organic_redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": "copper",
+    "colorChange": "black_to_brown",
+    "temperatureChange": "endothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": true,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#8b4513"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-029",
+  "slug": "propanal_to_propionic_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "propanal", "coefficient": 1 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "propionic_acid", "coefficient": 1 }
+  ],
+  "equation": "2CH₃CH₂CHO + O₂ → 2CH₃CH₂COOH",
+  "reactionType": ["oxidation", "organic_redox"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": "oxidising_agent"
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": null,
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#eef8ff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-030",
+  "slug": "propan_2_ol_to_propanone",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "propan_2_ol", "coefficient": 1 },
+    { "chemicalId": "copper_oxide", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "propanone", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 1 }
+  ],
+  "equation": "CH₃CHOHCH₃ + CuO → CH₃COCH₃ + Cu + H₂O",
+  "reactionType": ["oxidation", "organic_redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": "copper",
+    "colorChange": "black_to_brown",
+    "temperatureChange": "endothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": true,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#8b4513"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-031",
+  "slug": "nitric_oxide_to_nitrogen_dioxide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "nitric_oxide", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "nitrogen_dioxide", "coefficient": 2 }
+  ],
+  "equation": "2NO + O₂ → 2NO₂",
+  "reactionType": ["oxidation", "redox", "combination"],
+  "conditions": {
+    "heatRequired": false,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": "nitrogen_dioxide",
+    "precipitate": null,
+    "colorChange": "colorless_to_brown",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#8b4513"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-032",
+  "slug": "ammonia_to_nitric_oxide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "ammonia", "coefficient": 4 },
+    { "chemicalId": "oxygen", "coefficient": 5 }
+  ],
+  "products": [
+    { "chemicalId": "nitric_oxide", "coefficient": 4 },
+    { "chemicalId": "water", "coefficient": 6 }
+  ],
+  "equation": "4NH₃ + 5O₂ → 4NO + 6H₂O",
+  "reactionType": ["oxidation", "redox", "catalytic"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": "platinum"
+  },
+  "observations": {
+    "gas": "nitric_oxide",
+    "precipitate": null,
+    "colorChange": null,
+    "temperatureChange": "highly_exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": false,
+    "smoke": true,
+    "explosion": false,
+    "finalColor": "#dddddd"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-033",
+  "slug": "carbon_monoxide_to_carbon_dioxide",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "carbon_monoxide", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "carbon_dioxide", "coefficient": 2 }
+  ],
+  "equation": "2CO + O₂ → 2CO₂",
+  "reactionType": ["oxidation", "combustion", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": "carbon_dioxide",
+    "precipitate": null,
+    "colorChange": null,
+    "temperatureChange": "highly_exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": true,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#e6e6e6"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-034",
+  "slug": "hydrogen_to_water",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "hydrogen", "coefficient": 2 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "equation": "2H₂ + O₂ → 2H₂O",
+  "reactionType": ["oxidation", "combination", "combustion"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": "spark"
+  },
+  "observations": {
+    "gas": "steam",
+    "precipitate": null,
+    "colorChange": "pale_blue_flame",
+    "temperatureChange": "highly_exothermic",
+    "lightProduced": true
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": true,
+    "flame": true,
+    "smoke": false,
+    "explosion": true,
+    "finalColor": "#e6f7ff"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "REDOX-OX-035",
+  "slug": "manganese_dioxide_formation",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "manganese", "coefficient": 1 },
+    { "chemicalId": "oxygen", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "manganese_dioxide", "coefficient": 1 }
+  ],
+  "equation": "Mn + O₂ → MnO₂",
+  "reactionType": ["oxidation", "combination"],
+  "conditions": {
+    "heatRequired": true,
+    "lightRequired": false,
+    "catalyst": null
+  },
+  "observations": {
+    "gas": null,
+    "precipitate": null,
+    "colorChange": "black_solid",
+    "temperatureChange": "exothermic",
+    "lightProduced": false
+  },
+  "gameEffect": {
+    "bubbles": false,
+    "precipitate": false,
+    "heat": true,
+    "glow": false,
+    "flame": false,
+    "smoke": false,
+    "explosion": false,
+    "finalColor": "#1c1c1c"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

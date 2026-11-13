@@ -1,0 +1,628 @@
+[
+  {
+    "id": "MD-001",
+    "slug": "zinc_displaces_copper",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "zinc", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Zn + CuSO₄ → ZnSO₄ + Cu",
+    "reactionType": ["metal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "MD-002",
+    "slug": "iron_displaces_copper",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ferrous_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Fe + CuSO₄ → FeSO₄ + Cu",
+    "reactionType": ["metal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "MD-003",
+    "slug": "magnesium_displaces_zinc",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "zinc_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_sulfate", "coefficient": 1 },
+      { "chemicalId": "zinc", "coefficient": 1 }
+    ],
+    "equation": "Mg + ZnSO₄ → MgSO₄ + Zn",
+    "reactionType": ["metal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "MD-004",
+    "slug": "aluminium_displaces_iron",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "aluminium", "coefficient": 2 },
+      { "chemicalId": "ferric_oxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "aluminium_oxide", "coefficient": 1 },
+      { "chemicalId": "iron", "coefficient": 2 }
+    ],
+    "equation": "2Al + Fe₂O₃ → Al₂O₃ + 2Fe",
+    "reactionType": ["metal_displacement", "thermite", "redox"],
+    "conditions": {
+      "heatRequired": true,
+      "catalyst": "magnesium_ribbon"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "MD-005",
+    "slug": "magnesium_displaces_copper",
+    "classes": [11],
+    "chapter": "Redox Reactions",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Mg + CuSO₄ → MgSO₄ + Cu",
+    "reactionType": ["metal_displacement", "redox"],
+    "conditions": {
+      "heatRequired": false,
+      "catalyst": null
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+  ,
+{
+  "id": "MD-006",
+  "slug": "zinc_displaces_iron",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "zinc", "coefficient": 1 },
+    { "chemicalId": "ferrous_sulfate", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "zinc_sulfate", "coefficient": 1 },
+    { "chemicalId": "iron", "coefficient": 1 }
+  ],
+  "equation": "Zn + FeSO₄ → ZnSO₄ + Fe",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-007",
+  "slug": "calcium_displaces_zinc",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "calcium", "coefficient": 1 },
+    { "chemicalId": "zinc_sulfate", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "calcium_sulfate", "coefficient": 1 },
+    { "chemicalId": "zinc", "coefficient": 1 }
+  ],
+  "equation": "Ca + ZnSO₄ → CaSO₄ + Zn",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-008",
+  "slug": "magnesium_displaces_iron",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "magnesium", "coefficient": 1 },
+    { "chemicalId": "ferrous_sulfate", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "magnesium_sulfate", "coefficient": 1 },
+    { "chemicalId": "iron", "coefficient": 1 }
+  ],
+  "equation": "Mg + FeSO₄ → MgSO₄ + Fe",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-009",
+  "slug": "aluminium_displaces_copper",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "aluminium", "coefficient": 2 },
+    { "chemicalId": "copper_sulfate", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "aluminium_sulfate", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 3 }
+  ],
+  "equation": "2Al + 3CuSO₄ → Al₂(SO₄)₃ + 3Cu",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-010",
+  "slug": "sodium_displaces_hydrogen_from_water",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "sodium", "coefficient": 2 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "sodium_hydroxide", "coefficient": 2 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "2Na + 2H₂O → 2NaOH + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-011",
+  "slug": "potassium_displaces_hydrogen_from_water",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "potassium", "coefficient": 2 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "potassium_hydroxide", "coefficient": 2 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "2K + 2H₂O → 2KOH + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-012",
+  "slug": "calcium_displaces_hydrogen_from_water",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "calcium", "coefficient": 1 },
+    { "chemicalId": "water", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "calcium_hydroxide", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "Ca + 2H₂O → Ca(OH)₂ + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-013",
+  "slug": "magnesium_displaces_hydrogen_from_steam",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "magnesium", "coefficient": 1 },
+    { "chemicalId": "steam", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "magnesium_oxide", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "Mg + H₂O(g) → MgO + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": true,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-014",
+  "slug": "zinc_displaces_hydrogen_from_hydrochloric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "zinc", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "zinc_chloride", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "Zn + 2HCl → ZnCl₂ + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-015",
+  "slug": "iron_displaces_hydrogen_from_sulfuric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "iron", "coefficient": 1 },
+    { "chemicalId": "dilute_sulfuric_acid", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "ferrous_sulfate", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "Fe + H₂SO₄(dil.) → FeSO₄ + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-016",
+  "slug": "magnesium_displaces_hydrogen_from_hydrochloric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "magnesium", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "magnesium_chloride", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "Mg + 2HCl → MgCl₂ + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-017",
+  "slug": "aluminium_displaces_hydrogen_from_hydrochloric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "aluminium", "coefficient": 2 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 6 }
+  ],
+  "products": [
+    { "chemicalId": "aluminium_chloride", "coefficient": 2 },
+    { "chemicalId": "hydrogen", "coefficient": 3 }
+  ],
+  "equation": "2Al + 6HCl → 2AlCl₃ + 3H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-018",
+  "slug": "calcium_displaces_hydrogen_from_hydrochloric_acid",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "calcium", "coefficient": 1 },
+    { "chemicalId": "hydrochloric_acid", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "calcium_chloride", "coefficient": 1 },
+    { "chemicalId": "hydrogen", "coefficient": 1 }
+  ],
+  "equation": "Ca + 2HCl → CaCl₂ + H₂",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-019",
+  "slug": "zinc_displaces_silver",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "zinc", "coefficient": 1 },
+    { "chemicalId": "silver_nitrate", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "zinc_nitrate", "coefficient": 1 },
+    { "chemicalId": "silver", "coefficient": 2 }
+  ],
+  "equation": "Zn + 2AgNO₃ → Zn(NO₃)₂ + 2Ag",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-020",
+  "slug": "iron_displaces_silver",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "iron", "coefficient": 1 },
+    { "chemicalId": "silver_nitrate", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "ferrous_nitrate", "coefficient": 1 },
+    { "chemicalId": "silver", "coefficient": 2 }
+  ],
+  "equation": "Fe + 2AgNO₃ → Fe(NO₃)₂ + 2Ag",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-021",
+  "slug": "copper_displaces_silver",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "copper", "coefficient": 1 },
+    { "chemicalId": "silver_nitrate", "coefficient": 2 }
+  ],
+  "products": [
+    { "chemicalId": "copper_nitrate", "coefficient": 1 },
+    { "chemicalId": "silver", "coefficient": 2 }
+  ],
+  "equation": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-022",
+  "slug": "lead_displaces_copper",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "lead", "coefficient": 1 },
+    { "chemicalId": "copper_sulfate", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "lead_sulfate", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 1 }
+  ],
+  "equation": "Pb + CuSO₄ → PbSO₄ + Cu",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-023",
+  "slug": "tin_displaces_copper",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "tin", "coefficient": 1 },
+    { "chemicalId": "copper_sulfate", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "stannous_sulfate", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 1 }
+  ],
+  "equation": "Sn + CuSO₄ → SnSO₄ + Cu",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-024",
+  "slug": "nickel_displaces_copper",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "nickel", "coefficient": 1 },
+    { "chemicalId": "copper_sulfate", "coefficient": 1 }
+  ],
+  "products": [
+    { "chemicalId": "nickel_sulfate", "coefficient": 1 },
+    { "chemicalId": "copper", "coefficient": 1 }
+  ],
+  "equation": "Ni + CuSO₄ → NiSO₄ + Cu",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "MD-025",
+  "slug": "aluminium_displaces_zinc",
+  "classes": [11],
+  "chapter": "Redox Reactions",
+  "reactants": [
+    { "chemicalId": "aluminium", "coefficient": 2 },
+    { "chemicalId": "zinc_sulfate", "coefficient": 3 }
+  ],
+  "products": [
+    { "chemicalId": "aluminium_sulfate", "coefficient": 1 },
+    { "chemicalId": "zinc", "coefficient": 3 }
+  ],
+  "equation": "2Al + 3ZnSO₄ → Al₂(SO₄)₃ + 3Zn",
+  "reactionType": ["metal_displacement", "redox"],
+  "conditions": {
+    "heatRequired": false,
+    "catalyst": null
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

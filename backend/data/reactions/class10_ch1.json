@@ -1,0 +1,339 @@
+[
+  {
+    "id": "magnesium_oxygen",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "magnesium", "coefficient": 2 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "magnesium_oxide", "coefficient": 2 }
+    ],
+    "equation": "2Mg + O2 → 2MgO",
+    "reactionType": ["combination", "oxidation"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "finalColor": "#f2f2ed"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 1
+    }
+  },
+
+  {
+    "id": "calcium_oxide_water",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "calcium_oxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 }
+    ],
+    "equation": "CaO + H2O → Ca(OH)2",
+    "reactionType": ["combination", "exothermic"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#eeeeea"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 1
+    }
+  },
+
+  {
+    "id": "calcium_hydroxide_carbon_dioxide",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "calcium_hydroxide", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "calcium_carbonate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "Ca(OH)2 + CO2 → CaCO3 + H2O",
+    "reactionType": ["precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "calcium_carbonate",
+      "colorChange": "milky white appearance",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8e8e3"
+    },
+   "curriculumReferences": [
+  {
+    "curriculum": "NCERT",
+    "class": 10,
+    "chapter": 1,
+    "chapterName": "Chemical Reactions and Equations"
+  },
+  {
+    "curriculum": "NCERT",
+    "class": 10,
+    "chapter": 2,
+    "chapterName": "Acids, Bases and Salts"
+  }
+]
+  },
+
+  {
+    "id": "iron_copper_sulfate",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "iron", "coefficient": 1 },
+      { "chemicalId": "copper_sulfate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "iron_sulfate", "coefficient": 1 },
+      { "chemicalId": "copper", "coefficient": 1 }
+    ],
+    "equation": "Fe + CuSO4 → FeSO4 + Cu",
+    "reactionType": ["displacement"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "blue solution changes toward green",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "deposit": true,
+      "depositColor": "#b87333",
+      "heat": false,
+      "glow": false,
+      "finalColor": "#9abf91"
+    },
+    "curriculumReferences": [
+  {
+    "curriculum": "NCERT",
+    "class": 10,
+    "chapter": 1,
+    "chapterName": "Chemical Reactions and Equations"
+  },
+  {
+    "curriculum": "NCERT",
+    "class": 10,
+    "chapter": 3,
+    "chapterName": "Metals and Non-metals"
+  }
+]
+  },
+
+  {
+    "id": "sodium_sulfate_barium_chloride",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "sodium_sulfate", "coefficient": 1 },
+      { "chemicalId": "barium_chloride", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "barium_sulfate", "coefficient": 1 },
+      { "chemicalId": "sodium_chloride", "coefficient": 2 }
+    ],
+    "equation": "Na2SO4 + BaCl2 → BaSO4 + 2NaCl",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "barium_sulfate",
+      "colorChange": "white precipitate appears",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#f3f3ef"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 1
+    }
+  },
+
+  {
+    "id": "lead_nitrate_potassium_iodide",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "lead_nitrate", "coefficient": 1 },
+      { "chemicalId": "potassium_iodide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "lead_iodide", "coefficient": 1 },
+      { "chemicalId": "potassium_nitrate", "coefficient": 2 }
+    ],
+    "equation": "Pb(NO3)2 + 2KI → PbI2 + 2KNO3",
+    "reactionType": ["double_displacement", "precipitation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": "lead_iodide",
+      "colorChange": "yellow precipitate appears",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": true,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#f4d03f"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 1
+    }
+  },
+
+  {
+    "id": "silver_chloride_light",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "silver_chloride", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "equation": "2AgCl → 2Ag + Cl2",
+    "reactionType": ["decomposition", "photochemical"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": true,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "chlorine",
+      "precipitate": null,
+      "colorChange": "white material darkens",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "darken": true,
+      "finalColor": "#777777"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 1
+    }
+  },
+
+  {
+    "id": "silver_bromide_light",
+    "classes": [10],
+    "chapter": "Chemical Reactions and Equations",
+    "reactants": [
+      { "chemicalId": "silver_bromide", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "silver", "coefficient": 2 },
+      { "chemicalId": "bromine", "coefficient": 1 }
+    ],
+    "equation": "2AgBr → 2Ag + Br2",
+    "reactionType": ["decomposition", "photochemical"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": true,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": "material darkens on exposure to light",
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "darken": true,
+      "finalColor": "#777777"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 1
+    }
+  }
+]

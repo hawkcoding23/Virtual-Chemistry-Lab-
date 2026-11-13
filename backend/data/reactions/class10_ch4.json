@@ -1,0 +1,367 @@
+[
+  {
+    "id": "methane_combustion",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 2 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 2 }
+    ],
+    "equation": "CH4 + 2O2 → CO2 + 2H2O",
+    "reactionType": ["combustion", "oxidation", "exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethanol_combustion",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 3 }
+    ],
+    "products": [
+      { "chemicalId": "carbon_dioxide", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 3 }
+    ],
+    "equation": "C2H5OH + 3O2 → 2CO2 + 3H2O",
+    "reactionType": ["combustion", "oxidation", "exothermic"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": true
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": true,
+      "flame": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethanol_oxidation",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "oxygen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "C2H5OH + O2 → CH3COOH + H2O",
+    "reactionType": ["oxidation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "oxidising_agent"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#edf5f7"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethene_hydrogen",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethene", "coefficient": 1 },
+      { "chemicalId": "hydrogen", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ethane", "coefficient": 1 }
+    ],
+    "equation": "C2H4 + H2 → C2H6",
+    "reactionType": ["addition", "hydrogenation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": "metal_catalyst"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "moleculeMerge": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "methane_chlorine",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "methane", "coefficient": 1 },
+      { "chemicalId": "chlorine", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "chloromethane", "coefficient": 1 },
+      { "chemicalId": "hydrochloric_acid", "coefficient": 1 }
+    ],
+    "equation": "CH4 + Cl2 → CH3Cl + HCl",
+    "reactionType": ["substitution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": true,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": false,
+      "glow": true,
+      "lightActivation": true,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethanoic_acid_sodium_hydroxide",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydroxide", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ethanoate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "CH3COOH + NaOH → CH3COONa + H2O",
+    "reactionType": ["neutralisation"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": "increase",
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethanoic_acid_sodium_carbonate",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 2 },
+      { "chemicalId": "sodium_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ethanoate", "coefficient": 2 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "2CH3COOH + Na2CO3 → 2CH3COONa + H2O + CO2",
+    "reactionType": ["acid_carbonate", "gas_evolution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethanoic_acid_sodium_hydrogen_carbonate",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethanoic_acid", "coefficient": 1 },
+      { "chemicalId": "sodium_hydrogen_carbonate", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "sodium_ethanoate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 },
+      { "chemicalId": "carbon_dioxide", "coefficient": 1 }
+    ],
+    "equation": "CH3COOH + NaHCO3 → CH3COONa + H2O + CO2",
+    "reactionType": ["acid_hydrogencarbonate", "gas_evolution"],
+    "conditions": {
+      "heatRequired": false,
+      "lightRequired": false,
+      "catalyst": null
+    },
+    "observations": {
+      "gas": "carbon_dioxide",
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": true,
+      "precipitate": false,
+      "heat": false,
+      "glow": false,
+      "finalColor": "#e8f4f8"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  },
+
+  {
+    "id": "ethanol_ethanoic_acid_esterification",
+    "classes": [10],
+    "chapter": "Carbon and Its Compounds",
+    "reactants": [
+      { "chemicalId": "ethanol", "coefficient": 1 },
+      { "chemicalId": "ethanoic_acid", "coefficient": 1 }
+    ],
+    "products": [
+      { "chemicalId": "ethyl_ethanoate", "coefficient": 1 },
+      { "chemicalId": "water", "coefficient": 1 }
+    ],
+    "equation": "C2H5OH + CH3COOH → CH3COOC2H5 + H2O",
+    "reactionType": ["esterification"],
+    "conditions": {
+      "heatRequired": true,
+      "lightRequired": false,
+      "catalyst": "acid_catalyst"
+    },
+    "observations": {
+      "gas": null,
+      "precipitate": null,
+      "colorChange": null,
+      "temperatureChange": null,
+      "lightProduced": false
+    },
+    "gameEffect": {
+      "bubbles": false,
+      "precipitate": false,
+      "heat": true,
+      "glow": false,
+      "aromaIndicator": true,
+      "finalColor": "#f2f5e9"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 10,
+      "chapter": 4
+    }
+  }
+]

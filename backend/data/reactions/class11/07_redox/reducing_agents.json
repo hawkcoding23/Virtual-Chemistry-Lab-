@@ -1,0 +1,710 @@
+[
+  {
+    "id": "RA-001",
+    "chemicalId": "hydrogen",
+    "formula": "H₂",
+    "name": "Hydrogen",
+    "category": "gas",
+    "strength": "strong",
+    "state": "gas",
+    "oxidationState": 0,
+    "donatesElectrons": true,
+    "commonProducts": [
+      "water"
+    ],
+    "usedIn": [
+      "metal_oxide_reduction",
+      "hydrogenation",
+      "ammonia_synthesis"
+    ],
+    "observations": {
+      "color": "colorless",
+      "odor": "odorless"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "RA-002",
+    "chemicalId": "carbon_monoxide",
+    "formula": "CO",
+    "name": "Carbon Monoxide",
+    "category": "gas",
+    "strength": "strong",
+    "state": "gas",
+    "oxidationState": "+2",
+    "donatesElectrons": true,
+    "commonProducts": [
+      "carbon_dioxide"
+    ],
+    "usedIn": [
+      "blast_furnace",
+      "metal_extraction",
+      "reduction"
+    ],
+    "observations": {
+      "color": "colorless",
+      "odor": "odorless"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "RA-003",
+    "chemicalId": "carbon",
+    "formula": "C",
+    "name": "Carbon",
+    "category": "non_metal",
+    "strength": "strong",
+    "state": "solid",
+    "oxidationState": 0,
+    "donatesElectrons": true,
+    "commonProducts": [
+      "carbon_monoxide",
+      "carbon_dioxide"
+    ],
+    "usedIn": [
+      "smelting",
+      "metal_extraction",
+      "reduction"
+    ],
+    "observations": {
+      "color": "black",
+      "odor": "odorless"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "RA-004",
+    "chemicalId": "zinc",
+    "formula": "Zn",
+    "name": "Zinc",
+    "category": "metal",
+    "strength": "strong",
+    "state": "solid",
+    "oxidationState": 0,
+    "donatesElectrons": true,
+    "commonProducts": [
+      "zinc_oxide",
+      "zinc_chloride"
+    ],
+    "usedIn": [
+      "displacement",
+      "metal_reduction",
+      "galvanization"
+    ],
+    "observations": {
+      "color": "bluish_white",
+      "odor": "odorless"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  },
+  {
+    "id": "RA-005",
+    "chemicalId": "aluminium",
+    "formula": "Al",
+    "name": "Aluminium",
+    "category": "metal",
+    "strength": "very_strong",
+    "state": "solid",
+    "oxidationState": 0,
+    "donatesElectrons": true,
+    "commonProducts": [
+      "aluminium_oxide"
+    ],
+    "usedIn": [
+      "thermite_reaction",
+      "metallurgy",
+      "reduction"
+    ],
+    "observations": {
+      "color": "silvery_white",
+      "odor": "odorless"
+    },
+    "source": {
+      "curriculum": "NCERT",
+      "class": 11,
+      "chapter": 8
+    }
+  }
+,
+{
+  "id": "RA-006",
+  "chemicalId": "iron",
+  "formula": "Fe",
+  "name": "Iron",
+  "category": "metal",
+  "strength": "moderate",
+  "state": "solid",
+  "oxidationState": 0,
+  "donatesElectrons": true,
+  "commonProducts": [
+    "ferrous_oxide",
+    "ferric_oxide"
+  ],
+  "usedIn": [
+    "displacement",
+    "redox_reactions",
+    "metallurgy"
+  ],
+  "observations": {
+    "color": "grey",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-007",
+  "chemicalId": "stannous_chloride",
+  "formula": "SnCl₂",
+  "name": "Stannous Chloride",
+  "category": "salt",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "+2",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "stannic_chloride"
+  ],
+  "usedIn": [
+    "laboratory_reduction",
+    "qualitative_analysis"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-008",
+  "chemicalId": "sulfur_dioxide",
+  "formula": "SO₂",
+  "name": "Sulfur Dioxide",
+  "category": "gas",
+  "strength": "moderate",
+  "state": "gas",
+  "oxidationState": "+4",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "sulfuric_acid",
+    "sulfates"
+  ],
+  "usedIn": [
+    "bleaching",
+    "reduction",
+    "preservative"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "pungent"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-009",
+  "chemicalId": "hydrogen_sulfide",
+  "formula": "H₂S",
+  "name": "Hydrogen Sulfide",
+  "category": "gas",
+  "strength": "strong",
+  "state": "gas",
+  "oxidationState": "-2",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "sulfur",
+    "sulfates"
+  ],
+  "usedIn": [
+    "qualitative_analysis",
+    "reduction"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "rotten_egg"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-010",
+  "chemicalId": "iodide",
+  "formula": "I⁻",
+  "name": "Iodide Ion",
+  "category": "anion",
+  "strength": "moderate",
+  "state": "aqueous",
+  "oxidationState": "-1",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "iodine"
+  ],
+  "usedIn": [
+    "iodometry",
+    "redox_titration",
+    "reduction"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-011",
+  "chemicalId": "ferrous_ion",
+  "formula": "Fe²⁺",
+  "name": "Ferrous Ion",
+  "category": "cation",
+  "strength": "moderate",
+  "state": "aqueous",
+  "oxidationState": "+2",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "ferric_ion"
+  ],
+  "usedIn": [
+    "redox_titration",
+    "oxidation_reactions",
+    "analytical_chemistry"
+  ],
+  "observations": {
+    "color": "pale_green",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-012",
+  "chemicalId": "oxalic_acid",
+  "formula": "H₂C₂O₄",
+  "name": "Oxalic Acid",
+  "category": "organic_acid",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": "+3",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "carbon_dioxide"
+  ],
+  "usedIn": [
+    "permanganate_titration",
+    "laboratory_reduction"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-013",
+  "chemicalId": "formic_acid",
+  "formula": "HCOOH",
+  "name": "Formic Acid",
+  "category": "organic_acid",
+  "strength": "moderate",
+  "state": "liquid",
+  "oxidationState": "+2",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "carbon_dioxide"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "pungent"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-014",
+  "chemicalId": "sodium_borohydride",
+  "formula": "NaBH₄",
+  "name": "Sodium Borohydride",
+  "category": "hydride",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": "-1",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "borates"
+  ],
+  "usedIn": [
+    "aldehyde_reduction",
+    "ketone_reduction",
+    "organic_synthesis"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-015",
+  "chemicalId": "lithium_aluminium_hydride",
+  "formula": "LiAlH₄",
+  "name": "Lithium Aluminium Hydride",
+  "category": "hydride",
+  "strength": "extremely_strong",
+  "state": "solid",
+  "oxidationState": "-1",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "aluminium_hydroxide",
+    "lithium_hydroxide"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "ester_reduction",
+    "carboxylic_acid_reduction",
+    "amide_reduction"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-016",
+  "chemicalId": "hydrazine",
+  "formula": "N₂H₄",
+  "name": "Hydrazine",
+  "category": "nitrogen_compound",
+  "strength": "very_strong",
+  "state": "liquid",
+  "oxidationState": "-2",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "nitrogen",
+    "water"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "oxygen_scavenger",
+    "rocket_fuel"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "ammonia_like"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-017",
+  "chemicalId": "hydroxylamine",
+  "formula": "NH₂OH",
+  "name": "Hydroxylamine",
+  "category": "nitrogen_compound",
+  "strength": "strong",
+  "state": "aqueous",
+  "oxidationState": "-1",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "nitrogen",
+    "nitrous_oxide"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "analytical_chemistry"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "slight"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-018",
+  "chemicalId": "sodium_sulfite",
+  "formula": "Na₂SO₃",
+  "name": "Sodium Sulfite",
+  "category": "salt",
+  "strength": "moderate",
+  "state": "solid",
+  "oxidationState": "+4",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "sodium_sulfate"
+  ],
+  "usedIn": [
+    "oxygen_scavenger",
+    "bleaching",
+    "water_treatment"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-019",
+  "chemicalId": "sodium_thiosulfate",
+  "formula": "Na₂S₂O₃",
+  "name": "Sodium Thiosulfate",
+  "category": "salt",
+  "strength": "moderate",
+  "state": "solid",
+  "oxidationState": "+2",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "sodium_tetrathionate"
+  ],
+  "usedIn": [
+    "iodometric_titration",
+    "photography",
+    "analytical_chemistry"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-020",
+  "chemicalId": "white_phosphorus",
+  "formula": "P₄",
+  "name": "White Phosphorus",
+  "category": "non_metal",
+  "strength": "very_strong",
+  "state": "solid",
+  "oxidationState": 0,
+  "donatesElectrons": true,
+  "commonProducts": [
+    "phosphorus_pentoxide",
+    "phosphoric_acid"
+  ],
+  "usedIn": [
+    "oxidation_reactions",
+    "chemical_synthesis",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "white",
+    "odor": "garlic_like"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-021",
+  "chemicalId": "hydroiodic_acid",
+  "formula": "HI",
+  "name": "Hydroiodic Acid",
+  "category": "acid",
+  "strength": "very_strong",
+  "state": "aqueous",
+  "oxidationState": "-1",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "iodine"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "alkyl_halide_reduction",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "pungent"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-022",
+  "chemicalId": "ammonia",
+  "formula": "NH₃",
+  "name": "Ammonia",
+  "category": "gas",
+  "strength": "moderate",
+  "state": "gas",
+  "oxidationState": "-3",
+  "donatesElectrons": true,
+  "commonProducts": [
+    "nitrogen",
+    "nitric_oxide"
+  ],
+  "usedIn": [
+    "metal_oxide_reduction",
+    "catalytic_reactions",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "colorless",
+    "odor": "sharp"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-023",
+  "chemicalId": "sodium",
+  "formula": "Na",
+  "name": "Sodium",
+  "category": "alkali_metal",
+  "strength": "extremely_strong",
+  "state": "solid",
+  "oxidationState": 0,
+  "donatesElectrons": true,
+  "commonProducts": [
+    "sodium_oxide",
+    "sodium_hydroxide"
+  ],
+  "usedIn": [
+    "metal_reduction",
+    "organic_synthesis",
+    "displacement_reactions"
+  ],
+  "observations": {
+    "color": "silvery_white",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "NCERT",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-024",
+  "chemicalId": "sodium_amalgam",
+  "formula": "Na(Hg)",
+  "name": "Sodium Amalgam",
+  "category": "alloy",
+  "strength": "very_strong",
+  "state": "liquid",
+  "oxidationState": 0,
+  "donatesElectrons": true,
+  "commonProducts": [
+    "sodium_hydroxide"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "silver",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+},
+{
+  "id": "RA-025",
+  "chemicalId": "zinc_dust",
+  "formula": "Zn",
+  "name": "Zinc Dust",
+  "category": "metal",
+  "strength": "strong",
+  "state": "solid",
+  "oxidationState": 0,
+  "donatesElectrons": true,
+  "commonProducts": [
+    "zinc_oxide",
+    "zinc_chloride"
+  ],
+  "usedIn": [
+    "organic_reduction",
+    "clemmensen_reduction",
+    "laboratory_reagent"
+  ],
+  "observations": {
+    "color": "grey",
+    "odor": "odorless"
+  },
+  "source": {
+    "curriculum": "Advanced",
+    "class": 11,
+    "chapter": 8
+  }
+}
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "id": "sodium_hydroxide",
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "potassium_hydroxide",
+    "name": "Potassium Hydroxide",
+    "formula": "KOH",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "calcium_hydroxide",
+    "name": "Calcium Hydroxide",
+    "formula": "Ca(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "magnesium_hydroxide",
+    "name": "Magnesium Hydroxide",
+    "formula": "Mg(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "ammonium_hydroxide",
+    "name": "Ammonium Hydroxide",
+    "formula": "NH4OH",
+    "state": "aqueous",
+    "category": "base"
+  },
+  {
+    "id": "barium_hydroxide",
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "strontium_hydroxide",
+    "name": "Strontium Hydroxide",
+    "formula": "Sr(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "lithium_hydroxide",
+    "name": "Lithium Hydroxide",
+    "formula": "LiOH",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "rubidium_hydroxide",
+    "name": "Rubidium Hydroxide",
+    "formula": "RbOH",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "caesium_hydroxide",
+    "name": "Caesium Hydroxide",
+    "formula": "CsOH",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "aluminium_hydroxide",
+    "name": "Aluminium Hydroxide",
+    "formula": "Al(OH)3",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "zinc_hydroxide",
+    "name": "Zinc Hydroxide",
+    "formula": "Zn(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "iron_ii_hydroxide",
+    "name": "Iron(II) Hydroxide",
+    "formula": "Fe(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "iron_iii_hydroxide",
+    "name": "Iron(III) Hydroxide",
+    "formula": "Fe(OH)3",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "copper_hydroxide",
+    "name": "Copper(II) Hydroxide",
+    "formula": "Cu(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "nickel_hydroxide",
+    "name": "Nickel(II) Hydroxide",
+    "formula": "Ni(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "cobalt_hydroxide",
+    "name": "Cobalt(II) Hydroxide",
+    "formula": "Co(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "lead_hydroxide",
+    "name": "Lead(II) Hydroxide",
+    "formula": "Pb(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "tin_hydroxide",
+    "name": "Tin(II) Hydroxide",
+    "formula": "Sn(OH)2",
+    "state": "solid",
+    "category": "base"
+  },
+  {
+    "id": "chromium_hydroxide",
+    "name": "Chromium(III) Hydroxide",
+    "formula": "Cr(OH)3",
+    "state": "solid",
+    "category": "base"
+  }
+,
+{
+  "id": "silver_hydroxide",
+  "name": "Silver Hydroxide",
+  "formula": "AgOH",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "mercury_i_hydroxide",
+  "name": "Mercury(I) Hydroxide",
+  "formula": "Hg2(OH)2",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "mercury_ii_hydroxide",
+  "name": "Mercury(II) Hydroxide",
+  "formula": "Hg(OH)2",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "manganese_ii_hydroxide",
+  "name": "Manganese(II) Hydroxide",
+  "formula": "Mn(OH)2",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "manganese_iii_hydroxide",
+  "name": "Manganese(III) Hydroxide",
+  "formula": "Mn(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "cadmium_hydroxide",
+  "name": "Cadmium Hydroxide",
+  "formula": "Cd(OH)2",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "beryllium_hydroxide",
+  "name": "Beryllium Hydroxide",
+  "formula": "Be(OH)2",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "gallium_hydroxide",
+  "name": "Gallium Hydroxide",
+  "formula": "Ga(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "indium_hydroxide",
+  "name": "Indium Hydroxide",
+  "formula": "In(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "thallium_hydroxide",
+  "name": "Thallium Hydroxide",
+  "formula": "TlOH",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "bismuth_hydroxide",
+  "name": "Bismuth Hydroxide",
+  "formula": "Bi(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "cerium_hydroxide",
+  "name": "Cerium(III) Hydroxide",
+  "formula": "Ce(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "lanthanum_hydroxide",
+  "name": "Lanthanum Hydroxide",
+  "formula": "La(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "yttrium_hydroxide",
+  "name": "Yttrium Hydroxide",
+  "formula": "Y(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "scandium_hydroxide",
+  "name": "Scandium Hydroxide",
+  "formula": "Sc(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "titanium_hydroxide",
+  "name": "Titanium(IV) Hydroxide",
+  "formula": "Ti(OH)4",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "vanadium_hydroxide",
+  "name": "Vanadium(III) Hydroxide",
+  "formula": "V(OH)3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "zirconium_hydroxide",
+  "name": "Zirconium Hydroxide",
+  "formula": "Zr(OH)4",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "hafnium_hydroxide",
+  "name": "Hafnium Hydroxide",
+  "formula": "Hf(OH)4",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "uranium_hydroxide",
+  "name": "Uranium Hydroxide",
+  "formula": "U(OH)4",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "sodium_carbonate",
+  "name": "Sodium Carbonate",
+  "formula": "Na2CO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "sodium_bicarbonate",
+  "name": "Sodium Bicarbonate",
+  "formula": "NaHCO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "potassium_carbonate",
+  "name": "Potassium Carbonate",
+  "formula": "K2CO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "potassium_bicarbonate",
+  "name": "Potassium Bicarbonate",
+  "formula": "KHCO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "calcium_carbonate",
+  "name": "Calcium Carbonate",
+  "formula": "CaCO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "magnesium_carbonate",
+  "name": "Magnesium Carbonate",
+  "formula": "MgCO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "calcium_oxide",
+  "name": "Calcium Oxide",
+  "formula": "CaO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "magnesium_oxide",
+  "name": "Magnesium Oxide",
+  "formula": "MgO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "sodium_oxide",
+  "name": "Sodium Oxide",
+  "formula": "Na2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "potassium_oxide",
+  "name": "Potassium Oxide",
+  "formula": "K2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "barium_oxide",
+  "name": "Barium Oxide",
+  "formula": "BaO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "strontium_oxide",
+  "name": "Strontium Oxide",
+  "formula": "SrO",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "lithium_oxide",
+  "name": "Lithium Oxide",
+  "formula": "Li2O",
+  "state": "solid",
+  "category": "basic_oxide"
+},
+{
+  "id": "ammonia_solution",
+  "name": "Aqueous Ammonia",
+  "formula": "NH3(aq)",
+  "state": "aqueous",
+  "category": "base"
+},
+{
+  "id": "lime_water",
+  "name": "Lime Water",
+  "formula": "Ca(OH)2(aq)",
+  "state": "aqueous",
+  "category": "base"
+},
+{
+  "id": "milk_of_magnesia",
+  "name": "Milk of Magnesia",
+  "formula": "Mg(OH)2",
+  "state": "suspension",
+  "category": "base"
+},
+{
+  "id": "soda_ash",
+  "name": "Soda Ash",
+  "formula": "Na2CO3",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "washing_soda",
+  "name": "Washing Soda",
+  "formula": "Na2CO3·10H2O",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "caustic_soda",
+  "name": "Caustic Soda",
+  "formula": "NaOH",
+  "state": "solid",
+  "category": "base"
+},
+{
+  "id": "caustic_potash",
+  "name": "Caustic Potash",
+  "formula": "KOH",
+  "state": "solid",
+  "category": "base"
+}
+]
