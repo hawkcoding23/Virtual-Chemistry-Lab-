@@ -8,6 +8,18 @@ import soundManager from "../utils/soundManager";
 import { getLabInteractionTargets } from "../utils/labInteractionTargets";
 
 const PLAYER_RADIUS = 0.36;
+const MOVEMENT_KEYS = new Set([
+  "KeyW", "KeyA", "KeyS", "KeyD",
+  "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight",
+]);
+const KEY_TO_MOVEMENT_CODE = {
+  w: "KeyW", a: "KeyA", s: "KeyS", d: "KeyD",
+  arrowup: "ArrowUp", arrowdown: "ArrowDown", arrowleft: "ArrowLeft", arrowright: "ArrowRight",
+};
+const KEYCODE_TO_MOVEMENT_CODE = {
+  87: "KeyW", 65: "KeyA", 83: "KeyS", 68: "KeyD",
+  38: "ArrowUp", 40: "ArrowDown", 37: "ArrowLeft", 39: "ArrowRight",
+};
 // Encompasses Main Lab, Chemical Storage (West), and Quiz Classroom (East)
 // The walkable footprint reaches the rear main-lab wall at z=-14.9. The old
 // -30.8 limit let the player walk through that wall into the unbuilt exterior.
@@ -245,11 +257,10 @@ export default function Player({
         (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName));
       if (isTyping) return;
 
-      if (
-        ["KeyW", "KeyA", "KeyS", "KeyD", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "KeyR", "KeyE", "KeyC", "KeyF", "Space", "ShiftLeft", "ShiftRight"].includes(
-          event.code
-        )
-      ) {
+      const movementCode = MOVEMENT_KEYS.has(event.code)
+        ? event.code
+        : KEY_TO_MOVEMENT_CODE[String(event.key ?? "").toLowerCase()] ?? KEYCODE_TO_MOVEMENT_CODE[event.which || event.keyCode];
+      if (movementCode || ["KeyR", "KeyE", "KeyC", "KeyF", "Space", "ShiftLeft", "ShiftRight"].includes(event.code)) {
         event.preventDefault();
       }
       if (event.repeat) return;
@@ -266,11 +277,14 @@ export default function Player({
         standFromQuizSeat();
       }
 
-      keys.current[event.code] = true;
+      keys.current[movementCode ?? event.code] = true;
     };
 
     const up = (event) => {
-      keys.current[event.code] = false;
+      const movementCode = MOVEMENT_KEYS.has(event.code)
+        ? event.code
+        : KEY_TO_MOVEMENT_CODE[String(event.key ?? "").toLowerCase()] ?? KEYCODE_TO_MOVEMENT_CODE[event.which || event.keyCode];
+      keys.current[movementCode ?? event.code] = false;
     };
 
     const clear = () => {
