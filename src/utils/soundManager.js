@@ -258,7 +258,7 @@ class SoundManager {
 
   // 4. CHEMICAL POURING SOUND
   playPourSound(duration = 1.3) {
-    if (this.muted) return;
+    if (this.muted || !this.reactionEnabled) return;
     const ctx = this.getAudioContext();
     if (!ctx) return;
 

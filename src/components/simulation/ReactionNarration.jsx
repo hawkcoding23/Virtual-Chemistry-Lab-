@@ -1,11 +1,11 @@
 import { memo } from "react";
 import { translate } from "../../i18n";
 
-function ReactionNarration({ explanation, isPlaying, playbackSpeed, language = "en", narrationEnabled, onTogglePlay, onReset, onToggleSpeed }) {
+function ReactionNarration({ explanation, currentAction, isPlaying, playbackSpeed, language = "en", narrationEnabled, onTogglePlay, onReset, onToggleSpeed }) {
   return <section className="reaction-live-card" aria-label={translate(language, "What is happening in the reaction")}>
     <div className="reaction-live-explanation">
       <span className="reaction-live-label">{language === "hi" ? "अभी क्या हो रहा है" : "WHAT’S HAPPENING"}</span>
-      <p aria-live="polite">{explanation}</p>
+      <p aria-live="polite">{currentAction || explanation}</p>
       {narrationEnabled && <small>{language === "hi" ? "🔊 अभिक्रिया का वर्णन सुनें" : "🔊 Reaction narration enabled"}</small>}
     </div>
     <div className="reaction-simple-controls">

@@ -3,6 +3,7 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } fro
 import LabScene from "./components/LabScene";
 import Inventory from "./ui/Inventory";
 import MobileLabControls from "./ui/MobileLabControls";
+import LabGuide from "./ui/LabGuide";
 import LabCompanion from "./ui/LabCompanion";
 import ReactionTable from "./ui/ReactionTable";
 import WelcomeScreen from "./ui/WelcomeScreen";
@@ -188,6 +189,7 @@ export default function App() {
   const [enteredLab, setEnteredLab] = useState(false);
   const [entrySequence, setEntrySequence] = useState(false);
   const [sceneReady, setSceneReady] = useState(false);
+  const [guideOpen, setGuideOpen] = useState(false);
   const [catalogReady, setCatalogReady] = useState(false);
   const [rendererReady, setRendererReady] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
@@ -209,6 +211,18 @@ export default function App() {
   const nearTable = activeStation !== null;
   const reactionRun = useRef(0);
   const entryTimer = useRef(null);
+
+  useEffect(() => {
+    if (!enteredLab || !sceneReady) return;
+    try {
+      if (window.localStorage.getItem("chemistry-world-controls-guide-seen") !== "true") setGuideOpen(true);
+    } catch { setGuideOpen(true); }
+  }, [enteredLab, sceneReady]);
+
+  const closeGuide = useCallback(() => {
+    setGuideOpen(false);
+    try { window.localStorage.setItem("chemistry-world-controls-guide-seen", "true"); } catch { /* Keep the guide usable when storage is blocked. */ }
+  }, []);
 
   useEffect(() => () => window.clearTimeout(entryTimer.current), []);
 
@@ -527,6 +541,7 @@ export default function App() {
         selectedClass={profile ? (isExamProfile(profile) ? profile.studyTrack : isAllClassesProfile(profile) ? "all" : profile.classLevel) : null} />
     </Canvas>
     <MobileLabControls moveRef={mobileMoveRef} />
+    {guideOpen && sceneReady && <LabGuide language={language} onClose={closeGuide} />}
     {!uiHidden && companionEnabled && <LabCompanion language={language} />}
     {!sceneReady && <div className="lab-loading" role="status">{t("Preparing the virtual lab…")}</div>}
     <div className="lab-utility-controls">
@@ -577,6 +592,7 @@ export default function App() {
           <p><kbd>F</kbd> <span>{t("Stand up from the quiz seat")}</span></p>
           <p><kbd>R</kbd> <span>{t("Re-center view")}</span> <kbd>U</kbd> <span>{t("Toggle the interface")}</span> <kbd>L</kbd> <span>{t("Open settings")}</span></p>
         </div>
+        <button type="button" className="lab-guide-reopen" onClick={() => { setSettingsOpen(false); setGuideOpen(true); }}>{t("Show the first-time controls guide")}</button>
         <p className="lab-settings-shortcut">{t("Shortcut")}: <kbd>L</kbd> {t("opens settings")}</p>
       </section>
     </div>}
@@ -685,6 +701,7 @@ export default function App() {
         language={language}
         reaction={reactionResult}
         config={simulation.config}
+        reactionProgress={simulation.reactionProgress}
         isComplete={simulation.reactionProgress >= 1}
         explanationText={reactionProcess(reactionResult, language)}
         narrationEnabled={narrationEnabled}

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { buildExperimentConfig } from "./simulationEngine";
 
-const REACTION_DURATION_SECONDS = 22;
+const REACTION_DURATION_SECONDS = 17;
 
 export function useReactionSimulation(reaction, allChemicals) {
   const [reactionProgress, setReactionProgress] = useState(0);

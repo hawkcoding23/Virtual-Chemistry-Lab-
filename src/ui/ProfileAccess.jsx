@@ -121,11 +121,14 @@ export default function ProfileAccess({ onContinue, onClose }) {
         </div>
         <small className="profile-storage-note">{t("Your class and learning progress sync privately to this Google account. The welcome screen will still appear whenever you open the site.")}</small>
       </>}
+      {!user && <button className="profile-guest-button" type="button" onClick={() => onContinue(null)} disabled={busy || !authReady}>
+        {t("Continue as guest")} <span aria-hidden="true">→</span>
+      </button>}
       {busy && user && !profileReady && <p className="profile-storage-note" role="status">{t("Loading your saved notebook…")}</p>}
       {error && <p className="profile-error" role="alert">{error}</p>}
       {success && <p className="profile-success" role="status">{t(success)}</p>}
       {user && <button className="profile-submit" type="submit" disabled={Boolean(success) || busy || !profileReady}>{t(savedProfile ? "Save and enter the lab" : "Save profile and enter the lab")}<span>→</span></button>}
-      <small className="profile-storage-note">{t("You will stay signed in on this browser until you sign out.")}</small>
+      <small className="profile-storage-note">{user ? t("You will stay signed in on this browser until you sign out.") : t("Guest progress stays on this browser. Sign in with Google to sync it to your account.")}</small>
     </form>
   </div>;
 }

@@ -1,7 +1,8 @@
-import { memo, useEffect, useState } from "react";
+import { memo, useEffect, useRef, useState } from "react";
 import ReactionNarration from "./ReactionNarration";
 import { translate, localizeScienceHindi } from "../../i18n";
 import { EXPERIMENT_CATEGORIES } from "./simulationEngine";
+import soundManager from "../../utils/soundManager";
 
 function formatCategoryLabel(category, language = "en") {
   const map = {
@@ -36,19 +37,84 @@ function ExperimentOverlay({
   exportStatus = "",
   narrationEnabled = true,
   isComplete = false,
+  reactionProgress = 0,
 }) {
   const [detailsTab, setDetailsTab] = useState("observations"); // "observations" | "explanation" | "products"
+  const spokenBeats = useRef(new Set());
+  const soundedBeats = useRef(new Set());
+  const beat = reactionProgress < 0.18 ? 0 : reactionProgress < 0.42 ? 1 : reactionProgress < 0.7 ? 2 : reactionProgress < 0.92 ? 3 : 4;
+  const magnesiumBurning = String(reaction?.id || "").toLowerCase().includes("magnesium") || /2?\s*mg\s*\+\s*o[₂2]\s*→\s*2?\s*mgo/i.test(reaction?.equation || "");
+  const beatLines = magnesiumBurning ? (language === "hi" ? [
+    "उपकरण तैयार हैं। मैग्नीशियम की पट्टी को बर्नर के पास लाया जा रहा है।",
+    "मैग्नीशियम की पट्टी को लौ में गर्म किया जा रहा है।",
+    "पट्टी ऑक्सीजन में तेज़ सफ़ेद प्रकाश के साथ जल रही है।",
+    "सफ़ेद मैग्नीशियम ऑक्साइड पाउडर ट्रे में इकट्ठा हो रहा है।",
+    "अभिक्रिया पूरी हुई: 2Mg और O₂ से 2MgO बना है।",
+  ] : [
+    "The apparatus is ready. The magnesium ribbon is moving toward the burner.",
+    "The ribbon is being heated in the flame.",
+    "Magnesium is burning in oxygen with a brilliant white light.",
+    "White magnesium oxide powder is collecting in the tray.",
+    "The reaction is complete: 2Mg and O₂ formed 2MgO.",
+  ]) : (language === "hi" ? [
+    "उपकरण तैयार हैं। अभिकारक अभिक्रिया पात्र के पास लाए जा रहे हैं।",
+    "नमूने मिल रहे हैं; अब रंग और विलयन में बदलाव देखें।",
+    "अभिक्रिया चल रही है। गैस, ऊष्मा, प्रकाश या अवक्षेप बनने पर ध्यान दें।",
+    "उत्पाद बन रहे हैं और पात्र में इकट्ठा हो रहे हैं।",
+    "अभिक्रिया पूरी हुई। बने उत्पादों को संतुलित समीकरण से मिलाएँ।",
+  ] : [
+    "The apparatus is ready. The reactants are moving into position.",
+    "The samples are being combined. Watch the liquid and colour change.",
+    "The reaction is underway. Look for gas, heat, light, or a solid forming.",
+    "Products are forming and collecting in the reaction vessel.",
+    "The reaction is complete. Compare the products with the balanced equation.",
+  ]);
 
   useEffect(() => {
-    if (!narrationEnabled || !window.speechSynthesis || !explanationText) return undefined;
-    const text = `${language === "hi" ? "अभी क्या हो रहा है। " : "What is happening. "}${explanationText}`;
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
+    spokenBeats.current.clear();
+    soundedBeats.current.clear();
+    window.speechSynthesis?.cancel();
+    return () => window.speechSynthesis?.cancel();
+  }, [reaction?.runId, language, narrationEnabled]);
+
+  useEffect(() => {
+    if (reactionProgress < 0.18) {
+      spokenBeats.current.clear();
+      return;
+    }
+    if (!isPlaying) return;
+    const beatIndex = beat - 1;
+    if (beatIndex < 0 || spokenBeats.current.has(beatIndex)) return;
+    spokenBeats.current.add(beatIndex);
+    if (!narrationEnabled || !window.speechSynthesis) return;
+    const utterance = new SpeechSynthesisUtterance(beatLines[beat]);
     utterance.lang = language === "hi" ? "hi-IN" : "en-IN";
-    utterance.rate = 0.9;
+    utterance.rate = 0.96;
+    utterance.pitch = 1;
     window.speechSynthesis.speak(utterance);
-    return () => window.speechSynthesis.cancel();
-  }, [narrationEnabled, explanationText, reaction?.runId, language]);
+  }, [beat, beatLines, isPlaying, language, narrationEnabled, reactionProgress]);
+
+  useEffect(() => {
+    if (reactionProgress < 0.18) {
+      soundedBeats.current.clear();
+      spokenBeats.current.clear();
+      soundManager.stopReactionSound();
+      soundManager.stopPourSound();
+      return;
+    }
+    if (!isPlaying) return;
+    if (soundedBeats.current.has(beat)) return;
+    soundedBeats.current.add(beat);
+    if (beat === 1) soundManager.playPourSound(1.2);
+    if (beat === 2) soundManager.playReactionSound({
+      gas: Boolean(config.gas?.hasGas),
+      heat: Boolean(config.isExothermic || config.isEndothermic || config.requiresHeating),
+      light: Boolean(reaction?.observations?.lightProduced),
+      precipitate: Boolean(config.precipitate?.hasPrecipitate), duration: 3.4,
+    });
+    if (beat === 3 && config.precipitate?.hasPrecipitate) soundManager.playReactionSound({ precipitate: true, duration: 1.8 });
+    if (beat === 4) soundManager.stopReactionSound();
+  }, [beat, config, isPlaying, reaction, reactionProgress]);
 
   const samples = reaction?.samples || [];
   const products = config.products || [];
@@ -325,6 +391,7 @@ function ExperimentOverlay({
           playbackSpeed={playbackSpeed}
           language={language}
           narrationEnabled={narrationEnabled}
+          currentAction={beatLines[beat]}
           onTogglePlay={onTogglePlay}
           onReset={onReset}
           onToggleSpeed={onToggleSpeed}
