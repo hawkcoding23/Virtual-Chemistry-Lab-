@@ -43,6 +43,7 @@ export default function Player({
   enabled = true,
   reactionRunId = null,
   reactionStationPosition = null,
+  mobileMoveRef,
 }) {
   const { camera, gl } = useThree();
   const keys = useRef({});
@@ -71,6 +72,8 @@ export default function Player({
   const movementEnabled = useRef(enabled);
   const controlsSuspended = useRef(seatedInQuizRoom);
   const lastValidPosition = useRef(new THREE.Vector3(0, 1.7, 7));
+  const touchLook = useRef(null);
+  const lastTouchAt = useRef(0);
 
   movementEnabled.current = enabled;
   controlsSuspended.current = seatedInQuizRoom;
@@ -152,6 +155,7 @@ export default function Player({
       else controls.current?.lock?.();
     };
     const interactOnLeftClick = (event) => {
+      if (event.pointerType === "touch" || performance.now() - lastTouchAt.current < 650) return;
       if (event.button !== 0 || !movementEnabled.current || controlsSuspended.current || seated.current) {
         if (event.button === 0 && seated.current) interact();
         return;
@@ -177,12 +181,45 @@ export default function Player({
     canvas.addEventListener("pointerdown", toggleMouseLook);
     canvas.addEventListener("click", interactOnLeftClick);
     canvas.addEventListener("contextmenu", suppressContextMenu);
+    const touchStart = (event) => {
+      if (event.pointerType !== "touch" || !movementEnabled.current || controlsSuspended.current) return;
+      lastTouchAt.current = performance.now();
+      touchLook.current = { id: event.pointerId, x: event.clientX, y: event.clientY };
+    };
+    const touchMove = (event) => {
+      if (!touchLook.current || touchLook.current.id !== event.pointerId) return;
+      const dx = event.clientX - touchLook.current.x;
+      const dy = event.clientY - touchLook.current.y;
+      touchLook.current.x = event.clientX;
+      touchLook.current.y = event.clientY;
+      camera.rotation.y -= dx * 0.004 * mouseSensitivity;
+      camera.rotation.x = THREE.MathUtils.clamp(camera.rotation.x - dy * 0.004 * mouseSensitivity, -1.35, 1.35);
+      camera.updateMatrixWorld();
+      event.preventDefault();
+    };
+    const touchEnd = (event) => { if (touchLook.current?.id === event.pointerId) touchLook.current = null; };
+    const mobileAction = (event) => {
+      if (event.type === "chemistry-lab-hand-interact") interact();
+      else if (!seated.current) jumpRequested.current = true;
+    };
+    canvas.addEventListener("pointerdown", touchStart);
+    canvas.addEventListener("pointermove", touchMove);
+    canvas.addEventListener("pointerup", touchEnd);
+    canvas.addEventListener("pointercancel", touchEnd);
+    window.addEventListener("chemistry-lab-hand-interact", mobileAction);
+    window.addEventListener("chemistry-lab-jump", mobileAction);
     return () => {
       canvas.removeEventListener("pointerdown", toggleMouseLook);
       canvas.removeEventListener("click", interactOnLeftClick);
       canvas.removeEventListener("contextmenu", suppressContextMenu);
+      canvas.removeEventListener("pointerdown", touchStart);
+      canvas.removeEventListener("pointermove", touchMove);
+      canvas.removeEventListener("pointerup", touchEnd);
+      canvas.removeEventListener("pointercancel", touchEnd);
+      window.removeEventListener("chemistry-lab-hand-interact", mobileAction);
+      window.removeEventListener("chemistry-lab-jump", mobileAction);
     };
-  }, [camera, gl, interact]);
+  }, [camera, gl, interact, mouseSensitivity]);
 
   useEffect(() => {
     if (enabled && !seatedInQuizRoom) return;
@@ -314,12 +351,10 @@ export default function Player({
     camera.position.x = THREE.MathUtils.clamp(camera.position.x, ROOM_LIMITS.minX, ROOM_LIMITS.maxX);
     camera.position.z = THREE.MathUtils.clamp(camera.position.z, ROOM_LIMITS.minZ, ROOM_LIMITS.maxZ);
 
-    const forwardAmount = movementScheme === "arrows"
-      ? Number(keys.current.ArrowUp) - Number(keys.current.ArrowDown)
-      : Number(keys.current.KeyW) - Number(keys.current.KeyS);
-    const sideAmount = movementScheme === "arrows"
-      ? Number(keys.current.ArrowRight) - Number(keys.current.ArrowLeft)
-      : Number(keys.current.KeyD) - Number(keys.current.KeyA);
+    const keyboardForward = Number(keys.current.KeyW || keys.current.ArrowUp) - Number(keys.current.KeyS || keys.current.ArrowDown);
+    const keyboardSide = Number(keys.current.KeyD || keys.current.ArrowRight) - Number(keys.current.KeyA || keys.current.ArrowLeft);
+    const forwardAmount = THREE.MathUtils.clamp(keyboardForward + (mobileMoveRef?.current?.y || 0), -1, 1);
+    const sideAmount = THREE.MathUtils.clamp(keyboardSide + (mobileMoveRef?.current?.x || 0), -1, 1);
     let isWalking = false;
     const isSprinting = Boolean(keys.current.ShiftLeft || keys.current.ShiftRight);
     movement.current.set(0, 0, 0);

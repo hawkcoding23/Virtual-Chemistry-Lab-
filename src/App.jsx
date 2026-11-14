@@ -2,6 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import LabScene from "./components/LabScene";
 import Inventory from "./ui/Inventory";
+import MobileLabControls from "./ui/MobileLabControls";
 import LabCompanion from "./ui/LabCompanion";
 import ReactionTable from "./ui/ReactionTable";
 import WelcomeScreen from "./ui/WelcomeScreen";
@@ -12,6 +13,7 @@ import soundManager from "./utils/soundManager";
 import { animateCharacter } from "./utils/characterActions";
 import { saveResultCard, shareResultCard } from "./utils/resultCard";
 import { saveProfile } from "./data/profileStore";
+import { saveUserProfile, signOutUser } from "./data/firebaseClient";
 import { localizeScienceHindi, useLanguage } from "./i18n";
 import ExperimentOverlay from "./components/simulation/ExperimentOverlay";
 import { useReactionSimulation } from "./components/simulation/useReactionSimulation";
@@ -196,6 +198,7 @@ export default function App() {
   const [quizDoorOpen, setQuizDoorOpen] = useState(false);
   const [mouseSensitivity, setMouseSensitivity] = useState(1);
   const [movementScheme, setMovementScheme] = useState("wasd");
+  const mobileMoveRef = useRef({ x: 0, y: 0 });
   const [walkingSoundEnabled, setWalkingSoundEnabled] = useState(true);
   const [reactionSoundEnabled, setReactionSoundEnabled] = useState(true);
   const [narrationEnabled, setNarrationEnabled] = useState(true);
@@ -225,6 +228,19 @@ export default function App() {
       activeChemicalId: inventory.some((item) => item.id === activeId) ? activeId : null,
       sampleMass: mass,
     });
+    if (profile.uid) {
+      const cloudProfile = {
+        ...profile,
+        inventory,
+        benchSelection: benchSelection.filter((id) => inventory.some((item) => item.id === id)),
+        activeChemicalId: inventory.some((item) => item.id === activeId) ? activeId : null,
+        sampleMass: mass,
+      };
+      const saveTimer = window.setTimeout(() => {
+        saveUserProfile(profile.uid, cloudProfile).catch((error) => console.error("Could not sync your chemistry notebook:", error));
+      }, 700);
+      return () => window.clearTimeout(saveTimer);
+    }
   }, [profile, inventory, benchSelection, activeId, mass]);
 
   useEffect(() => {
@@ -505,11 +521,13 @@ export default function App() {
         onInteractChemicalDoor={() => setChemicalDoorOpen((open) => !open)} chemicalDoorOpen={chemicalDoorOpen}
         onInteractQuizDoor={() => setQuizDoorOpen((open) => !open)} quizDoorOpen={quizDoorOpen}
         mouseSensitivity={mouseSensitivity} movementScheme={movementScheme} onOpenChemicalSearch={openChemicalSearch} onLeaveChemicalBench={closeChemicalSearch}
+        mobileMoveRef={mobileMoveRef}
         onElementSelect={setSelectedElement} onTheorySelect={setSelectedTheory} onInteractionPrompt={setInteractionPrompt} onInteractPoster={(target) => target?.type === "doubt-corner" ? setSelectedTheory({ type: "doubt-corner" }) : setSelectedTheory(target)}
         standRequest={standRequest} quizSeated={quizSeated}
         controlsEnabled={sceneReady && !reactionResult && !quizOpen}
         selectedClass={profile ? (isExamProfile(profile) ? profile.studyTrack : isAllClassesProfile(profile) ? "all" : profile.classLevel) : null} />
     </Canvas>
+    <MobileLabControls moveRef={mobileMoveRef} />
     {!uiHidden && companionEnabled && <LabCompanion language={language} />}
     {!sceneReady && <div className="lab-loading" role="status">{t("Preparing the virtual lab…")}</div>}
     <div className="lab-utility-controls">
@@ -591,8 +609,9 @@ export default function App() {
             </article>) : <p>{t("Your completed quiz rounds and scores will show here.")}</p>}
           </section>
         </div>
-        <p className="profile-storage-note">{t("Saved locally in this browser. Reuse the same name, class, and study track to restore progress.")}</p>
-        <button className="profile-signout" type="button" onClick={() => {
+        <p className="profile-storage-note">{profile?.uid ? `${t("Signed in with Google")}: ${profile.email} · ${t("Notebook syncs across devices")}` : t("Saved locally in this browser. Reuse the same name, class, and study track to restore progress.")}</p>
+        <button className="profile-signout" type="button" onClick={async () => {
+          if (profile?.uid) await signOutUser();
           setProfileDashboardOpen(false);
           setProfile(null);
           setEnteredLab(false);
@@ -670,6 +689,7 @@ export default function App() {
         language={language}
         reaction={reactionResult}
         config={simulation.config}
+        isComplete={simulation.reactionProgress >= 1}
         explanationText={reactionProcess(reactionResult, language)}
         narrationEnabled={narrationEnabled}
         isPlaying={simulation.isPlaying}

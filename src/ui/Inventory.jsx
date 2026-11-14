@@ -27,6 +27,9 @@ export default function Inventory({ chemicals, activeId, onSelect, onRemove, onC
         }}>×</button>
       </div>)}
     </div>}
+    <div className="inventory-mobile-symbols" aria-label={t("Collected chemicals")}>{chemicals.map((chemical) => <button key={chemical.id}
+      type="button" className={activeId === chemical.id ? "active" : ""} title={`${chemical.name} · ${chemical.mass} g`}
+      aria-label={`${chemical.name}, ${chemical.formula}`} onClick={() => onSelect(chemical.id)}>{chemical.symbol || chemical.formula || chemical.name.slice(0, 2)}</button>)}</div>
     <p className="inventory-hint">{t("Remove unwanted samples with ×.")}</p>
   </aside>;
 }

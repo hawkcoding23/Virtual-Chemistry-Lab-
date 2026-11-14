@@ -35,6 +35,7 @@ function ExperimentOverlay({
   onExport,
   exportStatus = "",
   narrationEnabled = true,
+  isComplete = false,
 }) {
   const [detailsTab, setDetailsTab] = useState("observations"); // "observations" | "explanation" | "products"
 
@@ -181,13 +182,21 @@ function ExperimentOverlay({
         </div>
       </div>
 
-      <aside className="hud-reaction-side-details" aria-label={translate(language, "Reaction details")}>
-        <h3>{translate(language, "Reaction details")}</h3>
-        <section><b>{translate(language, "Products")}</b>
-          {products.length ? products.map((product, index) => <p key={product.id || index}>{product.name} <code>{product.formula}</code>{product.state ? ` · ${product.state}` : ""}</p>) : <p>{translate(language, "Products are shown by the balanced equation.")}</p>}
+      <aside className={`hud-reaction-side-details${isComplete ? " is-complete" : ""}`} aria-label={translate(language, "Reaction details")}>
+        <h3>{translate(language, isComplete ? "Reaction result" : "Reaction details")}</h3>
+        <section><b>{translate(language, "Reactants used")}</b>
+          {samples.length ? <div className="hud-detail-chips">{samples.map((sample, index) => <span key={`${sample.id}-${index}`}>{sample.name || sample.id} <code>{sample.formula}</code><small>{sample.mass ?? 5} g</small></span>)}</div> : <p>{translate(language, "Starting materials shown in the equation.")}</p>}
+        </section>
+        <section><b>{translate(language, "Products formed")}</b>
+          {products.length ? <div className="hud-detail-chips product-chips">{products.map((product, index) => {
+            const measured = reaction?.outcome?.products?.find((entry) => entry.id === product.id);
+            return <span key={product.id || index}>{product.name} <code>{product.formula}</code><small>{measured?.grams != null ? `≈ ${Number(measured.grams).toFixed(2)} g` : product.state || "product"}</small></span>;
+          })}</div> : <p>{translate(language, "Products are shown by the balanced equation.")}</p>}
+          {isComplete && isMagnesiumBurning && <p className="hud-result-highlight">{language === "hi" ? "सफ़ेद मैग्नीशियम ऑक्साइड पाउडर ट्रे में इकट्ठा हुआ।" : "White magnesium oxide powder has collected in the tray."}</p>}
+          {reaction?.outcome?.remaining?.length > 0 && <p className="hud-excess-note"><b>{translate(language, "Left in excess:")}</b> {reaction.outcome.remaining.map((item) => `${item.chemical?.name || item.id} ≈ ${Number(item.grams).toFixed(2)} g`).join(" · ")}</p>}
         </section>
         <section><b>{translate(language, "What to notice")}</b><p>{observationSummary}</p></section>
-        <section><b>{translate(language, "Conditions & safety")}</b><p><strong>{language === "hi" ? "आवश्यक मेज़:" : "Required station:"}</strong> {stationLabel}. {reaction?.conditions?.heatRequired ? `${translate(language, "Heating required")}. ` : ""}{reaction?.conditions?.catalyst ? `${translate(language, "Catalyst:")} ${reaction.conditions.catalyst}. ` : ""}{reaction?.hazardWarning ? (language === "hi" ? localizeScienceHindi(reaction.hazardWarning) : reaction.hazardWarning) : ""}</p></section>
+        <section><b>{translate(language, "Conditions & safety")}</b><p><strong>{language === "hi" ? "अभिक्रिया प्रकार:" : "Reaction type:"}</strong> {categoryLabel}</p><p><strong>{language === "hi" ? "आवश्यक मेज़:" : "Required station:"}</strong> {stationLabel}. {reaction?.conditions?.heatRequired ? `${translate(language, "Heating required")}. ` : ""}{reaction?.conditions?.catalyst ? `${translate(language, "Catalyst:")} ${reaction.conditions.catalyst}. ` : ""}{reaction?.hazardWarning ? (language === "hi" ? localizeScienceHindi(reaction.hazardWarning) : reaction.hazardWarning) : ""}</p><p className="hud-mass-caveat">{translate(language, "Product masses are estimates from the balanced equation and sample masses; real laboratory yield can vary.")}</p></section>
       </aside>
 
       {/* 3. SCIENTIFIC THEORY & PRODUCTS DRAWER */}

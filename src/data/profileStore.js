@@ -10,7 +10,8 @@ function readProfiles() {
   }
 }
 
-function profileKey({ name, classLevel, studyTrack }) {
+function profileKey({ uid, name, classLevel, studyTrack }) {
+  if (uid) return `google:${uid}`;
   const selector = studyTrack === "ncert" ? Number(classLevel) : studyTrack;
   return `${String(name ?? "").trim().toLocaleLowerCase()}|${selector}|${studyTrack ?? "ncert"}`;
 }
@@ -46,9 +47,10 @@ function storeProfile(key, profile) {
 export function createProfile(details) {
   if (typeof window === "undefined") return details;
   const key = profileKey(details);
-  const existing = readProfiles()[key] ?? findPreviousProgress(details) ?? findLegacyProgress(details);
+  const existing = details.existingProgress ?? readProfiles()[key] ?? findPreviousProgress(details) ?? findLegacyProgress(details);
   const profile = {
     profileKey: key,
+    ...(details.uid ? { uid: details.uid, email: details.email ?? "" } : {}),
     name: String(details.name ?? "").trim(),
     classLevel: details.classLevel == null ? null : Number(details.classLevel),
     studyTrack: details.studyTrack ?? "ncert",
