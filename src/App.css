@@ -1551,9 +1551,13 @@ canvas { touch-action:none; }
 }
 @media (pointer:coarse) and (orientation:landscape) and (max-width:1100px) {
   .mobile-lab-controls { position:fixed; inset:0; z-index:28; display:block; pointer-events:none; font-family:Arial,sans-serif; }
-  .mobile-joystick { position:absolute; left:max(18px,env(safe-area-inset-left)); bottom:max(20px,env(safe-area-inset-bottom)); display:grid; width:116px; height:116px; place-items:center; border:1px solid #fff9; border-radius:50%; background:rgba(54,43,30,.34); box-shadow:inset 0 0 0 12px #fff2,0 5px 20px #21170f44; touch-action:none; pointer-events:auto; }
-  .mobile-joystick:before { content:""; position:absolute; width:5px; height:5px; border-radius:50%; background:#fff9; }
-  .mobile-joystick i { z-index:1; display:block; width:48px; height:48px; border:2px solid #fff; border-radius:50%; background:#9b6b43dd; box-shadow:0 3px 12px #0005; pointer-events:none; }
+  .mobile-direction-pad { position:absolute; left:max(18px,env(safe-area-inset-left)); bottom:max(18px,env(safe-area-inset-bottom)); display:grid; grid-template-columns:repeat(3,52px); grid-template-rows:repeat(2,52px); grid-template-areas:". up ." "left down right"; gap:5px; pointer-events:auto; touch-action:none; user-select:none; -webkit-user-select:none; }
+  .mobile-direction { display:grid; place-items:center; min-width:52px; min-height:52px; padding:0; border:1px solid #fff9; border-radius:15px; color:#fff8ec; background:#684a32e8; box-shadow:0 4px 14px #21170f66,inset 0 0 0 1px #fff2; font:800 28px/1 Arial,sans-serif; touch-action:none; user-select:none; -webkit-user-select:none; }
+  .mobile-direction:active { background:#a36e43; transform:scale(.96); }
+  .mobile-direction-up { grid-area:up; }
+  .mobile-direction-down { grid-area:down; }
+  .mobile-direction-left { grid-area:left; }
+  .mobile-direction-right { grid-area:right; }
   .mobile-action-buttons { position:absolute; right:max(20px,env(safe-area-inset-right)); bottom:max(24px,env(safe-area-inset-bottom)); display:flex; align-items:flex-end; gap:13px; pointer-events:auto; }
   .mobile-action-buttons button { display:grid; width:58px; height:58px; place-items:center; border:1px solid #fff9; border-radius:50%; color:#fff8ec; background:#684a32dd; box-shadow:0 5px 18px #21170f55; font-size:25px; font-weight:800; touch-action:manipulation; }
   .mobile-action-buttons button:last-child { width:68px; height:68px; color:#362719; background:#e5c48fef; font-size:29px; }

@@ -197,7 +197,6 @@ export default function App() {
   const [chemicalDoorOpen, setChemicalDoorOpen] = useState(false);
   const [quizDoorOpen, setQuizDoorOpen] = useState(false);
   const [mouseSensitivity, setMouseSensitivity] = useState(1);
-  const [movementScheme, setMovementScheme] = useState("wasd");
   const mobileMoveRef = useRef({ x: 0, y: 0 });
   const [walkingSoundEnabled, setWalkingSoundEnabled] = useState(true);
   const [reactionSoundEnabled, setReactionSoundEnabled] = useState(true);
@@ -520,7 +519,7 @@ export default function App() {
         onNearQuizSeat={setNearQuizSeat} onSitQuizSeat={setQuizSeated} onInteractQuiz={openQuiz}
         onInteractChemicalDoor={() => setChemicalDoorOpen((open) => !open)} chemicalDoorOpen={chemicalDoorOpen}
         onInteractQuizDoor={() => setQuizDoorOpen((open) => !open)} quizDoorOpen={quizDoorOpen}
-        mouseSensitivity={mouseSensitivity} movementScheme={movementScheme} onOpenChemicalSearch={openChemicalSearch} onLeaveChemicalBench={closeChemicalSearch}
+        mouseSensitivity={mouseSensitivity} onOpenChemicalSearch={openChemicalSearch} onLeaveChemicalBench={closeChemicalSearch}
         mobileMoveRef={mobileMoveRef}
         onElementSelect={setSelectedElement} onTheorySelect={setSelectedTheory} onInteractionPrompt={setInteractionPrompt} onInteractPoster={(target) => target?.type === "doubt-corner" ? setSelectedTheory({ type: "doubt-corner" }) : setSelectedTheory(target)}
         standRequest={standRequest} quizSeated={quizSeated}
@@ -561,19 +560,16 @@ export default function App() {
         <label className="lab-setting-row"><span><b>{t("Show lab interface")}</b><small>{t("U toggles the interface")}</small></span><input type="checkbox" checked={!uiHidden} onChange={(event) => { setUiHidden(!event.target.checked); if (!event.target.checked) setQuickSearchOpen(false); }} /></label>
         <label className="lab-setting-row"><span><b>{t("Robot lab companion")}</b><small>{t("Show tips while exploring")}</small></span><input type="checkbox" checked={companionEnabled} onChange={(event) => setCompanionEnabled(event.target.checked)} /></label>
         <label className="lab-setting-range"><span><b>{t("Mouse sensitivity")}</b><output>{mouseSensitivity.toFixed(1)}×</output></span><input type="range" min="0.3" max="2" step="0.1" value={mouseSensitivity} onChange={(event) => setMouseSensitivity(Number(event.target.value))} /></label>
-        <div className="lab-movement-setting" role="group" aria-label={t("Movement keys")}>
-          <span><b>{t("Movement keys")}</b><small>{t("Choose your preferred movement keys")}</small></span>
-          <div className="movement-key-options">
-            <button type="button" className={movementScheme === "wasd" ? "active" : ""} aria-pressed={movementScheme === "wasd"} onClick={() => setMovementScheme("wasd")}>W A S D</button>
-            <button type="button" className={movementScheme === "arrows" ? "active" : ""} aria-pressed={movementScheme === "arrows"} onClick={() => setMovementScheme("arrows")}>↑ ↓ ← →</button>
-          </div>
+        <div className="lab-movement-setting">
+          <span><b>{t("Movement keys")}</b><small>{t("Move around the lab")}</small></span>
+          <div className="movement-key-options"><span className="active">W A S D</span></div>
         </div>
         <label className="lab-setting-row"><span><b>{t("Walking and sprint sounds")}</b><small>{t("Footsteps while moving")}</small></span><input type="checkbox" checked={walkingSoundEnabled} onChange={(event) => { const enabled = event.target.checked; setWalkingSoundEnabled(enabled); soundManager.walkingEnabled = enabled; if (!enabled) soundManager.stopMovementSound(); }} /></label>
         <label className="lab-setting-row"><span><b>{t("Reaction sounds")}</b><small>{t("Sound effects during reactions")}</small></span><input type="checkbox" checked={reactionSoundEnabled} onChange={(event) => { const enabled = event.target.checked; setReactionSoundEnabled(enabled); soundManager.reactionEnabled = enabled; if (!enabled) soundManager.stopReactionSound(); }} /></label>
         <label className="lab-setting-row"><span><b>{t("Reaction narration")}</b><small>{t("Speak what is happening during the reaction")}</small></span><input type="checkbox" checked={narrationEnabled} onChange={(event) => setNarrationEnabled(event.target.checked)} /></label>
         <div className="settings-control-guide">
           <h3>{t("Movement & controls")}</h3>
-          <p><kbd>{movementScheme === "wasd" ? "W A S D" : "↑ ↓ ← →"}</kbd> <span>{t("Move around the lab")}</span></p>
+          <p><kbd>W A S D</kbd> <span>{t("Move around the lab")}</span></p>
           <p><kbd>Right-click</kbd> <span>{t("Toggle mouse look")}</span></p>
           <p><kbd>C</kbd> <span>{t("Release mouse cursor")}</span></p>
           <p><kbd>Shift</kbd> <span>{t("Sprint")}</span> <kbd>Space</kbd> <span>{t("Jump")}</span></p>

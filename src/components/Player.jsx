@@ -8,18 +8,7 @@ import soundManager from "../utils/soundManager";
 import { getLabInteractionTargets } from "../utils/labInteractionTargets";
 
 const PLAYER_RADIUS = 0.36;
-const MOVEMENT_KEYS = new Set([
-  "KeyW", "KeyA", "KeyS", "KeyD",
-  "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight",
-]);
-const KEY_TO_MOVEMENT_CODE = {
-  w: "KeyW", a: "KeyA", s: "KeyS", d: "KeyD",
-  arrowup: "ArrowUp", arrowdown: "ArrowDown", arrowleft: "ArrowLeft", arrowright: "ArrowRight",
-};
-const KEYCODE_TO_MOVEMENT_CODE = {
-  87: "KeyW", 65: "KeyA", 83: "KeyS", 68: "KeyD",
-  38: "ArrowUp", 40: "ArrowDown", 37: "ArrowLeft", 39: "ArrowRight",
-};
+const MOVEMENT_KEYS = new Set(["KeyW", "KeyA", "KeyS", "KeyD"]);
 // Encompasses Main Lab, Chemical Storage (West), and Quiz Classroom (East)
 // The walkable footprint reaches the rear main-lab wall at z=-14.9. The old
 // -30.8 limit let the player walk through that wall into the unbuilt exterior.
@@ -48,7 +37,6 @@ export default function Player({
   onOpenChemicalSearch,
   onLeaveChemicalBench,
   mouseSensitivity = 1,
-  movementScheme = "wasd",
   standRequest = 0,
   seatedInQuizRoom = false,
   obstacles = [],
@@ -257,9 +245,7 @@ export default function Player({
         (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName));
       if (isTyping) return;
 
-      const movementCode = MOVEMENT_KEYS.has(event.code)
-        ? event.code
-        : KEY_TO_MOVEMENT_CODE[String(event.key ?? "").toLowerCase()] ?? KEYCODE_TO_MOVEMENT_CODE[event.which || event.keyCode];
+      const movementCode = MOVEMENT_KEYS.has(event.code) ? event.code : null;
       if (movementCode || ["KeyR", "KeyE", "KeyC", "KeyF", "Space", "ShiftLeft", "ShiftRight"].includes(event.code)) {
         event.preventDefault();
       }
@@ -281,10 +267,7 @@ export default function Player({
     };
 
     const up = (event) => {
-      const movementCode = MOVEMENT_KEYS.has(event.code)
-        ? event.code
-        : KEY_TO_MOVEMENT_CODE[String(event.key ?? "").toLowerCase()] ?? KEYCODE_TO_MOVEMENT_CODE[event.which || event.keyCode];
-      keys.current[movementCode ?? event.code] = false;
+      if (MOVEMENT_KEYS.has(event.code)) keys.current[event.code] = false;
     };
 
     const clear = () => {
@@ -365,8 +348,8 @@ export default function Player({
     camera.position.x = THREE.MathUtils.clamp(camera.position.x, ROOM_LIMITS.minX, ROOM_LIMITS.maxX);
     camera.position.z = THREE.MathUtils.clamp(camera.position.z, ROOM_LIMITS.minZ, ROOM_LIMITS.maxZ);
 
-    const keyboardForward = Number(keys.current.KeyW || keys.current.ArrowUp) - Number(keys.current.KeyS || keys.current.ArrowDown);
-    const keyboardSide = Number(keys.current.KeyD || keys.current.ArrowRight) - Number(keys.current.KeyA || keys.current.ArrowLeft);
+    const keyboardForward = Number(keys.current.KeyW) - Number(keys.current.KeyS);
+    const keyboardSide = Number(keys.current.KeyD) - Number(keys.current.KeyA);
     const forwardAmount = THREE.MathUtils.clamp(keyboardForward + (mobileMoveRef?.current?.y || 0), -1, 1);
     const sideAmount = THREE.MathUtils.clamp(keyboardSide + (mobileMoveRef?.current?.x || 0), -1, 1);
     let isWalking = false;
