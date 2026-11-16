@@ -16,6 +16,13 @@ import LabThermometer from "./apparatus/LabThermometer";
 import CrucibleSetup from "./apparatus/CrucibleSetup";
 import MagnesiumRibbonBurner from "./apparatus/MagnesiumRibbonBurner";
 import ReagentContainer from "./apparatus/ReagentContainer";
+import SodiumWaterTweezers from "./apparatus/SodiumWaterTweezers";
+import ExothermicBalloonBottle from "./apparatus/ExothermicBalloonBottle";
+import ChromatographySetup from "./apparatus/ChromatographySetup";
+import EsterificationSetup from "./apparatus/EsterificationSetup";
+import GasCollectionTrough from "./apparatus/GasCollectionTrough";
+import DropperPrecipitation from "./apparatus/DropperPrecipitation";
+import RedoxDecolourisation from "./apparatus/RedoxDecolourisation";
 import LiquidVolume from "./effects/LiquidVolume";
 import PrecipitateEffect from "./effects/PrecipitateEffect";
 import GasEvolutionEffect from "./effects/GasEvolutionEffect";
@@ -28,6 +35,7 @@ function ExperimentRenderer({
   allChemicals = {},
   reactionProgress = 0,
   position = [0, 0],
+  graphicsQuality = "medium",
 }) {
   const config = useMemo(
     () => buildExperimentConfig(reaction, allChemicals),
@@ -35,12 +43,13 @@ function ExperimentRenderer({
   );
 
   const setupProgress = THREE.MathUtils.smoothstep(reactionProgress, 0, 0.12);
-  const sampleInspectionProgress = THREE.MathUtils.smoothstep(reactionProgress, 0.015, 0.22);
-  const productShowcaseProgress = THREE.MathUtils.smoothstep(reactionProgress, 0.78, 0.98);
   const actionProgress = THREE.MathUtils.smoothstep(reactionProgress, 0.12, 0.58);
   const actionStarted = reactionProgress > 0.12;
   const magnesiumRibbonReaction = reaction?.id === "magnesium_oxygen"
     || /2?\s*mg\s*\+\s*o[₂2]\s*→\s*2?\s*mgo/i.test(reaction?.equation || "");
+  const copperCarbonateDecomposition = reaction?.id === "copper_carbonate_thermal_decomposition";
+  const magnesiumAcidReaction = /magnesium.*(hydrochloric|hcl)|(hydrochloric|hcl).*magnesium/i.test(`${reaction?.id || ""} ${reaction?.equation || ""} ${JSON.stringify(reaction?.reactants || reaction?.samples || [])}`)
+    || /mg\s*\+\s*2?\s*hcl/i.test(String(reaction?.equation || "").replace(/[₀-₉]/g, (digit) => String("₀₁₂₃₄₅₆₇₈₉".indexOf(digit))));
 
   // Solution colour lerping
   const currentColor = useMemo(() => {
@@ -73,7 +82,9 @@ function ExperimentRenderer({
 
   return (
     <group
-      position={[position[0], 0.91 + setupProgress * 0.24, position[1]]}
+      // The universal bench top is at y=1.22. Keep apparatus bases above it;
+      // the previous y=.91 origin buried the first stage inside the worktop.
+      position={[position[0], 1.24 + setupProgress * 0.025, position[1]]}
       scale={0.9 + setupProgress * 0.1}
     >
       {/* =========================================================================
@@ -170,42 +181,21 @@ function ExperimentRenderer({
 
       {/* =========================================================================
           CATEGORY C: PRECIPITATION (Double Displacement)
-          Apparatus: Beakers with clear solutions, sudden turbidity, crystal aggregation, settling
+          Apparatus: Beakers with clear solutions, dropper, sudden turbidity, settling
          ========================================================================= */}
       {config.category === EXPERIMENT_CATEGORIES.PRECIPITATION && (
-        <group>
-          {/* Reaction Beaker */}
-          <GlassBeaker position={[0, 0, 0]} scale={1.25} />
-
-          {/* Liquid solution */}
-          <LiquidVolume
-            position={[0, 0, 0]}
-            shape="cylinder"
-            fill={0.35 + actionProgress * 0.25}
-            color={currentColor}
-            swirl={reactionProgress > 0.4}
-          />
-
-          {/* Precipitate turbidity, crystals, and sedimentation */}
-          <PrecipitateEffect
-            position={[0, 0, 0]}
-            color={config.precipitate.color}
-            progress={reactionProgress}
-            settles={config.precipitate.settles}
-          />
-
-          {/* Reagent Vial pouring during experimental action */}
-          <ReagentContainer
-            position={[
-              THREE.MathUtils.lerp(1.2, 0.45, actionProgress),
-              THREE.MathUtils.lerp(0, 0.85, actionProgress),
-              0.1,
-            ]}
-            tilt={-0.85 * actionProgress}
-            scale={0.9}
-            chemical={reaction?.samples?.[1] || reaction?.samples?.[0]}
-          />
-        </group>
+        <DropperPrecipitation
+          position={[0, 0, 0]}
+          scale={1.25}
+          reactionProgress={reactionProgress}
+          actionProgress={actionProgress}
+          precipitateColor={config.precipitate.color || "#f8fafc"}
+          precipitateName={config.precipitate.name || "Precipitate"}
+          solutionName={reaction?.samples?.[0]?.name || "Reactant solution"}
+          reagentName={reaction?.samples?.[1]?.name || "Added reactant"}
+          reagentColor={reaction?.samples?.[1]?.color || "#9bd6e3"}
+          language={language}
+        />
       )}
 
       {/* =========================================================================
@@ -218,10 +208,19 @@ function ExperimentRenderer({
           <BoilingTubeSetup
             position={[0, 0, 0]}
             scale={1.15}
-            solidColor={config.startColor}
-            solidTransformedColor={config.finalColor}
+            solidColor={
+              reaction?.id === "copper_carbonate_thermal_decomposition"
+                ? "#2dd4bf"
+                : config.startColor
+            }
+            solidTransformedColor={
+              reaction?.id === "copper_carbonate_thermal_decomposition"
+                ? "#0f172a"
+                : config.finalColor
+            }
             heatProgress={reactionProgress}
             withDeliveryTube={true}
+            withLimewaterReceiver={copperCarbonateDecomposition}
           />
 
           {/* Bunsen Burner heating tube base */}
@@ -240,7 +239,7 @@ function ExperimentRenderer({
           />
 
           {/* Evolved Decomposition Gas escaping delivery tube mouth */}
-          {reactionProgress > 0.25 && (
+          {!copperCarbonateDecomposition && reactionProgress > 0.25 && (
             <GasEvolutionEffect
               position={[0.55, 1.15, 0]}
               color={config.gas.color}
@@ -251,11 +250,11 @@ function ExperimentRenderer({
           )}
 
           {/* Thermometer showing high temperature */}
-          <LabThermometer
+          {!copperCarbonateDecomposition && <LabThermometer
             position={[0.85, 0, 0]}
             scale={0.9}
             temperature={currentTemperature}
-          />
+          />}
         </group>
       )}
 
@@ -277,33 +276,93 @@ function ExperimentRenderer({
       )}
 
       {/* =========================================================================
+          SPECIAL APPARATUS OVERRIDES (Image Showcase Experiments)
+         ========================================================================= */}
+      {/* 1. Photosynthesis Paper Chromatography Setup */}
+      {(reaction?.id === "photosynthesis_chromatography" ||
+        reaction?.id?.includes("chromatography")) && (
+        <ChromatographySetup
+          position={[0, 0, 0]}
+          scale={1.25}
+          reactionProgress={reactionProgress}
+          language={language}
+        />
+      )}
+
+      {/* 2. Bottle Mixing with Inflating Balloon (Exothermic Reaction) */}
+      {(reaction?.id === "bottle_mixing_exothermic" ||
+        reaction?.setup === "balloon") && (
+        <ExothermicBalloonBottle
+          position={[0, 0, 0]}
+          scale={1.2}
+          reactionProgress={reactionProgress}
+          language={language}
+        />
+      )}
+
+      {/* 3. Esterification with Angled Liebig Condenser */}
+      {(reaction?.id === "ethanol_ethanoic_acid_esterification" ||
+        reaction?.id?.includes("esterification")) && (
+        <EsterificationSetup
+          position={[0, 0, 0]}
+          scale={1.2}
+          reactionProgress={reactionProgress}
+          language={language}
+        />
+      )}
+
+      {/* 4. Redox Decolourisation of KMnO4 (Purple -> Colorless) */}
+      {(reaction?.id === "redox_kmno4_oxalic_acid" ||
+        (reaction?.id?.includes("kmno4") && !reaction?.id?.includes("electrolysis"))) && (
+        <RedoxDecolourisation
+          position={[0, 0, 0]}
+          scale={1.25}
+          reactionProgress={reactionProgress}
+          language={language}
+        />
+      )}
+
+      {/* =========================================================================
           CATEGORY F: GAS EVOLUTION (Acid + Carbonate or Metal)
           Apparatus: Conical flask, delivery tube, receiver test tube with lime water
          ========================================================================= */}
-      {config.category === EXPERIMENT_CATEGORIES.GAS_EVOLUTION && (
-        reaction?.id === "sodium_water" ? <group>
-          {/* Sodium–water demonstration: a shallow trough, moving sodium piece,
-              hydrogen bubbles, and a small surface flame as heat is released. */}
-          <mesh castShadow receiveShadow position={[0, 0.08, 0]}>
-            <boxGeometry args={[2.05, 0.16, 1.28]} />
-            <meshStandardMaterial color="#526a72" roughness={0.42} metalness={0.28} />
+      {config.category === EXPERIMENT_CATEGORIES.GAS_EVOLUTION &&
+        reaction?.id !== "photosynthesis_chromatography" &&
+        reaction?.id !== "bottle_mixing_exothermic" &&
+        reaction?.id !== "ethanol_ethanoic_acid_esterification" &&
+        !reaction?.id?.includes("kmno4") && (
+        reaction?.id === "sodium_water" ? (
+          <SodiumWaterTweezers
+            position={[0, 0, 0]}
+            scale={1.25}
+            reactionProgress={reactionProgress}
+            actionProgress={actionProgress}
+          />
+        ) : (reaction?.id === "oxygen_preparation" ||
+             reaction?.id === "hydrogen_preparation" ||
+             reaction?.setup === "water_trough") ? (
+          <GasCollectionTrough
+            position={[0, 0, 0]}
+            scale={1.15}
+            reactionProgress={reactionProgress}
+            gasType={reaction?.id === "oxygen_preparation" ? "O₂" : "H₂"}
+            flaskReactants={reaction?.equation?.split("→")[0]?.trim() || "Zn + H₂SO₄"}
+            language={language}
+          />
+        ) : magnesiumAcidReaction ? <group>
+          {/* Magnesium + dilute hydrochloric acid: flask and metal strip, no flame. */}
+          <GlassFlask position={[0, 0, 0]} scale={1.35} />
+          <LiquidVolume position={[0, 0, 0]} shape="conical" fill={0.4} color="#b7e7f1" swirl={reactionProgress > 0.35} />
+          <GasEvolutionEffect position={[0, 0, 0]} color="#e5fbff" active={actionStarted} density="rapid" withVapourPlume={false} />
+          <mesh castShadow position={[THREE.MathUtils.lerp(-0.82, 0.02, actionProgress), THREE.MathUtils.lerp(0.82, 0.72, actionProgress), 0.15]} rotation={[0, 0, -0.18]} visible={reactionProgress < 0.96}>
+            <boxGeometry args={[0.055, 0.72, 0.025]} />
+            <meshStandardMaterial color="#c6d2d7" metalness={0.88} roughness={0.22} />
           </mesh>
-          <mesh position={[0, 0.34, 0]}>
-            <boxGeometry args={[1.82, 0.42, 1.08]} />
-            <meshStandardMaterial color="#87cde0" transparent opacity={0.38} roughness={0.16} depthWrite={false} />
+          <mesh position={[0, 0.66, 0]}>
+            <torusGeometry args={[0.205, 0.018, 8, 24]} />
+            <meshStandardMaterial color="#b7dce5" metalness={0.3} roughness={0.18} transparent opacity={0.7} />
           </mesh>
-          {[-0.54, 0.54].flatMap((x) => [-0.43, 0.43].map((z) => <mesh key={`trough-rim-${x}-${z}`} position={[x, 0.34, z]}>
-            <boxGeometry args={[0.08, 0.48, 0.08]} />
-            <meshStandardMaterial color="#c5d4d8" transparent opacity={0.48} roughness={0.18} depthWrite={false} />
-          </mesh>))}
-          <mesh position={[THREE.MathUtils.lerp(-0.55, 0.35, reactionProgress), 0.57, 0]} rotation={[0, 0, reactionProgress * 0.4]}>
-            <dodecahedronGeometry args={[0.13, 0]} />
-            <meshStandardMaterial color="#c5c9c6" metalness={0.78} roughness={0.22} />
-          </mesh>
-          <GasEvolutionEffect position={[0.28, 0.5, 0]} color={config.gas.color} active={actionStarted} density="rapid" plumeHeight={1.35} />
-          {actionStarted && <FlameEffect position={[0.25, 0.48, 0]} type="combustion" scale={0.72} />}
-          <ThermalGlowEffect position={[0, 0, 0]} intensity={actionStarted ? reactionProgress : 0} color="#ff9238" />
-          <pointLight position={[0.25, 0.85, 0]} color="#ff9a45" intensity={actionStarted ? reactionProgress * 1.8 : 0} distance={2.4} />
+          {reactionProgress > 0.72 && <ReagentContainer position={[0.92, 0, 0.28]} scale={0.76} chemical={{ name: "Hydrogen", formula: "H₂", color: "#d7f4fa" }} />}
         </group> : <group>
           {/* Reaction Flask */}
           <GlassFlask position={[0, 0, 0]} scale={1.15} />
@@ -416,33 +475,6 @@ function ExperimentRenderer({
         </group>
       )}
 
-      {/* Starting Reagent Samples displayed neatly on the left side of the workstation */}
-      {(reaction?.samples || []).slice(0, 3).map((sample, idx) => (
-        <ReagentContainer
-          key={sample.id || idx}
-          position={[
-            THREE.MathUtils.lerp(-2.2 - idx * 0.42, -1.25 - idx * 0.42, sampleInspectionProgress),
-            THREE.MathUtils.lerp(0.28, 0, sampleInspectionProgress),
-            0.25,
-          ]}
-          scale={0.78}
-          chemical={sample}
-        />
-      ))}
-
-      {/* Final interpretation: the product bottles rise into a clear side-by-side display. */}
-      {(config.products || []).slice(0, 3).map((product, idx) => (
-        <ReagentContainer
-          key={`product-${product.id || idx}`}
-          position={[
-            THREE.MathUtils.lerp(2.45 + idx * 0.42, 1.15 + idx * 0.48, productShowcaseProgress),
-            THREE.MathUtils.lerp(0.32, 0, productShowcaseProgress),
-            0.3,
-          ]}
-          scale={0.78}
-          chemical={product}
-        />
-      ))}
     </group>
   );
 }

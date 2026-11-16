@@ -35,12 +35,28 @@ function GlassBeaker({ position = [0, 0, 0], scale = 1, volumeMarks = true }) {
       {/* Rim highlight */}
       <mesh position={[0, 0.85, 0]} rotation={[Math.PI / 2, 0, 0]}>
         <torusGeometry args={[0.46, 0.015, 8, 36]} />
-        <meshStandardMaterial color="#d4eef2" metalness={0.2} roughness={0.15} transparent opacity={0.6} />
+        <meshStandardMaterial color="#e8fbff" emissive="#4dbac9" emissiveIntensity={0.22} metalness={0.12} roughness={0.12} transparent opacity={0.88} />
       </mesh>
+
+      {/* Strong edge highlights make the clear vessel readable against the lab. */}
+      <mesh position={[0, 0.065, 0]} rotation={[Math.PI / 2, 0, 0]}>
+        <torusGeometry args={[0.425, 0.012, 8, 36]} />
+        <meshBasicMaterial color="#d9f8ff" transparent opacity={0.82} depthWrite={false} />
+      </mesh>
+      {[-1, 1].flatMap((side) => [
+        <mesh key={`beaker-edge-x-${side}`} position={[side * 0.443, 0.45, 0]}>
+          <boxGeometry args={[0.012, 0.76, 0.012]} />
+          <meshBasicMaterial color="#d9f8ff" transparent opacity={0.72} depthWrite={false} />
+        </mesh>,
+        <mesh key={`beaker-edge-z-${side}`} position={[0, 0.45, side * 0.443]}>
+          <boxGeometry args={[0.012, 0.76, 0.012]} />
+          <meshBasicMaterial color="#d9f8ff" transparent opacity={0.72} depthWrite={false} />
+        </mesh>,
+      ])}
 
       {/* Graduation volume tick marks */}
       {volumeMarks &&
-        [0.25, 0.4, 0.55, 0.7].map((y, i) => (
+        [0.25, 0.4, 0.55, 0.7].map((y) => (
           <group key={y} position={[-0.43, y, 0]} rotation={[0, 0, 0]}>
             <mesh position={[0, 0, 0]}>
               <boxGeometry args={[0.04, 0.008, 0.005]} />

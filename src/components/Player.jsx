@@ -43,6 +43,7 @@ export default function Player({
   enabled = true,
   reactionRunId = null,
   reactionStationPosition = null,
+  reactionFocus = false,
   mobileMoveRef,
 }) {
   const { camera, gl } = useThree();
@@ -64,6 +65,7 @@ export default function Player({
   const seated = useRef(false);
   const currentSeat = useRef(null);
   const framedReaction = useRef(null);
+  const previousReactionCamera = useRef(null);
   const interactionTarget = useRef(null);
   const interactionSignature = useRef("");
   const interactionRaycaster = useRef(new THREE.Raycaster());
@@ -74,6 +76,7 @@ export default function Player({
   const lastValidPosition = useRef(new THREE.Vector3(0, 1.7, 7));
   const touchLook = useRef(null);
   const lastTouchAt = useRef(0);
+  const mobileDirection = useRef({ x: 0, y: 0, sprinting: false });
 
   movementEnabled.current = enabled;
   controlsSuspended.current = seatedInQuizRoom;
@@ -148,6 +151,7 @@ export default function Player({
   useEffect(() => {
     const canvas = gl.domElement;
     const toggleMouseLook = (event) => {
+      if (event.pointerType === "touch") return;
       if (event.button !== 2) return;
       event.preventDefault();
       if (!movementEnabled.current || controlsSuspended.current || seated.current) return;
@@ -202,12 +206,22 @@ export default function Player({
       if (event.type === "chemistry-lab-hand-interact") interact();
       else if (!seated.current) jumpRequested.current = true;
     };
+    const onMobileMove = (event) => {
+      if (event.detail) {
+        mobileDirection.current.x = Number(event.detail.x) || 0;
+        mobileDirection.current.y = Number(event.detail.y) || 0;
+        if (typeof event.detail.sprinting === "boolean") {
+          mobileDirection.current.sprinting = event.detail.sprinting;
+        }
+      }
+    };
     canvas.addEventListener("pointerdown", touchStart);
     canvas.addEventListener("pointermove", touchMove);
     canvas.addEventListener("pointerup", touchEnd);
     canvas.addEventListener("pointercancel", touchEnd);
     window.addEventListener("chemistry-lab-hand-interact", mobileAction);
     window.addEventListener("chemistry-lab-jump", mobileAction);
+    window.addEventListener("chemistry-lab-move", onMobileMove);
     return () => {
       canvas.removeEventListener("pointerdown", toggleMouseLook);
       canvas.removeEventListener("click", interactOnLeftClick);
@@ -218,6 +232,7 @@ export default function Player({
       canvas.removeEventListener("pointercancel", touchEnd);
       window.removeEventListener("chemistry-lab-hand-interact", mobileAction);
       window.removeEventListener("chemistry-lab-jump", mobileAction);
+      window.removeEventListener("chemistry-lab-move", onMobileMove);
     };
   }, [camera, gl, interact, mouseSensitivity]);
 
@@ -289,15 +304,40 @@ export default function Player({
     };
   }, [enabled, interact, standFromQuizSeat]);
 
-  // Frame reaction bench when reaction runs
+  // Move in close for the magnesium burn so the strip, flame, and powder tray
+  // are readable. Restore the player's exact camera view when the result closes.
   useEffect(() => {
-    if (reactionRunId == null || framedReaction.current === reactionRunId) return;
+    if (reactionRunId == null) {
+      if (framedReaction.current !== null && previousReactionCamera.current) {
+        camera.position.copy(previousReactionCamera.current.position);
+        camera.quaternion.copy(previousReactionCamera.current.quaternion);
+        camera.fov = previousReactionCamera.current.fov;
+        camera.updateProjectionMatrix();
+        camera.updateMatrixWorld();
+        previousReactionCamera.current = null;
+        framedReaction.current = null;
+      }
+      return;
+    }
+    if (framedReaction.current === reactionRunId) return;
     const [stationX, stationZ] = reactionStationPosition ?? [0, 0];
-    camera.position.set(stationX, 2.05, stationZ + 4.8);
-    camera.lookAt(stationX, 2.0, stationZ);
+    previousReactionCamera.current = {
+      position: camera.position.clone(),
+      quaternion: camera.quaternion.clone(),
+      fov: camera.fov,
+    };
+    if (reactionFocus) {
+      camera.position.set(stationX + 0.18, 2.18, stationZ + 1.95);
+      camera.lookAt(stationX + 0.08, 1.42, stationZ);
+      camera.fov = 40;
+      camera.updateProjectionMatrix();
+    } else {
+      camera.position.set(stationX, 2.05, stationZ + 4.8);
+      camera.lookAt(stationX, 2.0, stationZ);
+    }
     camera.updateMatrixWorld();
     framedReaction.current = reactionRunId;
-  }, [camera, reactionRunId, reactionStationPosition]);
+  }, [camera, reactionRunId, reactionStationPosition, reactionFocus]);
 
   useFrame((_, delta) => {
     if (!enabled) {
@@ -348,12 +388,29 @@ export default function Player({
     camera.position.x = THREE.MathUtils.clamp(camera.position.x, ROOM_LIMITS.minX, ROOM_LIMITS.maxX);
     camera.position.z = THREE.MathUtils.clamp(camera.position.z, ROOM_LIMITS.minZ, ROOM_LIMITS.maxZ);
 
-    const keyboardForward = Number(keys.current.KeyW) - Number(keys.current.KeyS);
-    const keyboardSide = Number(keys.current.KeyD) - Number(keys.current.KeyA);
-    const forwardAmount = THREE.MathUtils.clamp(keyboardForward + (mobileMoveRef?.current?.y || 0), -1, 1);
-    const sideAmount = THREE.MathUtils.clamp(keyboardSide + (mobileMoveRef?.current?.x || 0), -1, 1);
+    // Ensure movement values are always strict, finite numbers (never NaN)
+    const keyW = Boolean(keys.current.KeyW);
+    const keyS = Boolean(keys.current.KeyS);
+    const keyA = Boolean(keys.current.KeyA);
+    const keyD = Boolean(keys.current.KeyD);
+    const keyboardForward = (keyW ? 1 : 0) - (keyS ? 1 : 0);
+    const keyboardSide = (keyD ? 1 : 0) - (keyA ? 1 : 0);
+    // The shared ref is read directly each frame; the event listener remains a
+    // fallback for older control overlays and carries no timing dependency.
+    const rawMobX = Number(mobileMoveRef?.current?.x ?? mobileDirection.current.x ?? 0);
+    const rawMobY = Number(mobileMoveRef?.current?.y ?? mobileDirection.current.y ?? 0);
+    const mobX = Number.isFinite(rawMobX) ? rawMobX : 0;
+    const mobY = Number.isFinite(rawMobY) ? rawMobY : 0;
+    const rawForward = keyboardForward + mobY;
+    const rawSide = keyboardSide + mobX;
+    const forwardAmount = Number.isFinite(rawForward) ? THREE.MathUtils.clamp(rawForward, -1, 1) : 0;
+    const sideAmount = Number.isFinite(rawSide) ? THREE.MathUtils.clamp(rawSide, -1, 1) : 0;
     let isWalking = false;
-    const isSprinting = Boolean(keys.current.ShiftLeft || keys.current.ShiftRight);
+    const isSprinting = Boolean(
+      keys.current.ShiftLeft ||
+      keys.current.ShiftRight ||
+      mobileMoveRef?.current?.sprinting || mobileDirection.current.sprinting
+    );
     movement.current.set(0, 0, 0);
 
     // Capped frame delta prevents huge jumps when returning from background/tab

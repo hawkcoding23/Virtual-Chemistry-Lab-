@@ -13,6 +13,14 @@ export const EXPERIMENT_CATEGORIES = {
   GENERAL_REACTION: "GENERAL_REACTION",
 };
 
+export const EXPERIMENT_STAGES = [
+  { id: "preparation", label: "Preparation", labelHi: "तैयारी", threshold: 0.18 },
+  { id: "initial_observation", label: "Initial Observation", labelHi: "प्रारंभिक प्रेक्षण", threshold: 0.42 },
+  { id: "reaction_event", label: "Reaction Event", labelHi: "अभिक्रिया घटना", threshold: 0.70 },
+  { id: "final_observation", label: "Final Observation", labelHi: "अंतिम प्रेक्षण", threshold: 0.92 },
+  { id: "scientific_interpretation", label: "Scientific Interpretation", labelHi: "वैज्ञानिक व्याख्या", threshold: 1.0 },
+];
+
 // Known precipitate colors from verified NCERT chemistry observations
 const PRECIPITATE_COLORS = {
   lead_iodide: "#e2c534", // Brilliant bright yellow
@@ -98,6 +106,10 @@ export function classifyReactionCategory(reaction) {
   const isMagnesiumBurning = id.includes("magnesium_oxygen") ||
     (/2?\s*mg\s*\+\s*o2?\s*[→=]/i.test(equation.replace(/[₀-₉]/g, (digit) => String("₀₁₂₃₄₅₆₇₈₉".indexOf(digit))))) ||
     (reactantIds.includes("magnesium") && reactantIds.includes("oxygen") && (observations.lightProduced || conditions.heatRequired));
+  const isMagnesiumAcid = (reactantIds.some((x) => x.includes("magnesium") || x === "mg")
+    && reactantIds.some((x) => /hydrochloric|hcl|hydrogen_chloride/.test(x)))
+    || /mg\s*\+\s*2?\s*hcl/i.test(equation.replace(/[₀-₉]/g, (digit) => String("₀₁₂₃₄₅₆₇₈₉".indexOf(digit))))
+    || /magnesium.*(hydrochloric|hcl)|(hydrochloric|hcl).*magnesium/i.test(`${id} ${equation}`);
 
   // 1. Electrolysis
   if (
@@ -117,6 +129,9 @@ export function classifyReactionCategory(reaction) {
   ) {
     return EXPERIMENT_CATEGORIES.REVERSIBLE_EQUILIBRIUM;
   }
+
+  // Magnesium with dilute hydrochloric acid evolves hydrogen; it is not burning.
+  if (isMagnesiumAcid) return EXPERIMENT_CATEGORIES.GAS_EVOLUTION;
 
   // 3. Combustion
   if (
@@ -187,11 +202,13 @@ export function getReactionStation(reaction) {
   const id = String(reaction?.id || "").toLowerCase();
   const equation = String(reaction?.equation || "");
   const isMagnesiumBurning = id.includes("magnesium_oxygen") || /2?\s*mg\s*\+\s*o[₂2]\s*→\s*2?\s*mgo/i.test(equation);
+  const isMagnesiumAcid = id.includes("magnesium") && /hcl|hydrochloric/i.test(`${equation} ${JSON.stringify(reaction.reactants || [])}`)
+    || /mg\s*\+\s*2?\s*hcl/i.test(equation.replace(/[₀-₉]/g, (digit) => String("₀₁₂₃₄₅₆₇₈₉".indexOf(digit))))
+    || /magnesium.*(hydrochloric|hcl)|(hydrochloric|hcl).*magnesium/i.test(`${id} ${equation}`);
   if (
     isMagnesiumBurning ||
-    reaction?.conditions?.heatRequired ||
-    reaction?.observations?.lightProduced ||
-    [EXPERIMENT_CATEGORIES.COMBUSTION, EXPERIMENT_CATEGORIES.THERMAL_DECOMPOSITION].includes(category)
+    (!isMagnesiumAcid && (reaction?.conditions?.heatRequired || reaction?.observations?.lightProduced)) ||
+    (!isMagnesiumAcid && [EXPERIMENT_CATEGORIES.COMBUSTION, EXPERIMENT_CATEGORIES.THERMAL_DECOMPOSITION].includes(category))
   ) return "ignition";
   if (category === EXPERIMENT_CATEGORIES.ELECTROLYSIS) return "electrolysis";
   return "mixing";
@@ -420,6 +437,7 @@ export function buildExperimentConfig(reaction, allChemicals = {}) {
     primaryVessel,
     heatingTool,
     deliverySetup,
+    stages: EXPERIMENT_STAGES,
     startColor,
     finalColor,
     indicator: {

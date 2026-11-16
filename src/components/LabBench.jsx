@@ -48,7 +48,9 @@ export default function LabBench({ position = [0, 0, 0], sink = false, stationTy
       <LabGlass position={[2.1, 1.23, 0.45]} />
     </group>}
 
-    {(stationType === "ignition" || universal) && <group position={[universal ? 0 : 0, 1.23, 0.15]}>
+    {/* Keep the shared worktop clear. Reaction-specific apparatus is rendered by
+        ExperimentRenderer; a permanent burner here used to obscure every setup. */}
+    {stationType === "ignition" && <group position={[0, 1.23, 0.15]}>
       <mesh castShadow position={[0, 0.04, 0]}><boxGeometry args={[1.9, 0.08, 1.35]} /><meshStandardMaterial color="#c5b39e" roughness={0.72} /></mesh>
       <mesh castShadow position={[0, 0.24, 0]}><cylinderGeometry args={[0.32, 0.38, 0.32, 20]} /><meshStandardMaterial color="#53616a" metalness={0.72} roughness={0.3} /></mesh>
       <mesh castShadow position={[0, 0.78, 0]}><cylinderGeometry args={[0.12, 0.16, 0.82, 16]} /><meshStandardMaterial color="#77848a" metalness={0.72} roughness={0.28} /></mesh>

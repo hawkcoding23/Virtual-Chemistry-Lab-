@@ -38,31 +38,40 @@ function FlameEffect({ position = [0, 0, 0], scale = 1, type = "roaring" }) {
   const isBlue = type === "roaring";
   const isMagnesium = type === "magnesium";
 
-  const outerColor = isMagnesium ? "#ffffff" : isBlue ? "#3b9bd8" : "#ff7b2b";
-  const innerColor = isMagnesium ? "#fffded" : isBlue ? "#7be9ff" : "#ffdf6b";
+  const outerColor = isMagnesium ? "#fff7d8" : isBlue ? "#1689ff" : "#ff7b2b";
+  const innerColor = isMagnesium ? "#ffffff" : isBlue ? "#b9f6ff" : "#ffdf6b";
   const lightColor = isMagnesium ? "#ffffff" : isBlue ? "#5ec7ff" : "#ff9640";
 
   return (
     <group position={position}>
-      {/* Outer flame tear-drop shape */}
-      <mesh ref={outerFlame} position={[0, 0.28 * scale, 0]}>
-        <coneGeometry args={[0.13 * scale, 0.6 * scale, 16]} />
+      {/* Layered, soft flame lobes read as a flame instead of a hard cone. */}
+      <mesh ref={outerFlame} position={[0, 0.29 * scale, 0]} scale={[1, 1, 1]}>
+        <sphereGeometry args={[0.19, 20, 16]} />
         <meshBasicMaterial
           color={outerColor}
           transparent
-          opacity={isMagnesium ? 0.95 : 0.78}
+          opacity={isMagnesium ? 0.82 : 0.7}
           depthWrite={false}
           blending={THREE.AdditiveBlending}
         />
       </mesh>
 
-      {/* Inner hotter cone */}
-      <mesh ref={innerCone} position={[0, 0.16 * scale, 0]}>
-        <coneGeometry args={[0.08 * scale, 0.36 * scale, 14]} />
+      <mesh position={[-0.045 * scale, 0.2 * scale, 0]} scale={[0.68 * scale, 0.32 * scale, 0.68 * scale]}>
+        <sphereGeometry args={[0.17, 18, 14]} />
+        <meshBasicMaterial color={outerColor} transparent opacity={0.76} depthWrite={false} blending={THREE.AdditiveBlending} />
+      </mesh>
+      <mesh position={[0.045 * scale, 0.24 * scale, 0]} scale={[0.62 * scale, 0.38 * scale, 0.62 * scale]}>
+        <sphereGeometry args={[0.16, 18, 14]} />
+        <meshBasicMaterial color={outerColor} transparent opacity={0.78} depthWrite={false} blending={THREE.AdditiveBlending} />
+      </mesh>
+
+      {/* Narrow, bright inner flame core */}
+      <mesh ref={innerCone} position={[0, 0.15 * scale, 0]} scale={[1, 1, 1]}>
+        <sphereGeometry args={[0.115, 18, 14]} />
         <meshBasicMaterial
           color={innerColor}
           transparent
-          opacity={0.92}
+          opacity={isMagnesium ? 0.98 : 0.94}
           depthWrite={false}
           blending={THREE.AdditiveBlending}
         />

@@ -336,10 +336,12 @@ const SHELF_SLOTS = [
   // Two parallel, double-sided storage runs add capacity without stacking
   // large cabinets over one another or blocking the chemical-room doorway.
   ...Array.from({ length: 8 }, (_, index) => {
-    const x = -22.5 - index * (15 / 7);
+    // Keep a generous landing zone inside the west doorway. These parallel
+    // racks previously started almost in the door swing and looked jammed in.
+    const x = -24.1 - index * (13.2 / 7);
     return [
-      { pos: [x, 0, -3.15], rot: [0, Math.PI, 0] },
-      { pos: [x, 0, 3.15], rot: [0, 0, 0] },
+      { pos: [x, 0, -3.8], rot: [0, Math.PI, 0] },
+      { pos: [x, 0, 3.8], rot: [0, 0, 0] },
     ];
   }).flat(),
 
@@ -379,6 +381,7 @@ function LabScene({
     quizDoorOpen = false,
     mouseSensitivity = 1,
     mobileMoveRef,
+    graphicsQuality = "medium",
     onElementSelect,
     onTheorySelect,
     standRequest = 0,
@@ -517,10 +520,11 @@ function LabScene({
         position={reactionResult.stationPosition ?? [0, 0]}
         allChemicals={allChemicals || chemicals}
         reactionProgress={simulationState?.reactionProgress ?? 0}
+        graphicsQuality={graphicsQuality}
       />
     )}
     <Stool position={[-3,0,3]} /><Stool position={[3,0,3]} /><Skeleton position={[0,0,-4]} rotation={[0,0.78,0]} />
-    <LabFixtures language={language} onTheorySelect={onTheorySelect} /><Door language={language} /><Player enabled={controlsEnabled} onNearTable={onNearTable} onNearQuizSeat={onNearQuizSeat} onSitQuizSeat={onSitQuizSeat} onInteractQuiz={onInteractQuiz} onInteractChemicalDoor={onInteractChemicalDoor} onInteractQuizDoor={onInteractQuizDoor} onOpenChemicalSearch={onOpenChemicalSearch} onLeaveChemicalBench={onLeaveChemicalBench} onInteractionPrompt={onInteractionPrompt} onInteractPoster={onInteractPoster} chemicalDoorOpen={chemicalDoorOpen} quizDoorOpen={quizDoorOpen} mouseSensitivity={mouseSensitivity} mobileMoveRef={mobileMoveRef} standRequest={standRequest} seatedInQuizRoom={quizSeated} obstacles={obstacles} reactionRunId={reactionResult?.runId ?? null} reactionStationPosition={reactionResult?.stationPosition ?? null} />
+    <LabFixtures language={language} onTheorySelect={onTheorySelect} /><Door language={language} /><Player enabled={controlsEnabled} onNearTable={onNearTable} onNearQuizSeat={onNearQuizSeat} onSitQuizSeat={onSitQuizSeat} onInteractQuiz={onInteractQuiz} onInteractChemicalDoor={onInteractChemicalDoor} onInteractQuizDoor={onInteractQuizDoor} onOpenChemicalSearch={onOpenChemicalSearch} onLeaveChemicalBench={onLeaveChemicalBench} onInteractionPrompt={onInteractionPrompt} onInteractPoster={onInteractPoster} chemicalDoorOpen={chemicalDoorOpen} quizDoorOpen={quizDoorOpen} mouseSensitivity={mouseSensitivity} mobileMoveRef={mobileMoveRef} standRequest={standRequest} seatedInQuizRoom={quizSeated} obstacles={obstacles} reactionRunId={reactionResult?.runId ?? null} reactionStationPosition={reactionResult?.stationPosition ?? null} reactionFocus={Boolean(reactionResult && (reactionResult.id === "magnesium_oxygen" || /mg\s*\+\s*o[₂2]/i.test(reactionResult.equation || "")))} />
   </>;
 }
 

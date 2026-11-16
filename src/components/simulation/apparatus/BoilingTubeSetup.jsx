@@ -1,5 +1,6 @@
 import { memo } from "react";
 import * as THREE from "three";
+import { Text } from "@react-three/drei";
 
 function BoilingTubeSetup({
   position = [0, 0, 0],
@@ -8,11 +9,14 @@ function BoilingTubeSetup({
   solidTransformedColor = "#8b3f27", // e.g. reddish brown Fe2O3
   heatProgress = 0, // 0 to 1
   withDeliveryTube = true,
+  withLimewaterReceiver = false,
 }) {
   const currentSolidColor = new THREE.Color(solidColor).lerp(
     new THREE.Color(solidTransformedColor),
     heatProgress
   );
+  const currentLimewaterColor = new THREE.Color("#e6f3f2").lerp(new THREE.Color("#f2f2e8"), heatProgress);
+  const limewaterOpacity = 0.38 + heatProgress * 0.5;
 
   return (
     <group position={position} scale={[scale, scale, scale]}>
@@ -104,6 +108,41 @@ function BoilingTubeSetup({
           </group>
         )}
       </group>
+
+      {withLimewaterReceiver && (
+        <group>
+          {/* CO₂ from the heated tube is led into limewater; it turns cloudy. */}
+          <mesh position={[0.92, 2.13, 0]} rotation={[0, 0, Math.PI / 2]}>
+            <cylinderGeometry args={[0.014, 0.014, 0.42, 10]} />
+            <meshPhysicalMaterial color="#e3f4f6" transparent opacity={0.62} transmission={0.62} roughness={0.12} depthWrite={false} />
+          </mesh>
+          <mesh position={[1.12, 1.225, 0]}>
+            <cylinderGeometry args={[0.014, 0.014, 1.79, 10]} />
+            <meshPhysicalMaterial color="#e3f4f6" transparent opacity={0.62} transmission={0.62} roughness={0.12} depthWrite={false} />
+          </mesh>
+          <group position={[1.12, 0.25, 0]}>
+            <mesh position={[0, 0.14, 0]}>
+              <cylinderGeometry args={[0.19, 0.15, 0.38, 24, 1, true]} />
+              <meshPhysicalMaterial color="#dff2f4" transparent opacity={0.26} roughness={0.08} transmission={0.72} side={THREE.DoubleSide} depthWrite={false} />
+            </mesh>
+            <mesh position={[0, 0.1, 0]}>
+              <cylinderGeometry args={[0.145, 0.135, 0.18, 24]} />
+              <meshStandardMaterial color={currentLimewaterColor} transparent opacity={limewaterOpacity} roughness={0.2} />
+            </mesh>
+            {heatProgress > 0.24 && [0, 1, 2, 3].map((index) => (
+              <mesh key={`co2-bubble-${index}`} position={[(index % 2 ? 0.045 : -0.045), 0.08 + ((heatProgress * 1.8 + index * 0.19) % 0.2), 0.045]}>
+                <sphereGeometry args={[0.022, 10, 8]} />
+                <meshBasicMaterial color="#f8ffff" transparent opacity={0.72} />
+              </mesh>
+            ))}
+            <mesh position={[0, 0.005, 0]}>
+              <cylinderGeometry args={[0.2, 0.2, 0.025, 24]} />
+              <meshStandardMaterial color="#b9c7c7" roughness={0.7} />
+            </mesh>
+          </group>
+          <Text position={[1.12, 0.7, 0.12]} fontSize={0.075} color="#e8f2f2" anchorX="center" anchorY="middle">LIMEWATER</Text>
+        </group>
+      )}
     </group>
   );
 }

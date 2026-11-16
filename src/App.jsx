@@ -20,6 +20,7 @@ import ExperimentOverlay from "./components/simulation/ExperimentOverlay";
 import { useReactionSimulation } from "./components/simulation/useReactionSimulation";
 import { getReactionStation } from "./components/simulation/simulationEngine";
 import { stationPosition } from "./data/labStations";
+import ReactionShowcaseModal from "./ui/ReactionShowcaseModal";
 import "./App.css";
 
 const StudyRoomPanel = lazy(() => import("./ui/StudyRoomPanel"));
@@ -193,6 +194,22 @@ export default function App() {
   const [catalogReady, setCatalogReady] = useState(false);
   const [rendererReady, setRendererReady] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [showcaseOpen, setShowcaseOpen] = useState(false);
+  const [graphicsQuality, setGraphicsQuality] = useState(() => {
+    try {
+      return window.localStorage.getItem("chemistry-world-graphics") || "medium";
+    } catch {
+      return "medium";
+    }
+  });
+  const handleSetGraphicsQuality = (level) => {
+    setGraphicsQuality(level);
+    try {
+      window.localStorage.setItem("chemistry-world-graphics", level);
+    } catch {
+      // Ignore
+    }
+  };
   const [companionEnabled, setCompanionEnabled] = useState(() => {
     try { return window.localStorage.getItem("chemistry-world-companion") !== "false"; } catch { return true; }
   });
@@ -409,6 +426,51 @@ export default function App() {
     }
   };
 
+  const launchShowcaseReaction = useCallback((setup) => {
+    let targetReaction = NCERT_REACTIONS.find((r) => r.id === setup.id);
+    if (!targetReaction) {
+      targetReaction = {
+        id: setup.id,
+        name: setup.title,
+        chapter: `Class ${setup.classLevel} NCERT`,
+        equation: setup.equation,
+        reactants: setup.reactants.map((id) => ({ chemicalId: id, coefficient: 1 })),
+        products: [],
+        setup: setup.id.includes("balloon") ? "balloon" : setup.id.includes("chromatography") ? "chromatography" : undefined,
+        observations: {
+          gas: setup.category.includes("Gas") ? setup.observation : null,
+          precipitate: setup.category.includes("Precipitation") ? setup.observation : null,
+          colorChange: setup.observation,
+        },
+      };
+    }
+
+    const samples = setup.reactants.map((chemId) => {
+      const chem = allChemicals[chemId] || { id: chemId, name: chemId.replace(/_/g, " "), formula: chemId };
+      return { ...chem, mass: 10 };
+    });
+
+    const runId = ++reactionRun.current;
+    let outcome = null;
+    try {
+      outcome = calculateOutcome(targetReaction, samples, allChemicals);
+    } catch {
+      // fallback
+    }
+
+    const reactionPosition = stationPosition(getReactionStation(targetReaction));
+    setReactionResult({
+      ...targetReaction,
+      runId,
+      samples,
+      outcome,
+      stationPosition: reactionPosition,
+      setup: setup.id.includes("balloon") ? "balloon" : undefined,
+    });
+    setUiHidden(false);
+    setShowcaseOpen(false);
+  }, [allChemicals]);
+
   const simulation = useReactionSimulation(reactionResult, allChemicals);
   const openChemicalSearch = useCallback(() => {
     setQuickSearchOpen(true);
@@ -525,7 +587,21 @@ export default function App() {
   if (!enteredLab) return <WelcomeScreen onEnter={beginLabEntry} entrySequence={entrySequence} />;
 
   return <>
-    <Canvas tabIndex={0} dpr={[0.8, 1]} gl={{ antialias: false, powerPreference: "high-performance", alpha: false }}
+    <Canvas
+      tabIndex={0}
+      shadows={graphicsQuality !== "low"}
+      dpr={
+        graphicsQuality === "low"
+          ? [0.75, 1.0]
+          : graphicsQuality === "high"
+          ? [1.5, 2.0]
+          : [1.0, 1.35]
+      }
+      gl={{
+        antialias: graphicsQuality !== "low",
+        powerPreference: graphicsQuality === "low" ? "low-power" : "high-performance",
+        alpha: false,
+      }}
       fallback={<div className="lab-render-fallback" role="alert">{t("This browser could not start the 3D lab. Try reloading the page or enabling WebGL.")}</div>}
       camera={{ position: [0, 1.7, 7], fov: 70 }} onCreated={prepareCanvas}>
       <LabScene language={language} chemicals={classShelfChemicals} allChemicals={allChemicals} onSelectChemical={addChemical} activeId={activeId}
@@ -535,13 +611,15 @@ export default function App() {
         onInteractQuizDoor={() => setQuizDoorOpen((open) => !open)} quizDoorOpen={quizDoorOpen}
         mouseSensitivity={mouseSensitivity} onOpenChemicalSearch={openChemicalSearch} onLeaveChemicalBench={closeChemicalSearch}
         mobileMoveRef={mobileMoveRef}
+        graphicsQuality={graphicsQuality}
         onElementSelect={setSelectedElement} onTheorySelect={setSelectedTheory} onInteractionPrompt={setInteractionPrompt} onInteractPoster={(target) => target?.type === "doubt-corner" ? setSelectedTheory({ type: "doubt-corner" }) : setSelectedTheory(target)}
         standRequest={standRequest} quizSeated={quizSeated}
         controlsEnabled={sceneReady && !reactionResult && !quizOpen}
         selectedClass={profile ? (isExamProfile(profile) ? profile.studyTrack : isAllClassesProfile(profile) ? "all" : profile.classLevel) : null} />
     </Canvas>
-    <MobileLabControls moveRef={mobileMoveRef} />
-    {guideOpen && sceneReady && <LabGuide language={language} onClose={closeGuide} />}
+    {!reactionResult && !quizOpen && !quizSeated && <MobileLabControls moveRef={mobileMoveRef} />}
+    {guideOpen && sceneReady && <LabGuide language={language} onClose={closeGuide} onPickStarterPair={loadRecipe}
+      availableReactionKeys={classReactions.map((reaction) => idsOf(reaction.reactants).sort().join("|"))} />}
     {!uiHidden && companionEnabled && <LabCompanion language={language} />}
     {!sceneReady && <div className="lab-loading" role="status">{t("Preparing the virtual lab…")}</div>}
     <div className="lab-utility-controls">
@@ -562,6 +640,16 @@ export default function App() {
           </div>
         </section>}
       </div>}
+      {!uiHidden && !reactionResult && !quizOpen && !quizSeated && (
+        <button
+          className="study-room-shortcut showcase-toggle-btn"
+          type="button"
+          onClick={() => setShowcaseOpen(true)}
+          title="Open Reaction Setup Showcase"
+        >
+          🧪 {language === "hi" ? "प्रयोग प्रदर्शन" : "Reaction Setups"}
+        </button>
+      )}
       {!uiHidden && !reactionResult && !quizOpen && !quizSeated && <button className="study-room-shortcut" type="button" onClick={() => setStudyRoomOpen(true)}>{language === "hi" ? "अध्याय नोट्स" : "Chapter notes"}</button>}
       <button className="ui-visibility-toggle settings-toggle" type="button" aria-expanded={settingsOpen}
         aria-label={t("Settings")} title={`${t("Settings")} (L)`} onClick={() => setSettingsOpen((open) => !open)}>
@@ -572,6 +660,33 @@ export default function App() {
       <section className="lab-settings-panel" role="dialog" aria-modal="true" aria-labelledby="lab-settings-title">
         <button type="button" className="welcome-info-close" aria-label={t("Close settings")} onClick={() => setSettingsOpen(false)}>×</button>
         <span className="welcome-info-eyebrow">{t("LAB CONTROLS")}</span><h2 id="lab-settings-title">{t("Settings")}</h2>
+        <div className="lab-setting-group">
+          <div className="lab-setting-header">
+            <span>
+              <b>{language === "hi" ? "ग्राफ़िक्स गुणवत्ता (Graphics Quality)" : "Graphics Quality"}</b>
+              <small>{language === "hi" ? "रिज़ॉल्यूशन, शैडो और 3D पार्टिकल्स" : "Resolution, 3D shadows & visual fidelity"}</small>
+            </span>
+          </div>
+          <div className="graphics-quality-options" role="radiogroup" aria-label="Graphics Quality">
+            {[
+              { id: "low", label: "LOW", desc: language === "hi" ? "तेज़ गति (छायाएं बंद)" : "60 FPS / Battery Saver" },
+              { id: "medium", label: "MED", desc: language === "hi" ? "संतुलित 3D" : "Balanced Standard" },
+              { id: "high", label: "HIGH", desc: language === "hi" ? "अल्ट्रा एचडी + शैडो" : "Ultra HD & Soft Shadows" },
+            ].map(({ id, label, desc }) => (
+              <button
+                key={id}
+                type="button"
+                className={`graphics-quality-btn ${graphicsQuality === id ? "active" : ""}`}
+                onClick={() => handleSetGraphicsQuality(id)}
+                aria-checked={graphicsQuality === id}
+                role="radio"
+              >
+                <strong>{label}</strong>
+                <small>{desc}</small>
+              </button>
+            ))}
+          </div>
+        </div>
         <label className="lab-setting-row"><span><b>{t("Show lab interface")}</b><small>{t("U toggles the interface")}</small></span><input type="checkbox" checked={!uiHidden} onChange={(event) => { setUiHidden(!event.target.checked); if (!event.target.checked) setQuickSearchOpen(false); }} /></label>
         <label className="lab-setting-row"><span><b>{t("Robot lab companion")}</b><small>{t("Show tips while exploring")}</small></span><input type="checkbox" checked={companionEnabled} onChange={(event) => setCompanionEnabled(event.target.checked)} /></label>
         <label className="lab-setting-range"><span><b>{t("Mouse sensitivity")}</b><output>{mouseSensitivity.toFixed(1)}×</output></span><input type="range" min="0.3" max="2" step="0.1" value={mouseSensitivity} onChange={(event) => setMouseSensitivity(Number(event.target.value))} /></label>
@@ -715,6 +830,13 @@ export default function App() {
         onClose={closeReactionResult}
         onExport={exportReactionResult}
         exportStatus={resultExportMessage}
+      />
+    )}
+    {showcaseOpen && (
+      <ReactionShowcaseModal
+        language={language}
+        onSelectReaction={launchShowcaseReaction}
+        onClose={() => setShowcaseOpen(false)}
       />
     )}
   </>;
