@@ -40,16 +40,26 @@ function MetalSpecimen({
           {/* Deposited copper rough crust visible at high progress */}
           {depositionProgress > 0.15 && (
             <mesh position={[0, -0.05, 0]}>
-              <cylinderGeometry args={[0.042, 0.042, 0.45, 12]} />
+              <cylinderGeometry args={[0.052, 0.052, 0.48, 12]} />
               <meshStandardMaterial
                 color={depositColor}
                 roughness={0.88}
-                metalness={0.4}
+                metalness={0.22}
                 transparent
-                opacity={Math.min(1, depositionProgress * 1.2)}
+                opacity={Math.min(1, depositionProgress * 1.45)}
               />
             </mesh>
           )}
+          {depositionProgress > 0.25 && Array.from({ length: 9 }, (_, index) => {
+            const angle = index * 2.399;
+            const y = -0.25 + (index % 5) * 0.105;
+            return (
+              <mesh key={index} position={[Math.cos(angle) * 0.047, y, Math.sin(angle) * 0.047]} scale={Math.min(1, (depositionProgress - 0.18) * 2.4)}>
+                <icosahedronGeometry args={[0.033, 0]} />
+                <meshStandardMaterial color={depositColor} roughness={0.72} metalness={0.28} />
+              </mesh>
+            );
+          })}
         </group>
       ) : (
         // Rectangular metal plate/strip (e.g. Zinc strip)

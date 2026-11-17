@@ -24,6 +24,7 @@ function ExperimentOverlay({
   language = "en",
   reaction,
   config,
+  productDetails = [],
   explanationText,
   isPlaying,
   playbackSpeed,
@@ -117,7 +118,7 @@ function ExperimentOverlay({
   }, [beat, config, isPlaying, reaction, reactionProgress]);
 
   const samples = reaction?.samples || [];
-  const products = config.products || [];
+  const products = config.products?.length ? config.products : productDetails;
   const equation = reaction?.equation || "";
   const categoryLabel = formatCategoryLabel(config.category, language);
   const isMagnesiumBurning = String(reaction?.id || "").toLowerCase().includes("magnesium") || /2?\s*mg\s*\+\s*o[₂2]\s*→\s*2?\s*mgo/i.test(equation);
@@ -133,7 +134,7 @@ function ExperimentOverlay({
   }[config.requiredStation];
 
   return (
-    <div className={`experiment-hud-overlay${explanationOpen ? " has-explanation" : ""}`} role="complementary" aria-label={translate(language, "Virtual experiment workstation")}>
+    <div className={`experiment-hud-overlay${explanationOpen ? " has-explanation" : ""}${isPlaying && !isComplete ? " is-playing" : ""}`} role="complementary" aria-label={translate(language, "Virtual experiment workstation")}>
       {/* 1. TOP HEADER BAR */}
       <header className="experiment-hud-topbar">
         <div className="hud-title-cluster">

@@ -1,4 +1,5 @@
 import { LabGlass, TestTubeRack } from "./Equipment";
+import InteractionSurface from "./InteractionSurface";
 import { Text } from "@react-three/drei";
 
 const steel = "#9eb4ba";
@@ -17,6 +18,7 @@ export default function LabBench({ position = [0, 0, 0], sink = false, stationTy
   const stationLabel = universal ? "CENTRAL REACTION BENCH · ALL EXPERIMENTS" : stationType === "ignition" ? "IGNITION · COMBUSTION"
     : stationType === "electrolysis" ? "ELECTROLYSIS · WATER CELL" : "MIXING · GENERAL REACTIONS";
   return <group position={position}>
+    {universal && <InteractionSurface width={13.8} height={2.8} position={[0, 1.235, 0]} rotation={[-Math.PI / 2, 0, 0]} payload={{ type: "reaction-table", label: "Central reaction bench" }} />}
     {/* One continuous, oversized worktop carries every experiment setup. */}
     <mesh castShadow receiveShadow position={[0, 0.52, 0]}>
       <boxGeometry args={[benchWidth, 1.04, universal ? 3.25 : 2.65]} />

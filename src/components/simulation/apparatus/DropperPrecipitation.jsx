@@ -1,5 +1,4 @@
 import { memo, useMemo, useRef } from "react";
-import { Text } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import GlassBeaker from "./GlassBeaker";
@@ -11,11 +10,7 @@ function DropperPrecipitation({
   reactionProgress = 0,
   actionProgress = 0,
   precipitateColor = "#facc15", // Default canary yellow (PbI2) or white (AgCl)
-  precipitateName = "PbI₂ (Canary Yellow ppt)",
-  reagentName = "Potassium Iodide (KI)",
-  solutionName = "Lead Nitrate Pb(NO₃)₂",
   reagentColor = "#9bd6e3",
-  language = "en",
 }) {
   const dropRef = useRef();
 
@@ -109,16 +104,6 @@ function DropperPrecipitation({
         settles={true}
       />
 
-      {/* Labels */}
-      <Text position={[0, 1.45, 0]} fontSize={0.075} color="#fef08a" anchorX="center" maxWidth={1.8}>
-        {precipitateName}
-      </Text>
-      <Text position={[-0.38, 0.98, 0.25]} fontSize={0.055} color="#10232b" anchorX="center" anchorY="middle" maxWidth={0.9}>
-        {solutionName}
-      </Text>
-      <Text position={[0.64, 1.53, 0.05]} fontSize={0.055} color="#e7f8fb" anchorX="center" maxWidth={1.15}>
-        {reagentName}
-      </Text>
     </group>
   );
 }

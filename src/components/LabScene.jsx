@@ -376,6 +376,8 @@ function LabScene({
     onInteractionPrompt,
     onInteractPoster,
     onOpenChemicalSearch,
+    onOpenReactionTable,
+    movementLocked = false,
     onLeaveChemicalBench,
     chemicalDoorOpen = false,
     quizDoorOpen = false,
@@ -524,7 +526,7 @@ function LabScene({
       />
     )}
     <Stool position={[-3,0,3]} /><Stool position={[3,0,3]} /><Skeleton position={[0,0,-4]} rotation={[0,0.78,0]} />
-    <LabFixtures language={language} onTheorySelect={onTheorySelect} /><Door language={language} /><Player enabled={controlsEnabled} onNearTable={onNearTable} onNearQuizSeat={onNearQuizSeat} onSitQuizSeat={onSitQuizSeat} onInteractQuiz={onInteractQuiz} onInteractChemicalDoor={onInteractChemicalDoor} onInteractQuizDoor={onInteractQuizDoor} onOpenChemicalSearch={onOpenChemicalSearch} onLeaveChemicalBench={onLeaveChemicalBench} onInteractionPrompt={onInteractionPrompt} onInteractPoster={onInteractPoster} chemicalDoorOpen={chemicalDoorOpen} quizDoorOpen={quizDoorOpen} mouseSensitivity={mouseSensitivity} mobileMoveRef={mobileMoveRef} standRequest={standRequest} seatedInQuizRoom={quizSeated} obstacles={obstacles} reactionRunId={reactionResult?.runId ?? null} reactionStationPosition={reactionResult?.stationPosition ?? null} reactionFocus={Boolean(reactionResult && (reactionResult.id === "magnesium_oxygen" || /mg\s*\+\s*o[₂2]/i.test(reactionResult.equation || "")))} />
+    <LabFixtures language={language} onTheorySelect={onTheorySelect} /><Door language={language} /><Player enabled={controlsEnabled} movementLocked={movementLocked} onNearTable={onNearTable} onNearQuizSeat={onNearQuizSeat} onSitQuizSeat={onSitQuizSeat} onInteractQuiz={onInteractQuiz} onInteractChemicalDoor={onInteractChemicalDoor} onInteractQuizDoor={onInteractQuizDoor} onOpenChemicalSearch={onOpenChemicalSearch} onOpenReactionTable={onOpenReactionTable} onLeaveChemicalBench={onLeaveChemicalBench} onInteractionPrompt={onInteractionPrompt} onInteractPoster={onInteractPoster} chemicalDoorOpen={chemicalDoorOpen} quizDoorOpen={quizDoorOpen} mouseSensitivity={mouseSensitivity} mobileMoveRef={mobileMoveRef} standRequest={standRequest} seatedInQuizRoom={quizSeated} obstacles={obstacles} reactionRunId={reactionResult?.runId ?? null} reactionStationPosition={reactionResult?.stationPosition ?? null} reactionFocus={Boolean(reactionResult && (reactionResult.id === "magnesium_oxygen" || /mg\s*\+\s*o[₂2]/i.test(reactionResult.equation || "")))} />
   </>;
 }
 

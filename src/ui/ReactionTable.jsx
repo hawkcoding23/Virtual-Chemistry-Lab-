@@ -4,7 +4,7 @@ import { useLanguage } from "../i18n";
 const reactantIds = (reaction) => (reaction.reactants ?? []).map((item) =>
   (typeof item === "string" ? item : item.chemicalId)?.toLowerCase()).filter(Boolean);
 
-export default function ReactionTable({ chemicals, allChemicals, selected, onCollectChemical, onToggle, onMix, onLoadRecipe, reactions, sampleMass = 5, onSampleMassChange, lockedClassLevel = null, studyTrack = "ncert" }) {
+export default function ReactionTable({ chemicals, allChemicals, selected, onCollectChemical, onToggle, onMix, onLoadRecipe, onClose, reactions, sampleMass = 5, onSampleMassChange, lockedClassLevel = null, studyTrack = "ncert" }) {
   const { t } = useLanguage();
   const [catalogOpen, setCatalogOpen] = useState(false);
   const [reactionClass, setReactionClass] = useState(lockedClassLevel == null ? "all" : String(lockedClassLevel));
@@ -31,6 +31,7 @@ export default function ReactionTable({ chemicals, allChemicals, selected, onCol
   return <section className="table-panel" aria-label={t("Reaction table")}>
     <div className="table-head"><div><span className="eyebrow">{t("WORKSTATION")}</span><h2>{t(stationHeading)}</h2>
       <p>{t(stationDescription)}</p></div>
+      <button type="button" className="workstation-close" onClick={onClose} aria-label={t("Close workstation")} title={t("Close workstation")}>×</button>
       <button className="mix-button" onClick={onMix} disabled={selected.length === 0}>{t("Run reaction")} <span>{selected.length}/4</span></button>
     </div>
     <div className="reaction-sample-size" role="group" aria-label={t("Choose sample size")}>

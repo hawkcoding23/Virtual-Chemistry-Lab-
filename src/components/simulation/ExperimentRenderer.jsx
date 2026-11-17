@@ -190,11 +190,7 @@ function ExperimentRenderer({
           reactionProgress={reactionProgress}
           actionProgress={actionProgress}
           precipitateColor={config.precipitate.color || "#f8fafc"}
-          precipitateName={config.precipitate.name || "Precipitate"}
-          solutionName={reaction?.samples?.[0]?.name || "Reactant solution"}
-          reagentName={reaction?.samples?.[1]?.name || "Added reactant"}
           reagentColor={reaction?.samples?.[1]?.color || "#9bd6e3"}
-          language={language}
         />
       )}
 
@@ -411,19 +407,15 @@ function ExperimentRenderer({
 
           {/* Immersed Metal Strip (Iron nail or Zinc strip) with deposition crust */}
           <MetalSpecimen
-            position={[0, actionProgress * -0.45, 0]}
+            position={[
+              THREE.MathUtils.lerp(0.72, 0, THREE.MathUtils.smoothstep(reactionProgress, 0.08, 0.34)),
+              THREE.MathUtils.lerp(0.9, 0, THREE.MathUtils.smoothstep(reactionProgress, 0.08, 0.34)),
+              0,
+            ]}
             scale={1.1}
             specimenType={config.displacement.specimen}
-            depositionProgress={reactionProgress}
+            depositionProgress={THREE.MathUtils.smoothstep(reactionProgress, 0.28, 0.82)}
             depositColor={config.displacement.depositColor}
-          />
-
-          {/* Fresh unreacted metal sample on the bench for comparison */}
-          <MetalSpecimen
-            position={[-0.85, 0, 0.4]}
-            scale={0.8}
-            specimenType={config.displacement.specimen}
-            depositionProgress={0}
           />
         </group>
       )}

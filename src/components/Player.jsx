@@ -35,6 +35,8 @@ export default function Player({
   chemicalDoorOpen = false,
   quizDoorOpen = false,
   onOpenChemicalSearch,
+  onOpenReactionTable,
+  movementLocked = false,
   onLeaveChemicalBench,
   mouseSensitivity = 1,
   standRequest = 0,
@@ -109,6 +111,8 @@ export default function Player({
     } else if (!seated.current && (target?.type === "poster" || target?.type === "doubt-corner")) {
       onInteractPoster?.(target);
       controls.current?.unlock?.();
+    } else if (!seated.current && target?.type === "reaction-table") {
+      onOpenReactionTable?.();
     } else if (seated.current) {
       onInteractQuiz?.();
     } else if (Math.hypot(camera.position.x + 30.05, camera.position.z) < 3.4) {
@@ -142,7 +146,7 @@ export default function Player({
       }
     }
   }, [camera, onInteractChemicalDoor, onInteractQuizDoor, onInteractPoster, onInteractQuiz,
-    onOpenChemicalSearch, onSitQuizSeat, chemicalDoorOpen, quizDoorOpen]);
+    onOpenChemicalSearch, onOpenReactionTable, onSitQuizSeat, chemicalDoorOpen, quizDoorOpen]);
 
   useEffect(() => {
     if (standRequest > 0) standFromQuizSeat();
@@ -150,20 +154,7 @@ export default function Player({
 
   useEffect(() => {
     const canvas = gl.domElement;
-    const toggleMouseLook = (event) => {
-      if (event.pointerType === "touch") return;
-      if (event.button !== 2) return;
-      event.preventDefault();
-      if (!movementEnabled.current || controlsSuspended.current || seated.current) return;
-      if (document.pointerLockElement === canvas) controls.current?.unlock?.();
-      else controls.current?.lock?.();
-    };
-    const interactOnLeftClick = (event) => {
-      if (event.pointerType === "touch" || performance.now() - lastTouchAt.current < 650) return;
-      if (event.button !== 0 || !movementEnabled.current || controlsSuspended.current || seated.current) {
-        if (event.button === 0 && seated.current) interact();
-        return;
-      }
+    const targetAtPointer = (event) => {
       const bounds = canvas.getBoundingClientRect();
       interactionScreenCenter.current.set(
         ((event.clientX - bounds.left) / bounds.width) * 2 - 1,
@@ -175,11 +166,29 @@ export default function Player({
         ? interactionRaycaster.current.intersectObjects(targets.map(({ object }) => object), false)
           .find((candidate) => candidate.distance <= 5.2)
         : null;
-      const clickedTarget = hit
-        ? targets.find(({ object }) => object === hit.object)?.payload ?? null
-        : null;
-      interact(clickedTarget);
       interactionScreenCenter.current.set(0, 0);
+      return hit ? targets.find(({ object }) => object === hit.object)?.payload ?? null : null;
+    };
+    const toggleMouseLook = (event) => {
+      if (event.pointerType === "touch") return;
+      if (event.button !== 2) return;
+      event.preventDefault();
+      if (!movementEnabled.current || controlsSuspended.current || seated.current) return;
+      const clickedTarget = targetAtPointer(event);
+      if (clickedTarget?.type === "reaction-table") {
+        interact(clickedTarget);
+        return;
+      }
+      if (document.pointerLockElement === canvas) controls.current?.unlock?.();
+      else controls.current?.lock?.();
+    };
+    const interactOnLeftClick = (event) => {
+      if (event.pointerType === "touch" || performance.now() - lastTouchAt.current < 650) return;
+      if (event.button !== 0 || !movementEnabled.current || controlsSuspended.current || seated.current) {
+        if (event.button === 0 && seated.current) interact();
+        return;
+      }
+      interact(targetAtPointer(event));
     };
     const suppressContextMenu = (event) => event.preventDefault();
     canvas.addEventListener("pointerdown", toggleMouseLook);
@@ -261,6 +270,10 @@ export default function Player({
       if (isTyping) return;
 
       const movementCode = MOVEMENT_KEYS.has(event.code) ? event.code : null;
+      if (movementLocked && (movementCode || event.code === "Space" || event.code === "ShiftLeft" || event.code === "ShiftRight")) {
+        event.preventDefault();
+        return;
+      }
       if (movementCode || ["KeyR", "KeyE", "KeyC", "KeyF", "Space", "ShiftLeft", "ShiftRight"].includes(event.code)) {
         event.preventDefault();
       }
@@ -302,7 +315,16 @@ export default function Player({
       document.removeEventListener("pointerlockchange", clear);
       document.removeEventListener("visibilitychange", clear);
     };
-  }, [enabled, interact, standFromQuizSeat]);
+  }, [enabled, interact, movementLocked, standFromQuizSeat]);
+
+  useEffect(() => {
+    if (movementLocked) {
+      keys.current = {};
+      movementState.current.walking = false;
+      movementState.current.sprinting = false;
+      soundManager.updateMovementSound(false);
+    }
+  }, [movementLocked]);
 
   // Move in close for the magnesium burn so the strip, flame, and powder tray
   // are readable. Restore the player's exact camera view when the result closes.
@@ -416,7 +438,7 @@ export default function Player({
     // Capped frame delta prevents huge jumps when returning from background/tab
     const frameDelta = Math.min(delta, 0.033);
 
-    if (!seated.current && !cameraIsInvalid && (forwardAmount || sideAmount)) {
+    if (!movementLocked && !seated.current && !cameraIsInvalid && (forwardAmount || sideAmount)) {
       camera.getWorldDirection(forward.current);
       forward.current.y = 0;
       if (forward.current.lengthSq() < 1e-6) forward.current.set(0, 0, -1);
@@ -468,7 +490,7 @@ export default function Player({
     soundManager.updateMovementSound(movementState.current.walking, isSprinting);
 
     // Vertical jump handling
-    if (!seated.current) {
+    if (!seated.current && !movementLocked) {
       if (jumpRequested.current && jumpHeight.current === 0) verticalVelocity.current = 5.8;
       jumpRequested.current = false;
       if (jumpHeight.current > 0 || verticalVelocity.current > 0) {
@@ -504,7 +526,8 @@ export default function Player({
       const prompt = targetData?.type === "gate"
         ? `E · ${isOpen ? "Close" : "Open"} ${targetData.label}`
         : targetData?.type === "poster" ? `E · Read ${targetData.title}`
-          : targetData?.type === "doubt-corner" ? "E · Open Doubt Corner" : "";
+          : targetData?.type === "doubt-corner" ? "E · Open Doubt Corner"
+            : targetData?.type === "reaction-table" ? "E · Open reaction bench" : "";
       const signature = targetData ? `${targetData.type}:${targetData.id ?? targetData.title}:${isOpen}` : "";
       if (signature !== interactionSignature.current) {
         interactionSignature.current = signature;

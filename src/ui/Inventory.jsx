@@ -6,7 +6,7 @@ function returnFocusToLab() {
 
 export default function Inventory({ chemicals, activeId, onSelect, onRemove, onClear, tableOpen }) {
   const { t } = useLanguage();
-  return <aside className={`inventory ${tableOpen ? "table-open" : ""}`} aria-live="polite">
+  return <aside className={`inventory ${chemicals.length ? "has-items" : "empty-inventory"} ${tableOpen ? "table-open" : ""}`} aria-live="polite">
     <div className="inventory-heading"><div><span>{t("INVENTORY")}</span><small>{chemicals.length}{t(" collected · select at reaction table")}</small></div>
       {chemicals.length > 0 && <button type="button" className="clear-button" onClick={() => {
         onClear();

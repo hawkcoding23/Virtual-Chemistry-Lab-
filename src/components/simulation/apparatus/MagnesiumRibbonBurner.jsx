@@ -21,6 +21,7 @@ function MagnesiumRibbonBurner({ actionProgress = 0, reactionProgress = 0, activ
   const ribbonY = THREE.MathUtils.lerp(0.62, 0.91, approach);
   const ribbonOpacity = 1 - THREE.MathUtils.smoothstep(reactionProgress, 0.42, 0.62);
   const flash = reactionProgress > 0.43 && reactionProgress < 0.62;
+  const ignition = THREE.MathUtils.smoothstep(reactionProgress, 0.44, 0.52);
   const ribbonColor = new THREE.Color("#c8d3d8").lerp(new THREE.Color("#f7f2dc"), burn);
   const powder = Array.from({ length: 18 }, (_, index) => {
     const angle = index * 2.399;
@@ -38,7 +39,7 @@ function MagnesiumRibbonBurner({ actionProgress = 0, reactionProgress = 0, activ
     <mesh position={[0, 0.067, 0]}>
       <boxGeometry args={[1.32, 0.018, 0.92]} /><meshStandardMaterial color="#f0eee5" roughness={0.88} />
     </mesh>
-    <BunsenBurner position={[0, 0.04, 0]} scale={0.82} active={active && reactionProgress < 0.56} flameType={active ? "roaring" : "off"} />
+    <BunsenBurner position={[0, 0.04, 0]} scale={0.82} active={active && reactionProgress < 0.56} flameType={active ? "safety" : "off"} />
 
     {/* A real lab grip makes it clear the magnesium strip is held over the flame. */}
     <group position={[THREE.MathUtils.lerp(-1.65, -0.75, approach), THREE.MathUtils.lerp(0.68, 0.91, approach), 0.2]} rotation={[0, 0, THREE.MathUtils.lerp(0.25, 0.35, approach)]}>
@@ -65,10 +66,10 @@ function MagnesiumRibbonBurner({ actionProgress = 0, reactionProgress = 0, activ
         <coneGeometry args={[0.21, 0.56, 18, 3]} /><meshBasicMaterial color="#ff721e" transparent opacity={0.86} depthWrite={false} side={THREE.DoubleSide} />
       </mesh>
       <mesh ref={flameMid} position={[0, 0.24, 0.012]}>
-        <coneGeometry args={[0.15, 0.43, 18, 3]} /><meshBasicMaterial color="#ffcf45" transparent opacity={0.9} depthWrite={false} side={THREE.DoubleSide} />
+        <coneGeometry args={[0.15, 0.43, 18, 3]} /><meshBasicMaterial color={new THREE.Color("#ffd34d").lerp(new THREE.Color("#fffdf2"), ignition)} transparent opacity={0.94} depthWrite={false} side={THREE.DoubleSide} />
       </mesh>
       <mesh ref={flameCore} position={[0, 0.19, 0.006]}>
-        <coneGeometry args={[0.105, 0.36, 14, 1]} /><meshBasicMaterial color="#fffdf0" transparent opacity={0.9} depthWrite={false} side={THREE.DoubleSide} />
+        <coneGeometry args={[0.105, 0.36, 14, 1]} /><meshBasicMaterial color={new THREE.Color("#ffad24").lerp(new THREE.Color("#ffffff"), ignition)} transparent opacity={0.96} depthWrite={false} side={THREE.DoubleSide} />
       </mesh>
       <pointLight position={[0, 0.23, 0.05]} color="#fff1bd" intensity={flash ? 3.2 : 1.6} distance={2.3} decay={2} />
     </group>}

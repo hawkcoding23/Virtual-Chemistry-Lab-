@@ -186,6 +186,7 @@ export default function App() {
   const [quizClassLevel, setQuizClassLevel] = useState(9);
   const [benchSelection, setBenchSelection] = useState([]);
   const [reactionResult, setReactionResult] = useState(null);
+  const [reactionTableOpen, setReactionTableOpen] = useState(false);
   const [resultExportMessage, setResultExportMessage] = useState("");
   const [enteredLab, setEnteredLab] = useState(false);
   const [entrySequence, setEntrySequence] = useState(false);
@@ -228,6 +229,10 @@ export default function App() {
   const nearTable = activeStation !== null;
   const reactionRun = useRef(0);
   const entryTimer = useRef(null);
+
+  useEffect(() => {
+    if (!nearTable || reactionResult || quizOpen || quizSeated) setReactionTableOpen(false);
+  }, [nearTable, reactionResult, quizOpen, quizSeated]);
 
   useEffect(() => {
     if (!enteredLab || !sceneReady) return;
@@ -614,15 +619,17 @@ export default function App() {
         graphicsQuality={graphicsQuality}
         onElementSelect={setSelectedElement} onTheorySelect={setSelectedTheory} onInteractionPrompt={setInteractionPrompt} onInteractPoster={(target) => target?.type === "doubt-corner" ? setSelectedTheory({ type: "doubt-corner" }) : setSelectedTheory(target)}
         standRequest={standRequest} quizSeated={quizSeated}
+        onOpenReactionTable={() => { if (nearTable) { setQuickSearchOpen(false); setSettingsOpen(false); setReactionTableOpen((open) => !open); } }}
+        movementLocked={reactionTableOpen}
         controlsEnabled={sceneReady && !reactionResult && !quizOpen}
         selectedClass={profile ? (isExamProfile(profile) ? profile.studyTrack : isAllClassesProfile(profile) ? "all" : profile.classLevel) : null} />
     </Canvas>
-    {!reactionResult && !quizOpen && !quizSeated && <MobileLabControls moveRef={mobileMoveRef} />}
-    {guideOpen && sceneReady && <LabGuide language={language} onClose={closeGuide} onPickStarterPair={loadRecipe}
+    {!reactionResult && !quizOpen && !quizSeated && !reactionTableOpen && <MobileLabControls moveRef={mobileMoveRef} />}
+    {guideOpen && sceneReady && !reactionTableOpen && <LabGuide language={language} onClose={closeGuide} onPickStarterPair={loadRecipe}
       availableReactionKeys={classReactions.map((reaction) => idsOf(reaction.reactants).sort().join("|"))} />}
-    {!uiHidden && companionEnabled && <LabCompanion language={language} />}
+    {!uiHidden && companionEnabled && !reactionTableOpen && <LabCompanion language={language} />}
     {!sceneReady && <div className="lab-loading" role="status">{t("Preparing the virtual lab…")}</div>}
-    <div className="lab-utility-controls">
+    {!reactionTableOpen && <div className="lab-utility-controls">
       {!uiHidden && !reactionResult && !quizOpen && !quizSeated && <div className="quick-chemical-search">
         {quickSearchOpen && <section className="quick-search-panel" aria-label={t("Find a chemical")}>
           <label htmlFor="quick-chemical-input">{t("Search name, formula, or group")}</label>
@@ -655,8 +662,8 @@ export default function App() {
         aria-label={t("Settings")} title={`${t("Settings")} (L)`} onClick={() => setSettingsOpen((open) => !open)}>
         <span aria-hidden="true">⚙</span>
       </button>
-    </div>
-    {settingsOpen && <div className="lab-settings-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) setSettingsOpen(false); }}>
+    </div>}
+    {settingsOpen && !reactionTableOpen && <div className="lab-settings-backdrop" onMouseDown={(event) => { if (event.target === event.currentTarget) setSettingsOpen(false); }}>
       <section className="lab-settings-panel" role="dialog" aria-modal="true" aria-labelledby="lab-settings-title">
         <button type="button" className="welcome-info-close" aria-label={t("Close settings")} onClick={() => setSettingsOpen(false)}>×</button>
         <span className="welcome-info-eyebrow">{t("LAB CONTROLS")}</span><h2 id="lab-settings-title">{t("Settings")}</h2>
@@ -707,11 +714,11 @@ export default function App() {
           <p><kbd>F</kbd> <span>{t("Stand up from the quiz seat")}</span></p>
           <p><kbd>R</kbd> <span>{t("Re-center view")}</span> <kbd>U</kbd> <span>{t("Toggle the interface")}</span> <kbd>L</kbd> <span>{t("Open settings")}</span></p>
         </div>
-        <button type="button" className="lab-guide-reopen" onClick={() => { setSettingsOpen(false); setGuideOpen(true); }}>{t("Show the first-time controls guide")}</button>
+        <button type="button" className="lab-guide-reopen" onClick={() => { setSettingsOpen(false); setGuideOpen(true); }}>{t("Replay the lab tutorial")}</button>
         <p className="lab-settings-shortcut">{t("Shortcut")}: <kbd>L</kbd> {t("opens settings")}</p>
       </section>
     </div>}
-    {profileDashboardOpen && <div className="profile-dashboard-backdrop" onMouseDown={(event) => {
+    {profileDashboardOpen && !reactionTableOpen && <div className="profile-dashboard-backdrop" onMouseDown={(event) => {
       if (event.target === event.currentTarget) setProfileDashboardOpen(false);
     }}>
       <section className="profile-dashboard" role="dialog" aria-modal="true" aria-labelledby="profile-dashboard-title">
@@ -748,7 +755,7 @@ export default function App() {
         }}>{profile ? t("Sign out") : t("Return to welcome screen")}</button>
       </section>
     </div>}
-    {!uiHidden && !reactionResult && !quizOpen && !quizSeated && <>
+    {!uiHidden && !reactionTableOpen && !reactionResult && !quizOpen && !quizSeated && <>
       <header className="lab-brand">
         <strong>{t("VIRTUAL CHEMISTRY LAB")}</strong>
       <span>{profile ? (isAllClassesProfile(profile) ? `${t("All classes")} · ${t("Classes 9–12")}` : isExamProfile(profile) ? `${profile.studyTrack.toUpperCase()} · ${t("CLASSES 9–12")}` : `${t(`CLASS ${profile.classLevel}`)} · ${t("NCERT SIMULATIONS")}`) : t("CLASSES 9–12 · NCERT SIMULATIONS")}</span>
@@ -761,15 +768,16 @@ export default function App() {
         </button>
       </header>
       <div className="crosshair">+</div>
-      {tableHint && <div className="table-guidance-toast" role="status">⚗ {tableHint}</div>}
-      {!uiHidden && !reactionResult && interactionPrompt && <div className="lab-interaction-prompt" role="status"><kbd>E</kbd><span>{t(interactionPrompt.prompt)}</span></div>}
+      {!reactionTableOpen && tableHint && <div className="table-guidance-toast" role="status">⚗ {tableHint}</div>}
+      {!uiHidden && !reactionTableOpen && !reactionResult && interactionPrompt && <div className="lab-interaction-prompt" role="status"><kbd>{interactionPrompt.type === "reaction-table" && window.matchMedia?.("(pointer: coarse)").matches ? "✋" : "E"}</kbd><span>{interactionPrompt.type === "reaction-table" && window.matchMedia?.("(pointer: coarse)").matches ? t("Aim here, then tap the hand button") : t(interactionPrompt.prompt)}</span></div>}
       <Inventory chemicals={inventory} activeId={activeId} onSelect={setActiveId}
         onRemove={removeChemical} onClear={clearLab} tableOpen={nearTable} />
     </>}
-    {!uiHidden && nearTable && !reactionResult && !quizOpen && !quizSeated && <ReactionTable chemicals={inventory} allChemicals={classAllChemicals} selected={benchSelection}
+    {nearTable && reactionTableOpen && !reactionResult && !quizOpen && !quizSeated && <div className="workstation-backdrop"><ReactionTable chemicals={inventory} allChemicals={classAllChemicals} selected={benchSelection}
       onCollectChemical={addChemical} onToggle={toggleBenchChemical} onMix={mixAtTable} onLoadRecipe={loadRecipe}
+      onClose={() => setReactionTableOpen(false)}
       sampleMass={mass} onSampleMassChange={(amount) => { setMass(amount); setInventory((current) => current.map((item) => ({ ...item, mass: amount }))); }}
-      reactions={stationReactions} lockedClassLevel={hasBroadClassAccess(profile) ? null : (profile?.classLevel ?? null)} studyTrack={profile?.studyTrack ?? "ncert"} />}
+      reactions={stationReactions} lockedClassLevel={hasBroadClassAccess(profile) ? null : (profile?.classLevel ?? null)} studyTrack={profile?.studyTrack ?? "ncert"} /></div>}
     {studyRoomOpen && <Suspense fallback={<div className="study-notes-loading" role="status">{t("Loading chapter notes…")}</div>}>
       <StudyRoomPanel initialClassLevel={isExamProfile(profile) ? 11 : (profile?.classLevel ?? 9)} track={profile?.studyTrack ?? "ncert"} onClose={() => setStudyRoomOpen(false)} />
     </Suspense>}
@@ -816,6 +824,7 @@ export default function App() {
         language={language}
         reaction={reactionResult}
         config={simulation.config}
+        productDetails={products}
         reactionProgress={simulation.reactionProgress}
         isComplete={simulation.reactionProgress >= 1}
         explanationText={reactionProcess(reactionResult, language)}
