@@ -11,7 +11,7 @@ import ElectrolysisApparatus from "./apparatus/ElectrolysisApparatus";
 import BuretteSetup from "./apparatus/BuretteSetup";
 import BoilingTubeSetup from "./apparatus/BoilingTubeSetup";
 import GasDeliverySystem from "./apparatus/GasDeliverySystem";
-import MetalSpecimen from "./apparatus/MetalSpecimen";
+import MetalDisplacementSetup from "./apparatus/MetalDisplacementSetup";
 import LabThermometer from "./apparatus/LabThermometer";
 import CrucibleSetup from "./apparatus/CrucibleSetup";
 import MagnesiumRibbonBurner from "./apparatus/MagnesiumRibbonBurner";
@@ -394,30 +394,12 @@ function ExperimentRenderer({
           Apparatus: Beaker with solution, immersed metal strip/nail, reddish copper deposit
          ========================================================================= */}
       {config.category === EXPERIMENT_CATEGORIES.DISPLACEMENT && (
-        <group>
-          <GlassBeaker position={[0, 0, 0]} scale={1.25} />
-
-          {/* Liquid solution changing color (e.g. blue CuSO4 -> light green FeSO4) */}
-          <LiquidVolume
-            position={[0, 0, 0]}
-            shape="cylinder"
-            fill={0.52}
-            color={currentColor}
-          />
-
-          {/* Immersed Metal Strip (Iron nail or Zinc strip) with deposition crust */}
-          <MetalSpecimen
-            position={[
-              THREE.MathUtils.lerp(0.72, 0, THREE.MathUtils.smoothstep(reactionProgress, 0.08, 0.34)),
-              THREE.MathUtils.lerp(0.9, 0, THREE.MathUtils.smoothstep(reactionProgress, 0.08, 0.34)),
-              0,
-            ]}
-            scale={1.1}
-            specimenType={config.displacement.specimen}
-            depositionProgress={THREE.MathUtils.smoothstep(reactionProgress, 0.28, 0.82)}
-            depositColor={config.displacement.depositColor}
-          />
-        </group>
+        <MetalDisplacementSetup
+          reactionProgress={reactionProgress}
+          solutionColor={currentColor}
+          specimenType={config.displacement.specimen}
+          depositColor={config.displacement.depositColor}
+        />
       )}
 
       {/* =========================================================================
